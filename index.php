@@ -1,17 +1,5 @@
 <?php include 'templates/header.php'; ?>
 
-<section id="page" tabindex="1">
-	<div class="head-container">
-		<a href="index.php" class="logo">
-			<img src="images/sprout-logo-black.png" class="logo-image" />
-			<img src="images/sprout-logo-s.png" class="logo-image-s" />
-		</a>
-		<div class="navToggle-placeholder"></div>
-	</div>
-
-	<main id="content">
-
-		<section id="main">
 			<div class="articleFilter">
 				<span class="articleFilter-label">Filteren op</span>
 				<button class="articleFilter-button button button--small" name="startups">Startups</button>

@@ -3,7 +3,6 @@ var cookieWidth = null;
 
 // Track window resizing
 var screenWidth = $(window).width();
-resetHeaderWidth(screenWidth);
 $(window).bind('resize', function(e) {
 	screenWidth = $(window).width();
     if (!$(e.target).hasClass('ui-resizable')) {
@@ -16,6 +15,8 @@ $(window).bind('resize', function(e) {
 
 // On page load
 $(function() {
+
+	resetHeaderWidth(screenWidth);
 
 	// Resizing of navigation
 	cookieWidth = $.cookie("sprout-nav-width");

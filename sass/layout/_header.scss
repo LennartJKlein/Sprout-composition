@@ -1,5 +1,5 @@
 #header {
-	box-shadow: inset 0 4px $color-primary;
+	box-shadow: inset 0 8px 0 -4px $color-primary;
 	left: 0;
 	top: 0;
 	flex-grow: 0;
@@ -157,6 +157,10 @@
 	@include tablet-landscape {
 		display: none;
 	}
+}
+
+.head-container--mobile {
+	background-color: $color-grey-light;
 }
 
 .logo {

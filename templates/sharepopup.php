@@ -2,7 +2,7 @@
 <div id="sharePopup" class="">
 	<ul class="shareList shareList--popup">
 		<li class="shareList-item">
-			<a class="shareList-link shareList-link--whatsapp" href="#">
+			<a class="shareList-link shareList-link--whatsapp" href="whatsapp://send?text=<?php echo $url ?>" data-action="share/whatsapp/share">
 				<i class="fa fa-whatsapp"></i><span class="shareList-label"><strong>Delen</strong></span>
 			</a>
 		</li>

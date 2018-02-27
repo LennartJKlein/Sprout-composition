@@ -1,7 +1,12 @@
+<?php
+	$url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+?>
 <!doctype html>
 <html>
 <head>
 	<title>Sprout - Wordpress composition</title>
+	<!-- Todo: create variable description -->
+	<meta name="description" content="Sprout composition for Wordpress">
 	<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0" name="viewport">
 	<meta name="pinterest" content="nopin" />
 	<link rel="stylesheet" href="/css/jquery-ui.min.css">
@@ -18,6 +23,18 @@
 
 	<!-- Google Open Search (omnibox 'tab') -->
     <link rel="search" type="application/opensearchdescription+xml" title="Sprout" href="/manifests/opensearch.xml" />
+
+    <?php
+		if (strpos($url,'artikel') !== false) {
+			// TODO: load article info for social sharing
+			echo '<meta property="og:title" content="7 redenen waarom klanten je winkel de rug toekeren" />';
+			echo '<meta property="og:url" content="'.$url.'" />';
+			echo '<meta property="og:description" content="7 redenen waarom klanten je winkel de rug toekeren">';
+			echo '<meta property="og:image" content="//sprout.lennartklein.nl/images/articles/article-hero3.jpg">';
+			echo '<meta property="og:type" content="article" />';
+			echo '<meta property="og:locale" content="nl_NL" />';
+		}
+    ?>
 
 </head>
 <!-- <body class="logged-in"> -->
@@ -43,9 +60,8 @@
 	</div>
 
 	<?php
-		$url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 		if (strpos($url,'artikel') !== false) {
-			include 'sharepopup.html';
+			include 'sharepopup.php';
 		}
 	?>
 
@@ -158,3 +174,16 @@
 		</div>
 	</nav>
 </header>
+
+<section id="page" tabindex="1">
+	<div class="head-container head-container--mobile">
+		<a href="/index.php" class="logo">
+			<img src="/images/sprout-logo-black.png" class="logo-image" />
+			<img src="/images/sprout-logo-s.png" class="logo-image-s" />
+		</a>
+		<div class="navToggle-placeholder"></div>
+	</div>
+
+	<main id="content">
+
+		<section id="main">
