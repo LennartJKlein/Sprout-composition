@@ -1,0 +1,61 @@
+#sharePopup {
+	position: fixed;
+	margin: 1em;
+	padding: 0;
+	border-radius: 50vw;
+	background-color: $color-secondary;
+	height: 0;
+	width: 0;
+	top: 1.5em;
+	right: calc(1rem + 55px + 1.5rem);
+	left: auto;
+	overflow-x: hidden;
+	overflow-y: auto;
+	z-index: 3;
+	transition:
+		padding .3s,
+		width .35s, 
+		height .3s, 
+		border-radius .2s, 
+		top .15s,
+		right .3s;
+
+	&.open {
+		top: 0;
+		right: 0;
+		padding: 0.5em;
+		border-radius: .75em;
+		height: 50%;
+		width: calc(100% - 2em);
+
+		@include landscape {
+			height: calc(100% - 2em);
+		}
+
+		.nav-head {
+			opacity: 1;
+		}
+
+		.nav-footer {
+			opacity: 1;
+			flex-grow: 1;
+		}
+	}
+
+	@include tablet-landscape {
+		right: 1.5rem;
+		z-index: 4;
+
+		&.open {
+			height: 50%;
+			width: calc(80% - 2em);
+			@include shadow-high;
+		}
+	}
+
+	@include desktop {
+		&.open {
+			width: 50%;
+		}
+	}
+}

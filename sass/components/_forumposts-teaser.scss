@@ -1,0 +1,121 @@
+.forumpostsTeaser {
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+
+.forumpostsTeaser-item {
+	background: $color-white;
+	display: block;
+	text-decoration: none;
+	display: flex;
+	-webkit-flex-flow: column nowrap;
+	-ms-flex-flow: column nowrap;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	@include round-border;
+	transition: all 0.4s cubic-bezier(.25,.8,.25,1);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+	&:hover,
+	&:active {
+		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	}
+}
+
+.forumpostsTeaser-title {
+	margin: 1rem;
+	font-weight: bold;
+	line-height: 1.5;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 7;
+
+	.forumpostsTeaser-link {
+		color: $color-black;
+	}
+}
+
+.forumpostsTeaser-content {
+	margin: 1rem;
+	line-height: 1.5;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 7;
+
+	.forumpostsTeaser-link {
+		color: $color-black;
+	}
+
+	&:before {
+		content: '"';
+	}
+	
+	&:after {
+		content: '"';
+	}
+}
+
+.forumpostsTeaser-link {
+	text-decoration: none;
+
+	&:hover,
+	&:active {
+		text-decoration: none;
+	}
+}
+
+.forumpostsTeaser-author {
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+	text-decoration: none;	
+
+	&:hover,
+	&:active {
+		text-decoration: underline;
+	}
+}
+
+.forumpostsTeaser-name {
+	font-weight: bold;
+	color: $color-secondary;
+}
+
+.forumpostsTeaser-avatar {
+	width: 20%;
+	@include circle-border;
+}
+
+.forumpostsTeaser-stats {
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0.25em 1em 1em;
+	text-decoration: none;	
+
+	&:hover,
+	&:active {
+		text-decoration: none;
+	}
+}
+
+.forumpostsTeaser-views {
+	margin: 0 1em;
+}
+
+.forumpostsTeaser-comments {
+	margin: 0 1em;
+}

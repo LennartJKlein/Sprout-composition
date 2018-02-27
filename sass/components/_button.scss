@@ -1,0 +1,173 @@
+.button {
+	background: transparent;
+	border: solid 2px $color-primary;
+	border-radius: 0.3em;
+	color: $color-primary;
+	cursor: pointer;
+	display: inline-block; 
+	font-size: .9em;
+	font-weight: bold;
+	outline: 0;
+	padding: .75em 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	@include tablet {
+		font-size: .8em;
+	}
+
+	&:focus {
+		outline: 0;
+	}
+
+	&:hover {
+		border-color: $color-primary;
+		background: $color-primary;
+		color: $color-white;
+	}
+
+	&:active {
+		border-color: $color-primary-dark;
+		background: $color-primary-dark;
+		outline: 0;
+	}
+}
+
+.button--solid {
+	background: $color-primary;
+	color: $color-white;
+}
+
+.button--secondary {
+	color: $color-secondary;
+	border: solid 2px $color-secondary;
+
+	&:hover {
+		border-color: $color-secondary;
+		background: $color-secondary;
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color-secondary-dark;
+		background: $color-secondary-dark;
+	}
+}
+
+.button--white {
+	color: $color-white;
+	border: solid 2px $color-white;
+
+	&:hover {
+		border-color: $color-white;
+		color: $color-primary-light;
+		background: $color-white;
+	}
+
+	&:active,
+	&:focus {
+		color: $color-primary;
+		border-color: $color-white;
+		background: $color-white;
+	}
+
+	&.button--clean {
+		border: solid 2px transparent;
+		color: $color-white;
+
+		&:hover {
+			border-color: $color-white;
+			color: $color-white;
+		}
+
+		&:active,
+		&:focus {
+			color: $color-primary;
+			border-color: $color-white;
+			background: $color-white;
+		}
+	}
+}
+
+.button--grey {
+	color: $color-grey-dark;
+	border: solid 2px $color-grey-dark;
+
+	&:hover {
+		border-color: $color-grey-dark;
+		background: $color-grey-dark;
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color-black;
+		background: $color-black;
+	}
+}
+
+.button--small {
+	padding: .5em .75em;
+	font-size: 0.7em;
+
+	@include tablet {
+		font-size: 0.8em;
+	}
+}
+
+.button--center {
+	margin: 0 auto;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.button--right {
+	margin: -1.5em auto 1.5em 0;
+	position: relative;
+	float: right;
+}
+
+.button--arrow {	
+	-webkit-align-self: flex-start;
+	-ms-flex-item-align: start;
+	align-self: flex-start;
+	vertical-align: middle;
+
+	i {
+		transition: font-size .2s;
+		font-size: .75em;
+		margin-left: .25em;
+		vertical-align: middle;
+	}
+
+	&:hover {
+		i {
+			font-size: 1.05em;
+		}
+	}
+}
+
+.button--clean {
+	border: 0;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	color: $color-secondary;
+
+	&:hover {
+		background: transparent;
+		color: $color-primary;
+	}
+
+	&:active,
+	&:focus {
+		color: $color-black;
+	}
+}
+
+.buttonContainer {
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}

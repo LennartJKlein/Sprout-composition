@@ -1,0 +1,11 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Sprout</ShortName>
+	<Description>
+	Sprout. Het inspirerende magazine voor ondernemers vol tips en succesverhalen.
+	</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image width="16" height="16" type="image/x-icon">
+	data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAAhbfMSIW3zXCFt84QhbfOfIW3zryFt87YhbfOzIW3zqyFt85shbfOEIW3zYiFt8zYhbfMNIW3zACFt8wAAAAAAIW3zNyFt8+shbfP/IW3z/yFt8/4hbfP6IW3z9yFt8/chbfP7IW3z/yFt8/0hbfPrIW3zuSFt81IhbfMFIW3zACFt8yohbfOtIW3zsyFt86whbfOoIW3zqCFt86ghbfOoIW3zpyFt86shbfPHIW3z9SFt8/8hbfPyIW3zYyFt8wAhbfMuIW3zyiFt8+chbfPwIW3z+CFt8/0hbfP/IW3z/yFt8/ohbfPpIW3zwCFt86YhbfPzIW3z/yFt880hbfMYIW3zNiFt89ohbfPXIW3zwCFt860hbfOfIW3zmSFt86AhbfPKIW3z/SFt8/8hbfPFIW3zwiFt8/8hbfPqIW3zMyFt8wwhbfMmIW3zFiFt8wchbfMAIW3zACFt8wshbfMlIW3zeyFt8/ghbfP/IW3z3SFt87MhbfP/IW3z5yFt8y8AAAAAIW3zACFt8wEhbfMiIW3zXiFt85QhbfPDIW3z5yFt8/whbfP+IW3z6yFt86khbfPUIW3z/yFt88UhbfMTIW3zACFt8wshbfN1IW3z3iFt8/0hbfP/IW3z9yFt894hbfPCIW3zrCFt86khbfPVIW3z/yFt8/YhbfNkIW3zACFt8wAhbfN0IW3z+iFt8/8hbfPrIW3ztSFt86YhbfO2IW3z0CFt8+whbfP+IW3z/iFt890hbfNtIW3zByFt8wAhbfMaIW3z0SFt8/8hbfPtIW3zoCFt89MhbfP5IW3z/SFt8+whbfPKIW3znSFt82QhbfMiIW3zASFt8wAAAAAAIW3zMyFt8+ohbfP/IW3zxCFt88chbfP/IW3z9yFt83whbfMpIW3zDiFt8wEhbfMBIW3zCSFt8xghbfMKIW3zACFt8y0hbfPmIW3z/yFt88khbfPCIW3z/yFt8/whbfPBIW3zmCFt85chbfOgIW3zryFt88UhbfPWIW3zQiFt8wAhbfMNIW3ztiFt8/8hbfPzIW3zpSFt88ghbfP0IW3z/yFt8/8hbfP/IW3z/yFt8/4hbfP3IW3z5CFt80EhbfMAIW3zACFt8z8hbfPdIW3z/yFt8/MhbfO+IW3zpiFt860hbfOxIW3zryFt86shbfOnIW3zqCFt86shbfM1IW3zACFt8wAhbfMAIW3zMiFt86EhbfPkIW3z/SFt8/khbfPtIW3z6CFt8+ohbfPvIW3z9iFt8/shbfPzIW3zRiFt8wAAAAAAIW3zACFt8wAhbfMGIW3zLSFt82IhbfONIW3zqSFt87YhbfO2IW3zqyFt85UhbfN4IW3zUyFt8xIhbfMAAAcAAAABAAAAAQAAAAAAAAAAAAAAAAAAwAAAAIABAACAAQAAAAMAAAABAAAAAQAAAAEAAIABAACAAQAA4AEAAA==
+	</Image>
+	<Url type="text/html" template="http://www.sprout.nl/search/{searchTerms}"/>
+	</OpenSearchDescription>

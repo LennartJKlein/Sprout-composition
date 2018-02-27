@@ -1,0 +1,51 @@
+.quote {
+	width: 100%;
+	background: $color-primary;
+	padding: 2em;
+	overflow: hidden;
+}
+
+.quote-title {
+	color: $color-primary-light;
+	font-size: 0.8em;
+	margin-top: 0;
+}
+
+.quote-writer {
+	color: $color-primary-light;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: right;
+
+	&:before {
+		content: '~ ';
+		opacity: 0.5;
+	}
+}
+
+.quote-text {
+	color: $color-white;
+	font-weight: bold;
+	font-size: 2em;
+	font-size: 1.5vw;
+	line-height: 1.25;
+
+	&:before {
+		content: "\201C";
+		opacity: 0.5;
+		display: inline-block;
+		margin-right: 0.05em;
+	}
+
+	&:after {
+		content: "\201D";
+		opacity: 0.5;
+		display: inline-block;
+		margin-left: 0.05em;
+	}
+}
+
+.quote-image {
+	margin-top: -7em;
+	margin-bottom: -2.5em;
+}

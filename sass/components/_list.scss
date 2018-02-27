@@ -1,0 +1,31 @@
+.list {
+	font-size: 0.95em;
+	margin: 2em 0;
+}
+
+.list--icons {
+	list-style: none;
+	text-align: left;
+	padding: 0;
+
+	.list-item {
+		display: flex;
+		align-items: center;
+
+		a {
+			font-weight: 700;
+		}
+	}
+}
+
+.list-item {
+	margin: 1em 0;
+}
+
+.list-item-icon {
+    text-align: center;
+    margin-right: 1em;
+    width: 6%;
+    min-width: 25px;
+    max-width: 40px;
+}

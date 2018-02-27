@@ -1,0 +1,109 @@
+.shareList {
+	align-items: stretch;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.shareList--popup {
+	padding-top: calc(55px + 0.5em);
+}
+
+.shareList--row {
+	flex-flow: row nowrap;
+
+	.shareList-item {
+		width: auto;
+	}
+}
+
+.shareList--small {
+	.fa {
+		
+	}
+	.shareList-label {
+		display: none;
+		padding: 0.65em 0.85em;
+		font-weight: bold;
+	}
+}
+
+.shareList-item {
+	width: 100%;
+
+	@include tablet {
+		width: 50%;
+	}
+}
+
+.shareList-link {
+	align-items: stretch;
+	background: $color-white;
+	color: $color-black;
+	cursor: pointer;
+	display: flex;
+	justify-content: stretch;
+	margin: 0.5rem;
+	overflow: hidden;
+	@include round-border;
+	@include shadow-low;
+	text-decoration: none;
+	transition: box-shadow 0.4s cubic-bezier(.25,.8,.25,1);
+
+	&:hover,
+	&:active,
+	&:focus {
+		@include shadow-medium;
+	}
+
+	.fa {
+		align-items: center;
+		color: $color-white;
+		display: flex;
+		font-size: 1.5em;
+		justify-content: center;
+		text-align: center;
+		width: 3rem;
+	}
+}
+
+.shareList-link--whatsapp {
+	.fa {
+		background-color: #069200;
+	}
+}
+
+.shareList-link--facebook {
+	.fa {
+		background-color: #3B5999;
+	}
+}
+
+.shareList-link--linkedin {
+	.fa {
+		background-color: #007BB6;
+	}
+}
+
+.shareList-link--twitter {
+	.fa {
+		background-color: #01AAEB;
+	}
+}
+
+.shareList-link--mail {
+	.fa {
+		background-color: #CB2028;
+	}
+}
+
+.shareList-label {
+	display: block;
+	flex-grow: 1;
+	padding: 1em;
+	font-weight: normal;
+}

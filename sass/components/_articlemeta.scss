@@ -1,0 +1,25 @@
+.articleMeta {
+	background: $color-grey;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 1.5rem;
+	color: $color-grey-dark;
+	order: 1;
+
+	@include tablet {
+		padding: 0.5rem 1.5rem;
+		flex-grow: 1;
+		font-size: 0.9em;
+		background: $color-grey-light;
+	}
+}
+
+.articleMeta-readtime {
+	font-weight: bold;
+	
+	&:before {
+		font-weight: normal;
+		content: "Leestijd: ";
+	}
+}

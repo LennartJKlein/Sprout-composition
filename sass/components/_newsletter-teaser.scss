@@ -1,0 +1,107 @@
+.newsletterTeaser {
+	background: url("../images/newsletter-background.jpg") no-repeat 80% center;
+	background-size: cover;
+	display: flex;
+	-webkit-flex-flow: column nowrap;
+	-ms-flex-flow: column nowrap;
+	flex-flow: column nowrap;
+	align-items: stretch;
+	padding: 2em;
+	margin: 1em 0;
+	@include round-border;
+
+	@include tablet {
+		-webkit-flex-flow: row nowrap;
+		-ms-flex-flow: row nowrap;
+		flex-flow: row nowrap;
+		align-items: center;
+	}
+}
+
+.newsletterTeaser-cell {
+	width: 100%;
+	flex-grow: 1;
+	flex-flow: 1;
+
+	@include tablet {
+		width: 50%;
+	}
+}
+
+.newsletterTeaser-title {
+	color: $color-white;
+	text-align: center;
+
+	@include tablet {
+		margin-right: 2em;
+		text-align: left;
+	}
+}
+
+.newsletterTeaser-description {
+	font-weight: 500;
+	color: $color-white;
+	text-align: center;
+
+	@include tablet {
+		margin-right: 2em;
+		margin-bottom: 0;
+		text-align: left;
+	}
+}
+
+.newsletterTeaser-form {
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	margin-bottom: 1em;
+}
+
+.newsletterTeaser-field {
+	border: 0;
+	outline: 0;
+	padding: .75em 1em;
+	border-radius: 0.3em 0 0 0.3em;
+	flex-grow: 1;
+	flex-shrink: 1;
+	min-width: 130px;
+}
+
+.newsletterTeaser-field--inverse {
+	color: $color-black;
+	background-color: $color-grey-light;
+
+	&::placeholder {
+	   color: $color-grey-dark;
+	}
+}
+
+.newsletterTeaser-submit {
+	background-color: $color-secondary;
+	color: $color-white;
+	border: 0;
+	border-radius: 0 0.3em 0.3em 0;
+	cursor: pointer;
+	display: inline-block;
+	font-size: .85em;
+	font-weight: bold;
+	outline: 0;
+	padding: .75em 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+    white-space: nowrap;
+    
+	@include tablet {
+		font-size: .8em;
+	}
+
+	&:focus,
+	&:active {
+		background-color: $color-primary;
+	}
+
+	.fa {
+		margin-left: 0.25em;
+	}
+}

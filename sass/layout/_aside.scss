@@ -1,0 +1,60 @@
+#aside {
+	background: $color-grey;
+	width: 100%;
+	flex-grow: 0;
+	flex-shrink: 0;
+	padding: 1.5em;
+	position: relative;
+
+	@include tablet {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		
+		.panel,
+		.banner {
+			width: 48%;
+		}
+	}
+
+	@include desktop {
+		display: block;
+		width: 25vw;
+		padding: 4em 3vw 4em 3vw;
+
+		.panel,
+		.banner {
+			width: 100%;
+		}
+	}
+
+	.banner {
+		margin-top: 0;
+	}
+}
+
+.aside-panelgroup {
+	display: none;
+	position: relative;
+	width: 100%;
+
+	&:first-of-type {
+		display: block;
+	}
+
+	@include tablet {
+		&:first-of-type {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: space-between;
+		}
+	}
+
+	@include desktop {
+		display: block;
+
+		&:first-of-type {
+			display: block;
+		}
+	}
+}

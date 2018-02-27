@@ -1,0 +1,62 @@
+#footer {
+	padding: 0.57em 1em;
+	background: $color-grey-dark;
+
+	@include tablet-landscape {
+		background: $color-grey;
+	}
+
+	@include desktop {
+		padding-right: 25vw;
+	}
+}
+
+.footer-menu {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	@include tablet {
+		flex-flow: row nowrap;
+	}
+}
+
+.footer-menu-link {
+	display: block;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 0.85em;
+	padding: 1em;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	color: $color-grey-light;
+	text-align: center;
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: $color-white;
+		text-decoration: underline;
+	}
+
+	@include tablet-landscape {
+		padding: 1em;
+		color: $color-secondary;
+		margin-left: 1em;
+		margin-right: 1em;
+
+		&:hover,
+		&:active,
+		&:focus {
+			color: $color-black;
+			text-decoration: underline;
+		}
+
+	}
+}
+
