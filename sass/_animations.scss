@@ -1,0 +1,13 @@
+@keyframes pulseBackground {
+    0% {background-color: rgba(0, 0, 0, 0);}
+    40% {background-color: rgba(0, 0, 0, 0.3);}
+    80% {background-color: rgba(0, 0, 0, 0);}
+    100% {background-color: rgba(0, 0, 0, 0);}
+}
+
+@keyframes pulseOpacity {
+    0% {opacity: 0;}
+    40% {opacity: 1;}
+    80% {opacity: 0;}
+    100% {opacity: 0;}
+}

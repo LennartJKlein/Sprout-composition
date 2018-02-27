@@ -97,17 +97,3 @@ $desktop-width: 1200px;
 	-moz-box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
-
-@keyframes pulseBackground {
-    0% {background-color: rgba(0, 0, 0, 0);}
-    40% {background-color: rgba(0, 0, 0, 0.5);}
-    80% {background-color: rgba(0, 0, 0, 0);}
-    100% {background-color: rgba(0, 0, 0, 0);}
-}
-
-@keyframes pulseOpacity {
-    0% {opacity: 0;}
-    40% {opacity: 1;}
-    80% {opacity: 0;}
-    100% {opacity: 0;}
-}
