@@ -2851,21 +2851,23 @@ body {
 /* line 37, ../sass/components/_progresspanel.scss */
 .progressPanel-item {
   counter-increment: articles;
-  margin-bottom: 0.5em; }
-  /* line 41, ../sass/components/_progresspanel.scss */
-  .progressPanel-item:last-of-type {
-    margin-bottom: 0; }
+  margin-top: 0.5em;
+  display: none; }
+  /* line 42, ../sass/components/_progresspanel.scss */
+  .progressPanel-item:first-of-type {
+    margin-top: 0;
+    display: block; }
 
-/* line 46, ../sass/components/_progresspanel.scss */
+/* line 48, ../sass/components/_progresspanel.scss */
 .progressPanel-link {
-  display: block;
   position: relative;
   text-decoration: none;
   padding-left: calc(36px + 0.5em);
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  min-height: 36px; }
-  /* line 55, ../sass/components/_progresspanel.scss */
+  min-height: 36px;
+  display: block; }
+  /* line 57, ../sass/components/_progresspanel.scss */
   .progressPanel-link:before {
     position: absolute;
     content: counter(articles);
@@ -2890,28 +2892,28 @@ body {
     -webkit-transition: background-color 0.3s, color 0.3s;
     -moz-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s; }
-  /* line 80, ../sass/components/_progresspanel.scss */
+  /* line 82, ../sass/components/_progresspanel.scss */
   .progressPanel-link.read .progressPanel-title {
     color: #e5e2de; }
-  /* line 84, ../sass/components/_progresspanel.scss */
+  /* line 86, ../sass/components/_progresspanel.scss */
   .progressPanel-link.read .progressPanel-author {
     color: #e5e2de; }
-  /* line 88, ../sass/components/_progresspanel.scss */
+  /* line 90, ../sass/components/_progresspanel.scss */
   .progressPanel-link.read:before {
     color: #e5e2de;
     background-color: transparent;
     box-shadow: inset 0 0 0 1px #e5e2de; }
-  /* line 96, ../sass/components/_progresspanel.scss */
+  /* line 98, ../sass/components/_progresspanel.scss */
   .progressPanel-link.reading .progressPanel-title {
     color: #68594E; }
-  /* line 100, ../sass/components/_progresspanel.scss */
+  /* line 102, ../sass/components/_progresspanel.scss */
   .progressPanel-link.reading .progressPanel-svg {
     display: block; }
-  /* line 104, ../sass/components/_progresspanel.scss */
+  /* line 106, ../sass/components/_progresspanel.scss */
   .progressPanel-link.reading:before {
     color: #68594E; }
 
-/* line 110, ../sass/components/_progresspanel.scss */
+/* line 112, ../sass/components/_progresspanel.scss */
 .progressPanel-title {
   display: block;
   color: #777777;
@@ -2924,30 +2926,30 @@ body {
   -moz-transition: color 0.3s;
   transition: color 0.3s; }
   @media (min-width: 800px) and (orientation: landscape) {
-    /* line 110, ../sass/components/_progresspanel.scss */
+    /* line 112, ../sass/components/_progresspanel.scss */
     .progressPanel-title {
       display: none; } }
   @media (min-width: 1200px) {
-    /* line 110, ../sass/components/_progresspanel.scss */
+    /* line 112, ../sass/components/_progresspanel.scss */
     .progressPanel-title {
       display: block; } }
 
-/* line 131, ../sass/components/_progresspanel.scss */
+/* line 133, ../sass/components/_progresspanel.scss */
 .progressPanel-author {
   color: #777777;
   font-family: "Kepler", Cambria, Georgia, Times New Roman, serif;
   letter-spacing: 0.3px;
   font-size: 0.85em; }
   @media (min-width: 800px) and (orientation: landscape) {
-    /* line 131, ../sass/components/_progresspanel.scss */
+    /* line 133, ../sass/components/_progresspanel.scss */
     .progressPanel-author {
       display: none; } }
   @media (min-width: 1200px) {
-    /* line 131, ../sass/components/_progresspanel.scss */
+    /* line 133, ../sass/components/_progresspanel.scss */
     .progressPanel-author {
       display: block; } }
 
-/* line 145, ../sass/components/_progresspanel.scss */
+/* line 147, ../sass/components/_progresspanel.scss */
 .progressPanel-svg {
   display: none;
   position: absolute;
@@ -2961,7 +2963,7 @@ body {
   transform: translateY(-50%);
   stroke: #e5e2de; }
 
-/* line 159, ../sass/components/_progresspanel.scss */
+/* line 161, ../sass/components/_progresspanel.scss */
 .progressPanel-circle {
   stroke: #68594E; }
 

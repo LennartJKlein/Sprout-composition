@@ -36,21 +36,23 @@
 
 .progressPanel-item {
 	counter-increment: articles;
-	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	display: none;
 
-	&:last-of-type {
-		margin-bottom: 0;
+	&:first-of-type {
+		margin-top: 0;
+		display: block;
 	}
 }
 
 .progressPanel-link {
-	display: block;
 	position: relative;
 	text-decoration: none;
 	padding-left: calc(36px + 0.5em);
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	min-height: 36px;
+	display: block;
 
 	&:before {
 		position: absolute;

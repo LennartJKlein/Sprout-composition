@@ -1,7 +1,20 @@
-jQuery(document).ready(function($){
+// On page load
+$(function() {	
+	$('.reveal').scrolla({
+		mobile: false,
+		once: true,
+		window: $('#page'),
+	});
+});
+
+// On page ready for use
+$(document).ready(function(){
 
 	var articlesWrapper = $('.articles'),
-		scrollWindow = $('#page');
+		aside = $('#aside'),
+		scrollWindow = $('#page'),
+		panelGroups = null,
+		articles = null;
 
 	if (articlesWrapper.length > 0 && $(window).width() > 800) {
 
@@ -20,7 +33,6 @@ jQuery(document).ready(function($){
 		
 		// set scroll listeners
 		$(scrollWindow).on('scroll', checkRead);
-		$(scrollWindow).on('scroll', checkSidebar);
 		$(scrollWindow).on('resize', resetScroll);
 
 		updateArticle();
@@ -44,17 +56,15 @@ jQuery(document).ready(function($){
 	    });
 	}
 
+	if ($(window).width() > 769) {
+		checkPanelgroups();
+		$(window).resize(checkPanelgroups());
+	}
+
 	function checkRead() {
 		if (!scrolling) {
 			scrolling = true;
 			(!window.requestAnimationFrame) ? setTimeout(updateArticle, 300) : window.requestAnimationFrame(updateArticle);
-		}
-	}
-
-	function checkSidebar() {
-		if (!sidebarAnimation) {
-			sidebarAnimation = true;
-			(!window.requestAnimationFrame) ? setTimeout(updateSidebarPosition, 300) : window.requestAnimationFrame(updateSidebarPosition);
 		}
 	}
 
@@ -68,11 +78,8 @@ jQuery(document).ready(function($){
 	function updateParams() {
 		windowHeight = $(scrollWindow).height();
 		mq = checkMQ();
-		$(scrollWindow).off('scroll', checkRead);
-		$(scrollWindow).off('scroll', checkSidebar);
-		
+		$(scrollWindow).off('scroll', checkRead);		
 		$(scrollWindow).on('scroll', checkRead);
-		$(scrollWindow).on('scroll', checkSidebar);
 		resizing = false;
 	}
 
@@ -83,7 +90,8 @@ jQuery(document).ready(function($){
 			var article = $(this),
 				articleTop = article.offset().top + scrollTop,
 				articleHeight = article.outerHeight(),
-				articleSidebarLink = articleSidebarLinks.eq(article.index()).children('a');
+				articleSidebarItem = articleSidebarLinks.eq(article.index());
+				articleSidebarLink = articleSidebarItem.children('a');
 
 			if (article.is(':last-of-type') ) {
 				articleHeight = articleHeight - windowHeight;
@@ -112,15 +120,65 @@ jQuery(document).ready(function($){
 				}
 			}
 
+			// Reveal the item in progresspanel when new article is shown
+			if (!article.is(':first-of-type') && article.hasClass("animated")) {
+				if (!articleSidebarItem.hasClass("animated") &&
+					!articleSidebarLink.hasClass("read") && 
+					!articleSidebarLink.hasClass("reading")) {
+
+					articleSidebarItem.addClass("animated");
+					articleSidebarItem.delay(600).slideDown(800);
+				}
+			}
+
 		});
 		scrolling = false;
 	}
 
 	function changeUrl(link) {
 		var pageArray = location.pathname.split('/'),
-        	actualPage = pageArray[pageArray.length - 1];
+	    	actualPage = pageArray[pageArray.length - 1];
 
-        if (actualPage != link && history.pushState ) window.history.pushState({path: link},'',link);
+	    if (actualPage != link && history.pushState ) window.history.pushState({path: link},'',link);
+	}
+
+	function checkPanelgroups() {
+		if (articlesWrapper.length > 0) {
+			articles = articlesWrapper.find('article');
+			panelGroups = aside.find('.aside-panelgroup');
+
+			if (articles.length > 1) {
+				relocatePanelgroups();
+			}
+		}
+	}
+
+	function checkProgressPanel() {
+		if ($('.progressPanel').css("display") == "block") {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+
+	function relocatePanelgroups() {
+
+		// Lower sidebar panels when page has multiple articles
+		if (checkProgressPanel()) {
+			$('#aside').css("padding-top", $('.progressPanel').outerHeight() + "px");
+		}
+
+		panelGroups.each(function(i, panelGroup){
+			var scrollTop = $(scrollWindow).scrollTop(),
+				articleTop = articles.eq(i).offset().top;
+
+			if (articleTop > 0) {
+				$(panelGroup).css({
+					'top': 'calc(2em + ' + articleTop + 'px)'
+				});
+			}
+		});
 	}
 
 	function checkMQ() {

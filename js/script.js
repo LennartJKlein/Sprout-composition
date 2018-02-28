@@ -1,7 +1,8 @@
 var tooltipNeeded = true;
 var cookieWidth = null;
+var url = null;
 
-// Track window resizing
+// Tracks window resizing
 var screenWidth = $(window).width();
 $(window).bind('resize', function(e) {
 	screenWidth = $(window).width();
@@ -18,7 +19,7 @@ $(function() {
 
 	resetHeaderWidth(screenWidth);
 
-	// Resizing of navigation
+	// Resizes the navigation
 	cookieWidth = $.cookie("sprout-nav-width");
 	var minWidth = 100;
 	var maxWidth = 500;
@@ -44,7 +45,7 @@ $(function() {
 		}
 	});
 
-	// Tooltip for resizing navigation
+	// Shows tooltip for resizing the navigation
 	if ($(window).width() > 768) {	
 		if (cookieWidth == null && $(window).width() > 768) {
 			$("#header").append("<div class=\"header-resize-tip\"><i class=\"fa fa-arrows-h\"></i></div>");
@@ -57,7 +58,7 @@ $(function() {
 		}
 	}
 
-	// Show search field when navigation minimized
+	// Shows search field when navigation minimized
 	$(document).on("focus",".minimum .search-field", function(){
 		var inputOffset = $(".search-field").offset();
 		$(".search-field").css({"top": - inputOffset.top.toFixed() + "px"});
@@ -71,7 +72,7 @@ $(function() {
 		$(".search-resultscontainer").removeClass("open").slideUp();
 	});
 
-	// Filter articles on homepage
+	// Filters articles on homepage
 	$(".articleFilter-button").on("click", function(){
 		if (!$(this).hasClass("button--solid")) {
 			var tag = $(this).attr("name");
@@ -101,6 +102,7 @@ $(function() {
 		}
 	});
 
+	// Toggles extra info on author
 	$(".articleAuthor-toggle").on("click", function(){
 		$(this).toggleClass("fa-chevron-down");
 		$(this).toggleClass("fa-chevron-up");
@@ -108,6 +110,11 @@ $(function() {
 		authorInfo.slideToggle(400);
 		authorInfo.toggleClass("open");
 
+	});
+
+
+	$(".menu-register-form").on("submit", function(e){
+		loginToggle(e);
 	});
 
 });
@@ -160,8 +167,10 @@ function toggleSharePopup() {
 	$(".shareToggle").toggleClass("open")
 }
 
-function loginToggle() {
+function loginToggle(e) {
 	$("body").toggleClass("logged-in");
+	e.preventDefault();
+	return false;
 }
 
 function toggleForm(e) {

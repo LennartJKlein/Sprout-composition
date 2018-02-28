@@ -11,15 +11,16 @@
 	<meta name="pinterest" content="nopin" />
 	<link rel="stylesheet" href="/css/jquery-ui.min.css">
 	<link rel="stylesheet" href="/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/animate.min.css">
 	<link rel="stylesheet" href="/css/style.css">
 	<script src="/js/modernizr.js"></script>
 	<script src="/js/jquery-3.3.1.js"></script>
 	<script src="/js/jquery-ui.js"></script>
 	<script src="/js/jquery-ui.touch-punch.min.js"></script>
 	<script src="/js/jquery-cookie.js"></script>
+	<script src="/js/scrolla.min.js"></script>
 	<script src="/js/script.js"></script>
-	<script src="/js/panelgroup.js"></script>
-	<script src="/js/progresspanel.js"></script>
+	<script src="/js/article.js"></script>
 
 	<!-- Google Open Search (omnibox 'tab') -->
     <link rel="search" type="application/opensearchdescription+xml" title="Sprout" href="/manifests/opensearch.xml" />
@@ -146,7 +147,7 @@
 					<div class="login-forms">
 						<div class="menu-register">
 							<p>De members in onze ondernemerscommunity ontvangen <a href="#">vele voordelen</a>.</p>
-							<form class="menu-register-form" onSubmit="loginToggle()">
+							<form class="menu-register-form">
 								<input type="text" class="login-field" placeholder="Naam">
 								<input type="text" class="login-field" placeholder="Bedrijfsnaam">
 								<input type="email" class="login-field" placeholder="E-mailadres">
@@ -155,7 +156,7 @@
 							<a href="#" onClick="toggleLoginForm()" class="login-link">Ik heb al een account</a>
 						</div>
 						<div class="menu-login">
-							<form class="menu-register-form" onSubmit="loginToggle()">
+							<form class="menu-register-form">
 								<input type="email" class="login-field" placeholder="E-mailadres">
 								<input type="password" class="login-field" placeholder="Wachtwoord">
 								<button type="submit" class="login-submit">Inloggen</button>
