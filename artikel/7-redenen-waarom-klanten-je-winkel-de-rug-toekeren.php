@@ -108,7 +108,7 @@
 			</footer>
 		</article>
 		
-		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="0.6s">
+		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="0.6s" data-offset="50">
 			<header class="article-header">
 				<div class="article-tags">
 					<button class="button button--small button--grey" name="scaleups">Retail</button>
@@ -188,7 +188,7 @@
 			</footer>
 		</article>
 		
-		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="0.6s">
+		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="0.6s" data-offset="50">
 			<header class="article-header">
 				<div class="article-tags">
 					<button class="button button--small button--grey" name="scaleups">Retail</button>
