@@ -5,11 +5,12 @@
 	align-items: center;
 	padding: 1rem 1.5rem;
 	color: $color-grey-dark;
-	order: 1;
+	order: 0;
 
 	@include tablet {
 		padding: 0.5rem 1.5rem;
 		flex-grow: 1;
+		order: 1;
 		font-size: 0.9em;
 		background: $color-grey-light;
 	}

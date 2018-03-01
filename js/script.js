@@ -55,6 +55,11 @@ $(function() {
 		}
 	});
 
+	$('.navToggle').on('click', function(){
+		$(".navToggle").toggleClass("open");
+		$("#nav").toggleClass("open");
+	});
+
 	// Toggles extra info on author
 	$(".articleAuthor-toggle").on("click", function(){
 		$(this).toggleClass("fa-chevron-down");
@@ -107,7 +112,7 @@ $(function() {
 
 		// Shows tooltip for resizing the navigation
 		if ($(window).width() > 768) {	
-			if (cookieWidth == null && $(window).width() > 768) {
+			if (cookieWidth == null) {
 				$("#header").append("<div class=\"header-resize-tip\"><i class=\"fa fa-arrows-h\"></i></div>");
 				var shake = setInterval(shakeTooltip, 2000);
 				$('.header-resize-tip').click(function() {
@@ -155,16 +160,6 @@ $(function() {
 		$('#header .ui-resizable-e').removeClass("pulse");
 		$('.header-resize-tip').fadeOut(600);
 		clearInterval(loop);
-	}
-
-	function toggleNav() {
-		$("#nav").toggleClass("open");
-		$(".navToggle").toggleClass("open")
-	}
-
-	function toggleSharePopup() {
-		$("#sharePopup").toggleClass("open");
-		$(".shareToggle").toggleClass("open")
 	}
 
 	function loginToggle(e) {

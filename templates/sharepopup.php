@@ -1,4 +1,4 @@
-<button class="shareToggle" onClick="toggleSharePopup()"><i aria-hidden="true" class="fa fa-share-alt"></i></button>
+<button class="shareToggle"><i aria-hidden="true" class="fa fa-share-alt"></i></button>
 <div id="sharePopup" class="">
 	<ul class="shareList shareList--popup">
 		<li class="shareList-item">

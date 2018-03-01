@@ -1422,19 +1422,20 @@ body {
   align-items: center;
   padding: 1rem 1.5rem;
   color: #777777;
-  order: 1; }
+  order: 0; }
   @media (min-width: 769px) {
     /* line 1, ../sass/components/_articlemeta.scss */
     .articleMeta {
       padding: 0.5rem 1.5rem;
       flex-grow: 1;
+      order: 1;
       font-size: 0.9em;
       background: #f2f0f0; } }
 
-/* line 18, ../sass/components/_articlemeta.scss */
+/* line 19, ../sass/components/_articlemeta.scss */
 .articleMeta-readtime {
   font-weight: bold; }
-  /* line 21, ../sass/components/_articlemeta.scss */
+  /* line 22, ../sass/components/_articlemeta.scss */
   .articleMeta-readtime:before {
     font-weight: normal;
     content: "Leestijd: "; }

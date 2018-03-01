@@ -57,7 +57,7 @@
 		?>
 		" >
 	<div class="head-container">
-		<button class="navToggle" onClick="toggleNav()"><i aria-hidden="true" class="fa fa-bars"></i></button>
+		<button class="navToggle"><i aria-hidden="true" class="fa fa-bars"></i></button>
 	</div>
 
 	<?php

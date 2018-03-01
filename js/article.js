@@ -10,6 +10,11 @@ $(function() {
 // On page ready for use
 $(document).ready(function(){
 
+	$(".shareToggle").on('click', function(){
+		$(".shareToggle").toggleClass("open");
+		$("#sharePopup").toggleClass("open");
+	});
+
 	var articlesWrapper = $('.articles'),
 		aside = $('#aside'),
 		scrollWindow = $('#page'),
