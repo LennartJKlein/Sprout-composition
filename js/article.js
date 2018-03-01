@@ -171,12 +171,19 @@ $(document).ready(function(){
 
 		panelGroups.each(function(i, panelGroup){
 			var scrollTop = $(scrollWindow).scrollTop(),
-				articleTop = articles.eq(i).offset().top;
+				article = articles.eq(i),
+				articleTop = article.offset().top;
 
 			if (articleTop > 0) {
 				$(panelGroup).css({
 					'top': 'calc(2em + ' + articleTop + 'px)'
 				});
+			}
+
+			if (article.is(":first-of-type")) {
+				$(panelGroup).css({
+					'top': '10em'
+				});	
 			}
 		});
 	}

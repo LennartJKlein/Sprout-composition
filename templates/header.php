@@ -43,7 +43,7 @@
 
 <header id="header" 
 		<?php
-			if(isset($_COOKIE['sprout-nav-width'])){ 
+			if(isset($_COOKIE['sprout-nav-width'])){
 				echo 'style="width:' . $_COOKIE['sprout-nav-width'] . 'px"';
 			}
 		?>

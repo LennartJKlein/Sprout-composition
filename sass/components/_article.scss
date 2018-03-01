@@ -99,10 +99,16 @@
 }
 
 .article-hero {
+	order: 1;
+
 	&.figure {
 		margin: 0 -1.5em 1.5em;
+	}
 
-		@include tablet {
+	@include tablet {
+		order: 0;
+
+		&.figure {
 			margin-top: 1em;
 			margin-bottom: 0;
 			margin-left: -5vw;
@@ -122,7 +128,7 @@
 	flex-flow: column nowrap;
 	margin: 0 -1.5rem;
 	font-size: .85em;
-	order: -1;
+	order: 0;
 
 	@include tablet {
 		margin: 0 -5vw 0 0;
@@ -130,7 +136,6 @@
 		flex-flow: row nowrap;
 		transform: translateY(-98%);
 		z-index: 1;
-		order: 0;
 	}
 }
 
@@ -188,6 +193,7 @@
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: flex-end;
+	align-items: flex-end;
 	margin: 0;
 	font-size: .85em;
 

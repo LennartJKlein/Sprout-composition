@@ -1194,39 +1194,44 @@ body {
       margin-left: auto;
       margin-right: auto; } }
 
-/* line 102, ../sass/components/_article.scss */
-.article-hero.figure {
-  margin: 0 -1.5em 1.5em; }
+/* line 101, ../sass/components/_article.scss */
+.article-hero {
+  order: 1; }
+  /* line 104, ../sass/components/_article.scss */
+  .article-hero.figure {
+    margin: 0 -1.5em 1.5em; }
   @media (min-width: 769px) {
-    /* line 102, ../sass/components/_article.scss */
-    .article-hero.figure {
-      margin-top: 1em;
-      margin-bottom: 0;
-      margin-left: -5vw;
-      margin-right: -5vw; } }
-@media (min-width: 769px) {
-  /* line 113, ../sass/components/_article.scss */
-  .article-hero .figure-credit {
-    bottom: 5.5em; } }
+    /* line 101, ../sass/components/_article.scss */
+    .article-hero {
+      order: 0; }
+      /* line 111, ../sass/components/_article.scss */
+      .article-hero.figure {
+        margin-top: 1em;
+        margin-bottom: 0;
+        margin-left: -5vw;
+        margin-right: -5vw; } }
+  @media (min-width: 769px) {
+    /* line 119, ../sass/components/_article.scss */
+    .article-hero .figure-credit {
+      bottom: 5.5em; } }
 
-/* line 120, ../sass/components/_article.scss */
+/* line 126, ../sass/components/_article.scss */
 .article-info {
   display: flex;
   flex-flow: column nowrap;
   margin: 0 -1.5rem;
   font-size: .85em;
-  order: -1; }
+  order: 0; }
   @media (min-width: 769px) {
-    /* line 120, ../sass/components/_article.scss */
+    /* line 126, ../sass/components/_article.scss */
     .article-info {
       margin: 0 -5vw 0 0;
       width: auto;
       flex-flow: row nowrap;
       transform: translateY(-98%);
-      z-index: 1;
-      order: 0; } }
+      z-index: 1; } }
 
-/* line 138, ../sass/components/_article.scss */
+/* line 143, ../sass/components/_article.scss */
 .article-content h2 {
   color: #DD6E42;
   font-family: "Kepler", Cambria, Georgia, Times New Roman, serif;
@@ -1234,7 +1239,7 @@ body {
   font-size: 1.75em;
   line-height: 1.25;
   margin: 2.25em 0 0.75em; }
-/* line 146, ../sass/components/_article.scss */
+/* line 151, ../sass/components/_article.scss */
 .article-content ul,
 .article-content ol {
   margin-top: 0;
@@ -1243,12 +1248,12 @@ body {
   font-size: 1.05em;
   margin-bottom: 2em;
   font-weight: normal; }
-  /* line 155, ../sass/components/_article.scss */
+  /* line 160, ../sass/components/_article.scss */
   .article-content ul a,
   .article-content ol a {
     font-weight: 500; }
 @media (min-width: 1200px) {
-  /* line 160, ../sass/components/_article.scss */
+  /* line 165, ../sass/components/_article.scss */
   .article-content h2,
   .article-content h3,
   .article-content p,
@@ -1259,27 +1264,28 @@ body {
     max-width: 45rem;
     margin-left: auto;
     margin-right: auto; } }
-/* line 174, ../sass/components/_article.scss */
+/* line 179, ../sass/components/_article.scss */
 .article-content .figure {
   margin-left: -1.5em;
   margin-right: -1.5em;
   margin-top: 3em;
   margin-bottom: 3em; }
   @media (min-width: 769px) {
-    /* line 174, ../sass/components/_article.scss */
+    /* line 179, ../sass/components/_article.scss */
     .article-content .figure {
       margin-left: -5vw;
       margin-right: -5vw; } }
 
-/* line 187, ../sass/components/_article.scss */
+/* line 192, ../sass/components/_article.scss */
 .article-footer {
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end;
+  align-items: flex-end;
   margin: 0;
   font-size: .85em; }
   @media (min-width: 769px) {
-    /* line 187, ../sass/components/_article.scss */
+    /* line 192, ../sass/components/_article.scss */
     .article-footer {
       margin: 0 -1.5rem;
       width: auto;
@@ -1370,7 +1376,7 @@ body {
 .articleAuthor-expand {
   display: none;
   background: #231f20;
-  border-top: solid 1px #777777;
+  border-top: solid 1px #231f20;
   position: absolute;
   top: 100%;
   left: 0;
@@ -3106,26 +3112,34 @@ body {
 
 /* line 16, ../sass/components/_sharelist.scss */
 .shareList--row {
-  flex-flow: row nowrap; }
-  /* line 19, ../sass/components/_sharelist.scss */
+  flex-flow: row wrap;
+  justify-content: flex-end; }
+  /* line 20, ../sass/components/_sharelist.scss */
   .shareList--row .shareList-item {
     width: auto; }
+  /* line 24, ../sass/components/_sharelist.scss */
+  .shareList--row .shareList-link .fa {
+    width: 2.25rem;
+    font-size: 1.25em; }
+  /* line 29, ../sass/components/_sharelist.scss */
+  .shareList--row .shareList-label {
+    padding: 0.5em 1em; }
 
-/* line 28, ../sass/components/_sharelist.scss */
+/* line 35, ../sass/components/_sharelist.scss */
 .shareList--small .shareList-label {
   display: none;
   padding: 0.65em 0.85em;
   font-weight: bold; }
 
-/* line 35, ../sass/components/_sharelist.scss */
+/* line 42, ../sass/components/_sharelist.scss */
 .shareList-item {
   width: 100%; }
   @media (min-width: 769px) {
-    /* line 35, ../sass/components/_sharelist.scss */
+    /* line 42, ../sass/components/_sharelist.scss */
     .shareList-item {
       width: 50%; } }
 
-/* line 43, ../sass/components/_sharelist.scss */
+/* line 50, ../sass/components/_sharelist.scss */
 .shareList-link {
   align-items: stretch;
   background: #fefefe;
@@ -3142,12 +3156,12 @@ body {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   text-decoration: none;
   transition: box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); }
-  /* line 57, ../sass/components/_sharelist.scss */
+  /* line 64, ../sass/components/_sharelist.scss */
   .shareList-link:hover, .shareList-link:active, .shareList-link:focus {
     -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-  /* line 63, ../sass/components/_sharelist.scss */
+  /* line 70, ../sass/components/_sharelist.scss */
   .shareList-link .fa {
     align-items: center;
     color: #fefefe;
@@ -3157,32 +3171,32 @@ body {
     text-align: center;
     width: 3rem; }
 
-/* line 75, ../sass/components/_sharelist.scss */
+/* line 82, ../sass/components/_sharelist.scss */
 .shareList-link--whatsapp .fa {
   background-color: #069200; }
 
-/* line 81, ../sass/components/_sharelist.scss */
+/* line 88, ../sass/components/_sharelist.scss */
 .shareList-link--facebook .fa {
   background-color: #3B5999; }
 
-/* line 87, ../sass/components/_sharelist.scss */
+/* line 94, ../sass/components/_sharelist.scss */
 .shareList-link--linkedin .fa {
   background-color: #007BB6; }
 
-/* line 93, ../sass/components/_sharelist.scss */
+/* line 100, ../sass/components/_sharelist.scss */
 .shareList-link--twitter .fa {
   background-color: #01AAEB; }
 
-/* line 99, ../sass/components/_sharelist.scss */
+/* line 106, ../sass/components/_sharelist.scss */
 .shareList-link--mail .fa {
   background-color: #CB2028; }
 
-/* line 104, ../sass/components/_sharelist.scss */
+/* line 111, ../sass/components/_sharelist.scss */
 .shareList-label {
   display: block;
   flex-grow: 1;
   padding: 1em;
-  font-weight: normal; }
+  font-weight: bold; }
 
 /* line 1, ../sass/components/_quote.scss */
 .quote {

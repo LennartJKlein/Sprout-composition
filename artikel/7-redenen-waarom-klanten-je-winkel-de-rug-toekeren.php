@@ -108,11 +108,11 @@
 			</footer>
 		</article>
 		
-		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="0.6s" data-offset="50">
+		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="0.6s" data-offset="150">
 			<header class="article-header">
 				<div class="article-tags">
 					<button class="button button--small button--grey" name="scaleups">Retail</button>
-					<button class="button button--small button--primary reveal" data-animate="tada" data-duration="0.75s" data-delay="1s" name="aanbevolen">Aanbevolen</button>
+					<button class="button button--small button--primary reveal" data-animate="tada" data-duration="0.75s" data-delay="1.5s" name="aanbevolen">Aanbevolen</button>
 				</div>
 				<h1 class="article-title">Waarom retailers het contact met jongeren kwijt zijn geraakt</h1>
 				<div class="article-intro">Jongeren zijn via traditionele kanalen vrijwel onbereikbaar geworden. Daardoor zijn retailers zijn het contact verloren met jongeren, schrijft Sprout-expert Fred Rutgers.</div>
@@ -188,7 +188,7 @@
 			</footer>
 		</article>
 		
-		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="0.6s" data-offset="50">
+		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="0.6s" data-offset="150">
 			<header class="article-header">
 				<div class="article-tags">
 					<button class="button button--small button--grey" name="scaleups">Retail</button>

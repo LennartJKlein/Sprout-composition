@@ -4,7 +4,15 @@
 	margin-left: 1.5rem;
 	margin-right: 1rem;
 
+	@include tablet {
+
+	}
+
 	@include tablet-landscape {
 		display: block;
+	}
+
+	@include desktop {
+		
 	}
 }

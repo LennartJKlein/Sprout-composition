@@ -14,17 +14,24 @@
 }
 
 .shareList--row {
-	flex-flow: row nowrap;
+	flex-flow: row wrap;
+	justify-content: flex-end;
 
 	.shareList-item {
 		width: auto;
 	}
+
+	.shareList-link .fa {
+		width: 2.25rem;
+		font-size: 1.25em;
+	}
+
+	.shareList-label {
+		padding: 0.5em 1em;
+	}
 }
 
 .shareList--small {
-	.fa {
-		
-	}
 	.shareList-label {
 		display: none;
 		padding: 0.65em 0.85em;
@@ -105,5 +112,5 @@
 	display: block;
 	flex-grow: 1;
 	padding: 1em;
-	font-weight: normal;
+	font-weight: bold;
 }

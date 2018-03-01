@@ -1,5 +1,5 @@
 <div class="shareActions">
-	<ul class="shareList shareList--row shareList--small">
+	<ul class="shareList shareList--row">
 		<li class="shareList-item">
 			<a class="shareList-link shareList-link--facebook" href="#">
 				<i class="fa fa-facebook"></i><span class="shareList-label">share</span>

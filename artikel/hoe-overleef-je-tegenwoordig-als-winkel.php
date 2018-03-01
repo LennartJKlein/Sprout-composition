@@ -28,7 +28,7 @@
 
 	<section class="articles">
 		
-		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="0.6s" data-offset="50">
+		<article class="article">
 			<header class="article-header">
 				<div class="article-tags">
 					<button class="button button--small button--grey" name="scaleups">Retail</button>
@@ -121,12 +121,12 @@
 			</footer>
 		</article>
 
-		<article class="article">
+		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="0.6s" data-offset="150">
 			<header class="article-header">
 				<div class="article-tags">
 					<button class="button button--small button--grey" name="scaleups">Retail</button>
 					<button class="button button--small button--grey" name="investeren">Marketing</button>
-					<button class="button button--small button--primary reveal" data-animate="tada" data-duration="0.75s" data-delay="1s" name="aanbevolen">Aanbevolen</button>
+					<button class="button button--small button--primary reveal" data-animate="tada" data-duration="0.75s" data-delay="1.5s" name="aanbevolen">Aanbevolen</button>
 				</div>
 				<h1 class="article-title">7 redenen waarom klanten je winkel de rug toekeren</h1>
 				<div class="article-intro">Sprout-expert Fred Rutgers onderzocht waarom klanten een winkel de rug toekeren. 'De uitkomsten zullen voor menig winkelier best even schrikken zijn.'</div>
@@ -202,11 +202,11 @@
 			</footer>
 		</article>
 
-		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="0.6s" data-offset="50">
+		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="0.6s" data-offset="150">
 			<header class="article-header">
 				<div class="article-tags">
 					<button class="button button--small button--grey" name="scaleups">Retail</button>
-					<button class="button button--small button--primary reveal" data-animate="tada" data-duration="0.75s" data-delay="1s" name="aanbevolen">Aanbevolen</button>
+					<button class="button button--small button--primary reveal" data-animate="tada" data-duration="0.75s" data-delay="1.5s" name="aanbevolen">Aanbevolen</button>
 				</div>
 				<h1 class="article-title">Waarom retailers het contact met jongeren kwijt zijn geraakt</h1>
 				<div class="article-intro">Jongeren zijn via traditionele kanalen vrijwel onbereikbaar geworden. Daardoor zijn retailers zijn het contact verloren met jongeren, schrijft Sprout-expert Fred Rutgers.</div>
