@@ -187,7 +187,7 @@
 	}
 }
 .logo-image-s {
-	max-height: 55px;
+	max-height: 48px;
 	display: block;
 	filter: invert(0.1);
 
@@ -198,8 +198,8 @@
 }
 
 .navToggle-placeholder {
-	width: 55px;
-	height: 55px;
+	width: 48px;
+	height: 48px;
 	margin-left: 2em;
 	flex-grow: 0;
 	flex-shrink: 0;
@@ -212,12 +212,12 @@
 	@include circle-border;
 	display: flex;
 	justify-content: center;
-	width: 55px;
-	height: 55px;
+	width: 48px;
+	height: 48px;
 	right: 1.5rem;
 	top: 1.5rem;
 	line-height: 1;
-	font-size: 30px;
+	font-size: 24px;
 	color: $color-white;
 	padding: 0;
 	outline: 0;
@@ -245,13 +245,13 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 55px;
-	height: 55px;
+	width: 48px;
+	height: 48px;
 	border: 0;
-	right: calc(1rem + 55px + 1.5rem);
+	right: calc(1rem + 48px + 1.5rem);
 	top: 1.5rem;
 	line-height: 2.4;
-	font-size: 24px;
+	font-size: 20px;
 	color: $color-white;
 	cursor: pointer;
 	padding: 0;
@@ -428,7 +428,7 @@
 	margin: 0.5em;
 	border-radius: .25em;
 	color: $color-white;
-	font-size: .9em;
+	font-size: 0.75em;
 	position: relative;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -446,17 +446,19 @@
 
 	@include tablet-landscape {
 		flex-flow: row nowrap;
+		font-size: 0.9em;
 	}
 
 	.fa {
 		margin-bottom: 0.5em;
-		font-size: 1.4em;
+		font-size: 1.6em;
 		text-align: center;
 
 		@include tablet-landscape {
 			margin-right: 1em;
 			margin-bottom: 0;
 			width: 10%;
+			font-size: 1.4em;
 		}
 	}
 }

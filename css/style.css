@@ -106,45 +106,22 @@ a {
     color: #ce4f1c; }
 
 /* line 59, ../sass/_typography.scss */
-blockquote {
-  border-right: solid 4px #DD6E42;
-  color: #DD6E42;
-  font-family: "Kepler", Cambria, Georgia, Times New Roman, serif;
-  letter-spacing: 0.3px;
-  font-weight: bold;
-  font-size: 1.5em;
-  margin: 0em 0 1em 0;
-  padding: 0.5em 1em;
-  text-align: right; }
-  /* line 69, ../sass/_typography.scss */
-  blockquote:before {
-    content: '\201C'; }
-  /* line 73, ../sass/_typography.scss */
-  blockquote:after {
-    content: '\201D'; }
-  @media (min-width: 769px) {
-    /* line 59, ../sass/_typography.scss */
-    blockquote {
-      padding-left: 25%;
-      font-size: 1.75em; } }
-
-/* line 83, ../sass/_typography.scss */
 input {
   font-family: "Gotham", "Century Gothic", Arial, Helvetica, sans-serif; }
 
-/* line 87, ../sass/_typography.scss */
+/* line 63, ../sass/_typography.scss */
 .text--premium {
   color: #f36e21 !important; }
 
-/* line 91, ../sass/_typography.scss */
+/* line 67, ../sass/_typography.scss */
 .text--partner {
   color: #007AC9 !important; }
 
-/* line 95, ../sass/_typography.scss */
+/* line 71, ../sass/_typography.scss */
 .text--event {
   color: #815552 !important; }
 
-/* line 99, ../sass/_typography.scss */
+/* line 75, ../sass/_typography.scss */
 .text--center {
   text-align: center; }
 
@@ -364,7 +341,7 @@ input {
 
 /* line 189, ../sass/layout/_header.scss */
 .logo-image-s {
-  max-height: 55px;
+  max-height: 48px;
   display: block;
   filter: invert(0.1); }
   @media (min-width: 360px) {
@@ -375,8 +352,8 @@ input {
 
 /* line 200, ../sass/layout/_header.scss */
 .navToggle-placeholder {
-  width: 55px;
-  height: 55px;
+  width: 48px;
+  height: 48px;
   margin-left: 2em;
   flex-grow: 0;
   flex-shrink: 0; }
@@ -390,12 +367,12 @@ input {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  width: 55px;
-  height: 55px;
+  width: 48px;
+  height: 48px;
   right: 1.5rem;
   top: 1.5rem;
   line-height: 1;
-  font-size: 30px;
+  font-size: 24px;
   color: #fefefe;
   padding: 0;
   outline: 0;
@@ -421,13 +398,13 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 55px;
-  height: 55px;
+  width: 48px;
+  height: 48px;
   border: 0;
-  right: calc(1rem + 55px + 1.5rem);
+  right: calc(1rem + 48px + 1.5rem);
   top: 1.5rem;
   line-height: 2.4;
-  font-size: 24px;
+  font-size: 20px;
   color: #fefefe;
   cursor: pointer;
   padding: 0;
@@ -587,7 +564,7 @@ input {
   margin: 0.5em;
   border-radius: .25em;
   color: #fefefe;
-  font-size: .9em;
+  font-size: 0.75em;
   position: relative;
   text-decoration: none;
   text-transform: uppercase; }
@@ -601,20 +578,22 @@ input {
   @media (min-width: 800px) and (orientation: landscape) {
     /* line 421, ../sass/layout/_header.scss */
     .menu-link {
-      flex-flow: row nowrap; } }
-  /* line 451, ../sass/layout/_header.scss */
+      flex-flow: row nowrap;
+      font-size: 0.9em; } }
+  /* line 452, ../sass/layout/_header.scss */
   .menu-link .fa {
     margin-bottom: 0.5em;
-    font-size: 1.4em;
+    font-size: 1.6em;
     text-align: center; }
     @media (min-width: 800px) and (orientation: landscape) {
-      /* line 451, ../sass/layout/_header.scss */
+      /* line 452, ../sass/layout/_header.scss */
       .menu-link .fa {
         margin-right: 1em;
         margin-bottom: 0;
-        width: 10%; } }
+        width: 10%;
+        font-size: 1.4em; } }
 
-/* line 464, ../sass/layout/_header.scss */
+/* line 466, ../sass/layout/_header.scss */
 .menu-link-notification {
   background: #9FB1BC;
   border-radius: 100%;
@@ -632,34 +611,34 @@ input {
   text-transform: uppercase;
   width: 22px; }
 
-/* line 484, ../sass/layout/_header.scss */
+/* line 486, ../sass/layout/_header.scss */
 .menu-main span,
 .menu-tools span {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden; }
 
-/* line 491, ../sass/layout/_header.scss */
+/* line 493, ../sass/layout/_header.scss */
 .menu-user {
   width: auto;
   margin-bottom: 1em; }
-  /* line 495, ../sass/layout/_header.scss */
+  /* line 497, ../sass/layout/_header.scss */
   .menu-user .menu-item {
     width: 100%; }
-  /* line 499, ../sass/layout/_header.scss */
+  /* line 501, ../sass/layout/_header.scss */
   .menu-user .menu-link {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
     text-transform: none; }
-  /* line 507, ../sass/layout/_header.scss */
+  /* line 509, ../sass/layout/_header.scss */
   .menu-user .user-company {
     font-size: 0.85em;
     font-weight: normal;
     opacity: 0.4 !important;
     display: block; }
-  /* line 514, ../sass/layout/_header.scss */
+  /* line 516, ../sass/layout/_header.scss */
   .menu-user.loggedIn-hide {
     background-color: #DD6E42;
     margin-bottom: 0;
@@ -667,48 +646,48 @@ input {
     width: auto;
     margin: 0 -0.5em -0.5em; }
     @media (min-width: 800px) and (orientation: landscape) {
-      /* line 514, ../sass/layout/_header.scss */
+      /* line 516, ../sass/layout/_header.scss */
       .menu-user.loggedIn-hide {
         width: 100%;
         margin: 0; } }
-    /* line 526, ../sass/layout/_header.scss */
+    /* line 528, ../sass/layout/_header.scss */
     .menu-user.loggedIn-hide.open {
       position: absolute;
       bottom: 0;
       top: 0;
       width: 100%; }
       @media (min-width: 1200px) {
-        /* line 526, ../sass/layout/_header.scss */
+        /* line 528, ../sass/layout/_header.scss */
         .menu-user.loggedIn-hide.open {
           top: auto;
           width: auto; } }
-      /* line 537, ../sass/layout/_header.scss */
+      /* line 539, ../sass/layout/_header.scss */
       .menu-user.loggedIn-hide.open .login-forms {
         padding-top: 1.5em; }
         @media (min-width: 769px) {
-          /* line 537, ../sass/layout/_header.scss */
+          /* line 539, ../sass/layout/_header.scss */
           .menu-user.loggedIn-hide.open .login-forms {
             padding-top: 0; } }
-    /* line 546, ../sass/layout/_header.scss */
+    /* line 548, ../sass/layout/_header.scss */
     .menu-user.loggedIn-hide .menu-link {
       margin: 0;
       padding: 2em 1em; }
-      /* line 550, ../sass/layout/_header.scss */
+      /* line 552, ../sass/layout/_header.scss */
       .menu-user.loggedIn-hide .menu-link .fa {
         width: 45px;
         margin-right: 0.3em;
         margin-bottom: 0; }
         @media (min-width: 800px) and (orientation: landscape) {
-          /* line 550, ../sass/layout/_header.scss */
+          /* line 552, ../sass/layout/_header.scss */
           .menu-user.loggedIn-hide .menu-link .fa {
             width: 10%;
             margin-right: 1em; } }
       @media (min-width: 800px) and (orientation: landscape) {
-        /* line 546, ../sass/layout/_header.scss */
+        /* line 548, ../sass/layout/_header.scss */
         .menu-user.loggedIn-hide .menu-link {
           padding: 1.5em 2.5em; } }
 
-/* line 568, ../sass/layout/_header.scss */
+/* line 570, ../sass/layout/_header.scss */
 .user-image {
   border-radius: 50%;
   overflow: hidden;
@@ -1277,6 +1256,29 @@ body {
       margin-right: -5vw; } }
 
 /* line 192, ../sass/components/_article.scss */
+.article-quote {
+  border-right: solid 4px #DD6E42;
+  color: #DD6E42;
+  font-family: "Kepler", Cambria, Georgia, Times New Roman, serif;
+  letter-spacing: 0.3px;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 0em 0 1em 0;
+  padding: 0.5em 1em;
+  text-align: right; }
+  /* line 202, ../sass/components/_article.scss */
+  .article-quote:before {
+    content: '\201C'; }
+  /* line 206, ../sass/components/_article.scss */
+  .article-quote:after {
+    content: '\201D'; }
+  @media (min-width: 769px) {
+    /* line 192, ../sass/components/_article.scss */
+    .article-quote {
+      padding-left: 25%;
+      font-size: 1.75em; } }
+
+/* line 216, ../sass/components/_article.scss */
 .article-footer {
   display: flex;
   flex-flow: column nowrap;
@@ -1285,7 +1287,7 @@ body {
   margin: 0;
   font-size: .85em; }
   @media (min-width: 769px) {
-    /* line 192, ../sass/components/_article.scss */
+    /* line 216, ../sass/components/_article.scss */
     .article-footer {
       margin: 0 -1.5rem;
       width: auto;
@@ -3001,13 +3003,13 @@ body {
 .search-field {
   border: 0;
   background: transparent;
-  padding: 1em 0 1em calc(45px + 1.3em);
+  padding: 0 0 0 calc(45px + 1.3em);
   color: #fefefe;
   font-size: 1em;
   font-family: "Gotham", "Century Gothic", Arial, Helvetica, sans-serif;
   font-weight: 500;
   width: 100%;
-  height: calc(55px + 1em);
+  height: calc(48px + 1em);
   transition: box-shadow .2s;
   box-shadow: none; }
   @media (min-width: 769px) {

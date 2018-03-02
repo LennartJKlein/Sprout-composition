@@ -252,7 +252,7 @@
 				<h2 id="fysieke-winkels">Fysieke winkels</h2>
 				<p>Even dwaalt het gesprek af richting de wondere wereld van marges, online conversie-rates en <a href="#">marketingstrategieën</a>, tot Stelder een nieuw onderwerp aansnijdt: is online wel voldoende? “De concurrentie is er keihard, waardoor veel retailers weer stenen winkels beginnen”, zegt hij. Ook het gros van de ondernemers aan tafel heeft fysieke winkels. Hoe kijken zij hier tegenaan?</p>
 
-				<blockquote id="quote-ruud-stelder" class="article-blockquote reveal" data-animate="flipInX" data-duration="1s" data-delay="0.2s" data-offset="100">De concurrentie is er keihard, waardoor veel retailers weer stenen winkels beginnen.</blockquote>
+				<blockquote id="quote-ruud-stelder" class="article-quote reveal" data-animate="flipInX" data-duration="1s" data-delay="0.2s" data-offset="100">De concurrentie is er keihard, waardoor veel retailers weer stenen winkels beginnen.</blockquote>
 
 				<p>Bos zegt het meest in te zetten op zijn fysieke winkels, vanwege die beleving, maar stelt wel: de locatie is essentieel. Vestig je je als webshop op een industrieterrein of in een buitenwijk, dan levert dit je weinig op. Bos wil ieder jaar een nieuwe winkel openen, maar Zwanikken merkt op dat zoiets niet in iedere sector kan. De elektronica-ondernemer ziet mensen helemaal uit België afreizen voor zijn shop in Arnhem. Meer winkels openen, dat zou voor Zwanikken betekenen dat hij met zichzelf zou concurreren. Op den duur wil hij meer winkels openen, maar hij blijft nog even voorzichtig.</p>
 			</main>

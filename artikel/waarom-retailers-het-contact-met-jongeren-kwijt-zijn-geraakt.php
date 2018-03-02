@@ -67,7 +67,7 @@
 				<p>Jongeren van de generatie die zijn geboren na 1995-2000 noemen we tegenwoordig de generatie Y. In het Engels spreken we dat uit als Generation why. Met name dat “why” zegt meer dan je op het eerste gezicht zou denken. Daarover straks meer.</p>
 				<p>Onlangs was er op tv een leuk programma waarin de overheid onze jongeren wilde informeren over veranderingen in onze maatschappij, en waarin ze jongeren “belangrijke” adviezen wilde geven over hoe je daar mee om kunt gaan. Geweldig dat de overheid dat doet. Vast prima dat de jeugd hierbij geholpen moet worden. Maar zou iemand zich hebben afgevraagd hoeveel personen uit de doelgroep hiermee zijn bereikt?</p>
 
-				<blockquote id="quote-ruud-stelder" class="article-blockquote reveal" data-animate="flipInX" data-duration="1s" data-delay="0.2s" data-offset="100">De concurrentie is er keihard, waardoor veel retailers weer stenen winkels beginnen.</blockquote>
+				<blockquote id="quote-ruud-stelder" class="article-quote reveal" data-animate="flipInX" data-duration="1s" data-delay="0.2s" data-offset="100">De concurrentie is er keihard, waardoor veel retailers weer stenen winkels beginnen.</blockquote>
 
 				<p>Ook retailers die een aantrekkelijk aanbod hebben voor de jeugd doen nog steeds veel aan radio-, tv- en dagbladreclame om hun onweerstaanbare aanbod onder de aandacht te brengen van Gereration Y. Uit onderzoek blijkt echter dat je je communicatie budget letterlijk net zo goed in de sloot kunt gooien want deze generatie is langs deze kanalen vrijwel onbereikbaar!</p>
 				<p>Bij een onlangs gehouden onderzoek onder 400 jongeren van deze generatie kwamen de volgende wellicht schokkende feiten naar boven;</p>
@@ -174,7 +174,7 @@
 				<h2 id="fysieke-winkels">Fysieke winkels</h2>
 				<p>Even dwaalt het gesprek af richting de wondere wereld van marges, online conversie-rates en <a href="#">marketingstrategieën</a>, tot Stelder een nieuw onderwerp aansnijdt: is online wel voldoende? “De concurrentie is er keihard, waardoor veel retailers weer stenen winkels beginnen”, zegt hij. Ook het gros van de ondernemers aan tafel heeft fysieke winkels. Hoe kijken zij hier tegenaan?</p>
 
-				<blockquote class="article-blockquote reveal" id="quote-ruud-stelder" data-animate="flipInX" data-duration="1s" data-delay="0.2s" data-offset="100">De concurrentie is er keihard, waardoor veel retailers weer stenen winkels beginnen.</blockquote>
+				<blockquote class="article-quote reveal" id="quote-ruud-stelder" data-animate="flipInX" data-duration="1s" data-delay="0.2s" data-offset="100">De concurrentie is er keihard, waardoor veel retailers weer stenen winkels beginnen.</blockquote>
 
 				<p>Bos zegt het meest in te zetten op zijn fysieke winkels, vanwege die beleving, maar stelt wel: de locatie is essentieel. Vestig je je als webshop op een industrieterrein of in een buitenwijk, dan levert dit je weinig op. Bos wil ieder jaar een nieuwe winkel openen, maar Zwanikken merkt op dat zoiets niet in iedere sector kan. De elektronica-ondernemer ziet mensen helemaal uit België afreizen voor zijn shop in Arnhem. Meer winkels openen, dat zou voor Zwanikken betekenen dat hij met zichzelf zou concurreren. Op den duur wil hij meer winkels openen, maar hij blijft nog even voorzichtig.</p>
 			</main>

@@ -5,6 +5,7 @@ $(function() {
 		once: true,
 		window: $('#page'),
 	});
+
 });
 
 // On page ready for use

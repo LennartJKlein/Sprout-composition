@@ -143,7 +143,7 @@
 			</ul>
 			<ul class="menu menu-user loggedIn-hide">
 				<li class="menu-item" hint="Inloggen">
-					<div onClick="toggleForm()" class="menu-link"><i class="fa fa-user-circle-o" aria-hidden="true"></i><span>INLOGGEN</span></div>
+					<div class="loginToggle menu-link"><i class="fa fa-user-circle-o" aria-hidden="true"></i><span>INLOGGEN</span></div>
 					<div class="login-forms">
 						<div class="menu-register">
 							<p>De members in onze ondernemerscommunity ontvangen <a href="#">vele voordelen</a>.</p>

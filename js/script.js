@@ -70,6 +70,10 @@ $(function() {
 
 	});
 
+	$('loginToggle').on('click', function(e){
+		toggleForm(e);
+	});
+
 	$(".menu-register-form").on("submit", function(e){
 		loginToggle(e);
 	});

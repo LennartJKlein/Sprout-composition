@@ -14,13 +14,13 @@
 .search-field {
 	border: 0;
 	background: transparent;
-	padding: 1em 0 1em calc(45px + 1.3em);
+	padding: 0 0 0 calc(45px + 1.3em);
 	color: $color-white;
 	font-size: 1em;
 	font-family: $font-gotham;
 	font-weight: 500;
 	width: 100%;
-	height: calc(55px + 1em);
+	height: calc(48px + 1em);
 	transition: box-shadow .2s;
 	box-shadow: none;
 
