@@ -492,7 +492,7 @@
 
 .menu-user {
 	width: auto;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 
 	.menu-item {
 		width: 100%;
@@ -504,6 +504,7 @@
 		justify-content: flex-start;
 		align-items: center;
 		text-transform: none;
+		padding-left: 1.2em;
 	}
 
 	.user-company {

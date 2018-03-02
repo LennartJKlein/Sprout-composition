@@ -143,7 +143,7 @@
 			</ul>
 			<ul class="menu menu-user loggedIn-hide">
 				<li class="menu-item" hint="Inloggen">
-					<div class="loginToggle menu-link"><i class="fa fa-user-circle-o" aria-hidden="true"></i><span>INLOGGEN</span></div>
+					<div class="login-forms-toggle menu-link"><i class="fa fa-user-circle-o" aria-hidden="true"></i><span>INLOGGEN</span></div>
 					<div class="login-forms">
 						<div class="menu-register">
 							<p>De members in onze ondernemerscommunity ontvangen <a href="#">vele voordelen</a>.</p>
@@ -153,7 +153,7 @@
 								<input type="email" class="login-field" placeholder="E-mailadres">
 								<button type="submit" class="login-submit">Aanmelden</button>
 							</form>
-							<a href="#" onClick="toggleLoginForm()" class="login-link">Ik heb al een account</a>
+							<a href="#" class="login-toggle login-link">Ik heb al een account</a>
 						</div>
 						<div class="menu-login">
 							<form class="menu-register-form">

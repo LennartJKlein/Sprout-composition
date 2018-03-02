@@ -70,8 +70,12 @@ $(function() {
 
 	});
 
-	$('loginToggle').on('click', function(e){
+	$('.login-forms-toggle').on('click', function(e){
 		toggleForm(e);
+	});
+
+	$('.login-toggle').on('click', function(e){
+		toggleLoginForm(e);
 	});
 
 	$(".menu-register-form").on("submit", function(e){
