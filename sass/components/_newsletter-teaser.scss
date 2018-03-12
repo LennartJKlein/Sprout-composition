@@ -1,5 +1,5 @@
 .newsletterTeaser {
-	background: url("../images/newsletter-background.jpg") no-repeat 80% center;
+	background: url("../images/newsletter-background-2.jpg") no-repeat 80% center;
 	background-size: cover;
 	display: flex;
 	-webkit-flex-flow: column nowrap;
@@ -9,23 +9,12 @@
 	padding: 2em;
 	margin: 1em 0;
 	@include round-border;
-
-	@include tablet {
-		-webkit-flex-flow: row nowrap;
-		-ms-flex-flow: row nowrap;
-		flex-flow: row nowrap;
-		align-items: center;
-	}
 }
 
 .newsletterTeaser-cell {
 	width: 100%;
 	flex-grow: 1;
-	flex-flow: 1;
-
-	@include tablet {
-		width: 50%;
-	}
+	flex-shrink: 1;
 }
 
 .newsletterTeaser-title {
@@ -44,7 +33,6 @@
 	text-align: center;
 
 	@include tablet {
-		margin-right: 2em;
 		margin-bottom: 0;
 		text-align: left;
 	}
@@ -55,7 +43,8 @@
 	-webkit-flex-flow: row nowrap;
 	-ms-flex-flow: row nowrap;
 	flex-flow: row nowrap;
-	margin-bottom: 1em;
+	max-width: 500px;
+	margin: 2em auto 1em;
 }
 
 .newsletterTeaser-field {
@@ -78,7 +67,7 @@
 }
 
 .newsletterTeaser-submit {
-	background-color: $color-secondary;
+	background-color: $color-newsletter;
 	color: $color-white;
 	border: 0;
 	border-radius: 0 0.3em 0.3em 0;

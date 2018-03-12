@@ -61,7 +61,15 @@ input {
 }
 
 .text--premium {
-	color: $color-premium !important;
+	color: $color-premium-secondary !important;
+	background: $color-premium !important;
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+
+	.fa {
+		-webkit-background-clip: none !important;
+		-webkit-text-fill-color: $color-premium-primary !important;
+	}
 }
 
 .text--partner {

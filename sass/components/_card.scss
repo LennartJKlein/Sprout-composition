@@ -11,6 +11,7 @@
 	-ms-flex-positive: 1;
 	flex-grow: 1;
 	margin-bottom: 1.5em;
+	position: relative;
 	@include round-border;
 
 	@include tablet {
@@ -60,7 +61,7 @@
 .card-tags {
 	position: absolute;
 	bottom: 0.75em;
-	z-index: 1;
+	z-index: 2;
 	right: 0.75em;
 	text-align: right;
 
@@ -88,8 +89,8 @@
 }
 
 .card-tag--premium {
-	// border-color: $color-tertiary;
-	// color: $color-tertiary;
+	//border-color: $color-premium;
+	//color: $color-premium;
 }
 
 .card-tag--partner {
@@ -272,10 +273,23 @@
 }
 
 .card--premium {
-	border-top: solid 3px $color-premium;
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		height: 3px;
+		width: 100%;
+		background: $color-premium;
+		z-index: 1;
+	}
 
 	.card-button {
-		color: $color-premium;
+		@include gradient-text-premium;
+		@include icon-premium-secondary;
+	}
+
+	.card-figure {
+		@include gradient-overlay-premium;
 	}
 }
 

@@ -1,23 +1,26 @@
-$color-primary: 		#2E5266;
-$color-primary-light: 	#9FB1BC;
-$color-primary-dark: 	#224456;
-$color-secondary:		#DD6E42;
-$color-secondary-light:	#FF7E77;
-$color-secondary-dark:	#ce4f1c;
-$color-tertiary: 		#68594E;
+$color-primary: 			#2E5266;
+$color-primary-light: 		#9FB1BC;
+$color-primary-dark: 		#224456;
+$color-secondary:			#DD6E42;
+$color-secondary-light:		#FF7E77;
+$color-secondary-dark:		#ce4f1c;
+$color-tertiary: 			#68594E;
 
-$color-black:			#231f20;
-$color-black-opage:		rgba(0,0,0,.2);
-$color-white:			#fefefe;
-$color-white-opage:		rgba(255,255,255,.2);
-$color-grey:			#e5e2de;
-$color-grey-light:		#f2f0f0;
-$color-grey-dark:		#777777;
+$color-black:				#231f20;
+$color-black-opage:			rgba(0,0,0,.2);
+$color-white:				#fefefe;
+$color-white-opage:			rgba(255,255,255,.2);
+$color-grey:				#e5e2de;
+$color-grey-light:			#f2f0f0;
+$color-grey-dark:			#777777;
 
-$color-partner:			#007AC9;
-$color-partner-light:	#deedf7;
-$color-premium:			#f36e21;
-$color-event:			#815552;
+$color-newsletter:			#007AC9;
+$color-event:				#815552;
+$color-partner:				#007AC9;
+$color-partner-light:		#deedf7;
+$color-premium-primary:		#007AC9;
+$color-premium-secondary: 	#DC0451;
+$color-premium:				linear-gradient(to bottom right, $color-premium-primary, $color-premium-secondary);
 
 $font-gotham:			"Gotham", "Century Gothic", Arial, Helvetica, sans-serif;
 $percent-1of3:			calc(100% / 3);

@@ -283,7 +283,7 @@
 	</section>
 
 	<div class="relatedArticles">
-		<h4 class="relatedArticles-title">Meer over retail...</h4>
+		<h4 class="relatedArticles-title">Omdat je veel over <button class="button button--small button--white" name="scaleups">Retail</button> leest:</h4>
 		<div class="grid grid--articles">
 			<div class="grid-cell">
 				<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--horizontal" tag="retail">
@@ -308,12 +308,12 @@
 							<div class="card-tag">retail</div>
 						</div>
 						<div class="card-figure">
-							<img src="../images/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
+							<img src="../images/articles/foodora-overweegt-zzp-constructie.jpg" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
-						<h3 class="card-title">Hoe Coco-Mat vijftien landen verovert met duurzame producten</h3>
-						<p class="card-excerpt">Megasuccessen met duurzame bedden en linnengoed, het lukte de Griekse ondernemer Paul Efmorfidis (60). Vanuit Amsterdam bouwde hij zijn bedrijf Coco-Mat uit tot een wereldmerk, met winkels in New York en China.</p>
+						<h3 class="card-title">Foodora overweegt zzp-constructie; burn-out voor 15 procent werknemers</h3>
+						<p class="card-excerpt">Ondernemersnieuws: Foodora overweegt zijn werknemers om te vormen tot zzp’ers, Uber verliest een vol geldpakhuis en de burn-out slaat om zich heen.</p>
 					</div>
 				</a>
 			</div>
