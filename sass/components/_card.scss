@@ -284,12 +284,12 @@
 	}
 
 	.card-button {
-		@include gradient-text-premium;
+		@include text-gradient-premium;
 		@include icon-premium-secondary;
 	}
 
 	.card-figure {
-		@include gradient-overlay-premium;
+		@include overlay-gradient-premium;
 	}
 }
 

@@ -89,6 +89,72 @@
 	}
 }
 
+.button--premium {
+	border: 2px solid transparent;
+	border-image: $color-premium;
+	border-image-slice: 1;
+	@include text-gradient-premium;
+	@include icon-premium-primary;
+
+	&:hover {
+		-webkit-background-clip: none;
+		-webkit-text-fill-color: inherit;
+		color: $color-white;
+		background: $color-premium;
+		@include icon-white;
+	}
+
+	&:active,
+	&:focus {
+		background: $color-premium;
+		color: $color-white;
+		-webkit-background-clip: none;
+		-webkit-text-fill-color: inherit;
+		@include icon-white;
+	}
+
+	&.button--logo {
+		&:before {
+			content: url('/images/premium-logo.svg');
+			display: inline-block;
+			width: 5.5em;
+			height: auto;
+		}
+
+		&:hover,
+		&:active,
+		&:focus {
+			&:before {
+				content: url('/images/premium-logo-white.svg');
+			}
+		}
+
+		&.button--solid {
+			&:before {
+				content: url('/images/premium-logo-white.svg');
+			}
+		}
+	}
+
+	&.button--solid {
+		border-image: none;
+		border-color: $color-grey-dark;
+		color: $color-white;
+		background: $color-premium;
+		-webkit-background-clip: none;
+		-webkit-text-fill-color: inherit;
+
+		&:hover {
+			border-color: $color-black;
+		}
+
+		&:active,
+		&:focus {
+			border-color: $color-black;
+		}
+	}
+}
+
 .button--grey {
 	color: $color-grey-dark;
 	border: solid 2px $color-grey-dark;
@@ -111,6 +177,15 @@
 
 	@include tablet {
 		font-size: 0.8em;
+	}
+}
+
+.button--big {	
+	padding: 0.8em 1.1em;
+	font-size: 1em;
+
+	@include tablet {
+		font-size: 1.1em;
 	}
 }
 

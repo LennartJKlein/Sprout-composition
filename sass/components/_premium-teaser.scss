@@ -1,0 +1,59 @@
+.premiumTeaser {
+	padding: 2em;
+	background: $color-premium;
+	text-align: center;
+	font-family: $font-gotham;
+	margin-bottom: 2em;
+}
+
+.premiumTeaser-figure {
+	position: relative;
+	width: 70%;
+    max-width: 210px;
+    margin: 0.5em auto 1.5em;
+}
+
+.premiumTeaser-image {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.premiumTeaser-title {
+	color: $color-white;
+}
+
+.premiumTeaser-description {
+	color: $color-white;
+	font-size: 0.9em;
+}
+
+.premiumTeaser-list {
+	text-align: left;
+	list-style: none;
+	color: $color-white;
+	font-size: 0.9em;
+	width: 100%;
+	max-width: 400px;
+	margin: 2em auto;
+
+	@include desktop {
+		max-width: 35rem;
+	}
+
+	li {
+		margin: 1em 0;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	
+	.fa {
+		width: 2.5em;
+		text-align: center;
+		margin-right: 1em;
+	    flex-grow: 0;
+	    flex-shrink: 0;
+	}
+}

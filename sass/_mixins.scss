@@ -60,7 +60,7 @@ $desktop-width: 1200px;
 	}
 }
 
-@mixin gradient-overlay-premium {
+@mixin overlay-gradient-premium {
 	position: relative;
 	
 	&:before {
@@ -79,24 +79,31 @@ $desktop-width: 1200px;
 	}
 }
 
-@mixin gradient-text-premium {
-	color: $color-premium-secondary !important;
-	background: $color-premium !important;
-	-webkit-background-clip: text !important;
-	-webkit-text-fill-color: transparent !important;
+@mixin text-gradient-premium {
+	color: $color-premium-secondary;
+	background: $color-premium;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 @mixin icon-premium-primary {
 	.fa {
-		-webkit-background-clip: none !important;
-		-webkit-text-fill-color: $color-premium-primary !important;
+		-webkit-background-clip: none;
+		-webkit-text-fill-color: $color-premium-primary;
 	}
 }
 
 @mixin icon-premium-secondary {
 	.fa {
-		-webkit-background-clip: none !important;
-		-webkit-text-fill-color: $color-premium-secondary !important;
+		-webkit-background-clip: none;
+		-webkit-text-fill-color: $color-premium-secondary;
+	}
+}
+
+@mixin icon-white {
+	.fa {
+		-webkit-background-clip: none;
+		-webkit-text-fill-color: $color-white;
 	}
 }
 

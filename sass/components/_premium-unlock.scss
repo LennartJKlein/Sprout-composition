@@ -1,0 +1,44 @@
+.premiumUnlock {
+	display: block;
+	position: relative;
+	width: 100%;
+	margin-bottom: 2em;
+
+	@include desktop {
+	    max-width: 45rem;
+	    margin-left: auto;
+	    margin-right: auto;
+		margin-bottom: 3em;
+	}
+
+	&:before {
+		content: '';
+		position: absolute;
+		display: block;
+		top: 0;
+		transform: translateY(-100%);
+		left: 0;
+		right: 0;
+		height: 300px;
+		height: 50vh;
+		background: linear-gradient(to top, $color-grey-light, rgba(242,240,240,0.7), rgba(242,240,240,0));
+	}
+}
+
+.premiumUnlock-title {
+	text-align: center;
+	@include text-gradient-premium;
+}
+
+.premiumUnlock-actions {
+	text-align: center;
+
+	.button {
+		margin: 0 1em;
+	}
+}
+
+.premiumUnlock-description {
+	text-align: center;
+	margin: 2em 0;
+}

@@ -54,6 +54,13 @@
 		</div>
 	</div>
 
+	<div class="panel premiumTeaser loggedIn-hide">
+		<div class="premiumTeaser-figure"><img src="images/premium-logo-white.svg" class="premiumTeaser-image" /></div>
+		<h3 class="premiumTeaser-title">Ongelimiteerd de beste verhalen. <br/>Wordt premium member.</h3>
+		<p class="premiumTeaser-description">1 maand gratis uitproberen. Daarna &euro;00,- per maand.</p>
+		<a href="#" class="button button--white" onClick="openForm('register')">1 maand uitproberen</a>
+	</div>
+
 	<div class="panel panel--clean">
 		<ul class="eventList">
 			<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="events.php">

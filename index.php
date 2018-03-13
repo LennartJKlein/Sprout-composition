@@ -413,16 +413,11 @@
 </section>
 
 <aside id="aside">
-	<div class="panel loginTeaser loggedIn-hide">
-		<div class="loginTeaser-figure"><img src="images/25-onder-de-25-2017.jpg" class="loginTeaser-image" /></div>
-		<h3 class="loginTeaser-title">Sluit je aan bij ons ondernemersnetwerk</h3>
-		<ul class="list list--icons">
-			<li class="list-item"><i class="list-item-icon fa fa-users"></i><span>Lid van de meest ambitieuze ondernemers<a href="#">community</a> van Nederland</span></li>
-			<li class="list-item"><i class="list-item-icon fa fa-unlock-alt"></i><span>Toegang tot alle premium <a href="#">artikelen</a></span></li>
-			<li class="list-item"><i class="list-item-icon fa fa-book"></i><span>4x per jaar het <a href="#">Sprout Bookazine</a></span></li>
-		</ul>
-		<a href="#" class="button button--secondary" onClick="openForm('register')">Sprout Member worden</a>
-		<p class="loginTeaser-link">Al een Sprout member? <a href="#" onClick="openForm('login')">Log in</a></p>
+	<div class="panel premiumTeaser loggedIn-hide">
+		<div class="premiumTeaser-figure"><img src="images/premium-logo-white.svg" class="premiumTeaser-image" /></div>
+		<h3 class="premiumTeaser-title">Ongelimiteerd de beste verhalen. <br/>Wordt premium member.</h3>
+		<p class="premiumTeaser-description">1 maand gratis uitproberen. Daarna &euro;00,- per maand.</p>
+		<a href="#" class="button button--white" onClick="openForm('register')">1 maand uitproberen</a>
 	</div>
 	
 	<div class="panel panel--clean">

@@ -17,16 +17,18 @@ $(document).ready(function(){
 	});
 
 	var articlesWrapper = $('.articles'),
+		articles = articlesWrapper.find('.article')
 		aside = $('#aside'),
 		scrollWindow = $('#page'),
-		panelGroups = null,
-		articles = null;
+		panelGroups = null;
 
-	if (articlesWrapper.length > 0 && $(window).width() > 800) {
+		console.log(articles.length);
+
+	if (articles.length > 1 && $(window).width() > 800) {
+
 
 		// cache jQuery objects
 		var windowHeight = $(scrollWindow).height(),
-			articles = articlesWrapper.find('.article'),
 			panel = $('.progressPanel'),
 			articleSidebarLinks = panel.find('.progressPanel-item');
 

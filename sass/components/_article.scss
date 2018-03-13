@@ -30,6 +30,32 @@
 	}
 }
 
+.article--premium {
+
+	.article-intro {
+		background: $color-premium;
+	}
+
+	@include tablet {
+
+		.article-intro {
+			background: inherit;
+		}
+
+		.article-hero {
+			&:before {
+				content: '';
+				display: block;
+				position: absolute;
+				height: 0.75em;
+				width: 100%;
+				background: $color-premium;
+				z-index: 1;
+			}
+		}
+	}
+}
+
 .article-tags {
 	display: none;
 
@@ -134,7 +160,7 @@
 		margin: 0 -5vw 0 0;
 		width: auto;
 		flex-flow: row nowrap;
-		transform: translateY(-98%);
+		transform: translateY(-100%);
 		z-index: 1;
 	}
 }
@@ -160,8 +186,18 @@
 		a {
 			font-weight: 500;
 		}
+
+		@include desktop {
+			font-size: 1.2em; 
+		}
 	}
 
+	p {
+		@include desktop {
+			font-size: 1.2em; 
+		}
+	}
+	
 	h2,
 	h3, 
 	p,
