@@ -701,6 +701,10 @@ input {
     padding-left: 1.2em; }
 
 /* line 582, ../sass/layout/_header.scss */
+.menu-user {
+  position: relative; }
+
+/* line 586, ../sass/layout/_header.scss */
 .user-image {
   border-radius: 50%;
   overflow: hidden;
@@ -2519,7 +2523,7 @@ body {
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
   align-items: stretch;
-  padding: 2em;
+  padding: 1.5em;
   margin: 1em 0;
   border-radius: 0.25rem;
   overflow: hidden; }
@@ -2543,6 +2547,7 @@ body {
 /* line 30, ../sass/components/_newsletter-teaser.scss */
 .newsletterTeaser-description {
   font-weight: 500;
+  font-size: 1em;
   color: #fefefe;
   text-align: center; }
   @media (min-width: 769px) {
@@ -2551,34 +2556,47 @@ body {
       margin-bottom: 0;
       text-align: left; } }
 
-/* line 41, ../sass/components/_newsletter-teaser.scss */
+/* line 42, ../sass/components/_newsletter-teaser.scss */
 .newsletterTeaser-form {
   display: flex;
+  position: relative;
   -webkit-flex-flow: row nowrap;
   -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
   max-width: 500px;
   margin: 2em auto 1em; }
 
-/* line 50, ../sass/components/_newsletter-teaser.scss */
+/* line 52, ../sass/components/_newsletter-teaser.scss */
+.newsletterTeaser-label {
+  position: absolute;
+  left: 0.75em;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #777777; }
+
+/* line 60, ../sass/components/_newsletter-teaser.scss */
 .newsletterTeaser-field {
   border: 0;
   outline: 0;
-  padding: .75em 1em;
+  padding: .75em 1em .75em 3em;
   border-radius: 0.3em 0 0 0.3em;
   flex-grow: 1;
   flex-shrink: 1;
-  min-width: 130px; }
+  min-width: 130px;
+  color: #231f20; }
+  /* line 70, ../sass/components/_newsletter-teaser.scss */
+  .newsletterTeaser-field::placeholder, .newsletterTeaser-field::-ms-placeholder, .newsletterTeaser-field::-moz-placeholder, .newsletterTeaser-field::-webkit-input-placeholder {
+    color: #777777; }
 
-/* line 60, ../sass/components/_newsletter-teaser.scss */
+/* line 78, ../sass/components/_newsletter-teaser.scss */
 .newsletterTeaser-field--inverse {
   color: #231f20;
-  background-color: #f2f0f0; }
-  /* line 64, ../sass/components/_newsletter-teaser.scss */
+  background-color: #e5e2de; }
+  /* line 82, ../sass/components/_newsletter-teaser.scss */
   .newsletterTeaser-field--inverse::placeholder {
     color: #777777; }
 
-/* line 69, ../sass/components/_newsletter-teaser.scss */
+/* line 87, ../sass/components/_newsletter-teaser.scss */
 .newsletterTeaser-submit {
   background-color: #007AC9;
   color: #fefefe;
@@ -2594,13 +2612,13 @@ body {
   text-transform: uppercase;
   white-space: nowrap; }
   @media (min-width: 769px) {
-    /* line 69, ../sass/components/_newsletter-teaser.scss */
+    /* line 87, ../sass/components/_newsletter-teaser.scss */
     .newsletterTeaser-submit {
       font-size: .8em; } }
-  /* line 88, ../sass/components/_newsletter-teaser.scss */
+  /* line 106, ../sass/components/_newsletter-teaser.scss */
   .newsletterTeaser-submit:focus, .newsletterTeaser-submit:active {
     background-color: #2E5266; }
-  /* line 93, ../sass/components/_newsletter-teaser.scss */
+  /* line 111, ../sass/components/_newsletter-teaser.scss */
   .newsletterTeaser-submit .fa {
     margin-left: 0.25em; }
 
@@ -3011,14 +3029,45 @@ body {
 
 /* line 1, ../sass/components/_relatedarticles.scss */
 .relatedArticles {
-  background: #2E5266;
-  margin: 0 -1.5em 2em;
-  padding: 0.75em 1.5em; }
+  background: #e5e2de;
+  margin: 1em -1.5em 2em;
+  padding: 0.75em 1.5em;
+  overflow: hidden;
+  position: relative; }
+  @media (min-width: 769px) {
+    /* line 1, ../sass/components/_relatedarticles.scss */
+    .relatedArticles {
+      margin-left: -5vw;
+      margin-right: -5vw;
+      padding-left: 5vw;
+      padding-right: 5vw;
+      margin-top: 2em; } }
+  @media (min-width: 1200px) {
+    /* line 1, ../sass/components/_relatedarticles.scss */
+    .relatedArticles {
+      margin-bottom: -2em;
+      padding-bottom: 4em;
+      padding-right: 3em;
+      border-bottom-right-radius: 1.2em; }
+      /* line 22, ../sass/components/_relatedarticles.scss */
+      .relatedArticles:before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 1.2em;
+        background: #f2f0f0;
+        margin-top: -1em;
+        margin-right: -5vw;
+        margin-bottom: 2em;
+        margin-left: -5vw;
+        padding-right: 3em;
+        padding-left: 5vw;
+        border-bottom-right-radius: 1.2em; } }
 
-/* line 7, ../sass/components/_relatedarticles.scss */
+/* line 39, ../sass/components/_relatedarticles.scss */
 .relatedArticles-title {
-  color: #fefefe; }
-  /* line 10, ../sass/components/_relatedarticles.scss */
+  color: #2E5266; }
+  /* line 42, ../sass/components/_relatedarticles.scss */
   .relatedArticles-title .button {
     margin-left: 0.5em;
     margin-right: 0.5em; }

@@ -284,7 +284,7 @@
 	</section>
 
 	<div class="relatedArticles">
-		<h4 class="relatedArticles-title">Meer over retail...</h4>
+		<h4 class="relatedArticles-title">Omdat je veel over <button class="button button--small button--primary" name="scaleups">Retail</button> leest:</h4>
 		<div class="grid grid--articles">
 			<div class="grid-cell">
 				<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--horizontal" tag="retail">
@@ -303,7 +303,7 @@
 				</a>
 			</div>
 			<div class="grid-cell">
-				<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--horizontal" tag="retail">
+				<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--horizontal card--partner" tag="retail">
 					<div class="card-figurecontainer">
 						<div class="card-tags">
 							<div class="card-tag">retail</div>

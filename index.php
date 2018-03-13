@@ -60,7 +60,7 @@
 			</a>
 		</div>
 		<div class="grid-cell grid-cell--wide">
-			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--hero card--horizontal card--textfirst card--premium" tag="stories">
+			<a href="artikel/premium-artikel.php" class="card card--hero card--horizontal card--textfirst card--premium" tag="stories">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--premium"><i class="fa fa-star" aria-hidden="true"></i> premium</div>
@@ -95,7 +95,7 @@
 			</a>
 		</div>
 		<div class="grid-cell grid-cell--wide">
-			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--horizontal card--premium" tag="scaleups">
+			<a href="artikel/premium-artikel.php" class="card card--horizontal card--premium" tag="scaleups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--premium"><i class="fa fa-star" aria-hidden="true"></i> premium</div>
@@ -166,6 +166,7 @@
 		</div>
 		<div class="newsletterTeaser-cell">
 			<form id="newsletterSignup" class="newsletterTeaser-form">
+				<label class="newsletterTeaser-label"><i class="fa fa-envelope"></i></label>
 				<input type="text" placeholder="E-mailadres..." class="newsletterTeaser-field" />
 				<button type="submit" class="newsletterTeaser-submit">Aanmelden</button>
 			</form>
@@ -253,7 +254,7 @@
 		<div class="grid-cell articleList">
 			<h2 class="articleList-title"><a href="tag.php" class="articleList-title-link text--premium"><i class="fa fa-star" aria-hidden="true"></i> Premium</a></h2>
 			<div class="articleList-list">
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
+				<a href="artikel/premium-artikel.php" class="articleList-article">
 					<div class="articleList-figurecontainer">
 						<div class="articleList-figure">
 							<img src="images/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="articleList-image" />
@@ -261,7 +262,7 @@
 					</div>
 					<h3 class="articleList-articleTitle">Zo verklaart Uber de liefde aan managers</h3>
 				</a>
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
+				<a href="artikel/premium-artikel.php" class="articleList-article">
 					<div class="articleList-figurecontainer">
 						<div class="articleList-figure">
 							<img src="images/articles/pexels-photo-436413.jpeg" class="articleList-image" />
@@ -269,7 +270,7 @@
 					</div>
 					<h3 class="articleList-articleTitle">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
 				</a>
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
+				<a href="artikel/premium-artikel.php" class="articleList-article">
 					<div class="articleList-figurecontainer">
 						<div class="articleList-figure">
 							<img src="images/articles/bill_gates.png" class="articleList-image" />
@@ -277,7 +278,7 @@
 					</div>
 					<h3 class="articleList-articleTitle">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
 				</a>
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
+				<a href="artikel/premium-artikel.php" class="articleList-article">
 					<div class="articleList-figurecontainer">
 						<div class="articleList-figure">
 							<img src="images/articles/schermafbeelding_2017-08-15_om_17.10.42.png" class="articleList-image" />
@@ -309,7 +310,7 @@
 			</a>
 		</div>
 		<div class="grid-cell grid-cell--wide">
-			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--horizontal card--premium" tag="scaleups">
+			<a href="artikel/premium-artikel.php" class="card card--horizontal card--premium" tag="scaleups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--premium"><i class="fa fa-star" aria-hidden="true"></i> premium</div>
@@ -379,7 +380,7 @@
 			</a>
 		</div>
 		<div class="grid-cell grid-cell--wide">
-			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--horizontal card--premium" tag="scaleups">
+			<a href="artikel/premium-artikel.php" class="card card--horizontal card--premium" tag="scaleups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--premium"><i class="fa fa-star" aria-hidden="true"></i> premium</div>

@@ -6,7 +6,7 @@
 	-ms-flex-flow: column nowrap;
 	flex-flow: column nowrap;
 	align-items: stretch;
-	padding: 2em;
+	padding: 1.5em;
 	margin: 1em 0;
 	@include round-border;
 }
@@ -29,6 +29,7 @@
 
 .newsletterTeaser-description {
 	font-weight: 500;
+	font-size: 1em;
 	color: $color-white;
 	text-align: center;
 
@@ -40,6 +41,7 @@
 
 .newsletterTeaser-form {
 	display: flex;
+	position: relative;
 	-webkit-flex-flow: row nowrap;
 	-ms-flex-flow: row nowrap;
 	flex-flow: row nowrap;
@@ -47,19 +49,35 @@
 	margin: 2em auto 1em;
 }
 
+.newsletterTeaser-label {
+	position: absolute;
+	left: 0.75em;
+	top: 50%;
+	transform: translateY(-50%);
+	color: $color-grey-dark;
+}
+
 .newsletterTeaser-field {
 	border: 0;
 	outline: 0;
-	padding: .75em 1em;
+	padding: .75em 1em .75em 3em;
 	border-radius: 0.3em 0 0 0.3em;
 	flex-grow: 1;
 	flex-shrink: 1;
 	min-width: 130px;
+	color: $color-black;
+
+	&::placeholder,
+	&::-ms-placeholder,
+	&::-moz-placeholder,
+	&::-webkit-input-placeholder {
+		color: $color-grey-dark;
+	}
 }
 
 .newsletterTeaser-field--inverse {
 	color: $color-black;
-	background-color: $color-grey-light;
+	background-color: $color-grey;
 
 	&::placeholder {
 	   color: $color-grey-dark;
