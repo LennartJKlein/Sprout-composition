@@ -2647,19 +2647,20 @@ body {
   font-size: 0.9em;
   width: 100%;
   max-width: 400px;
-  margin: 2em auto; }
+  margin: 2em auto;
+  padding: 0; }
   @media (min-width: 1200px) {
     /* line 31, ../sass/components/_premium-teaser.scss */
     .premiumTeaser-list {
       max-width: 35rem; } }
-  /* line 44, ../sass/components/_premium-teaser.scss */
+  /* line 45, ../sass/components/_premium-teaser.scss */
   .premiumTeaser-list li {
     margin: 1em 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center; }
-  /* line 52, ../sass/components/_premium-teaser.scss */
+  /* line 53, ../sass/components/_premium-teaser.scss */
   .premiumTeaser-list .fa {
     width: 2.5em;
     text-align: center;
