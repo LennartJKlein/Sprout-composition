@@ -5,6 +5,8 @@
 
 	@include tablet {
 		padding: 4em 5vw 0;
+		@include flex-shrink(1);
+		@include flex-grow(1);
 	}
 
 	@include desktop {

@@ -1,11 +1,9 @@
 .newsletterTeaser {
 	background: url("../images/newsletter-background-2.jpg") no-repeat 80% center;
 	background-size: cover;
-	display: flex;
-	-webkit-flex-flow: column nowrap;
-	-ms-flex-flow: column nowrap;
-	flex-flow: column nowrap;
-	align-items: stretch;
+	@include flex;
+	@include flex-flow(column nowrap);
+	@include align-items(stretch);
 	padding: 1.5em;
 	margin: 1em 0;
 	@include round-border;
@@ -13,8 +11,8 @@
 
 .newsletterTeaser-cell {
 	width: 100%;
-	flex-grow: 1;
-	flex-shrink: 1;
+	@include flex-grow(1);
+	@include flex-shrink(1);
 }
 
 .newsletterTeaser-title {
@@ -40,11 +38,9 @@
 }
 
 .newsletterTeaser-form {
-	display: flex;
+	@include flex;
 	position: relative;
-	-webkit-flex-flow: row nowrap;
-	-ms-flex-flow: row nowrap;
-	flex-flow: row nowrap;
+	@include flex-flow(row nowrap);
 	max-width: 500px;
 	margin: 2em auto 1em;
 }
@@ -62,8 +58,8 @@
 	outline: 0;
 	padding: .75em 1em .75em 3em;
 	border-radius: 0.3em 0 0 0.3em;
-	flex-grow: 1;
-	flex-shrink: 1;
+	@include flex-grow(1);
+	@include flex-shrink(1);
 	min-width: 130px;
 	color: $color-black;
 

@@ -1,7 +1,7 @@
 .pagination {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	@include flex;
+	@include align-items(center);
+	@include justify-content(space-between);
 	position: relative;
 }
 
@@ -22,7 +22,7 @@
 		margin-left: 0.15em;
 		margin-right: 0.15em;
 		padding: 0;
-		align-items: stretch;
+		@include align-items(stretch);
 	
 		&.active {
 			padding: 0;
@@ -50,17 +50,17 @@
 .pagination-list {
 	padding: 0;
 	list-style: none;
-	display: flex;
-	align-items: stretch;
-	justify-content: space-between;
+	@include flex;
+	@include align-items(stretch);
+	@include justify-content(space-between);
 }
 
 .pagination-item {
 	font-weight: 500;
 	color: $color-grey-dark;
 	@include round-border;
-	display: flex;
-	align-items: center;
+	@include flex;
+	@include align-items(center);
 
 	&.active {
 		background: $color-grey;

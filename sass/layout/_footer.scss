@@ -12,16 +12,16 @@
 }
 
 .footer-menu {
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: center;
-	align-items: center;
+	@include flex;
+	@include flex-flow(column nowrap);
+	@include justify-content(center);
+	@include align-items(center);
 	list-style: none;
 	padding: 0;
 	margin: 0;
 
 	@include tablet {
-		flex-flow: row nowrap;
+		@include flex-flow(row nowrap);
 	}
 }
 

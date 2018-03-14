@@ -1,8 +1,8 @@
 .shareList {
-	align-items: stretch;
-	display: flex;
+	@include align-items(stretch);
+	@include flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
+	@include justify-content(space-between);
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -15,7 +15,7 @@
 
 .shareList--row {
 	flex-flow: row wrap;
-	justify-content: flex-end;
+	@include justify-content(flex-end);
 
 	.shareList-item {
 		width: auto;
@@ -48,11 +48,11 @@
 }
 
 .shareList-link {
-	align-items: stretch;
+	@include align-items(stretch);
 	background: $color-white;
 	color: $color-black;
 	cursor: pointer;
-	display: flex;
+	@include flex;
 	justify-content: stretch;
 	margin: 0.5rem;
 	overflow: hidden;
@@ -68,11 +68,11 @@
 	}
 
 	.fa {
-		align-items: center;
+		@include align-items(center);
 		color: $color-white;
-		display: flex;
+		@include flex;
 		font-size: 1.5em;
-		justify-content: center;
+		@include justify-content(center);
 		text-align: center;
 		width: 3rem;
 	}
@@ -110,7 +110,7 @@
 
 .shareList-label {
 	display: block;
-	flex-grow: 1;
+	@include flex-grow(1);
 	padding: 1em;
 	font-weight: bold;
 }

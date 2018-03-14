@@ -13,12 +13,10 @@
 	background: $color-white;
 	display: block;
 	text-decoration: none;
-	display: flex;
-	-webkit-flex-flow: row nowrap;
-	-ms-flex-flow: row nowrap;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-	align-items: stretch;
+	@include flex;
+	@include flex-flow(row nowrap);
+	@include justify-content(space-between);
+	@include align-items(stretch);
 }
 
 .eventTeaser--minimal {
@@ -29,11 +27,9 @@
 	.eventTeaser-description {
 		padding: 1.5em 2em;
 		width: 75%;
-		display: flex;
-		-webkit-flex-flow: column nowrap;
-		-ms-flex-flow: column nowrap;
-		flex-flow: column nowrap;
-		justify-content: stretch;
+		@include flex;
+		@include flex-flow(column nowrap);
+		@include justify-content(stretch);
 	}
 
 	.eventTeaser-heading {
@@ -50,9 +46,9 @@
 	}
 
 	.eventTeaser-date {
-		display: flex;
-		align-items: center;
-		justify-content: center;
+		@include flex;
+		@include align-items(center);
+		@include justify-content(center);
 		background: $color-secondary;
 		color: $color-white;
 		padding: 1em;
@@ -60,8 +56,8 @@
 		text-transform: uppercase;
 		font-weight: 500;
 		width: 25%;
-		flex-grow: 1;
+		@include flex-grow(1);
 		vertical-align: middle;
-		flex-shrink: 1;
+		@include flex-shrink(1);
 	}
 }

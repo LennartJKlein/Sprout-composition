@@ -1,15 +1,15 @@
 #aside {
 	background: $color-grey;
 	width: 100%;
-	flex-grow: 0;
-	flex-shrink: 0;
+	@include flex-grow(0);
+	@include flex-shrink(0);
 	padding: 1.5em;
 	position: relative;
 
 	@include tablet {
-		display: flex;
+		@include flex;
 		flex-flow: row wrap;
-		justify-content: space-between;
+		@include justify-content(space-between);
 		
 		.panel,
 		.banner {
@@ -44,9 +44,9 @@
 
 	@include tablet {
 		&:first-of-type {
-			display: flex;
+			@include flex;
 			flex-flow: row wrap;
-			justify-content: space-between;
+			@include justify-content(space-between);
 		}
 	}
 

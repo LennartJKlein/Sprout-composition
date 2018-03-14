@@ -5,7 +5,7 @@
 
 	@include tablet {
 		padding: 0.5rem 0.75rem;
-		flex-grow: 1;
+		@include flex-grow(1);
 	}
 }
 
@@ -13,8 +13,8 @@
 	float: right;
 
 	@include tablet {
-		flex-grow: 0;
-		flex-shrink: 0;
+		@include flex-grow(0);
+		@include flex-shrink(0);
 	}
 
 	.articleAuthor-name {
@@ -29,16 +29,16 @@
 }
 
 .articleAuthor-summary {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	@include flex;
+	@include justify-content(space-between);
+	@include align-items(center);
 	color: $color-white;
 }
 
 .articleAuthor-link {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	@include flex;
+	@include justify-content(space-between);
+	@include align-items(center);
 	color: $color-white;
 	text-decoration: none;
 	font-weight: 500;

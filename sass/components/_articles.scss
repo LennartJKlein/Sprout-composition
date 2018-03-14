@@ -1,5 +1,5 @@
 .articles {
-	display: flex;
-	flex-flow: column nowrap;
+	@include flex;
+	@include flex-flow(column nowrap);
 	align-content: stretch;
 }
