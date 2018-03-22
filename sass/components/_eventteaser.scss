@@ -9,6 +9,12 @@
 	}
 }
 
+.eventTeaser--minimal {
+	&:not(:last-of-type) {
+		margin-bottom: 1em;
+	}
+}
+
 .eventTeaser-link {
 	background: $color-white;
 	display: block;
@@ -19,47 +25,41 @@
 	@include align-items(stretch);
 }
 
-.eventTeaser--minimal {
-	&:not(:last-of-type) {
-		margin-bottom: 1em;
-	}
+.eventTeaser-description {
+	padding: 1.5em 2em;
+	width: 75%;
+	@include flex;
+	@include flex-flow(column nowrap);
+	@include justify-content(stretch);
+}
 
-	.eventTeaser-description {
-		padding: 1.5em 2em;
-		width: 75%;
-		@include flex;
-		@include flex-flow(column nowrap);
-		@include justify-content(stretch);
-	}
+.eventTeaser-heading {
+	color: $color-secondary;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-size: 0.8em;
+}
 
-	.eventTeaser-heading {
-		color: $color-secondary;
-		text-transform: uppercase;
-		font-family: $font-gotham;
-		font-size: 0.8em;
-	}
+.eventTeaser-title {
+	text-transform: uppercase;
+	color: $color-black;
+	margin-top: 0.5em;
+	margin-bottom: 0;
+}
 
-	.eventTeaser-title {
-		text-transform: uppercase;
-		color: $color-black;
-		margin-top: 0.5em;
-		margin-bottom: 0;
-	}
-
-	.eventTeaser-date {
-		@include flex;
-		@include align-items(center);
-		@include justify-content(center);
-		background: $color-secondary;
-		color: $color-white;
-		padding: 1em;
-		text-align: center;
-		text-transform: uppercase;
-		font-weight: 500;
-		font-family: $font-gotham;
-		width: 25%;
-		@include flex-grow(1);
-		vertical-align: middle;
-		@include flex-shrink(1);
-	}
+.eventTeaser-date {
+	@include flex;
+	@include align-items(center);
+	@include justify-content(center);
+	background: $color-secondary;
+	color: $color-white;
+	padding: 1em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-family: $font-gotham;
+	width: 25%;
+	@include flex-grow(1);
+	vertical-align: middle;
+	@include flex-shrink(1);
 }
