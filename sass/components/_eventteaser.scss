@@ -35,6 +35,7 @@
 	.eventTeaser-heading {
 		color: $color-secondary;
 		text-transform: uppercase;
+		font-family: $font-gotham;
 		font-size: 0.8em;
 	}
 
@@ -55,6 +56,7 @@
 		text-align: center;
 		text-transform: uppercase;
 		font-weight: 500;
+		font-family: $font-gotham;
 		width: 25%;
 		@include flex-grow(1);
 		vertical-align: middle;

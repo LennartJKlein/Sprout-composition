@@ -1,5 +1,5 @@
 .newsletterTeaser {
-	background: url("../images/newsletter-background-2.jpg") no-repeat 80% center;
+	background: url("../images/newsletter-background.jpg") no-repeat 80% center;
 	background-size: cover;
 	@include flex;
 	@include flex-flow(column nowrap);
@@ -56,7 +56,7 @@
 .newsletterTeaser-field {
 	border: 0;
 	outline: 0;
-	padding: .75em 1em .75em 3em;
+	padding: .75em 1em .75em 1em;
 	border-radius: 0.3em 0 0 0.3em;
 	@include flex-grow(1);
 	@include flex-shrink(1);
@@ -69,6 +69,10 @@
 	&::-webkit-input-placeholder {
 		color: $color-grey-dark;
 	}
+}
+
+.newsletterTeaser-field--icon {
+	padding-left: 3em;
 }
 
 .newsletterTeaser-field--inverse {

@@ -1,4 +1,5 @@
 #sharePopup {
+	@include use-gpu;
 	position: fixed;
 	margin: 1em;
 	padding: 0;

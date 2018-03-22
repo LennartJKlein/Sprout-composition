@@ -31,7 +31,7 @@
 				display: block;
 			}
 
-			#nav {
+			.nav {
 				overflow: visible;
 			}
 
@@ -282,7 +282,8 @@
 	}
 }
 
-#nav {
+.nav {
+	@include use-gpu;
 	position: fixed;
 	margin: 1em;
 	padding: 0.5em;
@@ -328,6 +329,7 @@
 	}
 
 	@include tablet-landscape {
+		@include leave-gpu;
 		margin: 0;
 		padding: 0;
 		position: relative;
@@ -493,6 +495,8 @@
 		white-space: nowrap;
 		text-overflow: ellipsis;
 		overflow: hidden;
+		letter-spacing: 0.05em;
+		font-weight: 600;
 	}
 }
 
@@ -554,6 +558,8 @@
 		.menu-link {
 			margin: 0;
 			padding: 2em 1em;
+			letter-spacing: 0.05em;
+			font-weight: 600;
 
 			.fa {
 				width: 45px;

@@ -57,7 +57,7 @@ $(function() {
 
 	$('.navToggle').on('click', function(){
 		$(".navToggle").toggleClass("open");
-		$("#nav").toggleClass("open");
+		$(".nav").toggleClass("open");
 	});
 
 	// Toggles extra info on author

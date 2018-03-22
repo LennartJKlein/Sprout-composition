@@ -82,6 +82,7 @@
 	margin-top: 1em;
 	margin-bottom: 1em;
 	font-size: 1.85em;
+	font-family: $font-gotham;
 
 	@include tablet {
 		margin-bottom: 0.5em;
@@ -101,11 +102,11 @@
 .article-intro {
 	background: $color-primary;
 	color: $color-white;
-	@include font-kepler;
-	margin: -2rem -1.5rem 0 -1.5rem;
+	font-family: $font-kepler;
+	margin: -1rem -1.5rem 0 -1.5rem;
 	padding: 1.5rem;
-	font-size: 1.2em;
-	line-height: 1.5;
+	font-size: 1.25em;
+	line-height: 1.6;
 	@include order(-2);
 	
 	@include tablet {
@@ -113,7 +114,7 @@
 		color: $color-black;
 		margin: 1em 0;
 		padding: 0;
-		font-size: 1.45em;
+		font-size: 1.5em;
 		@include order(0);
 	}
 
@@ -168,16 +169,16 @@
 .article-content {
 	h2 {
 		color: $color-secondary;
-		@include font-kepler;
-		font-size: 1.75em;
+		font-family: $font-gotham;
+		font-size: 1.4em;
 		line-height: 1.25;
-		margin: 2.25em 0 0.75em;
+		margin: 2.3em 0 0.7em;
 	}
 
 	ul,
 	ol {
 		margin-top: 0;
-		font-family: $font-gotham;
+		font-family: $font-opensans;
 		line-height: 1.75;
 		font-size: 1.05em;
 		margin-bottom: 2em;
@@ -188,13 +189,13 @@
 		}
 
 		@include desktop {
-			font-size: 1.2em; 
+			font-size: 1.1em; 
 		}
 	}
 
 	p {
 		@include desktop {
-			font-size: 1.2em; 
+			font-size: 1.1em; 
 		}
 	}
 	
@@ -228,7 +229,7 @@
 .article-quote {
 	border-right: solid 4px $color-secondary;
 	color: $color-secondary;
-	@include font-kepler;
+	font-family: $font-kepler;
 	font-weight: bold;
 	font-size: 1.5em;
 	margin: 0em 0 1em 0;

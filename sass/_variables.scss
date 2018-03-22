@@ -22,7 +22,10 @@ $color-premium-primary:		#007AC9;
 $color-premium-secondary: 	#DC0451;
 $color-premium:				linear-gradient(to bottom right, $color-premium-primary, $color-premium-secondary);
 
-$font-gotham:			"Gotham", "Century Gothic", Arial, Helvetica, sans-serif;
+$font-opensans:			'Open Sans', Arial, Helvetica, sans-serif;
+$font-gotham:			'Gotham', 'Century Gothic', Arial, Helvetica, sans-serif;
+$font-kepler:			'Kepler', Cambria, Georgia, Times New Roman, serif;
+
 $percent-1of3:			calc(100% / 3);
 $percent-2of3:			calc(100% / 3 * 2);
 $percent-1of2:			50%;

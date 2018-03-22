@@ -9,6 +9,7 @@
 	<meta name="description" content="Sprout composition for Wordpress">
 	<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0" name="viewport">
 	<meta name="pinterest" content="nopin" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i">
 	<link rel="stylesheet" href="/css/jquery-ui.min.css">
 	<link rel="stylesheet" href="/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/css/animate.min.css">
@@ -66,7 +67,7 @@
 		}
 	?>
 
-	<nav id="nav">
+	<nav class="nav">
 		<div class="nav-head">
 			<a href="/index.php" class="logo logo--desktop">
 				<img src="/images/sprout-logo.png" class="logo-image" />

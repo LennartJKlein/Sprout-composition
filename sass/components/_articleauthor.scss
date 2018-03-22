@@ -72,6 +72,10 @@
 	transition: all .2s;
 }
 
+.articleAuthor-name {
+	font-weight: 600;
+}
+
 .articleAuthor-company {
 	font-weight: normal;
 	font-size: 0.8em;
@@ -100,6 +104,8 @@
 	p {
 		color: $color-white;
 		margin-bottom: 1em;
+		z-index: 1;
+		position: relative;
 	}
 
 	&.open {

@@ -1,10 +1,34 @@
 .panel {
 	padding: 2em;
 	background: $color-white;
-	font-family: $font-gotham;
+	font-family: $font-opensans;
 	margin-bottom: 2em;
 	border-radius: 0.25em;
 	overflow: hidden;
+}
+
+.panel--primary {
+	background: $color-primary;
+
+	.panel-title {
+		color: $color-white;
+	}
+}
+
+.panel--secondary {
+	background: $color-secondary;
+
+	.panel-title {
+		color: $color-white;
+	}
+}
+
+.panel--tertiary {
+	background: $color-tertiary;
+
+	.panel-title {
+		color: $color-white;
+	}
 }
 
 .panel-title--primary {
@@ -33,7 +57,7 @@
 
 .panel--headed {
 	.panel-title {
-		//position: relative;
+		position: relative;
 		padding: 2em 2em 1em 2em;
 		margin: -2em -2em 1em -2em;
 		background: $color-primary;

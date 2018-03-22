@@ -206,11 +206,6 @@ $desktop-width: 1200px;
 	align-self: $value;
 }
 
-@mixin font-kepler {
-	font-family: "Kepler", Cambria, Georgia, Times New Roman, serif;
-	letter-spacing: 0.3px;
-}
-
 @mixin font-awesome {
 	font-family: "Font Awesome";
 	display: inline-block;
@@ -232,4 +227,34 @@ $desktop-width: 1200px;
 	-webkit-box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 	-moz-box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+@mixin use-gpu {
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-ms-perspective: 1000;
+	perspective: 1000;
+}
+
+@mixin leave-gpu {
+	-webkit-transform: inherit;
+	-moz-transform: inherit;
+	-ms-transform: inherit;
+	transform: inherit;
+	-webkit-backface-visibility: inherit;
+	-moz-backface-visibility: inherit;
+	-ms-backface-visibility: inherit;
+	backface-visibility: inherit;
+	-webkit-perspective: inherit;
+	-moz-perspective: inherit;
+	-ms-perspective: inherit;
+	perspective: inherit;
 }

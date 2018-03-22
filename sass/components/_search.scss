@@ -14,19 +14,18 @@
 .search-field {
 	border: 0;
 	background: transparent;
-	padding: 0 0 0 calc(45px + 1.3em);
+	padding: 0 0 0 calc(48px + 1.3rem);
 	color: $color-white;
 	font-size: 1em;
-	font-family: $font-gotham;
 	font-weight: 500;
 	width: 100%;
-	height: calc(48px + 1em);
+	height: calc(48px + 1rem);
 	transition: box-shadow .2s;
 	box-shadow: none;
 
 	@include tablet {
 		height: auto;
-		padding: 1em 0 1em calc(10% + 1.3em);
+		padding: 1em 0 1em calc(10% + 1.3rem);
 	}
 
 	&:focus,
@@ -42,7 +41,7 @@
 	height: auto;
 	width: 100%;
 	font-size: 1em;
-    font-family: "Gotham", "Century Gothic", Arial, Helvetica;
+    font-family: $font-opensans;
     font-weight: 500;
     z-index: -1;
     position: relative;
@@ -54,12 +53,12 @@
 	left: 1em;
 	top: 50%;
 	transform: translateY(-50%);
-	height: 45px;
+	height: 48px;
 	padding: 0;
 	text-align: center;
 	border: 0;
 	border-radius: .5em;
-	width: 45px;
+	width: 48px;
 	outline: 0;
 	cursor: pointer;
 	background: transparent;

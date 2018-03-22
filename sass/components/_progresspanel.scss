@@ -67,7 +67,7 @@
 		transform: translateY(-50%);
 		width: 36px;
 		height: 36px;
-		@include font-kepler;
+		font-family: $font-kepler;
 		line-height: 36px;
 		@include circle-border;
 		color: $color-grey-dark;
@@ -113,7 +113,7 @@
 	display: block;
 	color: $color-grey-dark;
 	line-height: 1.2;
-	font-weight: 500;
+	font-weight: bold;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -132,7 +132,7 @@
 
 .progressPanel-author {
 	color: $color-grey-dark;
-	@include font-kepler;
+	font-family: $font-kepler;
 	font-size: 0.85em;
 
 	@include tablet-landscape {
