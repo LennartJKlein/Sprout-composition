@@ -476,7 +476,6 @@
 	background: $color-primary-light;
 	border-radius: 100%;
 	color: $color-primary;
-	font-family: $font-gotham;
 	font-size: 0.85em;
 	font-weight: bold;
 	height: 22px;
@@ -495,10 +494,8 @@
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
-	//letter-spacing: 0.05em;
-	//font-weight: 600;
-	font-family: $font-gotham;
-	font-weight: bold;
+	letter-spacing: 0.03em;
+	font-weight: 600;
 }
 
 .menu-user {
@@ -577,10 +574,8 @@
 		}
 
 		.menu-label {
-			//letter-spacing: 0.05em;
-			//font-weight: 600;
-			font-family: $font-gotham;
-			font-weight: bold;
+			letter-spacing: 0.03em;
+			font-weight: 600;
 		}
 	}
 
