@@ -13,7 +13,9 @@ body {
 	padding: 0;
 	margin: 0;
 	color: $color-black;
+	word-break: break-word;
 }
+
 img {
 	max-width: 100%;
 	height: auto;
