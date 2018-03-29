@@ -48,10 +48,10 @@
 			</main>
 			<footer class="article-footer">
 				<div class="premiumUnlock">
-					<h2 class="premiumUnlock-title">Verder lezen?<br/>Log in met je account of registreer. Het is gratis.</h2>
+					<h2 class="premiumUnlock-title">Verder lezen?<br/>Koppel Sprout met je LinkedIn en lees 3 premium artikelen gratis.</h2>
 					<div class="premiumUnlock-actions">
-						<a href="premium-artikel-loggedin.php" class="button button--big button--premium"><i class="fa fa-unlock"></i> registreren</a>
-						<a href="premium-artikel-loggedin.php" class="button button--big button--clean button--primary">inloggen</a>
+						<a href="premium-artikel-loggedin.php" class="button button--big button--premium"><i class="fa fa-linkedin-square"></i> koppelen</a>
+						<a href="premium-artikel-loggedin.php" class="button button--big button--clean button--secondary">inloggen</a>
 					</div>
 					<p class="notification premiumUnlock-description">Geregistreerde gebruikers krijgen wekelijks toegang tot &eacute;&eacute;n premium artikel.</p>
 				</div>
@@ -62,7 +62,7 @@
 					<ul class="premiumTeaser-list">
 						<li><i class="fa fa-users"></i><span>Lid van de meest ambitieuze ondernemers<strong>community</strong> van Nederland</span></li>
 						<li><i class="fa fa-unlock-alt"></i><span>Toegang tot alle premium <strong>content</strong></span></li>
-						<li><i class="fa fa-paper-plane"></i><span>4x per jaar het <strong>Sprout Magazine</strong></span></li>
+						<li><i class="fa fa-paper-plane"></i><span>4x per jaar het <strong>Sprout Bookazine</strong></span></li>
 					</ul>
 					<p class="premiumTeaser-description">1 maand gratis uitproberen. Daarna &euro;00,- per maand.</p>
 					<a href="#" class="button button--white" onClick="openForm('register')">1 maand uitproberen</a>
@@ -110,62 +110,5 @@
 	</div>
 
 </section>
-
-<aside id="aside">
-
-	<div class="aside-panelgroup">				
-		<div class="panel panel--clean">
-			<ul class="eventList">
-				<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="events.php">
-					<div class="eventTeaser-description">
-						<span class="eventTeaser-heading">Binnenkort</span>
-						<h4 class="eventTeaser-title">Amsterdam talks tech - smart cities &amp; mobility</h4>
-					</div>
-					<span class="eventTeaser-date">8 okt</span>
-				</a></li>
-				<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="events.php">
-					<div class="eventTeaser-description">
-						<span class="eventTeaser-heading">Volgende maand</span>
-						<h4 class="eventTeaser-title">Scaleup summit 2017</h4>
-					</div>
-					<span class="eventTeaser-date">24 nov</span>
-				</a></li>
-			</ul>
-			<a href="#" class="button button--secondary button--clean button--center">Meer events</a>
-		</div>
-
-		<div class="banner banner--rectangle">
-			<img src="http://via.placeholder.com/285x140" class="banner-image" />
-		</div>
-	</div>
-
-	<div class="aside-panelgroup">
-		<div class="panel panel--headed panel--headed-overflow">
-			<h3 class="panel-title">Mede mogelijk door</h3>
-			<img src="../images/logo-postnl-channel-sprout.png" class="panel-figure" />
-			<a href="#" class="button button--primary" onClick="openForm('register')">Whitepaper downloaden</a>
-		</div>
-
-		<div class="panel">
-			<h3 class="panel-title"><i class="panel-title-icon fa fa-folder"></i>Alles over...</h3>
-			<ul class="linkList">
-				<li class="linkList-item"><a class="linkList-link" href="tag/direct-marketing">Retail</a></li>
-				<li class="linkList-item"><a class="linkList-link" href="tag/crowdfunding">Crowdfunding</a></li>
-			</ul>
-		</div>
-	</div>
-
-
-	<div class="aside-panelgroup">
-		<div class="banner banner--rectangle">
-			<img src="http://via.placeholder.com/285x140" class="banner-image" />
-		</div>
-
-		<div class="banner banner--rectangle">
-			<img src="http://via.placeholder.com/285x140" class="banner-image" />
-		</div>
-	</div>
-
-</aside>
 
 <?php include '../templates/footer.php'; ?>

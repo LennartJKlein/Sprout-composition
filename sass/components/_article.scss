@@ -65,7 +65,9 @@
 
 	@include desktop {
 		width: 100%;
-		max-width: 45rem;
+		max-width: 70rem;
+		padding-left: 4rem;
+		padding-right: 4rem;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -92,7 +94,9 @@
 
 	@include desktop {
 		font-size: 3em;
-		max-width: 45rem;
+		max-width: 70rem;
+		padding-left: 4rem;
+		padding-right: 4rem;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -119,7 +123,9 @@
 	}
 
 	@include desktop {
-		max-width: 45rem;
+		max-width: 70rem;
+		padding-left: 4rem;
+		padding-right: 4rem;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -128,14 +134,15 @@
 .article-hero {
 	@include order(1);
 
-	&.figure {
-		margin: 0 -1.5em 1.5em;
-	}
-
 	@include tablet {
 		@include order(0);
+	}
 
-		&.figure {
+	&.figure {
+		margin: 0 -1.5em 1.5em;
+		max-height: 75vh;
+
+		@include tablet {
 			margin-top: 1em;
 			margin-bottom: 0;
 			margin-left: -5vw;
@@ -203,11 +210,21 @@
 	h3, 
 	p,
 	ol,
-	ul,
+	ul {
+		@include desktop {
+			width: 100%;
+			max-width: 70rem;
+			padding-left: 4rem;
+			padding-right: 4rem;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
 	blockquote {
 		@include desktop {
 			width: 100%;
-			max-width: 45rem;
+			max-width: calc(70rem - 8rem);
 			margin-left: auto;
 			margin-right: auto;
 		}
