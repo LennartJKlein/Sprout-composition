@@ -170,7 +170,7 @@
 				<input type="text" placeholder="E-mailadres..." class="newsletterTeaser-field newsletterTeaser-field--icon" />
 				<button type="submit" class="newsletterTeaser-submit">Aanmelden</button>
 			</form>
-			<a href="http://www.sprout.nl/nieuwsbrief/laatste" class="button button--clean button--white button--center"><i class="fa fa-eye"></i> Voorbeeld</a>
+			<!--<a href="http://www.sprout.nl/nieuwsbrief/laatste" class="button button--clean button--white button--center"><i class="fa fa-eye"></i> Voorbeeld</a>-->
 		</div>
 	</div>
 
@@ -422,14 +422,14 @@
 	
 	<div class="panel panel--clean">
 		<ul class="eventList">
-			<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="evenementen/events.php">
+			<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="/evenementen/events.php">
 				<div class="eventTeaser-description">
 					<span class="eventTeaser-heading">Binnenkort</span>
 					<h4 class="eventTeaser-title">Amsterdam talks tech - smart cities &amp; mobility</h4>
 				</div>
 				<span class="eventTeaser-date">8 okt</span>
 			</a></li>
-			<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="evenementen/events.php">
+			<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="/evenementen/events.php">
 				<div class="eventTeaser-description">
 					<span class="eventTeaser-heading">Volgende maand</span>
 					<h4 class="eventTeaser-title">Scaleup summit 2017</h4>

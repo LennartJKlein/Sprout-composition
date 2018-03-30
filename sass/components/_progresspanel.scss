@@ -28,6 +28,18 @@
 	}
 }
 
+.progressPanel-close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: $color-grey;
+	font-size: 1em;
+
+	.fa {
+		margin: 0;
+	}
+}
+
 .progressPanel-list {
 	list-style: none;
 	padding: 0;

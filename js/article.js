@@ -20,53 +20,72 @@ $(document).ready(function(){
 		articles = articlesWrapper.find('.article')
 		aside = $('#aside'),
 		scrollWindow = $('#page'),
-		panelGroups = null;
-
+		panelGroups = null,
+		windowHeight = $(scrollWindow).height(),
+		panel = $('.progressPanel');
+		
 		console.log(articles.length);
 
-	if (articles.length > 1 && $(window).width() > 800) {
+	if ($(window).width() > 769) {
 
-
-		// cache jQuery objects
-		var windowHeight = $(scrollWindow).height(),
-			panel = $('.progressPanel'),
-			articleSidebarLinks = panel.find('.progressPanel-item');
-
-		// initialize variables
-		var	scrolling = false,
-			sidebarAnimation = false,
-			resizing = false,
-			mq = checkMQ(),
-			svgCircleLength = parseInt(Math.PI*(articleSidebarLinks.eq(0).find('circle').attr('r')*2));
+		// Relocate panel groups
+		checkPanelgroups();
 		
-		// set scroll listeners
-		$(scrollWindow).on('scroll', checkRead);
-		$(scrollWindow).on('resize', resetScroll);
+		// Relocate panel grooups when screen width changes
+		$(window).resize(checkPanelgroups());
 
-		updateArticle();
+		// Set the progress panel
+		if (checkShowProgress()) {
 
-		// set progress panel
-		panel.on('click', 'a', function(event){
-			var scrollTop = $(scrollWindow).scrollTop();
-			event.preventDefault();
-			var selectedArticle = articles.eq($(this).parent('.progressPanel-item').index()),
-				selectedArticleTop = selectedArticle.offset().top + scrollTop;
+			if (articles.length > 1) {
 
-			$(scrollWindow).off('scroll', checkRead);
+				// initialize variables
+				var	articleSidebarLinks = panel.find('.progressPanel-item');
+					scrolling = false,
+					sidebarAnimation = false,
+					resizing = false,
+					mq = checkMQ(),
+					svgCircleLength = parseInt(Math.PI*(articleSidebarLinks.eq(0).find('circle').attr('r')*2));
+				
+				// set scroll listeners
+				$(scrollWindow).on('scroll', checkRead);
+				$(scrollWindow).on('resize', resetScroll);
 
-			$(scrollWindow).animate(
-				{'scrollTop': selectedArticleTop + 2}, 
-				300, function(){
-					checkRead();
-					$(scrollWindow).on('scroll', checkRead);
-				}
-			); 
-	    });
+				updateArticle();
+
+				// set progress panel
+				panel.on('click', 'a', function(event){
+					var scrollTop = $(scrollWindow).scrollTop();
+					event.preventDefault();
+					var selectedArticle = articles.eq($(this).parent('.progressPanel-item').index()),
+						selectedArticleTop = selectedArticle.offset().top + scrollTop;
+
+					$(scrollWindow).off('scroll', checkRead);
+
+					$(scrollWindow).animate(
+						{'scrollTop': selectedArticleTop + 2}, 
+						300, function(){
+							checkRead();
+							$(scrollWindow).on('scroll', checkRead);
+						}
+					); 
+			    });
+
+			    $(".progressPanel-close").on('click', function(){
+					$.cookie("sprout-hide-progress", 1, { path: "/" });
+					panel.fadeOut();
+					panel.remove();
+			    });
+			}
+		}
 	}
 
-	if ($(window).width() > 769) {
-		checkPanelgroups();
-		$(window).resize(checkPanelgroups());
+	function checkShowProgress() {
+		if ($.cookie("sprout-hide-progress") == 1) {
+			return false;
+		} else {
+			return true;
+		}
 	}
 
 	function checkRead() {
@@ -161,19 +180,22 @@ $(document).ready(function(){
 		}
 	}
 
-	function checkProgressPanel() {
-		if ($('.progressPanel').css("display") == "block") {
-			return true;
-		}
-		else {
+	function progressPanelVisible() {
+		if (!$('.progressPanel')) {
 			return false;
 		}
+
+		if ($('.progressPanel').css("display") != "block") {
+			return false;
+		}
+
+		return true;
 	}
 
 	function relocatePanelgroups() {
 
-		// Lower sidebar panels when page has multiple articles
-		if (checkProgressPanel()) {
+		// Lower sidebar panels when page has a progresspanel
+		if (progressPanelVisible()) {
 			$('#aside').css("padding-top", $('.progressPanel').outerHeight() + "px");
 		}
 
@@ -186,12 +208,6 @@ $(document).ready(function(){
 				$(panelGroup).css({
 					'top': 'calc(2em + ' + articleTop + 'px)'
 				});
-			}
-
-			if (article.is(":first-of-type")) {
-				$(panelGroup).css({
-					'top': '10em'
-				});	
 			}
 		});
 	}

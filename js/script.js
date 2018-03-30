@@ -121,11 +121,19 @@ $(function() {
 		// Shows tooltip for resizing the navigation
 		if ($(window).width() > 768) {	
 			if (cookieWidth == null) {
-				$("#header").append("<div class=\"header-resize-tip\"><i class=\"fa fa-arrows-h\"></i></div>");
-				var shake = setInterval(shakeTooltip, 2000);
-				$('.header-resize-tip').click(function() {
-					hideTooltip(shake);
-				});
+				var shake;
+
+				setTimeout(function(){
+					$("#header").append("<div class=\"header-resize-tip\"><i class=\"fa fa-arrows-h\"></i></div>");
+					shake = setInterval(shakeTooltip, 2000);
+					$('.header-resize-tip').click(function() {
+						hideTooltip(shake);
+					});
+
+					setTimeout(function(){
+						hideTooltip(shake);
+					}, 8000);
+				}, 1500);
 			} else {
 				tooltipNeeded = false;
 			}

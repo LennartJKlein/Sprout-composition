@@ -15,7 +15,7 @@
 
 .shareList--row {
 	flex-flow: row wrap;
-	@include justify-content(flex-end);
+	@include justify-content(flex-start);
 
 	.shareList-item {
 		width: auto;
@@ -29,6 +29,14 @@
 	.shareList-label {
 		padding: 0.5em 1em;
 	}
+}
+
+.shareList--center {
+	@include justify-content(center);
+}
+
+.shareList--right {
+	@include justify-content(flex-end);
 }
 
 .shareList--small {

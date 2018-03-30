@@ -1,6 +1,8 @@
 <?php include '../templates/header.php'; ?>
 
+	<?php if(!isset($_COOKIE['sprout-hide-progress'])):  ?>
 	<div class="progressPanel">
+		<button class="progressPanel-close button button--small button--clean"><i class="fa fa-close"></i></button>
 		<ul class="progressPanel-list">
 			<li class="progressPanel-item">
 				<a href="waarom-retailers-het-contact-met-jongeren-kwijt-zijn-geraakt.php" class="progressPanel-link">
@@ -25,6 +27,7 @@
 			</li>
 		</ul>
 	</div>
+	<?php endif; ?>
 
 	<section class="articles">
 		
@@ -35,6 +38,9 @@
 				</div>
 				<h1 class="article-title">Waarom retailers het contact met jongeren kwijt zijn geraakt</h1>
 				<div class="article-intro">Jongeren zijn via traditionele kanalen vrijwel onbereikbaar geworden. Daardoor zijn retailers zijn het contact verloren met jongeren, schrijft Sprout-expert Fred Rutgers.</div>
+				
+				<?php include '../templates/shareactions--wide.php' ?>
+				
 				<div class="article-hero figure">
 					<img src="../images/articles/article-hero2.jpg" class="figure-image" />
 					<span class="figure-credit">&copy; E. G. Idee</span>
@@ -120,6 +126,9 @@
 				</div>
 				<h1 class="article-title">Hoe overleef je tegenwoordig als winkel? Ondernemers vertellen</h1>
 				<div class="article-intro">Succes hebben in de retailsector: het is niet iedereen gegund. Sprout is aanwezig bij een zogeheten rondetafel-discussie tussen ondernemers die er wel in slagen. Gespot: opvallend veel jonge ondernemers, die opvallend veel zien in stenen winkels.</div>
+				
+				<?php include '../templates/shareactions--wide.php' ?>
+				
 				<div class="article-hero figure">
 					<img src="../images/articles/article-hero.jpg" class="figure-image" />
 					<span class="figure-credit">&copy; Maikel Thijssen</span>
@@ -211,6 +220,9 @@
 				</div>
 				<h1 class="article-title">7 redenen waarom klanten je winkel de rug toekeren</h1>
 				<div class="article-intro">Sprout-expert Fred Rutgers onderzocht waarom klanten een winkel de rug toekeren. 'De uitkomsten zullen voor menig winkelier best even schrikken zijn.'</div>
+				
+				<?php include '../templates/shareactions--wide.php' ?>
+				
 				<div class="article-hero figure">
 					<img src="../images/articles/article-hero3.jpg" class="figure-image" />
 					<span class="figure-credit">&copy; Maikel Thijssen</span>
@@ -329,14 +341,14 @@
 	<div class="aside-panelgroup">				
 		<div class="panel panel--clean">
 			<ul class="eventList">
-				<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="events.php">
+				<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="/evenementen/events.php">
 					<div class="eventTeaser-description">
 						<span class="eventTeaser-heading">Binnenkort</span>
 						<h4 class="eventTeaser-title">Amsterdam talks tech - smart cities &amp; mobility</h4>
 					</div>
 					<span class="eventTeaser-date">8 okt</span>
 				</a></li>
-				<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="events.php">
+				<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="/evenementen/events.php">
 					<div class="eventTeaser-description">
 						<span class="eventTeaser-heading">Volgende maand</span>
 						<h4 class="eventTeaser-title">Scaleup summit 2017</h4>
