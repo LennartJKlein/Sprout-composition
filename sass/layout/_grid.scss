@@ -25,6 +25,22 @@
 
 .grid--events {
 	margin-bottom: 1em;
+
+	.grid-cell {
+		width: 100%;
+
+		@include mobile-small {
+			width: $percent-1of2;
+		}
+
+		@include tablet {
+			width: $percent-1of3;
+		}
+	}
+
+	.grid-cell--wide {
+		width: 100%;
+	}
 }
 
 .grid--articles {
