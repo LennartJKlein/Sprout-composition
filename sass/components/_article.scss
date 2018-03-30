@@ -280,6 +280,7 @@
 		margin: 0 -1.5rem;
 		width: auto;
 		@include flex-flow(row nowrap);
+		@include align-items(center);
 		z-index: 1;
 	}
 }

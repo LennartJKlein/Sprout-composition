@@ -22,7 +22,7 @@
 	}
 
 	.shareList-link .fa {
-		width: 2.25rem;
+		width: 2.255rem;
 		font-size: 1.25em;
 	}
 
@@ -57,62 +57,156 @@
 
 .shareList-link {
 	@include align-items(stretch);
-	background: $color-white;
-	color: $color-black;
+	background: transparent;
+	color: $color-white;
 	cursor: pointer;
 	@include flex;
 	justify-content: stretch;
 	margin: 0.5rem;
 	overflow: hidden;
 	@include round-border;
-	@include shadow-low;
+	border: solid 2px $color-white;
 	text-decoration: none;
-	transition: box-shadow 0.4s cubic-bezier(.25,.8,.25,1);
 
 	&:hover,
 	&:active,
 	&:focus {
-		@include shadow-medium;
+		background-color: $color-white;
+		color: $color-secondary;
 	}
 
 	.fa {
 		@include align-items(center);
-		color: $color-white;
+		background-color: $color-white;
+		color: $color-secondary;
 		@include flex;
 		font-size: 1.5em;
 		@include justify-content(center);
 		text-align: center;
 		width: 3rem;
 	}
+
+	@include tablet-landscape {
+		border-color: $color-grey-dark;
+		color: $color-grey-dark;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: $color-grey-dark;
+			color: $color-white;
+		}
+
+		.fa {
+			background-color: $color-grey-dark;
+			color: $color-white;
+		}
+	}
 }
 
 .shareList-link--whatsapp {
 	.fa {
-		background-color: #069200;
+		color: $color-whatsapp;
+	}
+
+	@include tablet-landscape {
+		color: $color-whatsapp;
+		border-color: $color-whatsapp;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: $color-whatsapp;
+		}
+
+		.fa {
+			color: $color-white;
+			background-color: $color-whatsapp;
+		}
 	}
 }
 
 .shareList-link--facebook {
 	.fa {
-		background-color: #3B5999;
+		color: $color-facebook;
+	}
+
+	@include tablet-landscape {
+		color: $color-facebook;
+		border-color: $color-facebook;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: $color-facebook;
+		}
+		.fa {
+			color: $color-white;
+			background-color: $color-facebook;
+		}
 	}
 }
 
 .shareList-link--linkedin {
 	.fa {
-		background-color: #007BB6;
+		color: $color-linkedin;
+	}
+
+	@include tablet-landscape {
+		color: $color-linkedin;
+		border-color: $color-linkedin;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: $color-linkedin;
+		}
+		.fa {
+			color: $color-white;
+			background-color: $color-linkedin;
+		}
 	}
 }
 
 .shareList-link--twitter {
 	.fa {
-		background-color: #01AAEB;
+		color: $color-twitter;
+	}
+
+	@include tablet-landscape {
+		color: $color-twitter;
+		border-color: $color-twitter;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: $color-twitter;
+		}
+		.fa {
+			color: $color-white;
+			background-color: $color-twitter;
+		}
 	}
 }
 
 .shareList-link--mail {
 	.fa {
-		background-color: #CB2028;
+		color: $color-mail;
+	}
+
+	@include tablet-landscape {
+		color: $color-mail;
+		border-color: $color-mail;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: $color-mail;
+		}
+		.fa {
+			color: $color-white;
+			background-color: $color-mail;
+		}
 	}
 }
 

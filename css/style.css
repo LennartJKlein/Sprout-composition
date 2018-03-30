@@ -1713,6 +1713,11 @@ body {
       -webkit-flex-flow: row nowrap;
       -ms-flex-flow: row nowrap;
       flex-flow: row nowrap;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
       z-index: 1; } }
 
 /* line 1, ../sass/components/_articleauthor.scss */
@@ -4438,7 +4443,7 @@ body {
     width: auto; }
   /* line 24, ../sass/components/_sharelist.scss */
   .shareList--row .shareList-link .fa {
-    width: 2.25rem;
+    width: 2.255rem;
     font-size: 1.25em; }
   /* line 29, ../sass/components/_sharelist.scss */
   .shareList--row .shareList-label {
@@ -4481,8 +4486,8 @@ body {
   -ms-flex-align: stretch;
   -webkit-align-items: stretch;
   align-items: stretch;
-  background: #fefefe;
-  color: #231f20;
+  background: transparent;
+  color: #fefefe;
   cursor: pointer;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4492,16 +4497,12 @@ body {
   overflow: hidden;
   border-radius: 0.25rem;
   overflow: hidden;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  text-decoration: none;
-  transition: box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); }
-  /* line 72, ../sass/components/_sharelist.scss */
+  border: solid 2px #fefefe;
+  text-decoration: none; }
+  /* line 71, ../sass/components/_sharelist.scss */
   .shareList-link:hover, .shareList-link:active, .shareList-link:focus {
-    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+    background-color: #fefefe;
+    color: #DD6E42; }
   /* line 78, ../sass/components/_sharelist.scss */
   .shareList-link .fa {
     -webkit-box-align: center;
@@ -4509,7 +4510,8 @@ body {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    color: #fefefe;
+    background-color: #fefefe;
+    color: #DD6E42;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -4521,28 +4523,101 @@ body {
     justify-content: center;
     text-align: center;
     width: 3rem; }
-
-/* line 90, ../sass/components/_sharelist.scss */
-.shareList-link--whatsapp .fa {
-  background-color: #069200; }
-
-/* line 96, ../sass/components/_sharelist.scss */
-.shareList-link--facebook .fa {
-  background-color: #3B5999; }
-
-/* line 102, ../sass/components/_sharelist.scss */
-.shareList-link--linkedin .fa {
-  background-color: #007BB6; }
+  @media (min-width: 800px) and (orientation: landscape) {
+    /* line 58, ../sass/components/_sharelist.scss */
+    .shareList-link {
+      border-color: #777777;
+      color: #777777; }
+      /* line 93, ../sass/components/_sharelist.scss */
+      .shareList-link:hover, .shareList-link:active, .shareList-link:focus {
+        background-color: #777777;
+        color: #fefefe; }
+      /* line 100, ../sass/components/_sharelist.scss */
+      .shareList-link .fa {
+        background-color: #777777;
+        color: #fefefe; } }
 
 /* line 108, ../sass/components/_sharelist.scss */
+.shareList-link--whatsapp .fa {
+  color: #069200; }
+@media (min-width: 800px) and (orientation: landscape) {
+  /* line 107, ../sass/components/_sharelist.scss */
+  .shareList-link--whatsapp {
+    color: #069200;
+    border-color: #069200; }
+    /* line 116, ../sass/components/_sharelist.scss */
+    .shareList-link--whatsapp:hover, .shareList-link--whatsapp:active, .shareList-link--whatsapp:focus {
+      background-color: #069200; }
+    /* line 122, ../sass/components/_sharelist.scss */
+    .shareList-link--whatsapp .fa {
+      color: #fefefe;
+      background-color: #069200; } }
+
+/* line 130, ../sass/components/_sharelist.scss */
+.shareList-link--facebook .fa {
+  color: #3B5999; }
+@media (min-width: 800px) and (orientation: landscape) {
+  /* line 129, ../sass/components/_sharelist.scss */
+  .shareList-link--facebook {
+    color: #3B5999;
+    border-color: #3B5999; }
+    /* line 138, ../sass/components/_sharelist.scss */
+    .shareList-link--facebook:hover, .shareList-link--facebook:active, .shareList-link--facebook:focus {
+      background-color: #3B5999; }
+    /* line 143, ../sass/components/_sharelist.scss */
+    .shareList-link--facebook .fa {
+      color: #fefefe;
+      background-color: #3B5999; } }
+
+/* line 151, ../sass/components/_sharelist.scss */
+.shareList-link--linkedin .fa {
+  color: #007BB6; }
+@media (min-width: 800px) and (orientation: landscape) {
+  /* line 150, ../sass/components/_sharelist.scss */
+  .shareList-link--linkedin {
+    color: #007BB6;
+    border-color: #007BB6; }
+    /* line 159, ../sass/components/_sharelist.scss */
+    .shareList-link--linkedin:hover, .shareList-link--linkedin:active, .shareList-link--linkedin:focus {
+      background-color: #007BB6; }
+    /* line 164, ../sass/components/_sharelist.scss */
+    .shareList-link--linkedin .fa {
+      color: #fefefe;
+      background-color: #007BB6; } }
+
+/* line 172, ../sass/components/_sharelist.scss */
 .shareList-link--twitter .fa {
-  background-color: #01AAEB; }
+  color: #01AAEB; }
+@media (min-width: 800px) and (orientation: landscape) {
+  /* line 171, ../sass/components/_sharelist.scss */
+  .shareList-link--twitter {
+    color: #01AAEB;
+    border-color: #01AAEB; }
+    /* line 180, ../sass/components/_sharelist.scss */
+    .shareList-link--twitter:hover, .shareList-link--twitter:active, .shareList-link--twitter:focus {
+      background-color: #01AAEB; }
+    /* line 185, ../sass/components/_sharelist.scss */
+    .shareList-link--twitter .fa {
+      color: #fefefe;
+      background-color: #01AAEB; } }
 
-/* line 114, ../sass/components/_sharelist.scss */
+/* line 193, ../sass/components/_sharelist.scss */
 .shareList-link--mail .fa {
-  background-color: #CB2028; }
+  color: #CB2028; }
+@media (min-width: 800px) and (orientation: landscape) {
+  /* line 192, ../sass/components/_sharelist.scss */
+  .shareList-link--mail {
+    color: #CB2028;
+    border-color: #CB2028; }
+    /* line 201, ../sass/components/_sharelist.scss */
+    .shareList-link--mail:hover, .shareList-link--mail:active, .shareList-link--mail:focus {
+      background-color: #CB2028; }
+    /* line 206, ../sass/components/_sharelist.scss */
+    .shareList-link--mail .fa {
+      color: #fefefe;
+      background-color: #CB2028; } }
 
-/* line 119, ../sass/components/_sharelist.scss */
+/* line 213, ../sass/components/_sharelist.scss */
 .shareList-label {
   display: block;
   -webkit-box-flex: 1;
