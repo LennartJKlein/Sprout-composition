@@ -286,6 +286,12 @@
 		color: $color-partner;
 	}
 
+	.card-title {
+		color: $color-black;
+		margin-bottom: 0;
+		margin-top: 0.5em;
+	}
+
 	.card-heading {
 		color: $color-partner;
 	}
@@ -294,8 +300,11 @@
 .card--event {
 
 	.card-title {
-		color: $color-secondary;
+		color: $color-black;
+		margin-bottom: 0;
+		margin-top: 0.5em;
 	}
+
 	.card-button {
 		color: $color-secondary;
 	}
