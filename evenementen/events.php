@@ -4,7 +4,7 @@
 
         <div class="grid grid--events">
             <div class="grid-cell grid-cell--wide">
-                <a href="evenementen/events-detail.php" class="card card--event card--hero card--m-vertical card--horizontal card--textfirst" tag="startups">
+                <a href="../evenementen/events-detail.php" class="card card--event card--hero card--m-vertical card--horizontal card--textfirst" tag="startups">
                     <div class="card-figurecontainer">
                         <div class="card-tags">
                             <div class="card-tag">Uitgelicht evenement</div>
@@ -22,7 +22,7 @@
                 </a>
             </div>
             <div class="grid-cell">
-                <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--event" tag="scaleups">
+                <a href="../evenementen/events-detail.php" class="card card--event" tag="scaleups">
                     <div class="card-figurecontainer">
                         <div class="card-figure">
                             <img src="../images/events/nk_pitchen_2017-_0138-_hd.jpg" class="card-image" />
@@ -37,7 +37,7 @@
                 </a>
             </div>
             <div class="grid-cell">
-                <a href="evenementen/events-detail.php" class="card card--event" tag="scaleups">
+                <a href="../evenementen/events-detail.php" class="card card--event" tag="scaleups">
                     <div class="card-figurecontainer">
                         <div class="card-figure">
                             <img src="../images/events/MYC_30.jpg" class="card-image" />
@@ -52,7 +52,7 @@
                 </a>
             </div>
             <div class="grid-cell">
-                <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--partner" tag="scaleups">
+                <a href="../evenementen/events-detail.php" class="card card--partner" tag="scaleups">
                     <div class="card-figurecontainer">
                         <div class="card-figure">
                             <img src="../images/events/Energy-Hack-foto_6.png" class="card-image" />
@@ -67,7 +67,7 @@
                 </a>
             </div>
             <div class="grid-cell">
-                <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--event" tag="investeren">
+                <a href="../evenementen/events-detail.php" class="card card--event" tag="investeren">
                     <div class="card-figurecontainer">
                         <div class="card-figure">
                             <img src="../images/events/Fb-Omruil-visuals-1.png" class="card-image" />
@@ -82,7 +82,7 @@
                 </a>
             </div>
             <div class="grid-cell">
-                <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--partner" tag="scaleups">
+                <a href="../evenementen/events-detail.php" class="card card--partner" tag="scaleups">
                     <div class="card-figurecontainer">
                         <div class="card-figure">
                             <img src="../images/events/att_education.jpg" class="card-image" />
@@ -97,7 +97,7 @@
                 </a>
             </div>
             <div class="grid-cell">
-                <a href="evenementen/events-detail.php" class="card card--partner" tag="scaleups">
+                <a href="../evenementen/events-detail.php" class="card card--partner" tag="scaleups">
                     <div class="card-figurecontainer">
                         <div class="card-figure">
                             <img src="../images/events/31117510996_761d4bdc26_k.jpg" class="card-image" />
@@ -112,7 +112,7 @@
                 </a>
             </div>
             <div class="grid-cell grid-cell--wide">
-                <div><a href="/evenementen/archive.php" class="button button--center button--secondary">Bekijk het archief</a></div>
+                <div><a href="/../archive.php" class="button button--center button--secondary">Bekijk het archief</a></div>
             </div>
         </div>
 
