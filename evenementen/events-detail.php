@@ -22,6 +22,11 @@
                 <p>Als partner van dit evenement is Sprout aanwezig en publiceert met regelmaat over sprekers en het programma. </p>
 				<h2 id="winner-takes">Aanmelden</h2>
 				<p>Speciaal voor Sprout Members mogen wij een exclusieve korting aanbieden. Members krijgen voor het Super Ealy Bird-tarief 10% korting. hiermee krijg je toegang tot de volledige tweedaagse conferentie, het openings én eindfeest en inzicht in de gastenlijst. Wil je hier gebruik van maken? Stuur dan een mailtje naar events@sprout.nl</p>
+				<p>Niet ingelogd? "Je moet ingelogd zijn om je aan te melden"</p>
+				<div>
+					<button class="button button--secondary button--space">inloggen</button>
+					<button class="button button--grey button--space">registreren</button>
+				</div>
 			</main>
 		</article>
 
@@ -31,7 +36,7 @@
 		<h4 class="relatedArticles-title">Bekijk ook deze evenementen</h4>
 		<div class="grid grid--articles">
 			<div class="grid-cell">
-				<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--event card--horizontal" tag="retail">
+				<a href="../evenementen/events-detail.php" class="card card--event card--horizontal" tag="retail">
 					<div class="card-figurecontainer">
 						<div class="card-figure">
 							<img src="../images/events/31117510996_761d4bdc26_k.jpg" class="card-image" />
@@ -45,7 +50,7 @@
 				</a>
 			</div>
 			<div class="grid-cell">
-				<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--horizontal card--partner" tag="retail">
+				<a href="../evenementen/events-detail.php" class="card card--horizontal card--partner" tag="retail">
 					<div class="card-figurecontainer">
 						<div class="card-figure">
 							<img src="../images/events/MYC_30.jpg" class="card-image" />

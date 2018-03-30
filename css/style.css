@@ -2345,36 +2345,40 @@ body {
   float: right; }
 
 /* line 212, ../sass/components/_button.scss */
+.button--space {
+  margin-right: 0.5em; }
+
+/* line 216, ../sass/components/_button.scss */
 .button--arrow {
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
   vertical-align: middle; }
-  /* line 218, ../sass/components/_button.scss */
+  /* line 222, ../sass/components/_button.scss */
   .button--arrow i {
     transition: font-size .2s;
     font-size: .75em;
     margin-left: .25em;
     vertical-align: middle; }
-  /* line 226, ../sass/components/_button.scss */
+  /* line 230, ../sass/components/_button.scss */
   .button--arrow:hover i {
     font-size: 1.05em; }
 
-/* line 232, ../sass/components/_button.scss */
+/* line 236, ../sass/components/_button.scss */
 .button--clean {
   border: 0;
   padding-left: 0.5em;
   padding-right: 0.5em;
   color: #DD6E42; }
-  /* line 238, ../sass/components/_button.scss */
+  /* line 242, ../sass/components/_button.scss */
   .button--clean:hover {
     background: transparent;
     color: #2E5266; }
-  /* line 243, ../sass/components/_button.scss */
+  /* line 247, ../sass/components/_button.scss */
   .button--clean:active, .button--clean:focus {
     color: #231f20; }
 
-/* line 250, ../sass/components/_button.scss */
+/* line 254, ../sass/components/_button.scss */
 .buttonContainer:after {
   content: '';
   display: block;
@@ -2985,6 +2989,7 @@ body {
     font-size: 1.1em; } }
 @media (min-width: 1200px) {
   /* line 201, ../sass/components/_event.scss */
+  .event-content div,
   .event-content h2,
   .event-content h3,
   .event-content p,
@@ -2997,20 +3002,20 @@ body {
     margin-left: auto;
     margin-right: auto; } }
 @media (min-width: 1200px) {
-  /* line 216, ../sass/components/_event.scss */
+  /* line 217, ../sass/components/_event.scss */
   .event-content blockquote {
     width: 100%;
     max-width: calc(70rem - 8rem);
     margin-left: auto;
     margin-right: auto; } }
-/* line 225, ../sass/components/_event.scss */
+/* line 226, ../sass/components/_event.scss */
 .event-content .figure {
   margin-left: -1.5em;
   margin-right: -1.5em;
   margin-top: 3em;
   margin-bottom: 3em; }
   @media (min-width: 769px) {
-    /* line 225, ../sass/components/_event.scss */
+    /* line 226, ../sass/components/_event.scss */
     .event-content .figure {
       margin-left: -5vw;
       margin-right: -5vw; } }
