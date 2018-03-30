@@ -1144,46 +1144,60 @@ body {
 /* line 26, ../sass/layout/_grid.scss */
 .grid--events {
   margin-bottom: 1em; }
+  /* line 29, ../sass/layout/_grid.scss */
+  .grid--events .grid-cell {
+    width: 100%; }
+    @media (min-width: 360px) {
+      /* line 29, ../sass/layout/_grid.scss */
+      .grid--events .grid-cell {
+        width: 50%; } }
+    @media (min-width: 769px) {
+      /* line 29, ../sass/layout/_grid.scss */
+      .grid--events .grid-cell {
+        width: calc(100% / 3); } }
+  /* line 41, ../sass/layout/_grid.scss */
+  .grid--events .grid-cell--wide {
+    width: 100%; }
 
-/* line 32, ../sass/layout/_grid.scss */
+/* line 48, ../sass/layout/_grid.scss */
 .grid--articles .grid-cell {
   width: 100%; }
   @media (min-width: 769px) {
-    /* line 32, ../sass/layout/_grid.scss */
+    /* line 48, ../sass/layout/_grid.scss */
     .grid--articles .grid-cell {
       width: 50%; } }
-/* line 40, ../sass/layout/_grid.scss */
+/* line 56, ../sass/layout/_grid.scss */
 .grid--articles .grid-cell--wide {
   width: 100%; }
 
-/* line 45, ../sass/layout/_grid.scss */
+/* line 61, ../sass/layout/_grid.scss */
 .grid--themes {
   margin-top: 1em;
   margin-bottom: 1em; }
   @media (min-width: 769px) {
-    /* line 45, ../sass/layout/_grid.scss */
+    /* line 61, ../sass/layout/_grid.scss */
     .grid--themes {
       margin-top: 3em;
       margin-bottom: 3em; } }
-  /* line 54, ../sass/layout/_grid.scss */
+  /* line 70, ../sass/layout/_grid.scss */
   .grid--themes .grid-cell {
     width: 100%;
     margin-top: 1em;
     margin-bottom: 1em; }
     @media (min-width: 769px) {
-      /* line 54, ../sass/layout/_grid.scss */
+      /* line 70, ../sass/layout/_grid.scss */
       .grid--themes .grid-cell {
         width: 50%; }
-        /* line 62, ../sass/layout/_grid.scss */
+        /* line 78, ../sass/layout/_grid.scss */
         .grid--themes .grid-cell:nth-of-type(odd):last-of-type {
           width: 100%; } }
     @media (min-width: 800px) and (orientation: landscape) {
-      /* line 54, ../sass/layout/_grid.scss */
+      /* line 70, ../sass/layout/_grid.scss */
       .grid--themes .grid-cell {
         margin-top: 0;
         margin-bottom: 0;
         width: calc(100% / 3); }
-        /* line 72, ../sass/layout/_grid.scss */
+        /* line 88, ../sass/layout/_grid.scss */
         .grid--themes .grid-cell:nth-of-type(odd):last-of-type {
           width: calc(100% / 3); } }
 
@@ -2728,15 +2742,7 @@ body {
 .eventTeaser--minimal:not(:last-of-type) {
   margin-bottom: 1em; }
 
-/* line 20, ../sass/components/_eventteaser.scss */
-.eventTeaser--overview .eventTeaser-description {
-  width: 85%; }
-/* line 24, ../sass/components/_eventteaser.scss */
-.eventTeaser--overview .eventTeaser-date {
-  width: 6em;
-  max-width: 8em; }
-
-/* line 30, ../sass/components/_eventteaser.scss */
+/* line 18, ../sass/components/_eventteaser.scss */
 .eventTeaser-link {
   background: #fefefe;
   display: block;
@@ -2758,7 +2764,7 @@ body {
   -webkit-align-items: stretch;
   align-items: stretch; }
 
-/* line 40, ../sass/components/_eventteaser.scss */
+/* line 28, ../sass/components/_eventteaser.scss */
 .eventTeaser-description {
   padding: 1.5em 2em;
   width: 75%;
@@ -2774,21 +2780,21 @@ body {
   -webkit-justify-content: stretch;
   justify-content: stretch; }
 
-/* line 48, ../sass/components/_eventteaser.scss */
+/* line 36, ../sass/components/_eventteaser.scss */
 .eventTeaser-heading {
   color: #DD6E42;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-size: 0.8em; }
 
-/* line 55, ../sass/components/_eventteaser.scss */
+/* line 43, ../sass/components/_eventteaser.scss */
 .eventTeaser-title {
   text-transform: uppercase;
   color: #231f20;
   margin-top: 0.5em;
   margin-bottom: 0; }
 
-/* line 62, ../sass/components/_eventteaser.scss */
+/* line 50, ../sass/components/_eventteaser.scss */
 .eventTeaser-date {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2810,7 +2816,7 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   font-family: "Gotham", "Century Gothic", Arial, Helvetica, sans-serif;
-  width: 15%;
+  width: 25%;
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
   -webkit-flex-grow: 1;
@@ -2822,39 +2828,6 @@ body {
   -ms-flex: 1;
   flex-shrink: 1; }
 
-/* line 79, ../sass/components/_eventteaser.scss */
-.eventTeaser--partner {
-  border-top: solid 3px #007AC9; }
-  /* line 82, ../sass/components/_eventteaser.scss */
-  .eventTeaser--partner .eventTeaser-heading {
-    color: #007AC9; }
-  /* line 86, ../sass/components/_eventteaser.scss */
-  .eventTeaser--partner .eventTeaser-date {
-    background: #007AC9; }
-
-/* line 91, ../sass/components/_eventteaser.scss */
-.eventTeaser-figure {
-  min-width: 5em;
-  position: relative;
-  width: 25%; }
-
-/* line 97, ../sass/components/_eventteaser.scss */
-.eventTeaser-image {
-  float: left;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform .3s ease; }
-  /* line 104, ../sass/components/_eventteaser.scss */
-  .eventTeaser-image:after {
-    content: ' ';
-    display: block;
-    clear: both; }
-
-@media (max-width: 768px) {
-  /* line 113, ../sass/components/_eventteaser.scss */
-  .eventTeaser-figure {
-    display: none; } }
 /* line 1, ../sass/components/_figure.scss */
 .figure {
   position: relative;

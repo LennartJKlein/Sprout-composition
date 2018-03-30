@@ -21,89 +21,95 @@
                     </div>
                 </a>
             </div>
-            <div class="grid-cell grid-cell--wide">
-                <ul class="eventList">
-                    <li class="eventTeaser eventTeaser--overview eventTeaser--minimal"><a class="eventTeaser-link" href="events-detail.php">
-                        <!-- <div class="eventTeaser-figure">
-                            <img src="../images/events/nk_pitchen_2017-_0138-_hd.jpg" class="eventTeaser-image" />
-                        </div> -->
-                        <div class="eventTeaser-description">
-                            <span class="eventTeaser-heading">Binnenkort</span>
-                            <h4 class="eventTeaser-title">NK Pitchen 2018</h4>
+            <div class="grid-cell">
+                <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--event" tag="scaleups">
+                    <div class="card-figurecontainer">
+                        <div class="card-figure">
+                            <img src="../images/events/nk_pitchen_2017-_0138-_hd.jpg" class="card-image" />
                         </div>
-                        <span class="eventTeaser-date">26 Maa</span>
-                    </li>
-                    <li class="eventTeaser eventTeaser--overview eventTeaser--minimal"><a class="eventTeaser-link" href="events-detail.php">
-                        <!-- <div class="eventTeaser-figure">
-                            <img src="../images/events/yba2018_volle_zaal_en_jort_kelder.jpg" class="eventTeaser-image" />
-                        </div> -->
-                        <div class="eventTeaser-description">
-                            <span class="eventTeaser-heading">Binnenkort</span>
-                            <h4 class="eventTeaser-title">Young Business Award - halve finale</h4>
+                    </div>
+                    <div class="card-content">
+                        <span class="eventTeaser-heading">26 Maart 2018</span>
+                        <h3 class="eventTeaser-title">NK Pitchen 2018</h3>
+                        <p class="card-excerpt">Ondernemer Daan Reijnders verblijft samen met zijn vrouw en 3 kinderen in New York om de nieuwe locatie van zijn bedrijf Instant Magazine op te starten.</p>
+                        <span class="card-button">Bekijk evenement <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-cell">
+                <a href="evenementen/events-detail.php" class="card card--event" tag="scaleups">
+                    <div class="card-figurecontainer">
+                        <div class="card-figure">
+                            <img src="../images/events/MYC_30.jpg" class="card-image" />
                         </div>
-                        <span class="eventTeaser-date">27 maa</span>
-                    </li>
-                    <li class="eventTeaser eventTeaser--partner eventTeaser--overview eventTeaser--minimal"><a class="eventTeaser-link" href="events-detail.php">
-                        <!-- <div class="eventTeaser-figure">
-                            <img src="../images/events/Fb-Omruil-visuals-1.png" class="eventTeaser-image" />
-                        </div> -->
-                        <div class="eventTeaser-description">
-                            <span class="eventTeaser-heading">Binnenkort</span>
-                            <h4 class="eventTeaser-title">Workshop Backup jouw Mac</h4>
+                    </div>
+                    <div class="card-content">
+                        <span class="eventTeaser-heading">27 Maart 2018</span>
+                        <h3 class="eventTeaser-title">Young Business Award - halve finale</h3>
+                        <p class="card-excerpt">Tijdens de vijfde editie van de Young Business Award stelt de YBA Foundation met partners een prijzenport van 15.000 euro beschikbaar voor de ‘Beste Jonge Onderneming van Nederland’. Uit de ruim 175 inschrijvingen zijn er 12 semi-finalisten geselecteerd om te strijden voor een podiumplek.</p>
+                        <span class="card-button">Bekijk evenement <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-cell">
+                <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--partner" tag="scaleups">
+                    <div class="card-figurecontainer">
+                        <div class="card-figure">
+                            <img src="../images/events/Energy-Hack-foto_6.png" class="card-image" />
                         </div>
-                        <span class="eventTeaser-date">31 Maa</span>
-                    </li>
-                    <li class="eventTeaser eventTeaser--overview eventTeaser--minimal"><a class="eventTeaser-link" href="events-detail.php">
-                        <!-- <div class="eventTeaser-figure">
-                            <img src="../images/events/att_education.jpg" class="eventTeaser-image" />
-                        </div> -->
-                        <div class="eventTeaser-description">
-                            <span class="eventTeaser-heading">10 April 2018</span>
-                            <h4 class="eventTeaser-title">Amsterdam Talks Tech: the Education Edition</h4>
+                    </div>
+                    <div class="card-content">
+                        <span class="eventTeaser-heading">31 Maart 2018</span>
+                        <h3 class="eventTeaser-title">Workshop Backup jouw Mac</h3>
+                        <p class="card-excerpt">Bestanden kwijtraken gebeurt vaker dan je denkt, zowel privé als zakelijk. Eén klein ongeluk of één kleine fout door jezelf of door een ander en jij kunt alle belangrijke data in een seconde kwijtraken.</p>
+                        <span class="card-button">Bekijk evenement <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-cell">
+                <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--event" tag="investeren">
+                    <div class="card-figurecontainer">
+                        <div class="card-figure">
+                            <img src="../images/events/Fb-Omruil-visuals-1.png" class="card-image" />
                         </div>
-                        <span class="eventTeaser-date">10 apr</span>
-                    </li>
-                    <li class="eventTeaser eventTeaser--partner eventTeaser--overview eventTeaser--minimal"><a class="eventTeaser-link" href="events-detail.php">
-                        <!-- <div class="eventTeaser-figure">
-                            <img src="../images/events/MYC_30.jpg" class="eventTeaser-image" />
-                        </div> -->
-                        <div class="eventTeaser-description">
-                            <span class="eventTeaser-heading">12 April 2018</span>
-                            <h4 class="eventTeaser-title">Affiliateblogger Sessions</h4>
+                    </div>
+                    <div class="card-content">
+                        <span class="eventTeaser-heading">10 April 2018</span>
+                        <h3 class="eventTeaser-title">Amsterdam Talks Tech: the Education Edition</h3>
+                        <p class="card-excerpt">Een avond vol inspiratie over  innovatie en onderwijs onder begeleiding van Sprout hoofdredacteur Remy Ludo Gieling. Experts, ondernemers en ervaringsdeskundige uit de wereld van het onderwijs delen hun verhalen. Wat kunnen we verwachten van deze wereld? Je ziet het tijdens de Amsterdam Talks Tech op dinsdag 10 april. De weg naar succes begint met een goede opleiding. Kort gezegd: terug de schoolbanken in!</p>
+                        <span class="card-button">Bekijk evenement <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-cell">
+                <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--partner" tag="scaleups">
+                    <div class="card-figurecontainer">
+                        <div class="card-figure">
+                            <img src="../images/events/att_education.jpg" class="card-image" />
                         </div>
-                        <span class="eventTeaser-date">12 apr</span>
-                    </li>
-                    <li class="eventTeaser eventTeaser--partner eventTeaser--overview eventTeaser--minimal"><a class="eventTeaser-link" href="events-detail.php">
-                        <!-- <div class="eventTeaser-figure">
-                            <img src="../images/events/31117510996_761d4bdc26_k.jpg" class="eventTeaser-image" />
-                        </div> -->
-                        <div class="eventTeaser-description">
-                            <span class="eventTeaser-heading">19 April 2018</span>
-                            <h4 class="eventTeaser-title">StartupDelta Summit</h4>
+                    </div>
+                    <div class="card-content">
+                        <span class="eventTeaser-heading">12 April 2018</span>
+                        <h3 class="eventTeaser-title">Affiliateblogger Sessions</h3>
+                        <p class="card-excerpt">Wil je weten hoe jij nog meer kan verdienen aan jouw affiliate marketing activiteiten? Wil jij jouw vragen stellen aan affiliate experts van grote organisaties? En wil je je begeven tussen andere online marketing en affiliate marketing professionals?</p>
+                        <span class="card-button">Bekijk evenement <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-cell">
+                <a href="evenementen/events-detail.php" class="card card--partner" tag="scaleups">
+                    <div class="card-figurecontainer">
+                        <div class="card-figure">
+                            <img src="../images/events/31117510996_761d4bdc26_k.jpg" class="card-image" />
                         </div>
-                        <span class="eventTeaser-date">19 apr</span>
-                    </li>
-                    <li class="eventTeaser eventTeaser--overview eventTeaser--minimal"><a class="eventTeaser-link" href="events-detail.php">
-                        <!-- <div class="eventTeaser-figure">
-                            <img src="../images/events/yba2018_volle_zaal_en_jort_kelder_0.jpg" class="eventTeaser-image" />
-                        </div> -->
-                        <div class="eventTeaser-description">
-                            <span class="eventTeaser-heading">17 april 2018</span>
-                            <h4 class="eventTeaser-title">Young Business Award - halve finale</h4>
-                        </div>
-                        <span class="eventTeaser-date">13 dec</span>
-                    </li>
-                    <li class="eventTeaser eventTeaser--partner eventTeaser--overview eventTeaser--minimal"><a class="eventTeaser-link" href="events-detail.php">
-                        <!-- <div class="eventTeaser-figure">
-                            <img src="../images/events/Energy-Hack-foto_6.png" class="eventTeaser-image" />
-                        </div> -->
-                        <div class="eventTeaser-description">
-                            <span class="eventTeaser-heading">25 mei 2018</span>
-                            <h4 class="eventTeaser-title">Building startups around (scientific) innovations</h4>
-                        </div>
-                        <span class="eventTeaser-date">25 mei</span>
-                    </li>
-                </ul>
+                    </div>
+                    <div class="card-content">
+                        <span class="eventTeaser-heading">19 April 2018</span>
+                        <h3 class="eventTeaser-title">StartupDelta Summit</h3>
+                        <p class="card-excerpt">Op 19 april is Gelderland het epicentrum van iedereen die bouwt aan de toekomst van Nederland. Een toekomst waarin innovaties in Nederland een vruchtbare voedingsbodem hebben. Een toekomst waarin innovaties succesvol bijdragen aan het oplossen van grote uitdagingen.</p>
+                        <span class="card-button">Bekijk evenement <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                    </div>
+                </a>
             </div>
             <div class="grid-cell">
                 <div><a href="/evenementen/archive.php" class="button button--secondary">Bekijk het archief</a></div>
@@ -128,9 +134,9 @@
 
 
 	<div class="aside-panelgroup">
-		<div class="banner banner--rectangle">
-			<img src="http://via.placeholder.com/285x140" class="banner-image" />
-		</div>
+        <div class="banner banner--rectangle">
+            <img src="http://via.placeholder.com/285x140" class="banner-image" />
+        </div>
 	</div>
 
 </aside>
