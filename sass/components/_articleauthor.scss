@@ -33,6 +33,7 @@
 	@include justify-content(space-between);
 	@include align-items(center);
 	color: $color-white;
+	cursor: pointer;
 }
 
 .articleAuthor-link {
@@ -134,5 +135,6 @@
 	.fa {
 		margin-right: 0.35em;
 		font-size: 1.5em;
+		vertical-align: text-bottom;
 	}
 }

@@ -61,13 +61,13 @@ $(function() {
 	});
 
 	// Toggles extra info on author
-	$(".articleAuthor-toggle").on("click", function(){
-		$(this).toggleClass("fa-chevron-down");
-		$(this).toggleClass("fa-chevron-up");
-		var authorInfo = $(this).parent().parent().find(".articleAuthor-expand");
+	$(".articleAuthor-summary").on("click", function(){
+		var authorInfo = $(this).parent().parent().find(".articleAuthor-expand"),
+			infoToggle = $(this).parent().find(".articleAuthor-toggle");
+		infoToggle.toggleClass("fa-chevron-down");
+		infoToggle.toggleClass("fa-chevron-up");
 		authorInfo.slideToggle(400);
 		authorInfo.toggleClass("open");
-
 	});
 
 	$('.login-forms-toggle').on('click', function(e){

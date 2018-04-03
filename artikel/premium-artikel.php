@@ -35,6 +35,7 @@
 						<div class="articleAuthor-expand">
 							<p>Remy Ludo Gieling lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor dui dapibus risus semper, eget suscipit lectus malesuada. Cras ac ligula iaculis, posuere ex id, cursus diam...</p>
 							<div class="articleAuthor-social">
+								<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
 								<a class="articleAuthor-sociallink button button--white button--small" href="http://nl.linkedin.com/in/gieling" target="_blank"><i class="fa fa-linkedin"></i>@gieling</a>
 								<a class="articleAuthor-sociallink button button--white button--small" href="http://www.twitter.com/gieling" target="_blank"><i class="fa fa-twitter"></i>gieling</a>
 							</div>

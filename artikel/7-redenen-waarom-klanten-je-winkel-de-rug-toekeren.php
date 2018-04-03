@@ -63,6 +63,7 @@
 						<div class="articleAuthor-expand">
 							<p>Fred Rutgers is retailexpert en ondernemerscoach. 'Op basis van 30 jaar ervaring help ik retailers en ondernemers in de b2c sector om op een leuke manier en met minder stress te bouwen aan meer omzet...</p>
 							<div class="articleAuthor-social">
+								<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
 								<a class="articleAuthor-sociallink button button--white button--small" href="http://nl.linkedin.com/in/fredrutgers" target="_blank"><i class="fa fa-linkedin"></i>@fredrutgers</a>
 								<a class="articleAuthor-sociallink button button--white button--small" href="http://www.twitter.com/fredrutgers" target="_blank"><i class="fa fa-twitter"></i>fredrutgers</a>
 							</div>
@@ -105,7 +106,9 @@
 					</div>
 					<div class="articleAuthor-expand">
 						<p>Fred Rutgers is retailexpert en ondernemerscoach. 'Op basis van 30 jaar ervaring help ik retailers en ondernemers in de b2c sector om op een leuke manier en met minder stress te bouwen aan meer omzet...</p>
+						<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
 						<div class="articleAuthor-social">
+							<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
 							<a class="articleAuthor-sociallink button button--white button--small" href="http://nl.linkedin.com/in/fredrutgers" target="_blank"><i class="fa fa-linkedin"></i>@fredrutgers</a>
 							<a class="articleAuthor-sociallink button button--white button--small" href="http://www.twitter.com/fredrutgers" target="_blank"><i class="fa fa-twitter"></i>fredrutgers</a>
 						</div>
@@ -146,6 +149,7 @@
 						<div class="articleAuthor-expand">
 							<p>Fred Rutgers is retailexpert en ondernemerscoach. 'Op basis van 30 jaar ervaring help ik retailers en ondernemers in de b2c sector om op een leuke manier en met minder stress te bouwen aan meer omzet...</p>
 							<div class="articleAuthor-social">
+								<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
 								<a class="articleAuthor-sociallink button button--white button--small" href="http://nl.linkedin.com/in/fredrutgers" target="_blank"><i class="fa fa-linkedin"></i>@fredrutgers</a>
 								<a class="articleAuthor-sociallink button button--white button--small" href="http://www.twitter.com/fredrutgers" target="_blank"><i class="fa fa-twitter"></i>fredrutgers</a>
 							</div>
@@ -188,7 +192,9 @@
 					</div>
 					<div class="articleAuthor-expand">
 						<p>Fred Rutgers is retailexpert en ondernemerscoach. 'Op basis van 30 jaar ervaring help ik retailers en ondernemers in de b2c sector om op een leuke manier en met minder stress te bouwen aan meer omzet...</p>
+						<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
 						<div class="articleAuthor-social">
+							<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
 							<a class="articleAuthor-sociallink button button--white button--small" href="http://nl.linkedin.com/in/fredrutgers" target="_blank"><i class="fa fa-linkedin"></i>@fredrutgers</a>
 							<a class="articleAuthor-sociallink button button--white button--small" href="http://www.twitter.com/fredrutgers" target="_blank"><i class="fa fa-twitter"></i>fredrutgers</a>
 						</div>
@@ -231,6 +237,7 @@
 						<div class="articleAuthor-expand">
 							<p>Jelmer Luimstra is online redacteur voor Sprout, en schrijft over vernieuwende scaleups en startups.</p>
 							<div class="articleAuthor-social">
+								<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
 								<a class="articleAuthor-sociallink button button--white button--small" href="http://nl.linkedin.com/in/jelmerluimstra" target="_blank"><i class="fa fa-linkedin"></i>@jelmerluimstra</a>
 								<a class="articleAuthor-sociallink button button--white button--small" href="http://www.twitter.com/jelmerluimstra" target="_blank"><i class="fa fa-twitter"></i>jelmerluimstra</a>
 							</div>
@@ -283,6 +290,7 @@
 					<div class="articleAuthor-expand">
 						<p>Jelmer Luimstra is online redacteur voor Sprout, en schrijft over vernieuwende scaleups en startups.</p>
 						<div class="articleAuthor-social">
+							<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
 							<a class="articleAuthor-sociallink button button--white button--small" href="http://nl.linkedin.com/in/jelmerluimstra" target="_blank"><i class="fa fa-linkedin"></i>@jelmerluimstra</a>
 							<a class="articleAuthor-sociallink button button--white button--small" href="http://www.twitter.com/jelmerluimstra" target="_blank"><i class="fa fa-twitter"></i>jelmerluimstra</a>
 						</div>
@@ -366,7 +374,7 @@
 		<div class="panel panel--headed panel--headed-overflow">
 			<h3 class="panel-title">Mede mogelijk door</h3>
 			<img src="../images/logo-postnl-channel-sprout.png" class="panel-figure" />
-			<a href="#" class="button button--primary" onClick="openForm('register')">Whitepaper downloaden</a>
+			<a href="#" class="button button--center button--primary" onClick="openForm('register')">Whitepaper downloaden</a>
 		</div>
 
 		<div class="panel">

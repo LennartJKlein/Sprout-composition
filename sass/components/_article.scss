@@ -275,12 +275,21 @@
 	@include align-items(flex-end);
 	margin: 0;
 	font-size: .85em;
+	padding-top: 2em;
+	padding-bottom: 1em;
 
 	@include tablet {
 		margin: 0 -1.5rem;
+		padding: 3em 0;
 		width: auto;
 		@include flex-flow(row nowrap);
 		@include align-items(center);
 		z-index: 1;
+		padding-top: 3em;
+	}
+
+	@include desktop {
+		padding-top: 4em;
+		padding-bottom: 3em;
 	}
 }
