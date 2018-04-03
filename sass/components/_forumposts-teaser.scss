@@ -88,7 +88,7 @@
 }
 
 .forumpostsTeaser-avatar {
-	width: 20%;
+	width: $percent-1of5;
 	@include circle-border;
 }
 

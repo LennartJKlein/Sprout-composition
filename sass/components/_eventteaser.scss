@@ -27,7 +27,7 @@
 
 .eventTeaser-description {
 	padding: 1.5em 2em;
-	width: 75%;
+	width: $percent-3of4;
 	@include flex;
 	@include flex-flow(column nowrap);
 	@include justify-content(stretch);
@@ -58,7 +58,7 @@
 	text-transform: uppercase;
 	font-weight: 500;
 	font-family: $font-gotham;
-	width: 25%;
+	width: $percent-1of4;
 	@include flex-grow(1);
 	vertical-align: middle;
 	@include flex-shrink(1);

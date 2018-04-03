@@ -98,15 +98,12 @@
 				<?php include '../templates/shareactions.php' ?>
 
 				<div class="articleAuthor articleAuthor--bottom">
-					<div class="articleAuthor-summary">
+					<div class="articleAuthor-content">
 						<a href="auteur.php" class="articleAuthor-link">
 							<img src="../images/fred-rutgers.jpg" class="articleAuthor-image" />
 							<span class="articleAuthor-name">Fred Rutgers</span>
 							<span class="articleAuthor-company">Expert</span>
 						</a>
-						<span class="articleAuthor-toggle fa fa-chevron-up"></span>
-					</div>
-					<div class="articleAuthor-expand">
 						<p>Fred Rutgers is retailexpert en ondernemerscoach. 'Op basis van 30 jaar ervaring help ik retailers en ondernemers in de b2c sector om op een leuke manier en met minder stress te bouwen aan meer omzet...
 						<div class="articleAuthor-social">
 							<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
@@ -118,13 +115,13 @@
 			</footer>
 		</article>
 
-		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="0.6s" data-offset="150">
+		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="1.6s" data-offset="150">
 			<header class="article-header">
 				<div class="article-tags">
 					<button class="button button--small button--grey" name="scaleups">Retail</button>
 					<button class="button button--small button--grey" name="investeren">Marketing</button>
 					<button class="button button--small button--grey" name="startups">Startups</button>
-					<button class="button button--small button--primary reveal" data-animate="tada" data-duration="0.75s" data-delay="1.5s" name="aanbevolen">Aanbevolen</button>
+					<button class="button button--small button--primary reveal" data-animate="tada" data-duration="0.75s" data-delay="2.5s" name="aanbevolen">Aanbevolen</button>
 				</div>
 				<h1 class="article-title">Hoe overleef je tegenwoordig als winkel? Ondernemers vertellen</h1>
 				<div class="article-intro">Succes hebben in de retailsector: het is niet iedereen gegund. Sprout is aanwezig bij een zogeheten rondetafel-discussie tussen ondernemers die er wel in slagen. Gespot: opvallend veel jonge ondernemers, die opvallend veel zien in stenen winkels.</div>
@@ -195,15 +192,12 @@
 				<?php include '../templates/shareactions.php' ?>
 
 				<div class="articleAuthor articleAuthor--bottom">
-					<div class="articleAuthor-summary">
+					<div class="articleAuthor-content">
 						<a href="auteur.php" class="articleAuthor-link">
 							<img src="../images/jelmer-luimstra.jpg" class="articleAuthor-image" />
 							<span class="articleAuthor-name">Jelmer Luimstra</span>
 							<span class="articleAuthor-company">SchrijvenVoorWeb</span>
 						</a>
-						<span class="articleAuthor-toggle fa fa-chevron-up"></span>
-					</div>
-					<div class="articleAuthor-expand">
 						<p>Jelmer Luimstra is online redacteur voor Sprout, en schrijft over vernieuwende scaleups en startups.</p>
 						<div class="articleAuthor-social">
 							<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
@@ -215,12 +209,12 @@
 			</footer>
 		</article>
 
-		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="0.6s" data-offset="150">
+		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="1.6s" data-offset="150">
 			<header class="article-header">
 				<div class="article-tags">
 					<button class="button button--small button--grey" name="scaleups">Retail</button>
 					<button class="button button--small button--grey" name="investeren">Marketing</button>
-					<button class="button button--small button--primary reveal" data-animate="tada" data-duration="0.75s" data-delay="1.5s" name="aanbevolen">Aanbevolen</button>
+					<button class="button button--small button--primary reveal" data-animate="tada" data-duration="0.75s" data-delay="2.5s" name="aanbevolen">Aanbevolen</button>
 				</div>
 				<h1 class="article-title">7 redenen waarom klanten je winkel de rug toekeren</h1>
 				<div class="article-intro">Sprout-expert Fred Rutgers onderzocht waarom klanten een winkel de rug toekeren. 'De uitkomsten zullen voor menig winkelier best even schrikken zijn.'</div>
@@ -281,15 +275,12 @@
 				<?php include '../templates/shareactions.php' ?>
 
 				<div class="articleAuthor articleAuthor--bottom">
-					<div class="articleAuthor-summary">
+					<div class="articleAuthor-content">
 						<a href="auteur.php" class="articleAuthor-link">
 							<img src="../images/fred-rutgers.jpg" class="articleAuthor-image" />
 							<span class="articleAuthor-name">Fred Rutgers</span>
 							<span class="articleAuthor-company">SchrijvenVoorWeb</span>
 						</a>
-						<span class="articleAuthor-toggle fa fa-chevron-up"></span>
-					</div>
-					<div class="articleAuthor-expand">
 						<p>Fred Rutgers is retailexpert en ondernemerscoach. 'Op basis van 30 jaar ervaring help ik retailers en ondernemers in de b2c sector om op een leuke manier en met minder stress te bouwen aan meer omzet...
 						<div class="articleAuthor-social">
 							<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>

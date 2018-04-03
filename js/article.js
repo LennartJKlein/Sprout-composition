@@ -17,7 +17,7 @@ $(document).ready(function(){
 	});
 
 	var articlesWrapper = $('.articles'),
-		articles = articlesWrapper.find('.article')
+		articles = articlesWrapper.find('.article'),
 		aside = $('#aside'),
 		scrollWindow = $('#page'),
 		panelGroups = null,
@@ -40,7 +40,7 @@ $(document).ready(function(){
 			if (articles.length > 1) {
 
 				// initialize variables
-				var	articleSidebarLinks = panel.find('.progressPanel-item');
+				var	articleSidebarLinks = panel.find('.progressPanel-item'),
 					scrolling = false,
 					sidebarAnimation = false,
 					resizing = false,
@@ -125,36 +125,59 @@ $(document).ready(function(){
 			}
 
 			if (articleTop > scrollTop) {
+				// Article not seen yet
 				articleSidebarLink.removeClass('read reading');
+				article.removeClass('read reading');
 
 			} else if (scrollTop >= articleTop && articleTop + articleHeight > scrollTop) {
+				// Article is being read
 				var dashoffsetValue = svgCircleLength*( 1 - (scrollTop - articleTop) / articleHeight);
 				articleSidebarLink.addClass('reading').removeClass('read').find('circle').attr({ 'stroke-dashoffset': dashoffsetValue });
-				
+				article.addClass('reading').removeClass('read');
+
 				if ($(window).width() > 800) {
 					changeUrl(articleSidebarLink.attr('href'));
 				}
 
 			} else {
+				// Article has been read
 				articleSidebarLink.removeClass('reading').addClass('read');
+				article.removeClass('reading').addClass('read');
 
 				if (article.is(':last-of-type')) {
 					panel.stop().fadeTo(100, 0);
 					panel.css("display","");
+
 				} else {
 					panel.stop().fadeTo(200, 1);
 					panel.css("display","");
 				}
 			}
 
+			if (!article.hasClass("loaded") && (scrollTop + windowHeight) >= (articleTop)) {
+				// Article is shown for the first time
+				article.addClass("loaded");
+
+				if (!article.is(':first-of-type')) {
+					setTimeout(function(){
+						insertSpinner(articles.eq(article.index() - 1));
+					}, 200);
+
+					setTimeout(function(){
+						removeSpinner(articles.eq(article.index() - 1));
+					}, 2000);
+				}
+
+			}
+
 			// Reveal the item in progresspanel when new article is shown
-			if (!article.is(':first-of-type') && article.hasClass("animated")) {
+			if (article.hasClass("animated") && !article.is(':first-of-type')) {
 				if (!articleSidebarItem.hasClass("animated") &&
 					!articleSidebarLink.hasClass("read") && 
 					!articleSidebarLink.hasClass("reading")) {
 
 					articleSidebarItem.addClass("animated");
-					articleSidebarItem.delay(600).slideDown(800);
+					articleSidebarItem.delay(1800).slideDown(800);
 				}
 			}
 
@@ -209,6 +232,17 @@ $(document).ready(function(){
 					'top': 'calc(2em + ' + articleTop + 'px)'
 				});
 			}
+		});
+	}
+
+	function insertSpinner(element) {
+		$(element).append('<div class="spinner"></div>');
+		$(element).find('.spinner').fadeIn(800);
+	}
+
+	function removeSpinner(element) {
+		$(element).find('.spinner').fadeOut(300, function(){
+			$(element).find('.spinner').remove();
 		});
 	}
 

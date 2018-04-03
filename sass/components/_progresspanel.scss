@@ -7,7 +7,7 @@
 	right: 0;
 	@include round-border;
 	@include shadow-medium;
-	top: 50%;
+	top: $percent-1of2;
     transform: translateY(-60%);
 	width: calc(2em + 36px);
 	z-index: 2;
@@ -17,10 +17,15 @@
 		width: 19vw;
 		top: 4em;
 		padding: 2em;
-		right: calc(17px + 3vw);
+		right: 3vw;
 		transition: opacity .25s;
 		transform: none;
 		@include shadow-high;
+
+		@include no-touch {
+			// Extra pixels for scrollbar
+			right: calc(17px + 3vw);
+		}
 	}
 	
 	&.hidden {
@@ -69,7 +74,7 @@
 	&:before {
 		position: absolute;
 		content: counter(articles);
-		top: 50%;
+		top: $percent-1of2;
 		bottom: auto;
 		left: 0;
 		-webkit-transform: translateY(-50%);
@@ -159,7 +164,7 @@
 .progressPanel-svg {
 	display: none;
 	position: absolute;
-	top: 50%;
+	top: $percent-1of2;
 	left: 0;
 	bottom: auto;
 	-webkit-transform: translateY(-50%);

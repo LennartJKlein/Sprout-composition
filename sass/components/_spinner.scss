@@ -1,0 +1,16 @@
+.spinner {
+	position: relative;
+	display: none;
+	margin: 5em auto -5em;
+	width: 1em;
+	height: 1em;
+
+	@include tablet {
+		margin: 10em auto -10em;
+	}
+
+	&:before {
+		content: url('/images/spinner.svg');
+		display: block;
+	}
+}

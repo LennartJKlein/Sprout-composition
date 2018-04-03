@@ -40,6 +40,12 @@ $desktop-width: 1200px;
 	}
 }
 
+@mixin no-touch {
+	@media (pointer: fine) {
+		@content;
+	}
+}
+
 @mixin gradient-overlay {
 	position: relative;
 	
@@ -113,7 +119,7 @@ $desktop-width: 1200px;
 }
 
 @mixin circle-border {
-	border-radius: 50%;
+	border-radius: $percent-1of2;
 	overflow: hidden;
 }
 

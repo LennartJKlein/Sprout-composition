@@ -46,7 +46,7 @@
 }
 
 .posterList-avatar {
-	width: 20%;
+	width: $percent-1of5;
 	max-width: 2.5em;
 	@include circle-border;
 }

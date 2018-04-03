@@ -398,7 +398,7 @@
 
 .menu-item {
 	position: relative;
-	width: 50%;
+	width: $percent-1of2;
 
 	@include tablet-landscape {
 		width: 100%;
@@ -414,7 +414,7 @@
 			content: attr(hint);
 			position: absolute;
 			left: calc(100% + 1em);
-			top: 50%;
+			top: $percent-1of2;
 			transform: translateY(-50%);
 			background: $color-black;
 			@include round-border;
@@ -469,7 +469,7 @@
 		@include tablet-landscape {
 			margin-right: 1em;
 			margin-bottom: 0;
-			width: 10%;
+			width: $percent-1of10;
 			font-size: 1.4em;
 		}
 	}
@@ -486,7 +486,7 @@
 	overflow: hidden;
 	position: absolute;
 	right: 1em;
-	top: 50%;
+	top: $percent-1of2;
 	margin-top: -11px;
 	text-align: center;
 	text-transform: uppercase;
@@ -566,7 +566,7 @@
 				margin-bottom: 0;
 
 				@include tablet-landscape {
-					width: 10%;
+					width: $percent-1of10;
 					margin-right: 1em;
 				}
 			}
@@ -595,6 +595,6 @@
 
 .user-image {
 	@include circle-border;
-	width: 20%;
+	width: $percent-1of5;
 	margin-right: 1em;
 }

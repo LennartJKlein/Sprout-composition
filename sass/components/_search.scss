@@ -51,7 +51,7 @@
 .search-submit {
 	position: absolute;
 	left: 1em;
-	top: 50%;
+	top: $percent-1of2;
 	transform: translateY(-50%);
 	height: 48px;
 	padding: 0;
@@ -71,7 +71,7 @@
 
 	@include tablet {
 		left: 0;
-		width: 10%;
+		width: $percent-1of10;
 		height: 100%;
 		top: 0;
 		transform: translateY(0);

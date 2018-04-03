@@ -68,15 +68,12 @@
 				<?php include '../templates/shareactions.php' ?>
 
 				<div class="articleAuthor articleAuthor--bottom">
-					<div class="articleAuthor-summary">
+					<div class="articleAuthor-content">
 						<a href="auteur.php" class="articleAuthor-link">
 							<img src="../images/fred-rutgers.jpg" class="articleAuthor-image" />
 							<span class="articleAuthor-name">Fred Rutgers</span>
 							<span class="articleAuthor-company">SchrijvenVoorWeb</span>
 						</a>
-						<span class="articleAuthor-toggle fa fa-chevron-up"></span>
-					</div>
-					<div class="articleAuthor-expand">
 						<p>Fred Rutgers is retailexpert en ondernemerscoach. 'Op basis van 30 jaar ervaring help ik retailers en ondernemers in de b2c sector om op een leuke manier en met minder stress te bouwen aan meer omzet...</p>
 						<div class="articleAuthor-social">
 							<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>

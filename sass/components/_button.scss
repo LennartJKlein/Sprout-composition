@@ -199,7 +199,7 @@
 .button--center {
 	margin: 0 auto;
 	position: relative;
-	left: 50%;
+	left: $percent-1of2;
 	transform: translateX(-50%);
 }
 

@@ -34,24 +34,21 @@
 
 	.article-intro {
 		background: $color-premium;
-	}
 
-	@include tablet {
-
-		.article-intro {
+		@include tablet {
 			background: inherit;
 		}
+	}
 
-		.article-hero {
-			&:before {
-				content: '';
-				display: block;
-				position: absolute;
-				height: 0.75em;
-				width: 100%;
-				background: $color-premium;
-				z-index: 1;
-			}
+	.article-hero:before {
+		@include tablet {
+			content: '';
+			display: block;
+			position: absolute;
+			height: 0.75em;
+			width: 100%;
+			background: $color-premium;
+			z-index: 1;
 		}
 	}
 }
@@ -88,7 +85,7 @@
 
 	@include tablet {
 		margin-top: 0.75em;
-		margin-bottom: 0.5em;
+		margin-bottom: 0;
 		font-size: 2.6em;
 		@include order(0);
 	}
@@ -117,9 +114,9 @@
 	@include tablet {
 		background: transparent;
 		color: $color-black;
-		margin: 1em 0;
+		margin: 1em 0 0.5em;
 		padding: 0;
-		font-size: 1.5em;
+		font-size: 1.55em;
 		@include order(0);
 	}
 
@@ -181,6 +178,10 @@
 		font-size: 1.4em;
 		line-height: 1.25;
 		margin: 2.3em 0 0.7em;
+
+		@include desktop {
+			font-size: 1.6em;
+		}
 	}
 
 	ul,
@@ -196,22 +197,32 @@
 			font-weight: 500;
 		}
 
+		@include tablet {
+			font-size: 1.1em;
+		}
+
 		@include desktop {
-			font-size: 1.1em; 
+			font-size: 1.2em; 
 		}
 	}
 
 	p {
+		a {
+			font-weight: 500;
+		}
+
+		@include tablet {
+			font-size: 1.1em;
+		}
+
 		@include desktop {
-			font-size: 1.1em; 
+			font-size: 1.2em; 
 		}
 	}
 	
 	h2,
 	h3, 
-	p,
-	ol,
-	ul {
+	p {
 		@include desktop {
 			width: 100%;
 			max-width: 70rem;
@@ -222,6 +233,8 @@
 		}
 	}
 
+	ol,
+	ul,
 	blockquote {
 		@include desktop {
 			width: 100%;
@@ -263,7 +276,7 @@
 	}
 
 	@include tablet {
-		padding-left: 25%;
+		padding-left: $percent-1of4;
 		font-size: 1.75em;
 	}
 }
@@ -282,8 +295,6 @@
 		margin: 0 -1.5rem;
 		padding: 3em 0;
 		width: auto;
-		@include flex-flow(row nowrap);
-		@include align-items(center);
 		z-index: 1;
 		padding-top: 3em;
 	}

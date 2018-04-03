@@ -15,6 +15,21 @@
 	@include tablet {
 		@include flex-grow(0);
 		@include flex-shrink(0);
+		margin: 1em 0;
+		max-width: $percent-3of4;
+		padding: 1rem 1.5rem;
+	}
+
+	.articleAuthor-link {
+		margin-bottom: 2em;
+	}
+
+	.articleAuthor-image {
+		height: 6em;
+
+		@include tablet {
+			height: 4em;
+		}
 	}
 
 	.articleAuthor-name {
@@ -25,6 +40,30 @@
 			font-size: 0.9em;
 			color: $color-grey-dark;
 		}
+	}
+
+	.articleAuthor-social {
+		text-align: center;
+	}
+
+	.articleAuthor-expand {
+		top: auto;
+		bottom: 100%;
+		box-shadow: none;
+		border-top: 0;
+		border-bottom: solid 1px $color-grey-dark;
+	}
+}
+
+.articleAuthor-content {
+	@include flex;
+	@include flex-flow(column nowrap);
+	@include justify-content(space-between);
+	@include align-items(flex-start);
+	color: $color-white;
+
+	p {
+		color: $color-white;
 	}
 }
 
@@ -111,16 +150,6 @@
 
 	&.open {
 		@include shadow-medium;
-	}
-}
-
-.articleAuthor--bottom {
-	.articleAuthor-expand {
-		top: auto;
-		bottom: 100%;
-		box-shadow: none;
-		border-top: 0;
-		border-bottom: solid 1px $color-grey-dark;
 	}
 }
 

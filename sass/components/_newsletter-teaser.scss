@@ -48,7 +48,7 @@
 .newsletterTeaser-label {
 	position: absolute;
 	left: 0.75em;
-	top: 50%;
+	top: $percent-1of2;
 	transform: translateY(-50%);
 	color: $color-grey-dark;
 }
