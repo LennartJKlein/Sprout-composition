@@ -23,6 +23,18 @@
 	<script src="/js/script.js"></script>
 	<script src="/js/article.js"></script>
 
+	<!-- Favicon and theme -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=Km2rlPWvGK">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=Km2rlPWvGK">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=Km2rlPWvGK">
+	<link rel="manifest" href="/manifests/site.webmanifest?v=Km2rlPWvGK">
+	<link rel="mask-icon" href="/images/safari-pinned-tab.svg?v=Km2rlPWvGK" color="#dd6e42">
+	<link rel="shortcut icon" href="/images/favicon.ico?v=Km2rlPWvGK">
+	<meta name="apple-mobile-web-app-title" content="Sprout">
+	<meta name="application-name" content="Sprout">
+	<meta name="msapplication-TileColor" content="#dd6e42">
+	<meta name="theme-color" content="#2e5266">
+
 	<!-- Google Open Search (omnibox 'tab') -->
     <link rel="search" type="application/opensearchdescription+xml" title="Sprout" href="/manifests/opensearch.xml" />
 
