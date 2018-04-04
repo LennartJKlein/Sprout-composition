@@ -1,6 +1,6 @@
 <button class="shareToggle"><i aria-hidden="true" class="fa fa-share-alt"></i></button>
-<div id="sharePopup" class="">
-	<ul class="shareList shareList--popup">
+<div id="shareModal">
+	<ul class="shareList shareList--modal">
 		<li class="shareList-item">
 			<a class="shareList-link shareList-link--whatsapp" href="whatsapp://send?text=<?php echo $url ?>" data-action="share/whatsapp/share">
 				<i class="fa fa-whatsapp"></i><span class="shareList-label"><strong>Delen</strong></span>

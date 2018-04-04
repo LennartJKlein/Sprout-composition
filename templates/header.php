@@ -75,7 +75,7 @@
 
 	<?php
 		if (strpos($url,'artikel') !== false) {
-			include 'sharepopup.php';
+			include 'sharemodal.php';
 		}
 	?>
 

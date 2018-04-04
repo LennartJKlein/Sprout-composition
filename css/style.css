@@ -1311,6 +1311,120 @@ body {
   margin-left: 0.5em;
   margin-bottom: 0.5em; }
 
+/* line 1, ../sass/layout/_modal.scss */
+.modal {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+/* line 20, ../sass/layout/_modal.scss */
+.modal--active {
+  visibility: visible;
+  opacity: 1; }
+
+/* line 25, ../sass/layout/_modal.scss */
+.modal--align-top {
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  align-items: flex-start; }
+
+/* line 29, ../sass/layout/_modal.scss */
+.modal-dialog {
+  max-width: 600px;
+  padding: 1.2rem; }
+
+/* line 34, ../sass/layout/_modal.scss */
+.modal-content {
+  position: relative;
+  padding: 2rem;
+  background: #fefefe;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  -webkit-transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-radius: 0.25rem;
+  overflow: hidden; }
+  @media (min-width: 769px) {
+    /* line 34, ../sass/layout/_modal.scss */
+    .modal-content {
+      padding: 2.4rem; } }
+
+/* line 49, ../sass/layout/_modal.scss */
+.modal-actions {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -moz-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  margin-bottom: -0.2rem; }
+  @media (min-width: 769px) {
+    /* line 49, ../sass/layout/_modal.scss */
+    .modal-actions {
+      margin-bottom: -0.4rem; } }
+
+/* line 60, ../sass/layout/_modal.scss */
+.modal-button {
+  text-transform: uppercase;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  margin-left: 1.5em;
+  color: #DD6E42;
+  font-weight: bold;
+  cursor: pointer; }
+
+/* line 71, ../sass/layout/_modal.scss */
+.modal-button--premium {
+  color: #DC0451; }
+
+/* line 75, ../sass/layout/_modal.scss */
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1.2rem;
+  padding: 0.6rem;
+  z-index: 1100;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: 0; }
+
 /* line 1, ../sass/components/_spinner.scss */
 .spinner {
   position: relative;
@@ -1327,8 +1441,8 @@ body {
     content: url("/images/spinner.svg");
     display: block; }
 
-/* line 1, ../sass/components/_sharepopup.scss */
-#sharePopup {
+/* line 1, ../sass/components/_sharemodal.scss */
+#shareModal {
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
@@ -1355,8 +1469,8 @@ body {
   overflow-y: auto;
   z-index: 3;
   transition: padding .3s, width .35s,  height .3s,  border-radius .2s,  top .15s, right .3s; }
-  /* line 24, ../sass/components/_sharepopup.scss */
-  #sharePopup.open {
+  /* line 24, ../sass/components/_sharemodal.scss */
+  #shareModal.open {
     top: 0;
     right: 0;
     padding: 0.5em;
@@ -1364,14 +1478,14 @@ body {
     height: 65%;
     width: calc(100% - 2em); }
     @media (orientation: landscape) {
-      /* line 24, ../sass/components/_sharepopup.scss */
-      #sharePopup.open {
+      /* line 24, ../sass/components/_sharemodal.scss */
+      #shareModal.open {
         height: calc(100% - 2em); } }
-    /* line 36, ../sass/components/_sharepopup.scss */
-    #sharePopup.open .nav-head {
+    /* line 36, ../sass/components/_sharemodal.scss */
+    #shareModal.open .nav-head {
       opacity: 1; }
-    /* line 40, ../sass/components/_sharepopup.scss */
-    #sharePopup.open .nav-footer {
+    /* line 40, ../sass/components/_sharemodal.scss */
+    #shareModal.open .nav-footer {
       opacity: 1;
       -webkit-box-flex: 1;
       -moz-box-flex: 1;
@@ -1379,20 +1493,20 @@ body {
       -ms-flex: 1;
       flex-grow: 1; }
   @media (min-width: 800px) and (orientation: landscape) {
-    /* line 1, ../sass/components/_sharepopup.scss */
-    #sharePopup {
+    /* line 1, ../sass/components/_sharemodal.scss */
+    #shareModal {
       right: 1.5rem;
       z-index: 4; }
-      /* line 50, ../sass/components/_sharepopup.scss */
-      #sharePopup.open {
+      /* line 50, ../sass/components/_sharemodal.scss */
+      #shareModal.open {
         height: 50%;
         width: calc(80% - 2em);
         -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
         -moz-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
         box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); } }
   @media (min-width: 1200px) {
-    /* line 58, ../sass/components/_sharepopup.scss */
-    #sharePopup.open {
+    /* line 58, ../sass/components/_sharemodal.scss */
+    #shareModal.open {
       width: 50%; } }
 
 /* line 1, ../sass/components/_articles.scss */
@@ -2335,7 +2449,7 @@ body {
     -webkit-text-fill-color: #007AC9; }
   /* line 106, ../sass/components/_button.scss */
   .button--premium:hover {
-    -webkit-background-clip: none;
+    -webkit-background-clip: unset;
     -webkit-text-fill-color: inherit;
     color: #fefefe;
     background: linear-gradient(to bottom right, #007AC9, #DC0451); }
@@ -2347,7 +2461,7 @@ body {
   .button--premium:active, .button--premium:focus {
     background: linear-gradient(to bottom right, #007AC9, #DC0451);
     color: #fefefe;
-    -webkit-background-clip: none;
+    -webkit-background-clip: unset;
     -webkit-text-fill-color: inherit; }
     /* line 110, ../sass/_mixins.scss */
     .button--premium:active .fa, .button--premium:focus .fa {
@@ -2357,7 +2471,7 @@ body {
   .button--premium.button--logo:before {
     content: url("/images/premium-logo.svg");
     display: inline-block;
-    width: 5.5em;
+    width: 5.2em;
     height: auto; }
   /* line 134, ../sass/components/_button.scss */
   .button--premium.button--logo:hover:before, .button--premium.button--logo:active:before, .button--premium.button--logo:focus:before {
@@ -2367,98 +2481,94 @@ body {
     content: url("/images/premium-logo-white.svg"); }
   /* line 146, ../sass/components/_button.scss */
   .button--premium.button--solid {
-    border-image: none;
-    border-color: #777777;
     color: #fefefe;
     background: linear-gradient(to bottom right, #007AC9, #DC0451);
-    -webkit-background-clip: none;
-    -webkit-text-fill-color: inherit; }
-    /* line 154, ../sass/components/_button.scss */
-    .button--premium.button--solid:hover {
-      border-color: #231f20; }
-    /* line 158, ../sass/components/_button.scss */
-    .button--premium.button--solid:active, .button--premium.button--solid:focus {
-      border-color: #231f20; }
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: inherit;
+    border-image-slice: 0; }
+    /* line 153, ../sass/components/_button.scss */
+    .button--premium.button--solid:hover, .button--premium.button--solid:active, .button--premium.button--solid:focus {
+      border-color: transparent; }
 
-/* line 165, ../sass/components/_button.scss */
+/* line 161, ../sass/components/_button.scss */
 .button--grey {
   color: #777777;
   border: solid 2px #777777; }
-  /* line 169, ../sass/components/_button.scss */
+  /* line 165, ../sass/components/_button.scss */
   .button--grey:hover {
     border-color: #777777;
     background: #777777; }
-  /* line 174, ../sass/components/_button.scss */
+  /* line 170, ../sass/components/_button.scss */
   .button--grey:active, .button--grey:focus {
     border-color: #231f20;
     background: #231f20; }
 
-/* line 181, ../sass/components/_button.scss */
+/* line 177, ../sass/components/_button.scss */
 .button--small {
   padding: .6em .75em;
   font-size: 0.7em; }
   @media (min-width: 769px) {
-    /* line 181, ../sass/components/_button.scss */
+    /* line 177, ../sass/components/_button.scss */
     .button--small {
       font-size: 0.8em; } }
 
-/* line 190, ../sass/components/_button.scss */
+/* line 186, ../sass/components/_button.scss */
 .button--big {
   padding: 0.8em 1.1em;
   font-size: 1em; }
   @media (min-width: 769px) {
-    /* line 190, ../sass/components/_button.scss */
+    /* line 186, ../sass/components/_button.scss */
     .button--big {
       font-size: 1.1em; } }
 
-/* line 199, ../sass/components/_button.scss */
+/* line 195, ../sass/components/_button.scss */
 .button--center {
   margin: 0 auto;
   position: relative;
   left: 50%;
   transform: translateX(-50%); }
 
-/* line 206, ../sass/components/_button.scss */
+/* line 202, ../sass/components/_button.scss */
 .button--right {
   margin: -1.5em auto 1.5em 0;
   position: relative;
   float: right; }
 
-/* line 212, ../sass/components/_button.scss */
+/* line 208, ../sass/components/_button.scss */
 .button--space {
   margin-right: 0.5em; }
 
-/* line 216, ../sass/components/_button.scss */
+/* line 212, ../sass/components/_button.scss */
 .button--arrow {
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
   vertical-align: middle; }
-  /* line 222, ../sass/components/_button.scss */
+  /* line 218, ../sass/components/_button.scss */
   .button--arrow i {
     transition: font-size .2s;
     font-size: .75em;
     margin-left: .25em;
     vertical-align: middle; }
-  /* line 230, ../sass/components/_button.scss */
+  /* line 226, ../sass/components/_button.scss */
   .button--arrow:hover i {
     font-size: 1.05em; }
 
-/* line 236, ../sass/components/_button.scss */
+/* line 232, ../sass/components/_button.scss */
 .button--clean {
   border: 0;
   padding-left: 0.5em;
   padding-right: 0.5em;
   color: #DD6E42; }
-  /* line 242, ../sass/components/_button.scss */
+  /* line 238, ../sass/components/_button.scss */
   .button--clean:hover {
     background: transparent;
     color: #2E5266; }
-  /* line 247, ../sass/components/_button.scss */
+  /* line 243, ../sass/components/_button.scss */
   .button--clean:active, .button--clean:focus {
     color: #231f20; }
 
-/* line 254, ../sass/components/_button.scss */
+/* line 250, ../sass/components/_button.scss */
 .buttonContainer:after {
   content: '';
   display: block;
@@ -3558,28 +3668,46 @@ body {
   margin-bottom: 2em; }
 
 /* line 9, ../sass/components/_premium-teaser.scss */
+.premiumTeaser--negative {
+  padding: 0;
+  background: transparent; }
+  /* line 13, ../sass/components/_premium-teaser.scss */
+  .premiumTeaser--negative .premiumTeaser-title {
+    color: #DC0451;
+    background: linear-gradient(to bottom right, #007AC9, #DC0451);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  /* line 17, ../sass/components/_premium-teaser.scss */
+  .premiumTeaser--negative .premiumTeaser-description {
+    color: #231f20;
+    font-weight: bold; }
+  /* line 22, ../sass/components/_premium-teaser.scss */
+  .premiumTeaser--negative .premiumTeaser-list {
+    color: #231f20; }
+
+/* line 28, ../sass/components/_premium-teaser.scss */
 .premiumTeaser-figure {
   position: relative;
   width: 70%;
   max-width: 210px;
   margin: 0.5em auto 1.5em; }
 
-/* line 16, ../sass/components/_premium-teaser.scss */
+/* line 35, ../sass/components/_premium-teaser.scss */
 .premiumTeaser-image {
   width: 100%;
   height: 100%;
   object-fit: contain; }
 
-/* line 22, ../sass/components/_premium-teaser.scss */
+/* line 41, ../sass/components/_premium-teaser.scss */
 .premiumTeaser-title {
   color: #fefefe; }
 
-/* line 26, ../sass/components/_premium-teaser.scss */
+/* line 45, ../sass/components/_premium-teaser.scss */
 .premiumTeaser-description {
   color: #fefefe;
   font-size: 0.9em; }
 
-/* line 31, ../sass/components/_premium-teaser.scss */
+/* line 50, ../sass/components/_premium-teaser.scss */
 .premiumTeaser-list {
   text-align: left;
   list-style: none;
@@ -3590,10 +3718,10 @@ body {
   margin: 2em auto;
   padding: 0; }
   @media (min-width: 1200px) {
-    /* line 31, ../sass/components/_premium-teaser.scss */
+    /* line 50, ../sass/components/_premium-teaser.scss */
     .premiumTeaser-list {
       max-width: 35rem; } }
-  /* line 45, ../sass/components/_premium-teaser.scss */
+  /* line 64, ../sass/components/_premium-teaser.scss */
   .premiumTeaser-list li {
     margin: 1em 0;
     display: -webkit-flex;
@@ -3612,7 +3740,7 @@ body {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center; }
-  /* line 53, ../sass/components/_premium-teaser.scss */
+  /* line 72, ../sass/components/_premium-teaser.scss */
   .premiumTeaser-list .fa {
     width: 2.5em;
     text-align: center;
@@ -4109,7 +4237,7 @@ body {
       padding-right: 4rem;
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 3em; } }
+      margin-bottom: 0; } }
   /* line 16, ../sass/components/_premium-unlock.scss */
   .premiumUnlock:before {
     content: '';
@@ -4142,6 +4270,10 @@ body {
 .premiumUnlock-description {
   text-align: center;
   margin: 2em 0; }
+  @media (min-width: 1200px) {
+    /* line 43, ../sass/components/_premium-unlock.scss */
+    .premiumUnlock-description {
+      margin-bottom: 0; } }
 
 /* line 1, ../sass/components/_progresspanel.scss */
 .progressPanel {
@@ -4506,7 +4638,7 @@ body {
   width: 100%; }
 
 /* line 12, ../sass/components/_sharelist.scss */
-.shareList--popup {
+.shareList--modal {
   padding-top: calc(55px + 0.5em); }
 
 /* line 16, ../sass/components/_sharelist.scss */

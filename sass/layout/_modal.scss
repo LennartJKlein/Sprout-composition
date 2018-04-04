@@ -1,0 +1,86 @@
+.modal {
+    @include flex;
+    @include align-items(center);
+    @include justify-content(center);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: rgba(0,0,0,.4);
+    z-index: 1000;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+    transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.modal--active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal--align-top {
+    @include align-items(flex-start);
+}
+
+.modal-dialog {
+    max-width: 600px;
+    padding: 1.2rem;
+}
+
+.modal-content {
+    position: relative;
+    padding: 2rem;
+    background: $color-white;
+    background-clip: padding-box;
+    @include shadow-high;
+    -webkit-transition: all 0.25s cubic-bezier(.25,.8,.25,1);
+    transition: all 0.25s cubic-bezier(.25,.8,.25,1);
+    @include round-border;
+
+    @include tablet {
+        padding: 2.4rem;
+    }
+}
+
+.modal-actions {
+    @include flex;
+    @include align-items(center);
+    @include justify-content(flex-end);
+    margin-bottom: -0.2rem;
+
+    @include tablet {
+        margin-bottom: -0.4rem;
+    }
+}
+
+.modal-button {
+    text-transform: uppercase;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    margin-left: 1.5em;
+    color: $color-secondary;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-button--premium {
+    color: $color-premium-secondary;
+}
+
+.modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1.2rem;
+    padding: 0.6rem;
+    z-index: 1100;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}

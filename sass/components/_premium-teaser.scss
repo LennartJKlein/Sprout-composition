@@ -6,6 +6,25 @@
 	margin-bottom: 2em;
 }
 
+.premiumTeaser--negative {
+	padding: 0;
+	background: transparent;
+
+	.premiumTeaser-title {
+		@include text-gradient-premium;
+	}
+
+	.premiumTeaser-description {
+		color: $color-black;
+		font-weight: bold;
+	}
+
+	.premiumTeaser-list {
+		
+		color: $color-black;
+	}
+}
+
 .premiumTeaser-figure {
 	position: relative;
 	width: 70%;

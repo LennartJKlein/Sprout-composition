@@ -1,5 +1,7 @@
 <?php include '../templates/header.php'; ?>
 
+	<?php include '../templates/premiummodal.php'; ?>	
+
 	<section class="articles">
 
 		<article class="article article--premium">

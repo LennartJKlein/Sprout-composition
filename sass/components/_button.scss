@@ -104,7 +104,7 @@
 	@include icon-premium-primary;
 
 	&:hover {
-		-webkit-background-clip: none;
+		-webkit-background-clip: unset;
 		-webkit-text-fill-color: inherit;
 		color: $color-white;
 		background: $color-premium;
@@ -115,7 +115,7 @@
 	&:focus {
 		background: $color-premium;
 		color: $color-white;
-		-webkit-background-clip: none;
+		-webkit-background-clip: unset;
 		-webkit-text-fill-color: inherit;
 		@include icon-white;
 	}
@@ -124,7 +124,7 @@
 		&:before {
 			content: url('/images/premium-logo.svg');
 			display: inline-block;
-			width: 5.5em;
+			width: 5.2em;
 			height: auto;
 		}
 
@@ -144,20 +144,16 @@
 	}
 
 	&.button--solid {
-		border-image: none;
-		border-color: $color-grey-dark;
 		color: $color-white;
 		background: $color-premium;
-		-webkit-background-clip: none;
+		-webkit-background-clip: unset;
 		-webkit-text-fill-color: inherit;
+		border-image-slice: 0;
 
-		&:hover {
-			border-color: $color-black;
-		}
-
+		&:hover,
 		&:active,
 		&:focus {
-			border-color: $color-black;
+			border-color: transparent;
 		}
 	}
 }
