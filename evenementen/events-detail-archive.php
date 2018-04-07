@@ -30,6 +30,7 @@
 				<div>
 					<button class="button button--secondary button--space">inloggen</button>
 					<button class="button button--grey button--space">registreren</button>
+					<div class="notification premiumUnlock-description">Dit evenement is al geweest.</div>
 				</div>
 			</main>
 		</article>

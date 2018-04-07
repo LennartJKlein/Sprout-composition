@@ -3033,9 +3033,10 @@ body {
   @media (min-width: 769px) {
     /* line 40, ../sass/components/_event.scss */
     .event-info {
-      background: #231f20;
+      background: #DD6E42;
       color: #fefefe;
       flex-direction: row;
+      justify-content: space-between;
       margin-right: -5vw;
       padding: 1rem 0.75rem;
       -webkit-box-ordinal-group: 1;
@@ -3049,20 +3050,23 @@ body {
       padding-left: 4rem;
       padding-right: 4rem; } }
 
-/* line 62, ../sass/components/_event.scss */
+/* line 63, ../sass/components/_event.scss */
 .event-infoItem {
+  color: #fefefe;
   margin-right: 2em; }
+  /* line 67, ../sass/components/_event.scss */
+  .event-infoItem:hover, .event-infoItem:active, .event-infoItem:focus {
+    color: #fefefe; }
   @media (min-width: 480px) {
-    /* line 62, ../sass/components/_event.scss */
+    /* line 63, ../sass/components/_event.scss */
     .event-infoItem {
-      margin-bottom: 0.5em;
-      margin-right: 0; } }
+      margin: 0.5em 0; } }
 
-/* line 71, ../sass/components/_event.scss */
+/* line 78, ../sass/components/_event.scss */
 .event-icon {
   margin-right: 0.5em; }
 
-/* line 75, ../sass/components/_event.scss */
+/* line 82, ../sass/components/_event.scss */
 .event-heading {
   color: #DD6E42;
   text-transform: uppercase;
@@ -3074,16 +3078,16 @@ body {
   -ms-flex-order: -3;
   order: -3; }
   @media (min-width: 1200px) {
-    /* line 75, ../sass/components/_event.scss */
+    /* line 82, ../sass/components/_event.scss */
     .event-heading {
       padding-left: 4rem;
       padding-right: 4rem; } }
 
-/* line 90, ../sass/components/_event.scss */
+/* line 97, ../sass/components/_event.scss */
 .card--partner .card-heading {
   color: #007AC9; }
 
-/* line 95, ../sass/components/_event.scss */
+/* line 102, ../sass/components/_event.scss */
 .event-title {
   margin: 0.5em 0 0 0;
   font-size: 1.85em;
@@ -3094,7 +3098,7 @@ body {
   -ms-flex-order: -2;
   order: -2; }
   @media (min-width: 769px) {
-    /* line 95, ../sass/components/_event.scss */
+    /* line 102, ../sass/components/_event.scss */
     .event-title {
       font-size: 2.6em;
       -webkit-box-ordinal-group: 1;
@@ -3103,14 +3107,14 @@ body {
       -ms-flex-order: 0;
       order: 0; } }
   @media (min-width: 1200px) {
-    /* line 95, ../sass/components/_event.scss */
+    /* line 102, ../sass/components/_event.scss */
     .event-title {
       font-size: 3em;
       max-width: 70rem;
       padding-left: 4rem;
       padding-right: 4rem; } }
 
-/* line 115, ../sass/components/_event.scss */
+/* line 122, ../sass/components/_event.scss */
 .event-intro {
   font-family: "Kepler", Cambria, Georgia, Times New Roman, serif;
   margin: -1rem -1.5rem 0 -1.5rem;
@@ -3123,7 +3127,7 @@ body {
   -ms-flex-order: 0;
   order: 0; }
   @media (min-width: 769px) {
-    /* line 115, ../sass/components/_event.scss */
+    /* line 122, ../sass/components/_event.scss */
     .event-intro {
       background: transparent;
       color: #231f20;
@@ -3136,7 +3140,7 @@ body {
       -ms-flex-order: 0;
       order: 0; } }
   @media (min-width: 1200px) {
-    /* line 115, ../sass/components/_event.scss */
+    /* line 122, ../sass/components/_event.scss */
     .event-intro {
       max-width: 70rem;
       padding-left: 4rem;
@@ -3144,7 +3148,7 @@ body {
       margin-left: auto;
       margin-right: auto; } }
 
-/* line 141, ../sass/components/_event.scss */
+/* line 148, ../sass/components/_event.scss */
 .event-hero {
   -webkit-box-ordinal-group: 0;
   -moz-box-ordinal-group: 0;
@@ -3152,37 +3156,37 @@ body {
   -ms-flex-order: -1;
   order: -1; }
   @media (min-width: 769px) {
-    /* line 141, ../sass/components/_event.scss */
+    /* line 148, ../sass/components/_event.scss */
     .event-hero {
       -webkit-box-ordinal-group: 1;
       -moz-box-ordinal-group: 1;
       -webkit-order: 0;
       -ms-flex-order: 0;
       order: 0; } }
-  /* line 148, ../sass/components/_event.scss */
+  /* line 155, ../sass/components/_event.scss */
   .event-hero.figure {
     margin: 0 -1.5em 1.5em;
     max-height: 75vh; }
     @media (min-width: 769px) {
-      /* line 148, ../sass/components/_event.scss */
+      /* line 155, ../sass/components/_event.scss */
       .event-hero.figure {
         margin-top: 1em;
         margin-bottom: 0em;
         margin-left: -5vw;
         margin-right: -5vw; } }
   @media (min-width: 769px) {
-    /* line 160, ../sass/components/_event.scss */
+    /* line 167, ../sass/components/_event.scss */
     .event-hero .figure-credit {
       bottom: 5.5em; } }
 
-/* line 169, ../sass/components/_event.scss */
+/* line 177, ../sass/components/_event.scss */
 .event-content h2 {
   color: #DD6E42;
   font-family: "Gotham", "Century Gothic", Arial, Helvetica, sans-serif;
   font-size: 1.4em;
   line-height: 1.25;
   margin: 2.3em 0 0.7em; }
-/* line 177, ../sass/components/_event.scss */
+/* line 185, ../sass/components/_event.scss */
 .event-content ul,
 .event-content ol {
   margin-top: 0;
@@ -3191,21 +3195,21 @@ body {
   font-size: 1.05em;
   margin-bottom: 2em;
   font-weight: normal; }
-  /* line 186, ../sass/components/_event.scss */
+  /* line 194, ../sass/components/_event.scss */
   .event-content ul a,
   .event-content ol a {
     font-weight: 500; }
   @media (min-width: 1200px) {
-    /* line 177, ../sass/components/_event.scss */
+    /* line 185, ../sass/components/_event.scss */
     .event-content ul,
     .event-content ol {
       font-size: 1.1em; } }
 @media (min-width: 1200px) {
-  /* line 195, ../sass/components/_event.scss */
+  /* line 203, ../sass/components/_event.scss */
   .event-content p {
     font-size: 1.1em; } }
 @media (min-width: 1200px) {
-  /* line 201, ../sass/components/_event.scss */
+  /* line 209, ../sass/components/_event.scss */
   .event-content div,
   .event-content h2,
   .event-content h3,
@@ -3219,20 +3223,20 @@ body {
     margin-left: auto;
     margin-right: auto; } }
 @media (min-width: 1200px) {
-  /* line 217, ../sass/components/_event.scss */
+  /* line 225, ../sass/components/_event.scss */
   .event-content blockquote {
     width: 100%;
     max-width: calc(70rem - 8rem);
     margin-left: auto;
     margin-right: auto; } }
-/* line 226, ../sass/components/_event.scss */
+/* line 234, ../sass/components/_event.scss */
 .event-content .figure {
   margin-left: -1.5em;
   margin-right: -1.5em;
   margin-top: 3em;
   margin-bottom: 3em; }
   @media (min-width: 769px) {
-    /* line 226, ../sass/components/_event.scss */
+    /* line 234, ../sass/components/_event.scss */
     .event-content .figure {
       margin-left: -5vw;
       margin-right: -5vw; } }
