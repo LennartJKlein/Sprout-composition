@@ -177,7 +177,7 @@
                 </a>
             </li>
         </ul>
-        <a href="#" class="button button--partner button--clean button--center">Jouw event op deze pagina?</a>
+        <a href="../evenementen/events-detail.php" class="button button--partner button--clean button--center">Jouw event op deze pagina?</a>
     </div>
 
 
