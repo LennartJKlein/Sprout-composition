@@ -154,6 +154,7 @@
 }
 
 .card--hero {
+
 	.card-title {
 		@include tablet {
 			font-size: 1.85em;
@@ -161,6 +162,7 @@
 	}
 
 	&.card--horizontal {
+
 		.card-figurecontainer {
 			width: $percent-1of3;
 
@@ -195,6 +197,7 @@
 .card--m-vertical,
 .card--m-vertical.card--hero,
 .card--m-vertical.card--horizontal.card--textfirst {
+
 	@media (max-width: #{$mobile-width}) {
 		@include flex-flow(inherit);
 
@@ -215,6 +218,7 @@
 }
 
 .card--overlay {
+
 	@include tablet {
 		position: relative;
 
@@ -249,8 +253,10 @@
 }
 
 .card--textfirst {
+
 	&.card--horizontal {
 		@include tablet {
+
 			.card-content {
 				@include order(-1);
 			}
@@ -259,6 +265,7 @@
 }
 
 .card--premium {
+
 	&:before {
 		content: '';
 		display: block;

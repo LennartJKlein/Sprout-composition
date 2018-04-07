@@ -52,12 +52,32 @@
 	&:hover {
 		border-color: $color-secondary;
 		background: $color-secondary;
+		color: $color-secondary;
 	}
 
 	&:active,
 	&:focus {
 		border-color: $color-secondary-dark;
 		background: $color-secondary-dark;
+		color: $color-secondary-dark;
+	}
+}
+
+.button--partner {
+	color: $color-partner;
+	border: solid 2px $color-partner;
+
+	&:hover {
+		border-color: $color-partner;
+		background: $color-partner;
+		color: $color-partner;
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color-partner-light;
+		background: $color-partner-light;
+		color: $color-partner-light;
 	}
 }
 
@@ -233,16 +253,14 @@
 	border: 0;
 	padding-left: 0.5em;
 	padding-right: 0.5em;
-	color: $color-secondary;
 
 	&:hover {
 		background: transparent;
-		color: $color-primary;
 	}
 
 	&:active,
 	&:focus {
-		color: $color-black;
+		background: transparent;
 	}
 }
 

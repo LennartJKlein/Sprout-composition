@@ -9,6 +9,17 @@
 	}
 }
 
+.eventTeaser--partner {
+
+	.eventTeaser-heading {
+		color: $color-partner;
+	}
+
+	.eventTeaser-date {
+		background: $color-partner;
+	}
+}
+
 .eventTeaser--minimal {
 	&:not(:last-of-type) {
 		margin-bottom: 1em;

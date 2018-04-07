@@ -4,6 +4,11 @@
 
         <div class="grid grid--events">
             <div class="grid-cell grid-cell--wide">
+                <div class="breadcrumb">sprout.nl > events</div>
+                <h1 class="event-title">Ondernemers en evenementen</h1>
+                <div class="event-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet egestas tortor, sit amet auctor sapien venenatis quis.</div>
+            </div>
+            <div class="grid-cell grid-cell--wide">
                 <a href="../evenementen/events-detail.php" class="card card--event card--hero card--m-vertical card--horizontal card--textfirst" tag="startups">
                     <div class="card-figurecontainer">
                         <div class="card-tags">
@@ -54,6 +59,9 @@
             <div class="grid-cell">
                 <a href="../evenementen/events-detail.php" class="card card--partner" tag="scaleups">
                     <div class="card-figurecontainer">
+                        <div class="card-tags">
+                            <div class="card-tag">partner evenement</div>
+                        </div>
                         <div class="card-figure">
                             <img src="../images/events/Energy-Hack-foto_6.png" class="card-image" />
                         </div>
@@ -84,6 +92,9 @@
             <div class="grid-cell">
                 <a href="../evenementen/events-detail.php" class="card card--partner" tag="scaleups">
                     <div class="card-figurecontainer">
+                        <div class="card-tags">
+                            <div class="card-tag">partner evenement</div>
+                        </div>
                         <div class="card-figure">
                             <img src="../images/events/att_education.jpg" class="card-image" />
                         </div>
@@ -99,6 +110,9 @@
             <div class="grid-cell">
                 <a href="../evenementen/events-detail.php" class="card card--partner" tag="scaleups">
                     <div class="card-figurecontainer">
+                        <div class="card-tags">
+                            <div class="card-tag">partner evenement</div>
+                        </div>
                         <div class="card-figure">
                             <img src="../images/events/31117510996_761d4bdc26_k.jpg" class="card-image" />
                         </div>
@@ -122,22 +136,51 @@
 
 <aside id="aside">
 
-	<div class="aside-panelgroup">
-		<div class="panel">
-			<h3 class="panel-title"><i class="panel-title-icon fa fa-folder"></i>Alles over...</h3>
-			<ul class="linkList">
-				<li class="linkList-item"><a class="linkList-link" href="tag/direct-marketing">Retail</a></li>
-				<li class="linkList-item"><a class="linkList-link" href="tag/crowdfunding">Crowdfunding</a></li>
-			</ul>
-		</div>
+	<div class="panel premiumTeaser loggedIn-hide">
+		<div class="premiumTeaser-figure"><img src="../images/premium-logo-white.svg" class="premiumTeaser-image" /></div>
+		<h3 class="premiumTeaser-title">Ongelimiteerd de beste verhalen. <br/>Wordt premium member.</h3>
+		<p class="premiumTeaser-description">1 maand gratis uitproberen. Daarna &euro;00,- per maand.</p>
+		<a href="#" class="button button--white" onClick="openForm('register')">1 maand uitproberen</a>
 	</div>
-
-
 	<div class="aside-panelgroup">
         <div class="banner banner--rectangle">
             <img src="http://via.placeholder.com/285x140" class="banner-image" />
         </div>
 	</div>
+    <div class="panel panel--clean">
+        <ul class="eventList">
+            <li class="eventTeaser eventTeaser--minimal eventTeaser--partner">
+                <a class="eventTeaser-link" href="events.php">
+                    <div class="eventTeaser-description">
+                        <span class="eventTeaser-heading">Binnenkort</span>
+                        <h4 class="eventTeaser-title">Amsterdam talks tech - smart cities &amp; mobility</h4>
+                    </div>
+                    <span class="eventTeaser-date">8 apr</span>
+                </a>
+            </li>
+            <li class="eventTeaser eventTeaser--minimal eventTeaser--partner">
+                <a class="eventTeaser-link" href="events.php">
+                    <div class="eventTeaser-description">
+                        <span class="eventTeaser-heading">Volgende maand</span>
+                        <h4 class="eventTeaser-title">Scaleup summit 2017</h4>
+                    </div>
+                    <span class="eventTeaser-date">24 mei</span>
+                </a>
+            </li>
+            <li class="eventTeaser eventTeaser--minimal eventTeaser--partner">
+                <a class="eventTeaser-link" href="events.php">
+                    <div class="eventTeaser-description">
+                        <span class="eventTeaser-heading">Volgende maand</span>
+                        <h4 class="eventTeaser-title">Energy Hack NL</h4>
+                    </div>
+                    <span class="eventTeaser-date">25 mei</span>
+                </a>
+            </li>
+        </ul>
+        <a href="#" class="button button--partner button--clean button--center">Jouw event op deze pagina?</a>
+    </div>
+
+
 
 </aside>
 

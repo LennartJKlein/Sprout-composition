@@ -1,5 +1,5 @@
 $mobile-small-width: 360px;
-$mobile-width: 768px;
+$mobile-width: 480px;
 $tablet-width: 769px;
 $tablet-landscape-width: 800px;
 $desktop-width: 1200px;
@@ -11,7 +11,7 @@ $desktop-width: 1200px;
 }
 
 @mixin mobile {
-	@media (max-width: #{$mobile-width}) {
+	@media (min-width: #{$mobile-width}) {
 		@content;
 	}
 }

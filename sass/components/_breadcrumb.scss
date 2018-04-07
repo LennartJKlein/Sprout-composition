@@ -1,0 +1,11 @@
+.breadcrumb {
+    color: $color-black-opage;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+
+    @include desktop {
+        margin-bottom: 0.5em;
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+}
