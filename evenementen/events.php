@@ -4,7 +4,10 @@
 
         <div class="grid grid--events">
             <div class="grid-cell grid-cell--wide">
-                <div class="breadcrumb">sprout.nl > events</div>
+                <div class="breadcrumb">
+                    <a href="/index.php">sprout.nl</a>
+                    <a href="/evenementen/events.php">events</a>
+                </div>
                 <h1 class="event-title">Ondernemers en evenementen</h1>
                 <div class="event-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet egestas tortor, sit amet auctor sapien venenatis quis.</div>
             </div>
@@ -148,6 +151,7 @@
         </div>
 	</div>
     <div class="panel panel--clean">
+        <h3 class="panel-title panel-title--partner"><i class="panel-title-icon fa fa-heart" aria-hidden="true"></i>Partner evenementen</h3>
         <ul class="eventList">
             <li class="eventTeaser eventTeaser--minimal eventTeaser--partner">
                 <a class="eventTeaser-link" href="events.php">
@@ -177,7 +181,7 @@
                 </a>
             </li>
         </ul>
-        <a href="../evenementen/events-detail.php" class="button button--partner button--clean button--center">Jouw event op deze pagina?</a>
+        <a href="../evenementen/events-detail.php" class="button button--partner button--small button--center">Jouw event op deze pagina?</a>
     </div>
 
 

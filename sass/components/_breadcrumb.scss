@@ -3,9 +3,35 @@
     font-weight: bold;
     margin-bottom: 0.5em;
 
+    a {
+        color: $color-black-opage;
+        text-decoration: none;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: $color-black;
+
+            &:after {
+                color: $color-black-opage;
+            }
+        }
+
+        &:after {
+            content: '>';
+            margin: 0 0.5em;
+        }
+
+        &:last-of-type {
+            &:after {
+                display: none;
+            }
+        }
+    }
+
     @include desktop {
         margin-bottom: 0.5em;
-		padding-left: 4rem;
-		padding-right: 4rem;
-	}
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
 }
