@@ -52,14 +52,12 @@
 	&:hover {
 		border-color: $color-secondary;
 		background: $color-secondary;
-		color: $color-secondary;
 	}
 
 	&:active,
 	&:focus {
 		border-color: $color-secondary-dark;
 		background: $color-secondary-dark;
-		color: $color-secondary-dark;
 	}
 }
 
@@ -70,14 +68,12 @@
 	&:hover {
 		border-color: $color-partner;
 		background: $color-partner;
-		color: $color-partner;
 	}
 
 	&:active,
 	&:focus {
 		border-color: $color-partner-light;
 		background: $color-partner-light;
-		color: $color-partner-light;
 	}
 }
 
