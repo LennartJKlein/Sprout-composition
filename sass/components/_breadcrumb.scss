@@ -1,7 +1,9 @@
 .breadcrumb {
     color: $color-black-opage;
     font-weight: bold;
+    font-size: 0.8em;
     margin-bottom: 0.5em;
+    @include order(-3);
 
     a {
         color: $color-black-opage;
@@ -27,6 +29,10 @@
                 display: none;
             }
         }
+    }
+
+    @include tablet {
+        font-size: 1em;
     }
 
     @include desktop {
