@@ -2,24 +2,24 @@
 
     <section class="events">
         
-        <div class="event">
+        <article class="event">
             <header class="event-header">
                 <div class="breadcrumb">
                     <a href="/index.php">sprout.nl</a>
-                    <a href="/evenementen/events.php">events</a>
-                    <a href="/evenementen/events-detail.php">The Next Web Conference 2018</a>
+                    <a href="/evenementen/events.php">topic</a>
+                    <a href="/evenementen/events-detail.php">Marketing</a>
                 </div>
-                <h1 class="event-title">The Next Web Conference 2018</h1>
-                <div class="event-intro">Op 24 en 25 mei vindt in Amsterdam de grootste techconferentie van Europa plaats: TNW Conference 2018. Tienduizend bezoekers vanuit de hele wereld komen hier luisteren naar sprekers als Constantijn van Oranje Nassau (StartupDelta), Anjali Sud (Vimeo), Mike Curtis (Airbnb), John Collison (Stripe) Rich Pierson (Headspace), Alex Le (Reddit) en vele anderen!</div>
+                <h1 class="event-title">Marketing</h1>
+                <div class="event-intro">Alle artikelen met betrekking tot marketing Alle artikelen met betrekking tot marketing Alle artikelen met betrekking tot marketing Alle artikelen met betrekking tot marketing Alle artikelen met betrekking tot marketing Alle artikelen met betrekking tot marketing Alle artikelen met betrekking tot marketing</div>
                 <div class="event-hero figure">
                     <img src="../images/events/the_next_web.jpg" class="figure-image" />
                 </div>
                 <div class="event-info">
-                    <div class="event-infoContainer">
+                    <div>
                         <a href="https://goo.gl/maps/ZTBrAnb34aU2" target="_blank" class="event-infoItem"><i class="event-icon fa fa-map-marker"></i><span>Westergasfabriek Amsterdam</span></a>
                         <div class="event-infoItem"><i class="event-icon fa fa-clock-o"></i><span>24 en 25 mei - 09:00 tot 18:00</span></div>
                     </div>
-                    <div class="event-infoContainer">
+                    <div>
                         <div class="event-infoItem"><i class="event-icon fa fa-euro"></i><span>515,- (excl BTW)</span></div>
                         <div class="event-infoItem"><i class="event-icon fa fa-user-plus"></i><span>10% korting voor members!</span></div>
                     </div>
@@ -36,7 +36,7 @@
                     <button class="button button--grey button--space">registreren</button>
                 </div>
             </main>
-        </div>
+        </article>
 
     </section>
 

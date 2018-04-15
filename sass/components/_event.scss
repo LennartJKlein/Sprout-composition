@@ -59,6 +59,13 @@
     }
 }
 
+.event-infoContainer {
+
+    @include desktop-large {
+        display: flex;
+    }
+}
+
 .event-icon {
     width: 1em;
     text-align: center;
