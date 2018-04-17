@@ -5,8 +5,8 @@
         <div class="grid grid--events">
             <div class="grid-cell grid-cell--wide">
                 <div class="breadcrumb">
-                    <a href="/index.php">sprout.nl</a>
-                    <a href="/evenementen/events.php">events</a>
+                    <a href="/index.php">Sprout.nl</a>
+                    <a href="/evenementen/events.php">Events</a>
                 </div>
                 <h1 class="event-title">Ondernemers en evenementen</h1>
                 <div class="event-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet egestas tortor, sit amet auctor sapien venenatis quis.</div>

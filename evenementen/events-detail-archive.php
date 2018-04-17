@@ -5,8 +5,8 @@
         <article class="event">
             <header class="event-header">
                 <div class="breadcrumb">
-                    <a href="/index.php">sprout.nl</a>
-                    <a href="/evenementen/events.php">events</a>
+                    <a href="/index.php">Sprout.nl</a>
+                    <a href="/evenementen/events.php">Events</a>
                     <a href="/evenementen/events-detail.php">The Next Web Conference 2018</a>
                 </div>
                 <h1 class="event-title">The Next Web Conference 2018</h1>
@@ -95,8 +95,8 @@
         <div class="panel">
             <h3 class="panel-title"><i class="panel-title-icon fa fa-folder"></i>Alles over...</h3>
             <ul class="linkList">
-                <li class="linkList-item"><a class="linkList-link" href="tag/direct-marketing">Retail</a></li>
-                <li class="linkList-item"><a class="linkList-link" href="tag/crowdfunding">Crowdfunding</a></li>
+                <li class="linkList-item"><a class="linkList-link" href="/topic/direct-marketing.php">Retail</a></li>
+                <li class="linkList-item"><a class="linkList-link" href="/topic/direct-marketing.php">Crowdfunding</a></li>
             </ul>
         </div>
     </div>

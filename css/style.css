@@ -2389,7 +2389,7 @@ body {
     /* line 22, ../sass/components/_breadcrumb.scss */
     .breadcrumb a:after {
       content: '>';
-      margin: 0 0.5em; }
+      margin: 0 0.5em 0 0.75em; }
     /* line 28, ../sass/components/_breadcrumb.scss */
     .breadcrumb a:last-of-type:after {
       display: none; }
