@@ -871,7 +871,8 @@ body {
   height: 100vh; }
   /* line 5, ../sass/layout/_body.scss */
   body:before {
-    display: none; }
+    display: none;
+    content: 'mobile'; }
   @media (min-width: 769px) {
     /* line 1, ../sass/layout/_body.scss */
     body {
@@ -891,30 +892,30 @@ body {
       -ms-flex-align: start;
       -webkit-align-items: flex-start;
       align-items: flex-start; }
-      /* line 15, ../sass/layout/_body.scss */
+      /* line 16, ../sass/layout/_body.scss */
       body:before {
         content: 'tablet'; } }
   @media (min-width: 800px) and (orientation: landscape) {
-    /* line 21, ../sass/layout/_body.scss */
+    /* line 22, ../sass/layout/_body.scss */
     body:before {
       content: 'tablet-landscape'; } }
   @media (min-width: 1200px) {
-    /* line 27, ../sass/layout/_body.scss */
+    /* line 28, ../sass/layout/_body.scss */
     body:before {
       content: 'desktop'; } }
 
-/* line 33, ../sass/layout/_body.scss */
+/* line 34, ../sass/layout/_body.scss */
 #page {
   height: 100%;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   background: #e5e2de; }
-  /* line 39, ../sass/layout/_body.scss */
+  /* line 40, ../sass/layout/_body.scss */
   #page:focus {
     outline: 0;
     border: 0; }
 
-/* line 45, ../sass/layout/_body.scss */
+/* line 46, ../sass/layout/_body.scss */
 #content {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -935,7 +936,7 @@ body {
   overflow: hidden;
   position: relative; }
   @media (min-width: 1200px) {
-    /* line 45, ../sass/layout/_body.scss */
+    /* line 46, ../sass/layout/_body.scss */
     #content {
       -webkit-flex-flow: row nowrap;
       -ms-flex-flow: row nowrap;
@@ -1889,7 +1890,11 @@ body {
 
 /* line 12, ../sass/components/_articleauthor.scss */
 .articleAuthor--bottom {
-  float: right; }
+  background: transparent;
+  border-top: solid 2px #e5e2de;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%; }
   @media (min-width: 769px) {
     /* line 12, ../sass/components/_articleauthor.scss */
     .articleAuthor--bottom {
@@ -1903,29 +1908,54 @@ body {
       -ms-flex: 0;
       flex-shrink: 0;
       margin: 1em 0;
-      max-width: 75%;
-      padding: 1rem 1.5rem; } }
-  /* line 23, ../sass/components/_articleauthor.scss */
-  .articleAuthor--bottom .articleAuthor-link {
-    margin-bottom: 2em; }
+      max-width: 70rem;
+      padding: 1rem 5.5rem; } }
   /* line 27, ../sass/components/_articleauthor.scss */
+  .articleAuthor--bottom .articleAuthor-link {
+    margin-bottom: 2em;
+    color: #231f20;
+    font-size: 1.1em; }
+    /* line 32, ../sass/components/_articleauthor.scss */
+    .articleAuthor--bottom .articleAuthor-link:active, .articleAuthor--bottom .articleAuthor-link:hover {
+      color: #DD6E42; }
+  /* line 38, ../sass/components/_articleauthor.scss */
   .articleAuthor--bottom .articleAuthor-image {
     height: 6em; }
     @media (min-width: 769px) {
-      /* line 27, ../sass/components/_articleauthor.scss */
+      /* line 38, ../sass/components/_articleauthor.scss */
       .articleAuthor--bottom .articleAuthor-image {
         height: 4em; } }
-  /* line 36, ../sass/components/_articleauthor.scss */
+  /* line 47, ../sass/components/_articleauthor.scss */
   .articleAuthor--bottom .articleAuthor-name:before {
     content: 'Geschreven door:';
     display: block;
     font-weight: normal;
     font-size: 0.9em;
     color: #777777; }
-  /* line 45, ../sass/components/_articleauthor.scss */
+    @media (min-width: 769px) {
+      /* line 47, ../sass/components/_articleauthor.scss */
+      .articleAuthor--bottom .articleAuthor-name:before {
+        display: none; } }
+  @media (min-width: 769px) {
+    /* line 59, ../sass/components/_articleauthor.scss */
+    .articleAuthor--bottom .articleAuthor-name:after {
+      content: 'schreef dit artikel.';
+      display: inline-block;
+      margin-left: 0.5em;
+      color: #777777; } }
+  /* line 70, ../sass/components/_articleauthor.scss */
+  .articleAuthor--bottom .articleAuthor-company:before {
+    content: '('; }
+  /* line 74, ../sass/components/_articleauthor.scss */
+  .articleAuthor--bottom .articleAuthor-company:after {
+    content: ')'; }
+  /* line 80, ../sass/components/_articleauthor.scss */
+  .articleAuthor--bottom .articleAuthor-content p {
+    color: #231f20; }
+  /* line 85, ../sass/components/_articleauthor.scss */
   .articleAuthor--bottom .articleAuthor-social {
     text-align: center; }
-  /* line 49, ../sass/components/_articleauthor.scss */
+  /* line 89, ../sass/components/_articleauthor.scss */
   .articleAuthor--bottom .articleAuthor-expand {
     top: auto;
     bottom: 100%;
@@ -1933,7 +1963,7 @@ body {
     border-top: 0;
     border-bottom: solid 1px #777777; }
 
-/* line 58, ../sass/components/_articleauthor.scss */
+/* line 98, ../sass/components/_articleauthor.scss */
 .articleAuthor-content {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1952,11 +1982,11 @@ body {
   -webkit-align-items: flex-start;
   align-items: flex-start;
   color: #fefefe; }
-  /* line 65, ../sass/components/_articleauthor.scss */
+  /* line 105, ../sass/components/_articleauthor.scss */
   .articleAuthor-content p {
     color: #fefefe; }
 
-/* line 70, ../sass/components/_articleauthor.scss */
+/* line 110, ../sass/components/_articleauthor.scss */
 .articleAuthor-summary {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1974,7 +2004,7 @@ body {
   color: #fefefe;
   cursor: pointer; }
 
-/* line 78, ../sass/components/_articleauthor.scss */
+/* line 118, ../sass/components/_articleauthor.scss */
 .articleAuthor-link {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1992,23 +2022,23 @@ body {
   color: #fefefe;
   text-decoration: none;
   font-weight: 500; }
-  /* line 86, ../sass/components/_articleauthor.scss */
+  /* line 126, ../sass/components/_articleauthor.scss */
   .articleAuthor-link:active, .articleAuthor-link:hover {
     color: #fefefe; }
-    /* line 90, ../sass/components/_articleauthor.scss */
+    /* line 130, ../sass/components/_articleauthor.scss */
     .articleAuthor-link:active .articleAuthor-image, .articleAuthor-link:hover .articleAuthor-image {
-      transform: scale(1.05); }
+      transform: scale(1.1); }
 
-/* line 96, ../sass/components/_articleauthor.scss */
+/* line 136, ../sass/components/_articleauthor.scss */
 .articleAuthor-toggle {
   padding: 1em;
   border-radius: 100%;
   cursor: pointer; }
-  /* line 101, ../sass/components/_articleauthor.scss */
+  /* line 141, ../sass/components/_articleauthor.scss */
   .articleAuthor-toggle:active, .articleAuthor-toggle:hover {
     background: rgba(0, 0, 0, 0.2); }
 
-/* line 107, ../sass/components/_articleauthor.scss */
+/* line 147, ../sass/components/_articleauthor.scss */
 .articleAuthor-image {
   border-radius: 50%;
   overflow: hidden;
@@ -2017,24 +2047,25 @@ body {
   height: 3em;
   transition: all .2s; }
 
-/* line 115, ../sass/components/_articleauthor.scss */
+/* line 155, ../sass/components/_articleauthor.scss */
 .articleAuthor-name {
-  font-weight: 600; }
+  font-weight: 600;
+  text-align: left; }
 
-/* line 119, ../sass/components/_articleauthor.scss */
+/* line 160, ../sass/components/_articleauthor.scss */
 .articleAuthor-company {
   font-weight: normal;
-  font-size: 0.8em;
+  font-size: 0.85em;
   display: none;
   line-height: 1.3;
   margin-left: 1.5em;
-  opacity: 0.5; }
+  opacity: 0.6; }
   @media (min-width: 769px) {
-    /* line 119, ../sass/components/_articleauthor.scss */
+    /* line 160, ../sass/components/_articleauthor.scss */
     .articleAuthor-company {
       display: block; } }
 
-/* line 132, ../sass/components/_articleauthor.scss */
+/* line 173, ../sass/components/_articleauthor.scss */
 .articleAuthor-expand {
   display: none;
   background: #231f20;
@@ -2046,26 +2077,26 @@ body {
   width: 100%;
   padding: 1rem 1.5rem;
   color: #fefefe; }
-  /* line 144, ../sass/components/_articleauthor.scss */
+  /* line 185, ../sass/components/_articleauthor.scss */
   .articleAuthor-expand p {
     color: #fefefe;
     margin-bottom: 1em;
     z-index: 1;
     position: relative; }
-  /* line 151, ../sass/components/_articleauthor.scss */
+  /* line 192, ../sass/components/_articleauthor.scss */
   .articleAuthor-expand.open {
     -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
-/* line 156, ../sass/components/_articleauthor.scss */
+/* line 197, ../sass/components/_articleauthor.scss */
 .articleAuthor-sociallink {
   margin-right: 0.5em;
   margin-bottom: 0.5em; }
-  /* line 160, ../sass/components/_articleauthor.scss */
+  /* line 201, ../sass/components/_articleauthor.scss */
   .articleAuthor-sociallink:hover {
-    color: #231f20 !important; }
-  /* line 164, ../sass/components/_articleauthor.scss */
+    color: #231f20; }
+  /* line 205, ../sass/components/_articleauthor.scss */
   .articleAuthor-sociallink .fa {
     margin-right: 0.35em;
     font-size: 1.5em;
@@ -4355,6 +4386,21 @@ body {
     /* line 43, ../sass/components/_premium-unlock.scss */
     .premiumUnlock-description {
       margin-bottom: 0; } }
+
+/* line 1, ../sass/components/_progressLine.scss */
+.progressLine {
+  display: block;
+  position: fixed;
+  height: 4px;
+  top: 0;
+  left: 0;
+  width: 0;
+  background: #DD6E42;
+  z-index: 5; }
+  @media (min-width: 769px) {
+    /* line 1, ../sass/components/_progressLine.scss */
+    .progressLine {
+      display: none; } }
 
 /* line 1, ../sass/components/_progresspanel.scss */
 .progressPanel {

@@ -76,9 +76,9 @@
 						</a>
 						<p>Fred Rutgers is retailexpert en ondernemerscoach. 'Op basis van 30 jaar ervaring help ik retailers en ondernemers in de b2c sector om op een leuke manier en met minder stress te bouwen aan meer omzet...</p>
 						<div class="articleAuthor-social">
-							<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
-							<a class="articleAuthor-sociallink button button--white button--small" href="http://nl.linkedin.com/in/fredrutgers" target="_blank"><i class="fa fa-linkedin"></i>@fredrutgers</a>
-							<a class="articleAuthor-sociallink button button--white button--small" href="http://www.twitter.com/fredrutgers" target="_blank"><i class="fa fa-twitter"></i>fredrutgers</a>
+							<a class="articleAuthor-sociallink button button--primary button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
+							<a class="articleAuthor-sociallink button button--primary button--small" href="http://nl.linkedin.com/in/fredrutgers" target="_blank"><i class="fa fa-linkedin"></i>@fredrutgers</a>
+							<a class="articleAuthor-sociallink button button--primary button--small" href="http://www.twitter.com/fredrutgers" target="_blank"><i class="fa fa-twitter"></i>fredrutgers</a>
 						</div>
 					</div>
 				</div>

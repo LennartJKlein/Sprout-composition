@@ -4,6 +4,7 @@ body {
 
 	&:before {
 		display: none;
+		content: 'mobile';
 	}
 
 	@include tablet {

@@ -119,7 +119,7 @@ $(function() {
 		});
 
 		// Shows tooltip for resizing the navigation
-		if ($(window).width() > 768) {	
+		if (checkMQ() == "tablet-landscape" || checkMQ() == "desktop") {	
 			if (cookieWidth == null) {
 				var shake;
 
@@ -141,16 +141,15 @@ $(function() {
 	}
 
 	function resetHeaderWidth(screenWidth) {
-		if (screenWidth <= 800 || cookieWidth == null) {
-			// No resizing for mobile
+		if (checkMQ() == "mobile" || checkMQ() == "tablet" || cookieWidth == null) {
+			// No resizing
 			$("#header").css("width", "");
 
-		} else if (screenWidth >= 800 && screenWidth <= 1000) {
+		} else if (checkMQ() == "tablet-landscape") {
 	    	$("#header").css("width", "115px");
 	    	$("#header").addClass("minimum");
 
 	    } else {
-
 			$("#header").css("width", cookieWidth + "px");
 
 			if (cookieWidth <= 115) {
@@ -205,6 +204,10 @@ $(function() {
 	function toggleLoginForm() {
 		$(".menu-register").slideToggle();
 		$(".menu-login").slideToggle();
+	}
+
+	function checkMQ() {
+		return window.getComputedStyle($('body').get(0), ':before').getPropertyValue('content').replace(/'/g, "").replace(/"/g, "");
 	}
 
 });

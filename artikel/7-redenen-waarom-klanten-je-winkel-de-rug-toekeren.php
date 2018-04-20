@@ -27,6 +27,7 @@
 			</li>
 		</ul>
 	</div>
+	<div class="progressLine"></div>
 	<?php endif; ?>
 
 	<section class="articles">
@@ -104,9 +105,9 @@
 						</a>
 						<p>Fred Rutgers is retailexpert en ondernemerscoach. 'Op basis van 30 jaar ervaring help ik retailers en ondernemers in de b2c sector om op een leuke manier en met minder stress te bouwen aan meer omzet...</p>
 						<div class="articleAuthor-social">
-							<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
-							<a class="articleAuthor-sociallink button button--white button--small" href="http://nl.linkedin.com/in/fredrutgers" target="_blank"><i class="fa fa-linkedin"></i>@fredrutgers</a>
-							<a class="articleAuthor-sociallink button button--white button--small" href="http://www.twitter.com/fredrutgers" target="_blank"><i class="fa fa-twitter"></i>fredrutgers</a>
+							<a class="articleAuthor-sociallink button button--primary button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
+							<a class="articleAuthor-sociallink button button--primary button--small" href="http://nl.linkedin.com/in/fredrutgers" target="_blank"><i class="fa fa-linkedin"></i>@fredrutgers</a>
+							<a class="articleAuthor-sociallink button button--primary button--small" href="http://www.twitter.com/fredrutgers" target="_blank"><i class="fa fa-twitter"></i>fredrutgers</a>
 						</div>
 					</div>
 				</div>
@@ -186,9 +187,9 @@
 						</a>
 						<p>Fred Rutgers is retailexpert en ondernemerscoach. 'Op basis van 30 jaar ervaring help ik retailers en ondernemers in de b2c sector om op een leuke manier en met minder stress te bouwen aan meer omzet...</p>
 						<div class="articleAuthor-social">
-							<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
-							<a class="articleAuthor-sociallink button button--white button--small" href="http://nl.linkedin.com/in/fredrutgers" target="_blank"><i class="fa fa-linkedin"></i>@fredrutgers</a>
-							<a class="articleAuthor-sociallink button button--white button--small" href="http://www.twitter.com/fredrutgers" target="_blank"><i class="fa fa-twitter"></i>fredrutgers</a>
+							<a class="articleAuthor-sociallink button button--primary button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
+							<a class="articleAuthor-sociallink button button--primary button--small" href="http://nl.linkedin.com/in/fredrutgers" target="_blank"><i class="fa fa-linkedin"></i>@fredrutgers</a>
+							<a class="articleAuthor-sociallink button button--primary button--small" href="http://www.twitter.com/fredrutgers" target="_blank"><i class="fa fa-twitter"></i>fredrutgers</a>
 						</div>
 					</div>
 				</div>
@@ -279,9 +280,9 @@
 						</a>
 						<p>Jelmer Luimstra is online redacteur voor Sprout, en schrijft over vernieuwende scaleups en startups.</p>
 						<div class="articleAuthor-social">
-							<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
-							<a class="articleAuthor-sociallink button button--white button--small" href="http://nl.linkedin.com/in/jelmerluimstra" target="_blank"><i class="fa fa-linkedin"></i>@jelmerluimstra</a>
-							<a class="articleAuthor-sociallink button button--white button--small" href="http://www.twitter.com/jelmerluimstra" target="_blank"><i class="fa fa-twitter"></i>jelmerluimstra</a>
+							<a class="articleAuthor-sociallink button button--primary button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
+							<a class="articleAuthor-sociallink button button--primary button--small" href="http://nl.linkedin.com/in/jelmerluimstra" target="_blank"><i class="fa fa-linkedin"></i>@jelmerluimstra</a>
+							<a class="articleAuthor-sociallink button button--primary button--small" href="http://www.twitter.com/jelmerluimstra" target="_blank"><i class="fa fa-twitter"></i>jelmerluimstra</a>
 						</div>
 					</div>
 				</div>

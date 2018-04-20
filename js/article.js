@@ -22,11 +22,11 @@ $(document).ready(function(){
 		scrollWindow = $('#page'),
 		panelGroups = null,
 		windowHeight = $(scrollWindow).height(),
+		windowHeightHalf = windowHeight / 2,
+		progressLine = $('.progressLine'),
 		panel = $('.progressPanel');
 		
-		console.log(articles.length);
-
-	if ($(window).width() > 769) {
+	if (checkMQ() == "tablet-landscape" || checkMQ() == "desktop") {
 
 		// Relocate panel groups
 		checkPanelgroups();
@@ -78,6 +78,10 @@ $(document).ready(function(){
 			    });
 			}
 		}
+
+	} else {
+		// On mobile
+		$(scrollWindow).on('scroll', checkMobileReading);
 	}
 
 	function checkShowProgress() {
@@ -92,6 +96,13 @@ $(document).ready(function(){
 		if (!scrolling) {
 			scrolling = true;
 			(!window.requestAnimationFrame) ? setTimeout(updateArticle, 300) : window.requestAnimationFrame(updateArticle);
+		}
+	}
+
+	function checkMobileReading() {
+		if (!scrolling) {
+			scrolling = true;
+			(!window.requestAnimationFrame) ? setTimeout(updateProgressLine, 300) : window.requestAnimationFrame(updateProgressLine);
 		}
 	}
 
@@ -135,9 +146,7 @@ $(document).ready(function(){
 				articleSidebarLink.addClass('reading').removeClass('read').find('circle').attr({ 'stroke-dashoffset': dashoffsetValue });
 				article.addClass('reading').removeClass('read');
 
-				if ($(window).width() > 800) {
-					changeUrl(articleSidebarLink.attr('href'));
-				}
+				changeUrl(articleSidebarLink.attr('href'));
 
 			} else {
 				// Article has been read
@@ -182,6 +191,24 @@ $(document).ready(function(){
 			}
 
 		});
+		scrolling = false;
+	}
+
+	function updateProgressLine() {
+		var scrollTop = $(scrollWindow).scrollTop();
+
+		articles.each(function(){
+			var article = $(this),
+				articleTop = article.offset().top + scrollTop,
+				articleHeight = article.outerHeight(),
+				lineWidth = 100 * ((scrollTop - articleTop) / (articleHeight - windowHeightHalf));
+
+			if (lineWidth > 0) {
+				progressLine.css("width", lineWidth + "%");
+			}
+
+		});
+
 		scrolling = false;
 	}
 
