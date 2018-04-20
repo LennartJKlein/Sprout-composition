@@ -29,7 +29,7 @@
 	.grid-cell {
 		width: 100%;
 
-		@include mobile {
+		@include only-mobile {
 			width: $percent-1of2;
 		}
 

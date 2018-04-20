@@ -12,8 +12,8 @@
 				<p class="premiumTeaser-description">1 maand gratis uitproberen. Daarna &euro;00,- per maand.</p>
 			</div>
 			<div class="modal-actions">
-				<button class="modal-button modal-button--premium">Later</button>
-				<button class="modal-button modal-button--premium" onClick="openForm('register')">Uitproberen</button>
+				<button class="modal-button button button--grey">Later</button>
+				<button class="modal-button button button--premium-secondary" onClick="openForm('register')">Uitproberen</button>
 			</div>
 		</div>
 	</div>

@@ -310,7 +310,7 @@
 		top .15s,
 		right .15s;
 
-	@include mobile {
+	@include only-mobile {
 		@include flex-flow(column nowrap);
 
 		&.open {

@@ -45,6 +45,17 @@
 	color: $color-white;
 }
 
+.button--modal {
+    text-transform: uppercase;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    margin-left: 1.5em;
+    color: $color-secondary;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .button--secondary {
 	color: $color-secondary;
 	border: solid 2px $color-secondary;
@@ -58,6 +69,22 @@
 	&:focus {
 		border-color: $color-secondary-dark;
 		background: $color-secondary-dark;
+	}
+}
+
+.button--premium-secondary {
+	color: $color-premium-secondary;
+	border: solid 2px $color-premium-secondary;
+
+	&:hover {
+		border-color: $color-premium-secondary;
+		background: $color-premium-secondary;
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color-premium-primary;
+		background: $color-premium-primary;
 	}
 }
 

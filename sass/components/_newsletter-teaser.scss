@@ -7,6 +7,10 @@
 	padding: 1.5em;
 	margin: 1em 0;
 	@include round-border;
+
+	@include desktop {
+		padding: 1.75em;
+	}
 }
 
 .newsletterTeaser-cell {
@@ -21,7 +25,6 @@
 
 	@include tablet {
 		margin-right: 2em;
-		text-align: left;
 	}
 }
 
@@ -33,7 +36,6 @@
 
 	@include tablet {
 		margin-bottom: 0;
-		text-align: left;
 	}
 }
 

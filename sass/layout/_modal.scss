@@ -58,18 +58,7 @@
 }
 
 .modal-button {
-    text-transform: uppercase;
-    background: transparent;
-    border: 0;
-    outline: 0;
     margin-left: 1.5em;
-    color: $color-secondary;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.modal-button--premium {
-    color: $color-premium-secondary;
 }
 
 .modal-close {
