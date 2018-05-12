@@ -58,6 +58,21 @@
 	}
 }
 
+.grid--topics {
+
+	.grid-cell {
+		width: 100%;
+
+		@include tablet {
+			width: $percent-1of4;
+		}
+
+		@include desktop {
+			width: $percent-1of2;
+		}
+	}
+}
+
 .grid--themes {
 	margin-top: 1em;
 	margin-bottom: 1em;
