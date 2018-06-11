@@ -182,7 +182,7 @@
 			</ul>
 			<ul class="menu menu-user loggedIn-show">
 				<li><a href="#" class="menu-link">
-					<img src="/images/aartjan_portret_studio_vierkant_klein_profielfoto.jpg" class="user-image user-image--premium" />
+					<img src="/images/avatars/aartjan_portret_studio_vierkant_klein_profielfoto.jpg" class="user-image user-image--premium" />
 					<span>Aartjan van Erkel<span class="user-company">Schrijven voor Internet</span></span>
 				</a></li>
 			</ul>

@@ -55,7 +55,7 @@
 					<div class="articleAuthor">
 						<div class="articleAuthor-summary">
 							<a href="auteur.php" class="articleAuthor-link">
-								<img src="../images/fred-rutgers.jpg" class="articleAuthor-image" />
+								<img src="../images/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
 								<span class="articleAuthor-name">Fred Rutgers</span>
 								<span class="articleAuthor-company">SchrijvenVoorWeb</span>
 							</a>
@@ -99,7 +99,7 @@
 				<div class="articleAuthor articleAuthor--bottom">
 					<div class="articleAuthor-content">
 						<a href="auteur.php" class="articleAuthor-link">
-							<img src="../images/fred-rutgers.jpg" class="articleAuthor-image" />
+							<img src="../images/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
 							<span class="articleAuthor-name">Fred Rutgers</span>
 							<span class="articleAuthor-company">SchrijvenVoorWeb</span>
 						</a>
@@ -137,7 +137,7 @@
 					<div class="articleAuthor">
 						<div class="articleAuthor-summary">
 							<a href="auteur.php" class="articleAuthor-link">
-								<img src="../images/fred-rutgers.jpg" class="articleAuthor-image" />
+								<img src="../images/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
 								<span class="articleAuthor-name">Fred Rutgers</span>
 								<span class="articleAuthor-company">Expert</span>
 							</a>
@@ -181,7 +181,7 @@
 				<div class="articleAuthor articleAuthor--bottom">
 					<div class="articleAuthor-content">
 						<a href="auteur.php" class="articleAuthor-link">
-							<img src="../images/fred-rutgers.jpg" class="articleAuthor-image" />
+							<img src="../images/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
 							<span class="articleAuthor-name">Fred Rutgers</span>
 							<span class="articleAuthor-company">Expert</span>
 						</a>
@@ -221,7 +221,7 @@
 					<div class="articleAuthor">
 						<div class="articleAuthor-summary">
 							<a href="auteur.php" class="articleAuthor-link">
-								<img src="../images/jelmer-luimstra.jpg" class="articleAuthor-image" />
+								<img src="../images/avatars/jelmer-luimstra.jpg" class="articleAuthor-image" />
 								<span class="articleAuthor-name">Jelmer Luimstra</span>
 								<span class="articleAuthor-company">SchrijvenVoorWeb</span>
 							</a>
@@ -274,7 +274,7 @@
 				<div class="articleAuthor articleAuthor--bottom">
 					<div class="articleAuthor-content">
 						<a href="auteur.php" class="articleAuthor-link">
-							<img src="../images/jelmer-luimstra.jpg" class="articleAuthor-image" />
+							<img src="../images/avatars/jelmer-luimstra.jpg" class="articleAuthor-image" />
 							<span class="articleAuthor-name">Jelmer Luimstra</span>
 							<span class="articleAuthor-company">SchrijvenVoorWeb</span>
 						</a>

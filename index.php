@@ -130,7 +130,7 @@
 			</a>
 		</div>
 		<div class="grid-cell grid-cell--wide">
-			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--horizontal card--partner" tag="investeren">
+			<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--horizontal card--partner" tag="investeren">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--partner"><i class="fa fa-heart" aria-hidden="true"></i> partner</div>
@@ -345,7 +345,7 @@
 			</a>
 		</div>
 		<div class="grid-cell grid-cell--wide">
-			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--horizontal card--partner" tag="investeren">
+			<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--horizontal card--partner" tag="investeren">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--partner"><i class="fa fa-heart" aria-hidden="true"></i> partner</div>
@@ -457,7 +457,7 @@
 		<h3 class="panel-title">Recente investeringen</h3>
 		<ul class="investmentList">
 			<li class="investmentList-item active">
-				<div class="investmentList-logo"><a class="investmentList-link" href="https://index.co/investments"><img src="images/callrail.png" /></a></div>
+				<div class="investmentList-logo"><a class="investmentList-link" href="https://index.co/investments"><img src="images/avatars/callrail.png" /></a></div>
 				<div class="investmentList-description">
 					<a href="https://www.callrail.com/" class="investmentList-company">CallRail</a>
 					<a href="#" class="investmentList-value">$75M</a>

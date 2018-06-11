@@ -214,7 +214,7 @@
 				</div>
 				<a class="forumpostsTeaser-author" href="/member/rebecca-roggeveen">
 					<span class="forumpostsTeaser-name">Rebecca Roggeveen</span>
-					<img class="forumpostsTeaser-avatar" src="images/rebecca-roggeveen.jpg" />
+					<img class="forumpostsTeaser-avatar" src="images/avatars/rebecca-roggeveen.jpg" />
 				</a>
 			</li>
 		</ul>
@@ -245,7 +245,7 @@
 		<ul class="investmentList">
 			<li class="investmentList-item active">
 				<div class="investmentList-logo">
-					<a class="investmentList-link" href="https://index.co/investments"><img src="images/callrail.png" /></a>
+					<a class="investmentList-link" href="https://index.co/investments"><img src="images/avatars/callrail.png" /></a>
 				</div>
 				<div class="investmentList-description">
 					<a href="https://www.callrail.com/" class="investmentList-company">CallRail</a>
@@ -291,7 +291,7 @@
 					<img class="posterList-image" src="images/network-poster.jpg" />
 				</a>
 				<a class="posterList-author" href="/member/rebecca-roggeveen">
-					<img class="posterList-avatar" src="images/rebecca-roggeveen.jpg" />
+					<img class="posterList-avatar" src="images/avatars/rebecca-roggeveen.jpg" />
 					<span class="posterList-name">Rebecca Roggeveen</span>
 				</a>
 			</li>

@@ -53,6 +53,42 @@
 	}
 }
 
+.article--partner {
+
+	.article-intro {
+		background: $color-partner;
+
+		&:before {
+			content: 'Persbericht -';
+			display: inline-block;
+			font-weight: bold;
+			letter-spacing: 0.05em;
+			margin-right: 0.25em;
+			text-transform: uppercase;
+		}
+
+		@include tablet {
+			background: inherit;
+
+			&:before {
+				color: $color-partner;
+			}
+		}
+	}
+
+	.article-hero:before {
+		@include tablet {
+			content: '';
+			display: block;
+			position: absolute;
+			height: 0.75em;
+			width: 100%;
+			background: $color-partner;
+			z-index: 1;
+		}
+	}
+}
+
 .article-tags {
 	display: none;
 

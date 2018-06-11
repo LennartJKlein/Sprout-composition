@@ -28,7 +28,7 @@
 					<div class="articleAuthor">
 						<div class="articleAuthor-summary">
 							<a href="auteur.php" class="articleAuthor-link">
-								<img src="../images/fred-rutgers.jpg" class="articleAuthor-image" />
+								<img src="../images/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
 								<span class="articleAuthor-name">Remy Ludo Gieling</span>
 								<span class="articleAuthor-company">Sprout</span>
 							</a>
