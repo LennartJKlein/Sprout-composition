@@ -28,12 +28,13 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=Km2rlPWvGK">
 	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=Km2rlPWvGK">
 	<link rel="manifest" href="/manifests/site.webmanifest?v=Km2rlPWvGK">
-	<link rel="mask-icon" href="/images/safari-pinned-tab.svg?v=Km2rlPWvGK" color="#dd6e42">
+	<link rel="mask-icon" href="/images/safari-pinned-tab.svg?v=Km2rlPWvGK" color="#de6e40">
 	<link rel="shortcut icon" href="/images/favicon.ico?v=Km2rlPWvGK">
 	<meta name="apple-mobile-web-app-title" content="Sprout">
 	<meta name="application-name" content="Sprout">
-	<meta name="msapplication-TileColor" content="#dd6e42">
+	<meta name="msapplication-TileColor" content="#de6e40">
 	<meta name="theme-color" content="#2e5266">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
 	<!-- Google Open Search (omnibox 'tab') -->
     <link rel="search" type="application/opensearchdescription+xml" title="Sprout" href="/manifests/opensearch.xml" />
