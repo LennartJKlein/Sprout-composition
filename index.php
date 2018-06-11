@@ -216,7 +216,7 @@
 		<div class="grid-cell articleList">
 			<h2 class="articleList-title"><a href="tag.php" class="articleList-title-link text--partner"><i class="fa fa-bullhorn" aria-hidden="true"></i> Persberichten</a></h2>
 			<div class="articleList-list">
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
+				<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="articleList-article">
 					<div class="articleList-figurecontainer">
 						<div class="articleList-figure">
 							<img src="images/articles/schermafbeelding_2017-08-15_om_17.10.42.png" class="articleList-image" />
@@ -224,7 +224,7 @@
 					</div>
 					<h3 class="articleList-articleTitle">Deze ondernemer helpt game-ontwikkelaars aan een investeerder</h3>
 				</a>
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
+				<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="articleList-article">
 					<div class="articleList-figurecontainer">
 						<div class="articleList-figure">
 							<img src="images/articles/pexels-photo-436413.jpeg" class="articleList-image" />
@@ -232,7 +232,7 @@
 					</div>
 					<h3 class="articleList-articleTitle">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
 				</a>
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
+				<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="articleList-article">
 					<div class="articleList-figurecontainer">
 						<div class="articleList-figure">
 							<img src="images/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="articleList-image" />
@@ -240,7 +240,7 @@
 					</div>
 					<h3 class="articleList-articleTitle">Zo verklaart Uber de liefde aan managers</h3>
 				</a>
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
+				<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="articleList-article">
 					<div class="articleList-figurecontainer">
 						<div class="articleList-figure">
 							<img src="images/articles/bill_gates.png" class="articleList-image" />

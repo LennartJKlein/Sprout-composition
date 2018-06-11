@@ -12,7 +12,7 @@
 				<h1 class="article-title">Vooral premium members houden van informatieve artikelen</h1>
 				<div class="article-intro">Dat het het waard is om te betalen voor content, is niet ongewoon. Toch verwachten betalende leden er ook wel wat voor terug. Maar wat precies?</div>
 				
-				<?php include '../templates/shareactions--wide.php' ?>
+				<?php include '../templates/shareactions--wide.php'; ?>
 				
 				<div class="article-hero figure">
 					<img src="../images/articles/article-hero-premium.jpg" class="figure-image" />
@@ -65,7 +65,7 @@
 				<p>Gebrek aan aftersales aandacht is voor veel klanten reden om een winkel de rug toe te keren. Ruil beleid en garantieafwikkeling zijn grote bronnen van ergernis. Online mag je alles terugsturen, maar ruilen in een winkel is vaak een drama, zeker als je iets wilt terugbrengen dat niet naar behoren werkt. Vaak maken winkels een defect het probleem van de klant. Dat moet u rechtstreeks met de fabrikant regelen horen klanten te vaak. De nummer één reden om nooit meer terug te komen!</p>
 			</main>
 			<footer class="article-footer">
-				<?php include '../templates/shareactions.php' ?>
+				<?php include '../templates/shareactions.php'; ?>
 
 				<div class="articleAuthor articleAuthor--bottom">
 					<div class="articleAuthor-content">

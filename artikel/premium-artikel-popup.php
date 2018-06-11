@@ -14,7 +14,7 @@
 				<h1 class="article-title">Vooral premium members houden van informatieve artikelen</h1>
 				<div class="article-intro">Dat het het waard is om te betalen voor content, is niet ongewoon. Toch verwachten betalende leden er ook wel wat voor terug. Maar wat precies?</div>
 				
-				<?php include '../templates/shareactions--wide.php' ?>
+				<?php include '../templates/shareactions--wide.php'; ?>
 				
 				<div class="article-hero figure">
 					<img src="../images/articles/article-hero-premium.jpg" class="figure-image" />

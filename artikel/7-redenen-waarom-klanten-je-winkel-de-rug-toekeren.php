@@ -41,7 +41,7 @@
 				<h1 class="article-title">7 redenen waarom klanten je winkel de rug toekeren</h1>
 				<div class="article-intro">Sprout-expert Fred Rutgers onderzocht waarom klanten een winkel de rug toekeren. 'De uitkomsten zullen voor menig winkelier best even schrikken zijn.'</div>
 
-				<?php include '../templates/shareactions--wide.php' ?>
+				<?php include '../templates/shareactions--wide.php'; ?>
 
 				<div class="article-hero figure">
 					<img src="../images/articles/article-hero3.jpg" class="figure-image" />
@@ -94,7 +94,7 @@
 				<p>Gebrek aan aftersales aandacht is voor veel klanten reden om een winkel de rug toe te keren. Ruil beleid en garantieafwikkeling zijn grote bronnen van ergernis. Online mag je alles terugsturen, maar ruilen in een winkel is vaak een drama, zeker als je iets wilt terugbrengen dat niet naar behoren werkt. Vaak maken winkels een defect het probleem van de klant. Dat moet u rechtstreeks met de fabrikant regelen horen klanten te vaak. De nummer één reden om nooit meer terug te komen!</p>
 			</main>
 			<footer class="article-footer">
-				<?php include '../templates/shareactions.php' ?>
+				<?php include '../templates/shareactions.php'; ?>
 
 				<div class="articleAuthor articleAuthor--bottom">
 					<div class="articleAuthor-content">
@@ -123,7 +123,7 @@
 				<h1 class="article-title">Waarom retailers het contact met jongeren kwijt zijn geraakt</h1>
 				<div class="article-intro">Jongeren zijn via traditionele kanalen vrijwel onbereikbaar geworden. Daardoor zijn retailers zijn het contact verloren met jongeren, schrijft Sprout-expert Fred Rutgers.</div>
 
-				<?php include '../templates/shareactions--wide.php' ?>
+				<?php include '../templates/shareactions--wide.php'; ?>
 				
 				<div class="article-hero figure">
 					<img src="../images/articles/article-hero2.jpg" class="figure-image" />
@@ -176,7 +176,7 @@
 				<p>Als je contact wilt maken en houden met deze doelgroep zul je dus heel veel moeten testen en het zeker totaal anders moeten aanpakken dan in het verleden. En dat terwijl deze doelgroep wel degelijk behoorlijk veel koopkracht heeft. Wil jij jouw marketingbudget dus niet rechtstreeks het riool in pompen en is generatie Y jouw doelgroep, dan zul je dus fors met je tijd mee moeten gaan! </p>
 			</main>
 			<footer class="article-footer">
-				<?php include '../templates/shareactions.php' ?>
+				<?php include '../templates/shareactions.php'; ?>
 
 				<div class="articleAuthor articleAuthor--bottom">
 					<div class="articleAuthor-content">
@@ -207,7 +207,7 @@
 				<h1 class="article-title">Hoe overleef je tegenwoordig als winkel? Ondernemers vertellen</h1>
 				<div class="article-intro">Succes hebben in de retailsector: het is niet iedereen gegund. Sprout is aanwezig bij een zogeheten rondetafel-discussie tussen ondernemers die er wel in slagen. Gespot: opvallend veel jonge ondernemers, die opvallend veel zien in stenen winkels.</div>
 				
-				<?php include '../templates/shareactions--wide.php' ?>
+				<?php include '../templates/shareactions--wide.php'; ?>
 				
 				<div class="article-hero figure">
 					<img src="../images/articles/article-hero.jpg" class="figure-image" />
@@ -269,7 +269,7 @@
 				<p>Bos zegt het meest in te zetten op zijn fysieke winkels, vanwege die beleving, maar stelt wel: de locatie is essentieel. Vestig je je als webshop op een industrieterrein of in een buitenwijk, dan levert dit je weinig op. Bos wil ieder jaar een nieuwe winkel openen, maar Zwanikken merkt op dat zoiets niet in iedere sector kan. De elektronica-ondernemer ziet mensen helemaal uit België afreizen voor zijn shop in Arnhem. Meer winkels openen, dat zou voor Zwanikken betekenen dat hij met zichzelf zou concurreren. Op den duur wil hij meer winkels openen, maar hij blijft nog even voorzichtig.</p>
 			</main>
 			<footer class="article-footer">
-				<?php include '../templates/shareactions.php' ?>
+				<?php include '../templates/shareactions.php'; ?>
 
 				<div class="articleAuthor articleAuthor--bottom">
 					<div class="articleAuthor-content">
