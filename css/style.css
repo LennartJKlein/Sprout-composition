@@ -1202,6 +1202,265 @@ body {
         .grid--themes .grid-cell:nth-of-type(odd):last-of-type {
           width: calc(100% / 3); } }
 
+/* line 1, ../sass/layout/_button.scss */
+.button {
+  background: transparent;
+  border: solid 2px #2E5266;
+  border-radius: 0.3em;
+  color: #2E5266;
+  cursor: pointer;
+  display: inline-block;
+  font-size: .9em;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  outline: 0;
+  padding: 1em 1em 1.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle; }
+  @media (min-width: 769px) {
+    /* line 1, ../sass/layout/_button.scss */
+    .button {
+      font-size: .8em; } }
+  /* line 22, ../sass/layout/_button.scss */
+  .button:focus {
+    outline: 0; }
+  /* line 26, ../sass/layout/_button.scss */
+  .button:hover {
+    border-color: #2E5266;
+    background: #2E5266;
+    color: #fefefe; }
+  /* line 32, ../sass/layout/_button.scss */
+  .button:active {
+    border-color: #224456;
+    background: #224456;
+    outline: 0; }
+  /* line 38, ../sass/layout/_button.scss */
+  .button .fa {
+    margin-right: 0.5em; }
+
+/* line 43, ../sass/layout/_button.scss */
+.button--solid {
+  background: #2E5266;
+  color: #fefefe; }
+
+/* line 48, ../sass/layout/_button.scss */
+.button--modal {
+  text-transform: uppercase;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  margin-left: 1.5em;
+  color: #DD6E42;
+  font-weight: bold;
+  cursor: pointer; }
+
+/* line 59, ../sass/layout/_button.scss */
+.button--secondary {
+  color: #DD6E42;
+  border: solid 2px #DD6E42; }
+  /* line 63, ../sass/layout/_button.scss */
+  .button--secondary:hover {
+    border-color: #DD6E42;
+    background: #DD6E42; }
+  /* line 68, ../sass/layout/_button.scss */
+  .button--secondary:active, .button--secondary:focus {
+    border-color: #ce4f1c;
+    background: #ce4f1c; }
+
+/* line 75, ../sass/layout/_button.scss */
+.button--premium-secondary {
+  color: #DC0451;
+  border: solid 2px #DC0451; }
+  /* line 79, ../sass/layout/_button.scss */
+  .button--premium-secondary:hover {
+    border-color: #DC0451;
+    background: #DC0451; }
+  /* line 84, ../sass/layout/_button.scss */
+  .button--premium-secondary:active, .button--premium-secondary:focus {
+    border-color: #007AC9;
+    background: #007AC9; }
+
+/* line 91, ../sass/layout/_button.scss */
+.button--partner {
+  color: #007AC9;
+  border: solid 2px #007AC9; }
+  /* line 95, ../sass/layout/_button.scss */
+  .button--partner:hover {
+    border-color: #007AC9;
+    background: #007AC9; }
+  /* line 100, ../sass/layout/_button.scss */
+  .button--partner:active, .button--partner:focus {
+    border-color: #deedf7;
+    background: #deedf7; }
+
+/* line 107, ../sass/layout/_button.scss */
+.button--white {
+  color: #fefefe;
+  border: solid 2px #fefefe; }
+  /* line 111, ../sass/layout/_button.scss */
+  .button--white:hover {
+    border-color: #fefefe;
+    color: #9FB1BC;
+    background: #fefefe; }
+  /* line 117, ../sass/layout/_button.scss */
+  .button--white:active, .button--white:focus {
+    color: #2E5266;
+    border-color: #fefefe;
+    background: #fefefe; }
+  /* line 124, ../sass/layout/_button.scss */
+  .button--white.button--clean {
+    border: solid 2px transparent;
+    color: #fefefe; }
+    /* line 128, ../sass/layout/_button.scss */
+    .button--white.button--clean:hover {
+      border-color: #fefefe;
+      color: #fefefe; }
+    /* line 133, ../sass/layout/_button.scss */
+    .button--white.button--clean:active, .button--white.button--clean:focus {
+      color: #2E5266;
+      border-color: #fefefe;
+      background: #fefefe; }
+
+/* line 142, ../sass/layout/_button.scss */
+.button--premium {
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom right, #007AC9, #DC0451);
+  border-image-slice: 1;
+  color: #DC0451;
+  background: linear-gradient(to bottom right, #007AC9, #DC0451);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+  /* line 103, ../sass/_mixins.scss */
+  .button--premium .fa {
+    -webkit-background-clip: none;
+    -webkit-text-fill-color: #007AC9; }
+  /* line 149, ../sass/layout/_button.scss */
+  .button--premium:hover {
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: inherit;
+    color: #fefefe;
+    background: linear-gradient(to bottom right, #007AC9, #DC0451); }
+    /* line 117, ../sass/_mixins.scss */
+    .button--premium:hover .fa {
+      -webkit-background-clip: none;
+      -webkit-text-fill-color: #fefefe; }
+  /* line 157, ../sass/layout/_button.scss */
+  .button--premium:active, .button--premium:focus {
+    background: linear-gradient(to bottom right, #007AC9, #DC0451);
+    color: #fefefe;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: inherit; }
+    /* line 117, ../sass/_mixins.scss */
+    .button--premium:active .fa, .button--premium:focus .fa {
+      -webkit-background-clip: none;
+      -webkit-text-fill-color: #fefefe; }
+  /* line 167, ../sass/layout/_button.scss */
+  .button--premium.button--logo:before {
+    content: url("/images/premium-logo.svg");
+    display: inline-block;
+    width: 5.2em;
+    height: auto; }
+  /* line 177, ../sass/layout/_button.scss */
+  .button--premium.button--logo:hover:before, .button--premium.button--logo:active:before, .button--premium.button--logo:focus:before {
+    content: url("/images/premium-logo-white.svg"); }
+  /* line 183, ../sass/layout/_button.scss */
+  .button--premium.button--logo.button--solid:before {
+    content: url("/images/premium-logo-white.svg"); }
+  /* line 189, ../sass/layout/_button.scss */
+  .button--premium.button--solid {
+    color: #fefefe;
+    background: linear-gradient(to bottom right, #007AC9, #DC0451);
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: inherit;
+    border-image-slice: 0; }
+    /* line 196, ../sass/layout/_button.scss */
+    .button--premium.button--solid:hover, .button--premium.button--solid:active, .button--premium.button--solid:focus {
+      border-color: transparent; }
+
+/* line 204, ../sass/layout/_button.scss */
+.button--grey {
+  color: #777777;
+  border: solid 2px #777777; }
+  /* line 208, ../sass/layout/_button.scss */
+  .button--grey:hover {
+    border-color: #777777;
+    background: #777777; }
+  /* line 213, ../sass/layout/_button.scss */
+  .button--grey:active, .button--grey:focus {
+    border-color: #231f20;
+    background: #231f20; }
+
+/* line 220, ../sass/layout/_button.scss */
+.button--small {
+  padding: .6em .75em;
+  font-size: 0.7em; }
+  @media (min-width: 769px) {
+    /* line 220, ../sass/layout/_button.scss */
+    .button--small {
+      font-size: 0.8em; } }
+
+/* line 229, ../sass/layout/_button.scss */
+.button--big {
+  padding: 0.8em 1.1em;
+  font-size: 1em; }
+  @media (min-width: 769px) {
+    /* line 229, ../sass/layout/_button.scss */
+    .button--big {
+      font-size: 1.1em; } }
+
+/* line 238, ../sass/layout/_button.scss */
+.button--center {
+  margin: 0 auto;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); }
+
+/* line 245, ../sass/layout/_button.scss */
+.button--right {
+  margin: -1.5em auto 1.5em 0;
+  position: relative;
+  float: right; }
+
+/* line 251, ../sass/layout/_button.scss */
+.button--space {
+  margin-right: 0.5em; }
+
+/* line 255, ../sass/layout/_button.scss */
+.button--arrow {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  vertical-align: middle; }
+  /* line 261, ../sass/layout/_button.scss */
+  .button--arrow i {
+    transition: font-size .2s;
+    font-size: .75em;
+    margin-left: .25em;
+    vertical-align: middle; }
+  /* line 269, ../sass/layout/_button.scss */
+  .button--arrow:hover i {
+    font-size: 1.05em; }
+
+/* line 275, ../sass/layout/_button.scss */
+.button--clean {
+  border: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
+  /* line 280, ../sass/layout/_button.scss */
+  .button--clean:hover {
+    background: transparent; }
+  /* line 284, ../sass/layout/_button.scss */
+  .button--clean:active, .button--clean:focus {
+    background: transparent; }
+
+/* line 291, ../sass/layout/_button.scss */
+.buttonContainer:after {
+  content: '';
+  display: block;
+  clear: both; }
+
 /* line 1, ../sass/layout/_panel.scss */
 .panel {
   padding: 2em;
@@ -1429,6 +1688,14 @@ body {
   background: transparent;
   border: 0;
   outline: 0; }
+
+/* line 1, ../sass/layout/_notification.scss */
+.notification {
+  background: #e5e2de;
+  padding: 1em;
+  border-left: solid 0.3em #2E5266;
+  border-radius: 0.25rem;
+  overflow: hidden; }
 
 /* line 1, ../sass/components/_spinner.scss */
 .spinner {
@@ -2424,265 +2691,6 @@ body {
       padding-left: 4rem;
       padding-right: 4rem; } }
 
-/* line 1, ../sass/components/_button.scss */
-.button {
-  background: transparent;
-  border: solid 2px #2E5266;
-  border-radius: 0.3em;
-  color: #2E5266;
-  cursor: pointer;
-  display: inline-block;
-  font-size: .9em;
-  font-weight: bold;
-  letter-spacing: 0.01em;
-  line-height: 1;
-  outline: 0;
-  padding: 1em 1em 1.1em;
-  text-decoration: none;
-  text-transform: uppercase;
-  vertical-align: middle; }
-  @media (min-width: 769px) {
-    /* line 1, ../sass/components/_button.scss */
-    .button {
-      font-size: .8em; } }
-  /* line 22, ../sass/components/_button.scss */
-  .button:focus {
-    outline: 0; }
-  /* line 26, ../sass/components/_button.scss */
-  .button:hover {
-    border-color: #2E5266;
-    background: #2E5266;
-    color: #fefefe; }
-  /* line 32, ../sass/components/_button.scss */
-  .button:active {
-    border-color: #224456;
-    background: #224456;
-    outline: 0; }
-  /* line 38, ../sass/components/_button.scss */
-  .button .fa {
-    margin-right: 0.5em; }
-
-/* line 43, ../sass/components/_button.scss */
-.button--solid {
-  background: #2E5266;
-  color: #fefefe; }
-
-/* line 48, ../sass/components/_button.scss */
-.button--modal {
-  text-transform: uppercase;
-  background: transparent;
-  border: 0;
-  outline: 0;
-  margin-left: 1.5em;
-  color: #DD6E42;
-  font-weight: bold;
-  cursor: pointer; }
-
-/* line 59, ../sass/components/_button.scss */
-.button--secondary {
-  color: #DD6E42;
-  border: solid 2px #DD6E42; }
-  /* line 63, ../sass/components/_button.scss */
-  .button--secondary:hover {
-    border-color: #DD6E42;
-    background: #DD6E42; }
-  /* line 68, ../sass/components/_button.scss */
-  .button--secondary:active, .button--secondary:focus {
-    border-color: #ce4f1c;
-    background: #ce4f1c; }
-
-/* line 75, ../sass/components/_button.scss */
-.button--premium-secondary {
-  color: #DC0451;
-  border: solid 2px #DC0451; }
-  /* line 79, ../sass/components/_button.scss */
-  .button--premium-secondary:hover {
-    border-color: #DC0451;
-    background: #DC0451; }
-  /* line 84, ../sass/components/_button.scss */
-  .button--premium-secondary:active, .button--premium-secondary:focus {
-    border-color: #007AC9;
-    background: #007AC9; }
-
-/* line 91, ../sass/components/_button.scss */
-.button--partner {
-  color: #007AC9;
-  border: solid 2px #007AC9; }
-  /* line 95, ../sass/components/_button.scss */
-  .button--partner:hover {
-    border-color: #007AC9;
-    background: #007AC9; }
-  /* line 100, ../sass/components/_button.scss */
-  .button--partner:active, .button--partner:focus {
-    border-color: #deedf7;
-    background: #deedf7; }
-
-/* line 107, ../sass/components/_button.scss */
-.button--white {
-  color: #fefefe;
-  border: solid 2px #fefefe; }
-  /* line 111, ../sass/components/_button.scss */
-  .button--white:hover {
-    border-color: #fefefe;
-    color: #9FB1BC;
-    background: #fefefe; }
-  /* line 117, ../sass/components/_button.scss */
-  .button--white:active, .button--white:focus {
-    color: #2E5266;
-    border-color: #fefefe;
-    background: #fefefe; }
-  /* line 124, ../sass/components/_button.scss */
-  .button--white.button--clean {
-    border: solid 2px transparent;
-    color: #fefefe; }
-    /* line 128, ../sass/components/_button.scss */
-    .button--white.button--clean:hover {
-      border-color: #fefefe;
-      color: #fefefe; }
-    /* line 133, ../sass/components/_button.scss */
-    .button--white.button--clean:active, .button--white.button--clean:focus {
-      color: #2E5266;
-      border-color: #fefefe;
-      background: #fefefe; }
-
-/* line 142, ../sass/components/_button.scss */
-.button--premium {
-  border: 2px solid transparent;
-  border-image: linear-gradient(to bottom right, #007AC9, #DC0451);
-  border-image-slice: 1;
-  color: #DC0451;
-  background: linear-gradient(to bottom right, #007AC9, #DC0451);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-  /* line 103, ../sass/_mixins.scss */
-  .button--premium .fa {
-    -webkit-background-clip: none;
-    -webkit-text-fill-color: #007AC9; }
-  /* line 149, ../sass/components/_button.scss */
-  .button--premium:hover {
-    -webkit-background-clip: unset;
-    -webkit-text-fill-color: inherit;
-    color: #fefefe;
-    background: linear-gradient(to bottom right, #007AC9, #DC0451); }
-    /* line 117, ../sass/_mixins.scss */
-    .button--premium:hover .fa {
-      -webkit-background-clip: none;
-      -webkit-text-fill-color: #fefefe; }
-  /* line 157, ../sass/components/_button.scss */
-  .button--premium:active, .button--premium:focus {
-    background: linear-gradient(to bottom right, #007AC9, #DC0451);
-    color: #fefefe;
-    -webkit-background-clip: unset;
-    -webkit-text-fill-color: inherit; }
-    /* line 117, ../sass/_mixins.scss */
-    .button--premium:active .fa, .button--premium:focus .fa {
-      -webkit-background-clip: none;
-      -webkit-text-fill-color: #fefefe; }
-  /* line 167, ../sass/components/_button.scss */
-  .button--premium.button--logo:before {
-    content: url("/images/premium-logo.svg");
-    display: inline-block;
-    width: 5.2em;
-    height: auto; }
-  /* line 177, ../sass/components/_button.scss */
-  .button--premium.button--logo:hover:before, .button--premium.button--logo:active:before, .button--premium.button--logo:focus:before {
-    content: url("/images/premium-logo-white.svg"); }
-  /* line 183, ../sass/components/_button.scss */
-  .button--premium.button--logo.button--solid:before {
-    content: url("/images/premium-logo-white.svg"); }
-  /* line 189, ../sass/components/_button.scss */
-  .button--premium.button--solid {
-    color: #fefefe;
-    background: linear-gradient(to bottom right, #007AC9, #DC0451);
-    -webkit-background-clip: unset;
-    -webkit-text-fill-color: inherit;
-    border-image-slice: 0; }
-    /* line 196, ../sass/components/_button.scss */
-    .button--premium.button--solid:hover, .button--premium.button--solid:active, .button--premium.button--solid:focus {
-      border-color: transparent; }
-
-/* line 204, ../sass/components/_button.scss */
-.button--grey {
-  color: #777777;
-  border: solid 2px #777777; }
-  /* line 208, ../sass/components/_button.scss */
-  .button--grey:hover {
-    border-color: #777777;
-    background: #777777; }
-  /* line 213, ../sass/components/_button.scss */
-  .button--grey:active, .button--grey:focus {
-    border-color: #231f20;
-    background: #231f20; }
-
-/* line 220, ../sass/components/_button.scss */
-.button--small {
-  padding: .6em .75em;
-  font-size: 0.7em; }
-  @media (min-width: 769px) {
-    /* line 220, ../sass/components/_button.scss */
-    .button--small {
-      font-size: 0.8em; } }
-
-/* line 229, ../sass/components/_button.scss */
-.button--big {
-  padding: 0.8em 1.1em;
-  font-size: 1em; }
-  @media (min-width: 769px) {
-    /* line 229, ../sass/components/_button.scss */
-    .button--big {
-      font-size: 1.1em; } }
-
-/* line 238, ../sass/components/_button.scss */
-.button--center {
-  margin: 0 auto;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%); }
-
-/* line 245, ../sass/components/_button.scss */
-.button--right {
-  margin: -1.5em auto 1.5em 0;
-  position: relative;
-  float: right; }
-
-/* line 251, ../sass/components/_button.scss */
-.button--space {
-  margin-right: 0.5em; }
-
-/* line 255, ../sass/components/_button.scss */
-.button--arrow {
-  -webkit-align-self: flex-start;
-  -ms-flex-item-align: start;
-  align-self: flex-start;
-  vertical-align: middle; }
-  /* line 261, ../sass/components/_button.scss */
-  .button--arrow i {
-    transition: font-size .2s;
-    font-size: .75em;
-    margin-left: .25em;
-    vertical-align: middle; }
-  /* line 269, ../sass/components/_button.scss */
-  .button--arrow:hover i {
-    font-size: 1.05em; }
-
-/* line 275, ../sass/components/_button.scss */
-.button--clean {
-  border: 0;
-  padding-left: 0.5em;
-  padding-right: 0.5em; }
-  /* line 280, ../sass/components/_button.scss */
-  .button--clean:hover {
-    background: transparent; }
-  /* line 284, ../sass/components/_button.scss */
-  .button--clean:active, .button--clean:focus {
-    background: transparent; }
-
-/* line 291, ../sass/components/_button.scss */
-.buttonContainer:after {
-  content: '';
-  display: block;
-  clear: both; }
-
 /* line 1, ../sass/components/_card.scss */
 .card {
   -webkit-transform: translate3d(0, 0, 0);
@@ -3188,6 +3196,29 @@ body {
       padding-right: 4rem; } }
 
 /* line 108, ../sass/components/_event.scss */
+.event-notification {
+  margin: 1em 0 2em;
+  -webkit-box-ordinal-group: 0;
+  -moz-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1; }
+  @media (min-width: 769px) {
+    /* line 108, ../sass/components/_event.scss */
+    .event-notification {
+      -webkit-box-ordinal-group: 1;
+      -moz-box-ordinal-group: 1;
+      -webkit-order: 0;
+      -ms-flex-order: 0;
+      order: 0; } }
+  @media (min-width: 1200px) {
+    /* line 108, ../sass/components/_event.scss */
+    .event-notification {
+      max-width: 70rem;
+      padding-left: 4rem;
+      padding-right: 4rem; } }
+
+/* line 123, ../sass/components/_event.scss */
 .event-intro {
   font-family: "Kepler", Cambria, Georgia, Times New Roman, serif;
   margin: -1rem -1.5rem 0 -1.5rem;
@@ -3200,7 +3231,7 @@ body {
   -ms-flex-order: 0;
   order: 0; }
   @media (min-width: 769px) {
-    /* line 108, ../sass/components/_event.scss */
+    /* line 123, ../sass/components/_event.scss */
     .event-intro {
       color: #231f20;
       margin: 0 0 2em 0;
@@ -3212,7 +3243,7 @@ body {
       -ms-flex-order: 0;
       order: 0; } }
   @media (min-width: 1200px) {
-    /* line 108, ../sass/components/_event.scss */
+    /* line 123, ../sass/components/_event.scss */
     .event-intro {
       max-width: 70rem;
       padding-left: 4rem;
@@ -3220,7 +3251,7 @@ body {
       margin-left: auto;
       margin-right: auto; } }
 
-/* line 133, ../sass/components/_event.scss */
+/* line 148, ../sass/components/_event.scss */
 .event-hero {
   -webkit-box-ordinal-group: 0;
   -moz-box-ordinal-group: 0;
@@ -3228,37 +3259,37 @@ body {
   -ms-flex-order: -1;
   order: -1; }
   @media (min-width: 769px) {
-    /* line 133, ../sass/components/_event.scss */
+    /* line 148, ../sass/components/_event.scss */
     .event-hero {
       -webkit-box-ordinal-group: 1;
       -moz-box-ordinal-group: 1;
       -webkit-order: 0;
       -ms-flex-order: 0;
       order: 0; } }
-  /* line 140, ../sass/components/_event.scss */
+  /* line 155, ../sass/components/_event.scss */
   .event-hero.figure {
     margin: 0 -1.5em 1.5em;
     max-height: 75vh; }
     @media (min-width: 769px) {
-      /* line 140, ../sass/components/_event.scss */
+      /* line 155, ../sass/components/_event.scss */
       .event-hero.figure {
         margin-top: 1em;
         margin-bottom: 0em;
         margin-left: -5vw;
         margin-right: -5vw; } }
   @media (min-width: 769px) {
-    /* line 152, ../sass/components/_event.scss */
+    /* line 167, ../sass/components/_event.scss */
     .event-hero .figure-credit {
       bottom: 5.5em; } }
 
-/* line 162, ../sass/components/_event.scss */
+/* line 177, ../sass/components/_event.scss */
 .event-content h2 {
   color: #DD6E42;
   font-family: "Gotham", "Century Gothic", Arial, Helvetica, sans-serif;
   font-size: 1.4em;
   line-height: 1.25;
   margin: 2.3em 0 0.7em; }
-/* line 170, ../sass/components/_event.scss */
+/* line 185, ../sass/components/_event.scss */
 .event-content ul,
 .event-content ol {
   margin-top: 0;
@@ -3267,21 +3298,21 @@ body {
   font-size: 1.05em;
   margin-bottom: 2em;
   font-weight: normal; }
-  /* line 179, ../sass/components/_event.scss */
+  /* line 194, ../sass/components/_event.scss */
   .event-content ul a,
   .event-content ol a {
     font-weight: 500; }
   @media (min-width: 1200px) {
-    /* line 170, ../sass/components/_event.scss */
+    /* line 185, ../sass/components/_event.scss */
     .event-content ul,
     .event-content ol {
       font-size: 1.1em; } }
 @media (min-width: 1200px) {
-  /* line 188, ../sass/components/_event.scss */
+  /* line 203, ../sass/components/_event.scss */
   .event-content p {
     font-size: 1.1em; } }
 @media (min-width: 1200px) {
-  /* line 194, ../sass/components/_event.scss */
+  /* line 209, ../sass/components/_event.scss */
   .event-content div,
   .event-content h2,
   .event-content h3,
@@ -3295,20 +3326,20 @@ body {
     margin-left: auto;
     margin-right: auto; } }
 @media (min-width: 1200px) {
-  /* line 210, ../sass/components/_event.scss */
+  /* line 225, ../sass/components/_event.scss */
   .event-content blockquote {
     width: 100%;
     max-width: calc(70rem - 8rem);
     margin-left: auto;
     margin-right: auto; } }
-/* line 219, ../sass/components/_event.scss */
+/* line 234, ../sass/components/_event.scss */
 .event-content .figure {
   margin-left: -1.5em;
   margin-right: -1.5em;
   margin-top: 3em;
   margin-bottom: 3em; }
   @media (min-width: 769px) {
-    /* line 219, ../sass/components/_event.scss */
+    /* line 234, ../sass/components/_event.scss */
     .event-content .figure {
       margin-left: -5vw;
       margin-right: -5vw; } }
@@ -4000,14 +4031,6 @@ body {
   /* line 113, ../sass/components/_newsletter-teaser.scss */
   .newsletterTeaser-submit .fa {
     margin-left: 0.25em; }
-
-/* line 1, ../sass/components/_notification.scss */
-.notification {
-  background: #e5e2de;
-  padding: 1em;
-  border-left: solid 0.3em #2E5266;
-  border-radius: 0.25rem;
-  overflow: hidden; }
 
 /* line 1, ../sass/components/_forumposts-teaser.scss */
 .forumpostsTeaser {

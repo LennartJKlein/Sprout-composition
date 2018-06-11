@@ -10,6 +10,9 @@
                     <a href="/evenementen/events-detail.php">The Next Web Conference 2018</a>
                 </div>
                 <h1 class="event-title">The Next Web Conference 2018</h1>
+                <div class="event-notification">
+                    <div class="notification">Dit evenement is al geweest.</div>
+                </div>
                 <div class="event-intro">Op 24 en 25 mei vindt in Amsterdam de grootste techconferentie van Europa plaats: TNW Conference 2018. Tienduizend bezoekers vanuit de hele wereld komen hier luisteren naar sprekers als Constantijn van Oranje Nassau (StartupDelta), Anjali Sud (Vimeo), Mike Curtis (Airbnb), John Collison (Stripe) Rich Pierson (Headspace), Alex Le (Reddit) en vele anderen!</div>
                 <div class="event-hero figure">
                     <div class="card-tags">
@@ -34,7 +37,7 @@
                 <h2 id="winner-takes">Aanmelden</h2>
                 <p>Speciaal voor Sprout Members mogen wij een exclusieve korting aanbieden. Members krijgen voor het Super Ealy Bird-tarief 10% korting. hiermee krijg je toegang tot de volledige tweedaagse conferentie, het openings én eindfeest en inzicht in de gastenlijst. Wil je hier gebruik van maken? Stuur dan een mailtje naar events@sprout.nl</p>
                 <div>
-                    <div class="notification premiumUnlock-description">Dit evenement is al geweest.</div>
+                    <div class="notification">Dit evenement is al geweest.</div>
                 </div>
             </main>
         </article>

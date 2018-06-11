@@ -9,8 +9,10 @@
 @import "layout/aside";
 @import "layout/footer";
 @import "layout/grid";
+@import "layout/button";
 @import "layout/panel";
 @import "layout/modal";
+@import "layout/notification";
 @import "components/spinner";
 @import "components/sharemodal";
 @import "components/articles";
@@ -21,7 +23,6 @@
 @import "components/articleList";
 @import "components/banner";
 @import "components/breadcrumb";
-@import "components/button";
 @import "components/card";
 @import "components/event";
 @import "components/eventlist";
@@ -34,7 +35,6 @@
 @import "components/login-teaser";
 @import "components/premium-teaser";
 @import "components/newsletter-teaser";
-@import "components/notification";
 @import "components/forumposts-teaser";
 @import "components/pagination";
 @import "components/posterlist";
