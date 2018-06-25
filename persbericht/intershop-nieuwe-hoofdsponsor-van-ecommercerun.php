@@ -68,6 +68,19 @@
 					</div>
 				</div>
 			</footer>
+
+			<div class="panel partnerTeaser loggedIn-hide">
+				<h3 class="partnerTeaser-title">Ook een persbericht plaatsen? <br/>
+					Wordt PARTNER <span class="fa fa-heart text--big text--white"></span></h3>
+				<ul class="partnerTeaser-list">
+					<li><i class="fa fa-newspaper-o"></i><span>Plaats tot wel <strong>6 persberichten per jaar</strong> op de site.</span></li>
+					<li><i class="fa fa-tag"></i><span>Sponsor een onderwerp en <strong>adverteer met jouw content</strong>.</span></li>
+					<li><i class="fa fa-handshake-o"></i><span>Een partnerschap met Sprout is <strong>op maat gemaakt</strong> voor jouw organisatie.</span></li>
+				</ul>
+				<p class="partnerTeaser-description">In overleg komen we tot een partnerdeal die voor ons beiden werkt.</p>
+				<a href="partner-worden.php" class="button button--white">Sluit jouw deal</a>
+			</div>
+
 		</article>
 				
 	</section>
@@ -80,14 +93,14 @@
 	<div class="aside-panelgroup">				
 		<div class="panel panel--clean">
 			<ul class="eventList">
-				<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="/evenementen/events.php">
+				<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="/events.php">
 					<div class="eventTeaser-description">
 						<span class="eventTeaser-heading">Binnenkort</span>
 						<h4 class="eventTeaser-title">Amsterdam talks tech - smart cities &amp; mobility</h4>
 					</div>
 					<span class="eventTeaser-date">8 okt</span>
 				</a></li>
-				<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="/evenementen/events.php">
+				<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="/events.php">
 					<div class="eventTeaser-description">
 						<span class="eventTeaser-heading">Volgende maand</span>
 						<h4 class="eventTeaser-title">Scaleup summit 2017</h4>
