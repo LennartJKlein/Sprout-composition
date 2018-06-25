@@ -2034,7 +2034,7 @@ body {
   -ms-flex-order: 0;
   order: 0;
   margin: 0 -1.5rem;
-  font-size: .85em; }
+  font-size: .9em; }
   @media (min-width: 769px) {
     /* line 194, ../sass/components/_article.scss */
     .article-info {
@@ -2258,12 +2258,15 @@ body {
   .articleAuthor--bottom .articleAuthor-company:after {
     content: ')'; }
   /* line 80, ../sass/components/_articleauthor.scss */
+  .articleAuthor--bottom .articleAuthor-sociallink:hover, .articleAuthor--bottom .articleAuthor-sociallink:focus, .articleAuthor--bottom .articleAuthor-sociallink:active {
+    color: #fefefe; }
+  /* line 88, ../sass/components/_articleauthor.scss */
   .articleAuthor--bottom .articleAuthor-content p {
     color: #231f20; }
-  /* line 85, ../sass/components/_articleauthor.scss */
+  /* line 93, ../sass/components/_articleauthor.scss */
   .articleAuthor--bottom .articleAuthor-social {
     text-align: center; }
-  /* line 89, ../sass/components/_articleauthor.scss */
+  /* line 97, ../sass/components/_articleauthor.scss */
   .articleAuthor--bottom .articleAuthor-expand {
     top: auto;
     bottom: 100%;
@@ -2271,7 +2274,7 @@ body {
     border-top: 0;
     border-bottom: solid 1px #777777; }
 
-/* line 98, ../sass/components/_articleauthor.scss */
+/* line 106, ../sass/components/_articleauthor.scss */
 .articleAuthor-content {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2290,11 +2293,11 @@ body {
   -webkit-align-items: flex-start;
   align-items: flex-start;
   color: #fefefe; }
-  /* line 105, ../sass/components/_articleauthor.scss */
+  /* line 113, ../sass/components/_articleauthor.scss */
   .articleAuthor-content p {
     color: #fefefe; }
 
-/* line 110, ../sass/components/_articleauthor.scss */
+/* line 118, ../sass/components/_articleauthor.scss */
 .articleAuthor-summary {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2312,7 +2315,7 @@ body {
   color: #fefefe;
   cursor: pointer; }
 
-/* line 118, ../sass/components/_articleauthor.scss */
+/* line 126, ../sass/components/_articleauthor.scss */
 .articleAuthor-link {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2330,23 +2333,23 @@ body {
   color: #fefefe;
   text-decoration: none;
   font-weight: 500; }
-  /* line 126, ../sass/components/_articleauthor.scss */
+  /* line 134, ../sass/components/_articleauthor.scss */
   .articleAuthor-link:active, .articleAuthor-link:hover {
     color: #fefefe; }
-    /* line 130, ../sass/components/_articleauthor.scss */
+    /* line 138, ../sass/components/_articleauthor.scss */
     .articleAuthor-link:active .articleAuthor-image, .articleAuthor-link:hover .articleAuthor-image {
       transform: scale(1.1); }
 
-/* line 136, ../sass/components/_articleauthor.scss */
+/* line 144, ../sass/components/_articleauthor.scss */
 .articleAuthor-toggle {
   padding: 1em;
   border-radius: 100%;
   cursor: pointer; }
-  /* line 141, ../sass/components/_articleauthor.scss */
+  /* line 149, ../sass/components/_articleauthor.scss */
   .articleAuthor-toggle:active, .articleAuthor-toggle:hover {
     background: rgba(0, 0, 0, 0.2); }
 
-/* line 147, ../sass/components/_articleauthor.scss */
+/* line 155, ../sass/components/_articleauthor.scss */
 .articleAuthor-image {
   border-radius: 50%;
   overflow: hidden;
@@ -2355,12 +2358,12 @@ body {
   height: 3em;
   transition: all .2s; }
 
-/* line 155, ../sass/components/_articleauthor.scss */
+/* line 163, ../sass/components/_articleauthor.scss */
 .articleAuthor-name {
   font-weight: 600;
   text-align: left; }
 
-/* line 160, ../sass/components/_articleauthor.scss */
+/* line 168, ../sass/components/_articleauthor.scss */
 .articleAuthor-company {
   font-weight: normal;
   font-size: 0.85em;
@@ -2369,11 +2372,11 @@ body {
   margin-left: 1.5em;
   opacity: 0.6; }
   @media (min-width: 769px) {
-    /* line 160, ../sass/components/_articleauthor.scss */
+    /* line 168, ../sass/components/_articleauthor.scss */
     .articleAuthor-company {
       display: block; } }
 
-/* line 173, ../sass/components/_articleauthor.scss */
+/* line 181, ../sass/components/_articleauthor.scss */
 .articleAuthor-expand {
   display: none;
   background: #231f20;
@@ -2385,26 +2388,26 @@ body {
   width: 100%;
   padding: 1rem 1.5rem;
   color: #fefefe; }
-  /* line 185, ../sass/components/_articleauthor.scss */
+  /* line 193, ../sass/components/_articleauthor.scss */
   .articleAuthor-expand p {
     color: #fefefe;
     margin-bottom: 1em;
     z-index: 1;
     position: relative; }
-  /* line 192, ../sass/components/_articleauthor.scss */
+  /* line 200, ../sass/components/_articleauthor.scss */
   .articleAuthor-expand.open {
     -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
-/* line 197, ../sass/components/_articleauthor.scss */
+/* line 205, ../sass/components/_articleauthor.scss */
 .articleAuthor-sociallink {
   margin-right: 0.5em;
   margin-bottom: 0.5em; }
-  /* line 201, ../sass/components/_articleauthor.scss */
+  /* line 209, ../sass/components/_articleauthor.scss */
   .articleAuthor-sociallink:hover {
     color: #231f20; }
-  /* line 205, ../sass/components/_articleauthor.scss */
+  /* line 213, ../sass/components/_articleauthor.scss */
   .articleAuthor-sociallink .fa {
     margin-right: 0.35em;
     font-size: 1.5em;
@@ -3486,8 +3489,9 @@ body {
   padding: 1em;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 500;
   font-family: "Gotham", "Century Gothic", Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: 500;
   width: 25%;
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -4947,7 +4951,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   justify-content: stretch;
-  margin: 0.5rem;
+  margin: 8px;
   overflow: hidden;
   border-radius: 0.25rem;
   overflow: hidden;

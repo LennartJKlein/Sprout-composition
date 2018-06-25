@@ -76,6 +76,14 @@
 		}
 	}
 
+	.articleAuthor-sociallink {
+		&:hover,
+		&:focus,
+		&:active {
+			color: $color-white;
+		}
+	}
+
 	.articleAuthor-content {
 		p {
 			color: $color-black;

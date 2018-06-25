@@ -196,7 +196,7 @@
 	@include flex-flow(column nowrap);
 	@include order(0);
 	margin: 0 -1.5rem;
-	font-size: .85em;
+	font-size: .9em;
 
 	@include tablet {
 		margin: 0 -5vw 0 0;

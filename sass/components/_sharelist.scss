@@ -68,7 +68,7 @@
 	cursor: pointer;
 	@include flex;
 	justify-content: stretch;
-	margin: 0.5rem;
+	margin: 8px;
 	overflow: hidden;
 	@include round-border;
 	border: solid 2px $color-white;
