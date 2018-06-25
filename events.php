@@ -1,24 +1,23 @@
-<?php include '../templates/header.php'; ?>
+<?php include 'templates/header.php'; ?>
 
 	<section class="events">
 
+        <div class="breadcrumb">
+            <a href="/index.php">Sprout.nl</a>
+            <a href="/events.php">Events</a>
+        </div>
+        <h1 class="event-title">Events voor ondernemers</h1>
+        <div class="event-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet egestas tortor, sit amet auctor sapien venenatis quis.</div>
+
         <div class="grid grid--events">
             <div class="grid-cell grid-cell--wide">
-                <div class="breadcrumb">
-                    <a href="/index.php">Sprout.nl</a>
-                    <a href="/evenementen/events.php">Events</a>
-                </div>
-                <h1 class="event-title">Ondernemers en evenementen</h1>
-                <div class="event-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet egestas tortor, sit amet auctor sapien venenatis quis.</div>
-            </div>
-            <div class="grid-cell grid-cell--wide">
-                <a href="../evenementen/events-detail.php" class="card card--event card--hero card--m-vertical card--horizontal card--textfirst" tag="startups">
+                <a href="evenement/the-next-web-conference-2018.php" class="card card--event card--hero card--m-vertical card--horizontal card--textfirst" tag="startups">
                     <div class="card-figurecontainer">
                         <div class="card-tags">
                             <div class="card-tag">Uitgelicht evenement</div>
                         </div>
                         <div class="card-figure">
-                            <img src="../images/events/the_next_web.jpg" class="card-image" />
+                            <img src="images/events/the_next_web.jpg" class="card-image" />
                         </div>
                     </div>
                     <div class="card-content">
@@ -30,10 +29,10 @@
                 </a>
             </div>
             <div class="grid-cell">
-                <a href="../evenementen/events-detail.php" class="card card--event" tag="scaleups">
+                <a href="evenement/nk-pitchen-2018.php" class="card card--event" tag="scaleups">
                     <div class="card-figurecontainer">
                         <div class="card-figure">
-                            <img src="../images/events/nk_pitchen_2017-_0138-_hd.jpg" class="card-image" />
+                            <img src="images/events/nk_pitchen_2017-_0138-_hd.jpg" class="card-image" />
                         </div>
                     </div>
                     <div class="card-content">
@@ -45,10 +44,10 @@
                 </a>
             </div>
             <div class="grid-cell">
-                <a href="../evenementen/events-detail.php" class="card card--event" tag="scaleups">
+                <a href="evenement/the-next-web-conference-2018.php" class="card card--event" tag="scaleups">
                     <div class="card-figurecontainer">
                         <div class="card-figure">
-                            <img src="../images/events/MYC_30.jpg" class="card-image" />
+                            <img src="images/events/MYC_30.jpg" class="card-image" />
                         </div>
                     </div>
                     <div class="card-content">
@@ -60,13 +59,13 @@
                 </a>
             </div>
             <div class="grid-cell">
-                <a href="../evenementen/events-detail.php" class="card card--partner" tag="scaleups">
+                <a href="evenement/the-next-web-conference-2018.php" class="card card--partner" tag="scaleups">
                     <div class="card-figurecontainer">
                         <div class="card-tags">
                             <div class="card-tag">partner evenement</div>
                         </div>
                         <div class="card-figure">
-                            <img src="../images/events/Energy-Hack-foto_6.png" class="card-image" />
+                            <img src="images/events/Energy-Hack-foto_6.png" class="card-image" />
                         </div>
                     </div>
                     <div class="card-content">
@@ -78,10 +77,10 @@
                 </a>
             </div>
             <div class="grid-cell">
-                <a href="../evenementen/events-detail.php" class="card card--event" tag="investeren">
+                <a href="evenement/the-next-web-conference-2018.php" class="card card--event" tag="investeren">
                     <div class="card-figurecontainer">
                         <div class="card-figure">
-                            <img src="../images/events/Fb-Omruil-visuals-1.png" class="card-image" />
+                            <img src="images/events/Fb-Omruil-visuals-1.png" class="card-image" />
                         </div>
                     </div>
                     <div class="card-content">
@@ -93,13 +92,13 @@
                 </a>
             </div>
             <div class="grid-cell">
-                <a href="../evenementen/events-detail.php" class="card card--partner" tag="scaleups">
+                <a href="evenement/the-next-web-conference-2018.php" class="card card--partner" tag="scaleups">
                     <div class="card-figurecontainer">
                         <div class="card-tags">
                             <div class="card-tag">partner evenement</div>
                         </div>
                         <div class="card-figure">
-                            <img src="../images/events/att_education.jpg" class="card-image" />
+                            <img src="images/events/att_education.jpg" class="card-image" />
                         </div>
                     </div>
                     <div class="card-content">
@@ -111,13 +110,13 @@
                 </a>
             </div>
             <div class="grid-cell">
-                <a href="../evenementen/events-detail.php" class="card card--partner" tag="scaleups">
+                <a href="evenement/the-next-web-conference-2018.php" class="card card--partner" tag="scaleups">
                     <div class="card-figurecontainer">
                         <div class="card-tags">
                             <div class="card-tag">partner evenement</div>
                         </div>
                         <div class="card-figure">
-                            <img src="../images/events/31117510996_761d4bdc26_k.jpg" class="card-image" />
+                            <img src="images/events/31117510996_761d4bdc26_k.jpg" class="card-image" />
                         </div>
                     </div>
                     <div class="card-content">
@@ -129,7 +128,7 @@
                 </a>
             </div>
             <div class="grid-cell grid-cell--wide">
-                <div><a href="/../archive.php" class="button button--center button--secondary">Bekijk het archief</a></div>
+                <div><a href="archief.php" class="button button--center button--secondary">Bekijk het archief</a></div>
             </div>
         </div>
 
@@ -140,7 +139,7 @@
 <aside id="aside">
 
 	<div class="panel premiumTeaser loggedIn-hide">
-		<div class="premiumTeaser-figure"><img src="../images/premium-logo-white.svg" class="premiumTeaser-image" /></div>
+		<div class="premiumTeaser-figure"><img src="images/premium-logo-white.svg" class="premiumTeaser-image" /></div>
 		<h3 class="premiumTeaser-title">Ongelimiteerd de beste verhalen. <br/>Wordt premium member.</h3>
 		<p class="premiumTeaser-description">1 maand gratis uitproberen. Daarna &euro;00,- per maand.</p>
 		<a href="#" class="button button--white" onClick="openForm('register')">1 maand uitproberen</a>
@@ -154,7 +153,7 @@
         <h3 class="panel-title panel-title--partner"><i class="panel-title-icon fa fa-heart" aria-hidden="true"></i>Partner evenementen</h3>
         <ul class="eventList">
             <li class="eventTeaser eventTeaser--minimal eventTeaser--partner">
-                <a class="eventTeaser-link" href="events.php">
+                <a class="eventTeaser-link" href="evenement/the-next-web-conference-2018.php">
                     <div class="eventTeaser-description">
                         <span class="eventTeaser-heading">Binnenkort</span>
                         <h4 class="eventTeaser-title">Amsterdam talks tech - smart cities &amp; mobility</h4>
@@ -163,7 +162,7 @@
                 </a>
             </li>
             <li class="eventTeaser eventTeaser--minimal eventTeaser--partner">
-                <a class="eventTeaser-link" href="events.php">
+                <a class="eventTeaser-link" href="evenement/the-next-web-conference-2018.php">
                     <div class="eventTeaser-description">
                         <span class="eventTeaser-heading">Volgende maand</span>
                         <h4 class="eventTeaser-title">Scaleup summit 2017</h4>
@@ -172,7 +171,7 @@
                 </a>
             </li>
             <li class="eventTeaser eventTeaser--minimal eventTeaser--partner">
-                <a class="eventTeaser-link" href="events.php">
+                <a class="eventTeaser-link" href="evenement/nk-pitchen-2018.php">
                     <div class="eventTeaser-description">
                         <span class="eventTeaser-heading">Volgende maand</span>
                         <h4 class="eventTeaser-title">Energy Hack NL</h4>
@@ -181,11 +180,11 @@
                 </a>
             </li>
         </ul>
-        <a href="../evenementen/events-detail.php" class="button button--partner button--small button--center">Jouw event op deze pagina?</a>
+        <a href="partner-worden.php" class="button button--partner button--small button--center">Jouw event op deze pagina?</a>
     </div>
 
 
 
 </aside>
 
-<?php include '../templates/footer.php'; ?>
+<?php include 'templates/footer.php'; ?>

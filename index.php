@@ -214,7 +214,7 @@
 			<a href="#" class="button button--arrow button--clean articleList-button"><i class="fa fa-chevron-right" aria-hidden="true"></i> Topartikelen deze maand</a>
 		</div>
 		<div class="grid-cell articleList">
-			<h2 class="articleList-title"><a href="tag.php" class="articleList-title-link text--partner"><i class="fa fa-bullhorn" aria-hidden="true"></i> Persberichten</a></h2>
+			<h2 class="articleList-title"><a href="persberichten.php" class="articleList-title-link text--partner"><i class="fa fa-bullhorn" aria-hidden="true"></i> Persberichten</a></h2>
 			<div class="articleList-list">
 				<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="articleList-article">
 					<div class="articleList-figurecontainer">
@@ -422,14 +422,14 @@
 	
 	<div class="panel panel--clean">
 		<ul class="eventList">
-			<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="/evenementen/events.php">
+			<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="evenement/the-next-web-conference-2018.php">
 				<div class="eventTeaser-description">
 					<span class="eventTeaser-heading">Binnenkort</span>
 					<h4 class="eventTeaser-title">Amsterdam talks tech - smart cities &amp; mobility</h4>
 				</div>
 				<span class="eventTeaser-date">8 okt</span>
 			</a></li>
-			<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="/evenementen/events.php">
+			<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="evenement/nk-pitchen-2018.php">
 				<div class="eventTeaser-description">
 					<span class="eventTeaser-heading">Volgende maand</span>
 					<h4 class="eventTeaser-title">Scaleup summit 2017</h4>

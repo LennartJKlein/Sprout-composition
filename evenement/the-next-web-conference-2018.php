@@ -1,31 +1,25 @@
 <?php include '../templates/header.php'; ?>
 
-    <section class="event">
+    <section class="events">
         
-        <article class="event">
+        <div class="event">
             <header class="event-header">
                 <div class="breadcrumb">
                     <a href="/index.php">Sprout.nl</a>
-                    <a href="/evenementen/events.php">Events</a>
-                    <a href="/evenementen/events-detail.php">The Next Web Conference 2018</a>
+                    <a href="/events.php">Events</a>
+                    <a href="/evenement/the-next-web-conference-2018.php">The Next Web Conference 2018</a>
                 </div>
                 <h1 class="event-title">The Next Web Conference 2018</h1>
-                <div class="event-notification">
-                    <div class="notification">Dit evenement is al geweest.</div>
-                </div>
                 <div class="event-intro">Op 24 en 25 mei vindt in Amsterdam de grootste techconferentie van Europa plaats: TNW Conference 2018. Tienduizend bezoekers vanuit de hele wereld komen hier luisteren naar sprekers als Constantijn van Oranje Nassau (StartupDelta), Anjali Sud (Vimeo), Mike Curtis (Airbnb), John Collison (Stripe) Rich Pierson (Headspace), Alex Le (Reddit) en vele anderen!</div>
                 <div class="event-hero figure">
-                    <div class="card-tags">
-                        <div class="card-tag">Archief</div>
-                    </div>
                     <img src="../images/events/the_next_web.jpg" class="figure-image" />
                 </div>
                 <div class="event-info">
-                    <div>
+                    <div class="event-infoContainer">
                         <a href="https://goo.gl/maps/ZTBrAnb34aU2" target="_blank" class="event-infoItem"><i class="event-icon fa fa-map-marker"></i><span>Westergasfabriek Amsterdam</span></a>
                         <div class="event-infoItem"><i class="event-icon fa fa-clock-o"></i><span>24 en 25 mei - 09:00 tot 18:00</span></div>
                     </div>
-                    <div>
+                    <div class="event-infoContainer">
                         <div class="event-infoItem"><i class="event-icon fa fa-euro"></i><span>515,- (excl BTW)</span></div>
                         <div class="event-infoItem"><i class="event-icon fa fa-user-plus"></i><span>10% korting voor members!</span></div>
                     </div>
@@ -34,13 +28,15 @@
             <main class="event-content">
                 <p>Met honderd side-events, 200 investeringsfondsen, 1500 startups en een epische hack battle is dit een event dat je als techliefhebber niet mag missen. Bekijk op de website het hele programma en sprekersoverzicht.</p>
                 <p>Als partner van dit evenement is Sprout aanwezig en publiceert met regelmaat over sprekers en het programma. </p>
-                <h2 id="winner-takes">Aanmelden</h2>
+                <h2>Aanmelden</h2>
                 <p>Speciaal voor Sprout Members mogen wij een exclusieve korting aanbieden. Members krijgen voor het Super Ealy Bird-tarief 10% korting. hiermee krijg je toegang tot de volledige tweedaagse conferentie, het openings én eindfeest en inzicht in de gastenlijst. Wil je hier gebruik van maken? Stuur dan een mailtje naar events@sprout.nl</p>
+                <p>Niet ingelogd? Je moet ingelogd zijn om je aan te melden voor dit evenement.</p>
                 <div>
-                    <div class="notification">Dit evenement is al geweest.</div>
+                    <button class="button button--secondary button--space">inloggen</button>
+                    <button class="button button--grey button--space">registreren</button>
                 </div>
             </main>
-        </article>
+        </div>
 
     </section>
 
@@ -48,7 +44,7 @@
         <h4 class="relatedArticles-title">Bekijk ook deze evenementen</h4>
         <div class="grid grid--articles">
             <div class="grid-cell">
-                <a href="../evenementen/events-detail.php" class="card card--event card--horizontal" tag="retail">
+                <a href="../evenement/the-next-web-conference-2018.php" class="card card--event card--horizontal" tag="retail">
                     <div class="card-figurecontainer">
                         <div class="card-figure">
                             <img src="../images/events/31117510996_761d4bdc26_k.jpg" class="card-image" />
@@ -62,7 +58,7 @@
                 </a>
             </div>
             <div class="grid-cell">
-                <a href="../evenementen/events-detail.php" class="card card--horizontal card--partner" tag="retail">
+                <a href="../evenement/the-next-web-conference-2018.php" class="card card--horizontal card--partner" tag="retail">
                     <div class="card-figurecontainer">
                         <div class="card-figure">
                             <img src="../images/events/MYC_30.jpg" class="card-image" />

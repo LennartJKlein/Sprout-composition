@@ -110,7 +110,7 @@
 
 	&:hover {
 		border-color: $color-white;
-		color: $color-primary-light;
+		color: $color-primary;
 		background: $color-white;
 	}
 
@@ -279,11 +279,13 @@
 
 	&:hover {
 		background: transparent;
+		color: inherit;
 	}
 
 	&:active,
 	&:focus {
 		background: transparent;
+		color: inherit;
 	}
 }
 
