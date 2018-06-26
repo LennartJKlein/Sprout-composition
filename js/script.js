@@ -40,7 +40,7 @@ $(function() {
 					$(this).show();
 				});
 
-				$(".card").not(".card[tag='"+ tag +"']").each(function(){
+				$(".card").not('.card[tag="'+ tag +'"]').each(function(){
 					$(this).hide();
 				});
 			}
@@ -55,7 +55,7 @@ $(function() {
 		}
 	});
 
-	$('.navToggle').on('click', function(){
+	$(".navToggle").on("click", function(){
 		$(".navToggle").toggleClass("open");
 		$(".nav").toggleClass("open");
 	});
@@ -70,26 +70,14 @@ $(function() {
 		authorInfo.toggleClass("open");
 	});
 
-	$('.login-forms-toggle').on('click', function(e){
-		toggleForm(e);
-	});
-
-	$('.login-toggle').on('click', function(e){
-		toggleLoginForm(e);
-	});
-
-	$(".menu-register-form").on("submit", function(e){
-		loginToggle(e);
-	});
-
 	function initiateNavigationWidth() {
 		cookieWidth = $.cookie("sprout-nav-width");
 		var minWidth = 100;
 		var maxWidth = 500;
 
-		$(window).bind('resize', function(e) {
+		$(window).bind("resize", function(e) {
 			screenWidth = $(window).width();
-		    if (!$(e.target).hasClass('ui-resizable')) {
+		    if (!$(e.target).hasClass("ui-resizable")) {
 				resetHeaderWidth(screenWidth);
 		    }
 		});
@@ -126,7 +114,7 @@ $(function() {
 				setTimeout(function(){
 					$("#header").append("<div class=\"header-resize-tip\"><i class=\"fa fa-arrows-h\"></i></div>");
 					shake = setInterval(shakeTooltip, 2000);
-					$('.header-resize-tip').click(function() {
+					$(".header-resize-tip").click(function() {
 						hideTooltip(shake);
 					});
 
@@ -162,52 +150,60 @@ $(function() {
 
 	function shakeTooltip() {
 		if (tooltipNeeded) {
-			$('.header-resize-tip').addClass("pulse");
-			$('#header .ui-resizable-e').addClass("pulse");
-			$('.header-resize-tip').effect('shake', {distance:3, times:4}, 2000);
-			$('#header .ui-resizable-e').show();
+			$(".header-resize-tip").addClass("pulse");
+			$("#header .ui-resizable-e").addClass("pulse");
+			$(".header-resize-tip").effect("shake", {distance:3, times:4}, 2000);
+			$("#header .ui-resizable-e").show();
 		}
 	}
 
 	function hideTooltip(loop) {
 		tooltipNeeded = false;
-		$('.header-resize-tip').removeClass("pulse");
-		$('#header .ui-resizable-e').removeClass("pulse");
-		$('.header-resize-tip').fadeOut(600);
+		$(".header-resize-tip").removeClass("pulse");
+		$("#header .ui-resizable-e").removeClass("pulse");
+		$(".header-resize-tip").fadeOut(600);
 		clearInterval(loop);
 	}
 
-	function loginToggle(e) {
-		$("body").toggleClass("logged-in");
-		e.preventDefault();
-		return false;
+	// Functions for modals
+	$(".modal-button[role=cancel]").on("click", function(){
+		$(this).parentsUntil('modal').removeClass("modal--active");
+	});
+
+	// Premium modal
+	$(".open-premiumModal").on("click", function(){
+		openPremiumModal();
+	});
+	function openPremiumModal() {
+		$(".premiumModal").addClass("modal--active");
+	}
+	function closePremiumModal() {
+		$(".premiumModal").removeClass("modal--active");
 	}
 
-	function toggleForm(e) {
-		$(".login-forms").slideToggle();
-		$(".menu-user.loggedIn-hide").toggleClass("open");
-		$(".menu-register .login-field:first").focus();
+	$(".premiumModal .modal-button[role=activate]").on("click", function(){
+		$(this).find(".fa").removeClass("fa-toggle-off").addClass("fa-toggle-on");
+		activatePremium();
+		closePremiumModal();
+		location.reload();
+	});
+	function activatePremium() {
+		$.cookie("sprout-role", "premium", { path: "/" });
 	}
 
-	function openForm(e) {
-		if (e == "register") {
-			$(".menu-login").hide();
-			$(".menu-register").show();
-		} else if (e == "login") {
-			$(".menu-register").hide();
-			$(".menu-login").show();
-		}
-		$(".login-forms").slideDown();
-		$(".menu-user.loggedIn-hide").addClass("open");
+	$(".premiumModal .modal-button[role=deactivate]").on("click", function(){
+		$(this).find(".fa").removeClass("fa-toggle-on").addClass("fa-toggle-off");
+		deactivatePremium();
+		closePremiumModal();
+		location.reload();
+	});
+	function deactivatePremium() {
+		$.cookie("sprout-role", "unknown", { path: "/" });
 	}
 
-	function toggleLoginForm() {
-		$(".menu-register").slideToggle();
-		$(".menu-login").slideToggle();
-	}
-
+	// Add media query reference to body
 	function checkMQ() {
-		return window.getComputedStyle($('body').get(0), ':before').getPropertyValue('content').replace(/'/g, "").replace(/"/g, "");
+		return window.getComputedStyle($("body").get(0), ":before").getPropertyValue("content").replace(/"/g, "").replace(/"/g, "");
 	}
 
 });

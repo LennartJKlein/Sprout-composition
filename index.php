@@ -7,6 +7,7 @@
 		<button class="articleFilter-button button button--small" name="investeren">Investeren</button>
 		<button class="articleFilter-button button button--small button--clean" name="">...</button>
 	</div>
+	
 	<div class="grid grid--articles">
 		<div class="grid-cell grid-cell--wide">
 			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--hero card--m-vertical card--horizontal card--textfirst" tag="startups">
@@ -413,12 +414,8 @@
 </section>
 
 <aside id="aside">
-	<div class="panel premiumTeaser loggedIn-hide">
-		<div class="premiumTeaser-figure"><img src="images/premium-logo-white.svg" class="premiumTeaser-image" /></div>
-		<h3 class="premiumTeaser-title">Ongelimiteerd de beste verhalen. <br/>Wordt premium member.</h3>
-		<p class="premiumTeaser-description">1 maand gratis uitproberen. Daarna &euro;00,- per maand.</p>
-		<a href="#" class="button button--white" onClick="openForm('register')">1 maand uitproberen</a>
-	</div>
+	
+	<?php include 'templates/premiumteaser.php'; ?>
 	
 	<div class="panel panel--clean">
 		<ul class="eventList">

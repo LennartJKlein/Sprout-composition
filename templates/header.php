@@ -52,33 +52,20 @@
     ?>
 
 </head>
-<!-- <body class="logged-in"> -->
-<body>
+<body class="<?php if(!isset($_COOKIE['sprout-role'])){ $_COOKIE['sprout-role'] = 'unknown';} echo 'role-'.$_COOKIE['sprout-role'];?>">
 
-<header id="header" 
-		<?php
-			if(isset($_COOKIE['sprout-nav-width'])){
-				echo 'style="width:' . $_COOKIE['sprout-nav-width'] . 'px"';
-			}
-		?>
-		class=" 
-		<?php
-			if(isset($_COOKIE['sprout-nav-width'])){ 
-				if($_COOKIE['sprout-nav-width'] <= 115) {
-					echo 'minimum';
-				}
-			}
-		?>
-		" >
+<?php include $_SERVER['DOCUMENT_ROOT'].'/templates/premiummodal.php'; ?>
+
+<header 
+	id="header" 
+	style="<?php if(isset($_COOKIE['sprout-nav-width'])){ echo 'width:'.$_COOKIE['sprout-nav-width'].'px"';}?>" 
+	class="<?php if(isset($_COOKIE['sprout-nav-width']) && $_COOKIE['sprout-nav-width'] <= 115) { echo 'minimum';}?>">
+
 	<div class="head-container">
 		<button class="navToggle"><i aria-hidden="true" class="fa fa-bars"></i></button>
 	</div>
 
-	<?php
-		if (strpos($url,'artikel') !== false) {
-			include 'sharemodal.php';
-		}
-	?>
+	<?php if (strpos($url,'artikel') !== false) {include 'sharemodal.php';} ?>
 
 	<nav class="nav">
 		<div class="nav-head">
@@ -92,6 +79,7 @@
 				<button type="submit" class="search-submit"><i aria-hidden="true" class="fa fa-search"></i></button>
 			</form>
 			<div class="search-resultscontainer">
+				<!-- Todo: zoekveld en zoekresultaten implementeren -->
 				<div class="grid">
 					<div class="grid-cell">
 						<div class="articleList">
@@ -143,48 +131,32 @@
 				</div>
 			</div>
 			<ul class="menu menu-main">
+				<!-- Todo: echte menu items inladen -->
 				<li class="menu-item" hint="Nieuws"><a href="/index.php" class="menu-link active"><i aria-hidden="true" class="fa fa-newspaper-o"></i><span class="menu-label">Nieuws</span></a></li>
 				<li class="menu-item" hint="Events"><a href="/events.php" class="menu-link"><i aria-hidden="true" class="fa fa-calendar-o"></i><span class="menu-label">Events</span><span class="menu-link-notification">2</span></a></li>
-				<li class="menu-item" hint="Bookazine"><a href="#" class="menu-link"><i aria-hidden="true" class="fa fa-book"></i><span class="menu-label">Bookazine</span></a></li>
 				<li class="menu-item" hint="Nieuwsbrief"><a href="#" class="menu-link"><i aria-hidden="true" class="fa fa-paper-plane"></i><span class="menu-label">Nieuwsbrief</span></a></li>
-				<!--<li class="menu-item"><a href="#" class="menu-link"><i aria-hidden="true" class="fa fa-heart"></i><span>Partners</span></a></li>-->
-				<!--<li class="menu-item"><a href="#" class="menu-link"><i aria-hidden="true" class="fa fa-users"></i><span>Netwerk</span><span class="menu-link-notification">2</span></a></li>-->
+				<li class="menu-item" hint="Producten"><a href="#" class="menu-link"><i aria-hidden="true" class="fa fa-book"></i><span class="menu-label">Producten</span></a></li>
 			</ul>
 		</div>
 		<div class="nav-footer">
 			<ul class="menu menu-tools">
 				<li class="menu-item" hint="Contact"><a href="#" class="menu-link"><i aria-hidden="true" class="fa fa-question-circle"></i><span class="menu-label">Contact</span></a></li>
 			</ul>
-			<ul class="menu menu-user loggedIn-hide">
-				<li class="menu-item" hint="Inloggen">
-					<div class="login-forms-toggle menu-link"><i class="fa fa-user-circle-o" aria-hidden="true"></i><span class="menu-label">INLOGGEN</span></div>
-					<div class="login-forms">
-						<div class="menu-register">
-							<p>De members in onze ondernemerscommunity ontvangen <a href="#">vele voordelen</a>.</p>
-							<form class="menu-register-form">
-								<input type="text" class="login-field" placeholder="Naam">
-								<input type="text" class="login-field" placeholder="Bedrijfsnaam">
-								<input type="email" class="login-field" placeholder="E-mailadres">
-								<button type="submit" class="login-submit">Aanmelden</button>
-							</form>
-							<a href="#" class="login-toggle login-link">Ik heb al een account</a>
-						</div>
-						<div class="menu-login">
-							<form class="menu-register-form">
-								<input type="email" class="login-field" placeholder="E-mailadres">
-								<input type="password" class="login-field" placeholder="Wachtwoord">
-								<button type="submit" class="login-submit">Inloggen</button>
-							</form>
-							<a href="#" class="login-link">Wachtwoord vergeten?</a>
-						</div>
+
+			<ul class="menu menu--premium">
+				<li class="menu-item" hint="Premium">
+					<div class="menu-link open-premiumModal">
+						<i class="fa 
+						<?php
+							if($_COOKIE['sprout-role'] == "premium"){
+								echo 'fa-toggle-on';
+							} else {
+								echo 'fa-toggle-off';
+							}
+						?>" aria-hidden="true"></i>
+						<span class="menu-label"><img src="/images/premium-logo-white.svg" class="menu-label-image" /></span>
 					</div>
 				</li>
-			</ul>
-			<ul class="menu menu-user loggedIn-show">
-				<li><a href="#" class="menu-link">
-					<img src="/images/avatars/aartjan_portret_studio_vierkant_klein_profielfoto.jpg" class="user-image user-image--premium" />
-					<span>Aartjan van Erkel<span class="user-company">Schrijven voor Internet</span></span>
-				</a></li>
 			</ul>
 		</div>
 	</nav>

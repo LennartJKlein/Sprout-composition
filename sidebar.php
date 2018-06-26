@@ -4,16 +4,15 @@
 
 </section>
 <aside id="aside">
-	<div class="panel loginTeaser">
-		<div class="loginTeaser-figure"><img src="images/25-onder-de-25-2017.jpg" class="loginTeaser-image" /></div>
-		<h3 class="loginTeaser-title">Sluit je aan bij ons ondernemersnetwerk</h3>
+	<div class="panel partnerTeaser">
+		<div class="partnerTeaser-figure"><img src="/images/uploads/25-onder-de-25-2017.jpg" class="partnerTeaser-image" /></div>
+		<h3 class="partnerTeaser-title">Sluit je aan bij ons ondernemersnetwerk</h3>
 		<ul class="list list--icons">
-			<li class="list-item"><i class="list-item-icon fa fa-users"></i><span>Lid van de meest ambitieuze ondernemers<a href="#">community</a> van Nederland</span></li>
-			<li class="list-item"><i class="list-item-icon fa fa-unlock-alt"></i><span>Toegang tot alle premium <a href="#">artikelen</a></span></li>
-			<li class="list-item"><i class="list-item-icon fa fa-book"></i><span>4x per jaar het <a href="#">Sprout Bookazine</a></span></li>
+			<li class="list-item"><i class="list-item-icon fa fa-newspaper-o"></i><span>Plaats tot wel <strong>6 persberichten per jaar</strong> op de site.</span></li>
+			<li class="list-item"><i class="list-item-icon fa fa-tag"></i><span>Sponsor een onderwerp en <strong>adverteer met jouw content</strong>.</span></li>
+			<li class="list-item"><i class="list-item-icon fa fa-handshake-o"></i><span>Een partnerschap met Sprout is <strong>op maat gemaakt</strong> voor jouw organisatie.</span></li>
 		</ul>
-		<a href="#" class="button button--secondary" onClick="openForm('register')">Sprout Member worden</a>
-		<p class="loginTeaser-link">Al een Sprout member? <a href="#" onClick="openForm('login')">Log in</a></p>
+		<a href="word-partner.php" class="button button--partner">Partner worden</a>
 	</div>
 	
 	<div class="panel">
@@ -54,11 +53,12 @@
 		</div>
 	</div>
 
-	<div class="panel premiumTeaser loggedIn-hide">
+	<div class="panel premiumTeaser role-unknown">
 		<div class="premiumTeaser-figure"><img src="images/premium-logo-white.svg" class="premiumTeaser-image" /></div>
-		<h3 class="premiumTeaser-title">Ongelimiteerd de beste verhalen. <br/>Wordt premium member.</h3>
-		<p class="premiumTeaser-description">1 maand gratis uitproberen. Daarna &euro;00,- per maand.</p>
-		<a href="#" class="button button--white" onClick="openForm('register')">1 maand uitproberen</a>
+		<h3 class="premiumTeaser-title">Ongelimiteerd de beste verhalen en events.</h3>
+		<p class="premiumTeaser-description">De volledige Sprout-beleving kun je 1 maand gratis uitproberen. Daarna voor &euro;00,- per maand.</p>
+		<a href="/word-member.php" class="button button--white">1 maand uitproberen</a>
+		<p class="premiumTeaser-link">Al een toegangscode?<br><a href="#" onClick="openLoginForm()">Premium inschakelen</a></p>
 	</div>
 
 	<div class="panel panel--clean">

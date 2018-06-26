@@ -1,6 +1,6 @@
 <?php include '../templates/header.php'; ?>
 
-	<?php include '../templates/premiummodal.php'; ?>	
+	<?php include '../templates/premiumteaser--modal.php'; ?>	
 
 	<section class="articles">
 
@@ -62,7 +62,7 @@
 					<p class="notification premiumUnlock-description">Geregistreerde gebruikers krijgen wekelijks toegang tot &eacute;&eacute;n premium artikel.</p>
 				</div>
 			</footer>
-			<div class="panel premiumTeaser loggedIn-hide">
+			<div class="panel premiumTeaser role-unknown">
 				<div class="premiumTeaser-figure"><img src="/images/premium-logo-white.svg" class="premiumTeaser-image" /></div>
 				<h3 class="premiumTeaser-title">Ongelimiteerd de beste verhalen. <br/>Wordt premium member.</h3>
 				<ul class="premiumTeaser-list">

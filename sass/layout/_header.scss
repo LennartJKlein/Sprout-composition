@@ -70,7 +70,6 @@
 					position: absolute;
 					padding: 1em 1.5em;
 					z-index: 1;
-
 				}
 			}
 
@@ -79,20 +78,13 @@
 				font-size: 1.2em;
 			}
 
-			.user-image {
-				width: 100%;
-				margin-right: 0;
-			}
-
-			.menu-user {
+			.menu--premium {
 				&.open {
 					width: 400%;
-				}				
+				}
 
-				&.loggedIn-show {
-					.menu-link {
-						padding-left: 2em;
-					}
+				.menu-link {
+					padding-left: 2em;
 				}
 			}
 		}
@@ -501,9 +493,29 @@
 	font-weight: 600;
 }
 
-.menu-user {
+.menu--premium {
+	background: $color-premium;
+	margin: 0 -0.5em -0.5em;
+	position: relative;
+	transition: width .5s;
 	width: auto;
-	margin-bottom: 0.5em;
+
+	&.open {
+		bottom: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+
+		@include desktop {
+			top: auto;
+			width: auto;
+		}
+	}
+
+	@include tablet-landscape {
+		width: 100%;
+		margin: 0;
+	}
 
 	.menu-item {
 		width: 100%;
@@ -514,87 +526,32 @@
 		@include flex-flow(row nowrap);
 		@include justify-content(flex-start);
 		@include align-items(center);
-		text-transform: none;
-	}
+		margin: 0;
+		padding: 2em 1em;
 
-	.user-company {
-		font-size: 0.85em;
-		font-weight: normal;
-		opacity: 0.4 !important;
-		display: block;
-	}
-
-	&.loggedIn-hide {
-		background-color: $color-secondary;
-		margin-bottom: 0;
-		transition: width .5s;
-		width: auto;
-		margin: 0 -0.5em -0.5em;
-
-		@include tablet-landscape {
-			width: 100%;
-			margin: 0;
-		}
-
-		&.open {
-			position: absolute;
-			bottom: 0;
-			top: 0;
-			width: 100%;
-
-			@include desktop {
-				top: auto;
-				width: auto;
-			}
-
-			.login-forms {
-				padding-top: 1.5em;
-
-				@include tablet {
-					padding-top: 0;
-				}
-			}
-		}
-
-		.menu-link {
-			margin: 0;
-			padding: 2em 1em;
-
-			.fa {
-				width: 45px;
-				margin-right: 0.3em;
-				margin-bottom: 0;
-
-				@include tablet-landscape {
-					width: $percent-1of10;
-					margin-right: 1em;
-				}
-			}
+		.fa {
+			width: 45px;
+			margin-right: 0.3em;
+			margin-bottom: 0;
 
 			@include tablet-landscape {
-				padding: 1.5em 2.5em;
+				width: $percent-1of10;
+				margin-right: 1em;
 			}
 		}
 
-		.menu-label {
-			letter-spacing: 0.03em;
-			font-weight: 600;
+		@include tablet-landscape {
+			padding: 1.5em 2.5em;
 		}
 	}
 
-	&.loggedIn-show {
-		.menu-link {
-			padding-left: 1.2em;
-		}
+	.menu-label {
+		letter-spacing: 0.03em;
+		font-weight: 600;
 	}
-}
 
-.menu-user {
-	position: relative;
-}
-
-.user-image {
-	@include circle-border;
-	width: $percent-1of5;
-	margin-right: 1em;
+	.menu-label-image {
+		height: 1.15em;
+		width: auto;
+	}
 }

@@ -1,0 +1,11 @@
+body.role-unknown {
+	.role-premium {
+		display: none;
+	}
+}
+
+body.role-premium {
+	.role-unknown {
+		display: none;
+	}
+}

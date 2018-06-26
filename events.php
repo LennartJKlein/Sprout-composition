@@ -138,17 +138,18 @@
 
 <aside id="aside">
 
-	<div class="panel premiumTeaser loggedIn-hide">
-		<div class="premiumTeaser-figure"><img src="images/premium-logo-white.svg" class="premiumTeaser-image" /></div>
-		<h3 class="premiumTeaser-title">Ongelimiteerd de beste verhalen. <br/>Wordt premium member.</h3>
-		<p class="premiumTeaser-description">1 maand gratis uitproberen. Daarna &euro;00,- per maand.</p>
-		<a href="#" class="button button--white" onClick="openForm('register')">1 maand uitproberen</a>
-	</div>
-	<div class="aside-panelgroup">
-        <div class="banner banner--rectangle">
-            <img src="http://via.placeholder.com/285x140" class="banner-image" />
-        </div>
-	</div>
+    <div class="panel premiumTeaser role-unknown">
+        <div class="premiumTeaser-figure"><img src="images/premium-logo-white.svg" class="premiumTeaser-image" /></div>
+        <h3 class="premiumTeaser-title">Ongelimiteerd de beste verhalen en events.</h3>
+        <p class="premiumTeaser-description">De volledige Sprout-beleving kun je 1 maand gratis uitproberen. Daarna voor &euro;00,- per maand.</p>
+        <a href="/word-member.php" class="button button--white">1 maand uitproberen</a>
+        <p class="premiumTeaser-link">Al een toegangscode?<br><a href="#" onClick="openLoginForm()">Premium inschakelen</a></p>
+    </div>
+
+    <div class="banner banner--rectangle">
+        <img src="http://via.placeholder.com/285x140" class="banner-image" />
+    </div>
+    
     <div class="panel panel--clean">
         <h3 class="panel-title panel-title--partner"><i class="panel-title-icon fa fa-heart" aria-hidden="true"></i>Partner evenementen</h3>
         <ul class="eventList">

@@ -69,7 +69,7 @@
 				</div>
 			</footer>
 
-			<div class="panel partnerTeaser loggedIn-hide">
+			<div class="panel partnerTeaser role-unknown">
 				<h3 class="partnerTeaser-title">Ook een persbericht plaatsen? <br/>
 					Wordt PARTNER <span class="fa fa-heart text--big text--white"></span></h3>
 				<ul class="partnerTeaser-list">

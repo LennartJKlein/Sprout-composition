@@ -23,6 +23,19 @@
 	transition: box-shadow .2s;
 	box-shadow: none;
 
+	&::-webkit-input-placeholder {
+	  color: $color-white;
+	}
+	&::-moz-placeholder {
+	  color: $color-white;
+	}
+	&:-ms-input-placeholder {
+	  color: $color-white;
+	}
+	&:-moz-placeholder {
+	  color: $color-white;
+	}
+
 	@include tablet {
 		height: auto;
 		padding: 1em 0 1em calc(10% + 1.3rem);
