@@ -135,7 +135,7 @@
 				<li class="menu-item" hint="Nieuws"><a href="/index.php" class="menu-link active"><i aria-hidden="true" class="fa fa-newspaper-o"></i><span class="menu-label">Nieuws</span></a></li>
 				<li class="menu-item" hint="Events"><a href="/events.php" class="menu-link"><i aria-hidden="true" class="fa fa-calendar-o"></i><span class="menu-label">Events</span><span class="menu-link-notification">2</span></a></li>
 				<li class="menu-item" hint="Nieuwsbrief"><a href="#" class="menu-link"><i aria-hidden="true" class="fa fa-paper-plane"></i><span class="menu-label">Nieuwsbrief</span></a></li>
-				<li class="menu-item" hint="Producten"><a href="#" class="menu-link"><i aria-hidden="true" class="fa fa-book"></i><span class="menu-label">Producten</span></a></li>
+				<li class="menu-item" hint="Shop"><a href="#" class="menu-link"><i aria-hidden="true" class="fa fa-book"></i><span class="menu-label">Shop</span></a></li>
 			</ul>
 		</div>
 		<div class="nav-footer">
