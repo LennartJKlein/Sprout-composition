@@ -77,16 +77,6 @@
 				width: 100%;
 				font-size: 1.2em;
 			}
-
-			.menu--premium {
-				&.open {
-					width: 400%;
-				}
-
-				.menu-link {
-					padding-left: 2em;
-				}
-			}
 		}
 	}
 
@@ -497,20 +487,7 @@
 	background: $color-premium;
 	margin: 0 -0.5em -0.5em;
 	position: relative;
-	transition: width .5s;
 	width: auto;
-
-	&.open {
-		bottom: 0;
-		position: absolute;
-		top: 0;
-		width: 100%;
-
-		@include desktop {
-			top: auto;
-			width: auto;
-		}
-	}
 
 	@include tablet-landscape {
 		width: 100%;

@@ -49,9 +49,24 @@
 	@include flex;
 	@include justify-content(center);
 	@include align-items(center);
+	@include flex-flow(nowrap column);
 	margin: 0.5em auto;
 	max-width: 25em;
 	width: 100%;
+
+	@include tablet {
+		@include flex-flow(nowrap row);
+	}
+
+	.modal-button {
+		margin-left: 0;
+		margin-top: 1.5em;
+
+		@include tablet {
+			margin-left: 1.5em;
+			margin-top: 0;
+		}
+	}
 }
 
 .premiumModal-field {
@@ -101,4 +116,11 @@
 
 .premiumModal-actions {
 	margin-top: 2em;
+}
+
+.premiumModal-success {
+	font-size: 5em;
+	text-align: center;
+	padding: 3rem;
+	color: $color-premium-secondary;
 }

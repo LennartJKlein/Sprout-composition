@@ -174,29 +174,46 @@ $(function() {
 	$(".open-premiumModal").on("click", function(){
 		openPremiumModal();
 	});
+
 	function openPremiumModal() {
 		$(".premiumModal").addClass("modal--active");
 	}
+
 	function closePremiumModal() {
 		$(".premiumModal").removeClass("modal--active");
 	}
 
 	$(".premiumModal .modal-button[role=activate]").on("click", function(){
-		$(this).find(".fa").removeClass("fa-toggle-off").addClass("fa-toggle-on");
 		activatePremium();
-		closePremiumModal();
-		location.reload();
+		$(this).find(".fa").removeClass("fa-toggle-off").addClass("fa-toggle-on");
+
+		setTimeout(function(){
+			$(".premiumModal-body:first").fadeOut(function(){
+				$(".premiumModal-body:first").empty();
+				$(".premiumModal-body:first").html('<div class="premiumModal-success"> <i class="fa fa-toggle-off"></i> </div>');
+				
+				$(".premiumModal-body:first").fadeIn(function(){
+					setTimeout(function(){
+						$(".premiumModal-body:first .premiumModal-success .fa").removeClass("fa-toggle-off").addClass("fa-toggle-on");
+						location.reload();
+					}, 800);
+				});	
+			});
+
+		}, 600);
 	});
+
 	function activatePremium() {
 		$.cookie("sprout-role", "premium", { path: "/" });
 	}
 
 	$(".premiumModal .modal-button[role=deactivate]").on("click", function(){
-		$(this).find(".fa").removeClass("fa-toggle-on").addClass("fa-toggle-off");
 		deactivatePremium();
+		$(this).find(".fa").removeClass("fa-toggle-on").addClass("fa-toggle-off");
 		closePremiumModal();
 		location.reload();
 	});
+
 	function deactivatePremium() {
 		$.cookie("sprout-role", "unknown", { path: "/" });
 	}
