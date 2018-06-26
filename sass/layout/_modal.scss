@@ -27,8 +27,12 @@
 }
 
 .modal-dialog {
-	max-width: 600px;
+	max-width: 100%;
 	padding: 1.2rem;
+
+	@include tablet {
+		max-width: 600px;
+	}
 }
 
 .modal-content {

@@ -1613,10 +1613,14 @@ body {
 
 /* line 29, ../sass/layout/_modal.scss */
 .modal-dialog {
-  max-width: 600px;
+  max-width: 100%;
   padding: 1.2rem; }
+  @media (min-width: 769px) {
+    /* line 29, ../sass/layout/_modal.scss */
+    .modal-dialog {
+      max-width: 600px; } }
 
-/* line 34, ../sass/layout/_modal.scss */
+/* line 38, ../sass/layout/_modal.scss */
 .modal-content {
   position: relative;
   padding: 2rem;
@@ -1630,11 +1634,11 @@ body {
   border-radius: 0.25rem;
   overflow: hidden; }
   @media (min-width: 769px) {
-    /* line 34, ../sass/layout/_modal.scss */
+    /* line 38, ../sass/layout/_modal.scss */
     .modal-content {
       padding: 2.4rem; } }
 
-/* line 49, ../sass/layout/_modal.scss */
+/* line 53, ../sass/layout/_modal.scss */
 .modal-actions {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1651,16 +1655,16 @@ body {
   justify-content: flex-end;
   margin-bottom: -0.2rem; }
   @media (min-width: 769px) {
-    /* line 49, ../sass/layout/_modal.scss */
+    /* line 53, ../sass/layout/_modal.scss */
     .modal-actions {
       margin-bottom: -0.4rem; } }
 
-/* line 60, ../sass/layout/_modal.scss */
+/* line 64, ../sass/layout/_modal.scss */
 .modal-button {
   margin-left: 1.5em;
   white-space: nowrap; }
 
-/* line 65, ../sass/layout/_modal.scss */
+/* line 69, ../sass/layout/_modal.scss */
 .modal-close {
   position: absolute;
   top: 0;
@@ -1675,7 +1679,7 @@ body {
   background: transparent;
   border: 0;
   outline: 0; }
-  /* line 80, ../sass/layout/_modal.scss */
+  /* line 84, ../sass/layout/_modal.scss */
   .modal-close:hover, .modal-close:active, .modal-close:focus {
     color: #231f20; }
 
@@ -3699,37 +3703,50 @@ body {
 
 /* line 1, ../sass/components/_premiummodal.scss */
 .premiumModal {
-  text-align: center; }
+  text-align: center;
+  font-size: 0.85em; }
+  @media (min-width: 769px) {
+    /* line 1, ../sass/components/_premiummodal.scss */
+    .premiumModal {
+      font-size: 1em; } }
 
-/* line 5, ../sass/components/_premiummodal.scss */
+/* line 10, ../sass/components/_premiummodal.scss */
+.premiumModal-content {
+  padding: 1.25rem; }
+  @media (min-width: 360px) {
+    /* line 10, ../sass/components/_premiummodal.scss */
+    .premiumModal-content {
+      padding: 2rem; } }
+
+/* line 18, ../sass/components/_premiummodal.scss */
 .premiumModal-figure {
   position: relative;
   width: 70%;
   max-width: 210px;
   margin: 0.5em auto 1.5em; }
 
-/* line 12, ../sass/components/_premiummodal.scss */
+/* line 25, ../sass/components/_premiummodal.scss */
 .premiumModal-image {
   width: 100%;
   height: 100%;
   object-fit: contain; }
 
-/* line 18, ../sass/components/_premiummodal.scss */
+/* line 31, ../sass/components/_premiummodal.scss */
 .premiumModal-title {
   color: #DC0451;
   background: linear-gradient(to bottom right, #007AC9, #DC0451);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 22, ../sass/components/_premiummodal.scss */
+/* line 35, ../sass/components/_premiummodal.scss */
 .premiumModal-description {
   color: #231f20;
   font-size: 0.9em; }
-  /* line 26, ../sass/components/_premiummodal.scss */
+  /* line 39, ../sass/components/_premiummodal.scss */
   .premiumModal-description a {
     display: inline-block; }
 
-/* line 31, ../sass/components/_premiummodal.scss */
+/* line 44, ../sass/components/_premiummodal.scss */
 .premiumModal-detail {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3750,13 +3767,17 @@ body {
   margin-bottom: 0;
   text-align: left; }
 
-/* line 42, ../sass/components/_premiummodal.scss */
+/* line 55, ../sass/components/_premiummodal.scss */
 .premiumModal-data {
   font-weight: normal;
-  margin-left: 5em;
+  margin-left: 0.25em;
   text-align: right; }
+  @media (min-width: 769px) {
+    /* line 55, ../sass/components/_premiummodal.scss */
+    .premiumModal-data {
+      margin-left: 2em; } }
 
-/* line 48, ../sass/components/_premiummodal.scss */
+/* line 65, ../sass/components/_premiummodal.scss */
 .premiumModal-form {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3778,22 +3799,22 @@ body {
   max-width: 25em;
   width: 100%; }
   @media (min-width: 769px) {
-    /* line 48, ../sass/components/_premiummodal.scss */
+    /* line 65, ../sass/components/_premiummodal.scss */
     .premiumModal-form {
       -webkit-flex-flow: nowrap row;
       -ms-flex-flow: nowrap row;
       flex-flow: nowrap row; } }
-  /* line 61, ../sass/components/_premiummodal.scss */
+  /* line 78, ../sass/components/_premiummodal.scss */
   .premiumModal-form .modal-button {
     margin-left: 0;
     margin-top: 1.5em; }
     @media (min-width: 769px) {
-      /* line 61, ../sass/components/_premiummodal.scss */
+      /* line 78, ../sass/components/_premiummodal.scss */
       .premiumModal-form .modal-button {
         margin-left: 1.5em;
         margin-top: 0; } }
 
-/* line 72, ../sass/components/_premiummodal.scss */
+/* line 89, ../sass/components/_premiummodal.scss */
 .premiumModal-field {
   border: 0;
   background: transparent;
@@ -3808,36 +3829,40 @@ body {
   transition: box-shadow .2s;
   width: 100%; }
   @media (min-width: 769px) {
-    /* line 72, ../sass/components/_premiummodal.scss */
+    /* line 89, ../sass/components/_premiummodal.scss */
     .premiumModal-field {
       height: auto; } }
-  /* line 90, ../sass/components/_premiummodal.scss */
+  /* line 107, ../sass/components/_premiummodal.scss */
   .premiumModal-field:focus, .premiumModal-field:active {
     box-shadow: 0 2px 0 0 #DC0451;
     outline: 0; }
 
-/* line 97, ../sass/components/_premiummodal.scss */
+/* line 114, ../sass/components/_premiummodal.scss */
 .premiumModal-link {
   color: #DC0451;
   border-radius: .25rem;
   display: block;
-  font-size: 0.8em;
+  font-size: 0.9em;
   opacity: 0.5 !important;
   padding: 1em 1em;
   text-align: center; }
-  /* line 106, ../sass/components/_premiummodal.scss */
+  @media (min-width: 769px) {
+    /* line 114, ../sass/components/_premiummodal.scss */
+    .premiumModal-link {
+      font-size: 0.8em; } }
+  /* line 127, ../sass/components/_premiummodal.scss */
   .premiumModal-link:hover, .premiumModal-link:active {
     color: #2E5266;
     opacity: 1 !important; }
-  /* line 112, ../sass/components/_premiummodal.scss */
+  /* line 133, ../sass/components/_premiummodal.scss */
   .premiumModal-link:active {
     background: rgba(0, 0, 0, 0.2); }
 
-/* line 117, ../sass/components/_premiummodal.scss */
+/* line 138, ../sass/components/_premiummodal.scss */
 .premiumModal-actions {
   margin-top: 2em; }
 
-/* line 121, ../sass/components/_premiummodal.scss */
+/* line 142, ../sass/components/_premiummodal.scss */
 .premiumModal-success {
   font-size: 5em;
   text-align: center;

@@ -1,6 +1,6 @@
 <div class="modal premiumModal" role="dialog" aria-hidden="true">
 	<div class="modal-dialog">
-		<div class="modal-content">
+		<div class="modal-content premiumModal-content">
 		
 			<button class="modal-close modal-button" role="cancel"><i class="fa fa-close"></i></button>
 

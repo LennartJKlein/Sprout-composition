@@ -55,10 +55,14 @@ $(function() {
 		}
 	});
 
+	// Navigation on mobile
 	$(".navToggle").on("click", function(){
+		toggleNavigation();
+	});
+	function toggleNavigation() {
 		$(".navToggle").toggleClass("open");
 		$(".nav").toggleClass("open");
-	});
+	}
 
 	// Toggles extra info on author
 	$(".articleAuthor-summary").on("click", function(){
@@ -176,6 +180,7 @@ $(function() {
 	});
 
 	function openPremiumModal() {
+		toggleNavigation();
 		$(".premiumModal").addClass("modal--active");
 	}
 
@@ -191,7 +196,7 @@ $(function() {
 			$(".premiumModal-body:first").fadeOut(function(){
 				$(".premiumModal-body:first").empty();
 				$(".premiumModal-body:first").html('<div class="premiumModal-success"> <i class="fa fa-toggle-off"></i> </div>');
-				
+
 				$(".premiumModal-body:first").fadeIn(function(){
 					setTimeout(function(){
 						$(".premiumModal-body:first .premiumModal-success .fa").removeClass("fa-toggle-off").addClass("fa-toggle-on");
