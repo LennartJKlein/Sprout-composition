@@ -1988,12 +1988,12 @@ body {
     /* line 223, ../sass/components/_article.scss */
     .article-content ul,
     .article-content ol {
-      font-size: 1.1em; } }
+      font-size: 1.05em; } }
   @media (min-width: 1200px) {
     /* line 223, ../sass/components/_article.scss */
     .article-content ul,
     .article-content ol {
-      font-size: 1.2em; } }
+      font-size: 1.1em; } }
 /* line 246, ../sass/components/_article.scss */
 .article-content p a {
   font-weight: 500; }
@@ -2022,7 +2022,7 @@ body {
   .article-content ul,
   .article-content blockquote {
     width: 100%;
-    max-width: calc(70rem - 8rem);
+    max-width: calc(70rem - 18rem);
     margin-left: auto;
     margin-right: auto; } }
 /* line 283, ../sass/components/_article.scss */

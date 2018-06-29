@@ -234,11 +234,11 @@
 		}
 
 		@include tablet {
-			font-size: 1.1em;
+			font-size: 1.05em;
 		}
 
 		@include desktop {
-			font-size: 1.2em; 
+			font-size: 1.1em; 
 		}
 	}
 
@@ -274,7 +274,7 @@
 	blockquote {
 		@include desktop {
 			width: 100%;
-			max-width: calc(70rem - 8rem);
+			max-width: calc(70rem - 18rem);
 			margin-left: auto;
 			margin-right: auto;
 		}
