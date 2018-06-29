@@ -1,0 +1,107 @@
+.premiumMessage {
+	padding: 2em;
+	background: $color-premium;
+	text-align: center;
+	font-family: $font-opensans;
+	margin-bottom: 2em;
+	position: relative;
+}
+
+.premiumMessage--negative {
+	padding: 0;
+	background: transparent;
+
+	.premiumMessage-title {
+		@include text-gradient-premium;
+	}
+
+	.premiumMessage-description {
+		color: $color-black;
+		font-weight: bold;
+	}
+
+	.premiumMessage-list {
+		color: $color-black;
+	}
+}
+
+.premiumMessage-figure {
+	position: relative;
+	width: 70%;
+    max-width: 210px;
+    margin: 0.5em auto 1.5em;
+}
+
+.premiumMessage-image {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.premiumMessage-background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: -2em;
+	z-index: 0;
+	
+	.premiumMessage-image {
+		object-fit: cover;
+	}
+}
+
+.premiumMessage-confetti {
+	opacity: 0.2;
+}
+
+.premiumMessage-title {
+	color: $color-white;
+}
+
+.premiumMessage-description {
+	color: $color-white;
+	font-size: 0.9em;
+}
+
+.premiumMessage-list {
+	text-align: left;
+	list-style: none;
+	color: $color-white;
+	font-size: 0.9em;
+	width: 100%;
+	max-width: 400px;
+	margin: 2em auto;
+	padding: 0;
+
+	@include desktop {
+		max-width: 35rem;
+	}
+
+	li {
+		margin: 1em 0;
+		@include flex;
+		@include flex-flow(row nowrap);
+		@include justify-content(flex-start);
+		@include align-items(center);
+	}
+	
+	.fa {
+		width: 2.5em;
+		text-align: center;
+		margin-right: 1em;
+	    @include flex-grow(0);
+	    @include flex-shrink(0);
+	}
+}
+
+.premiumMessage-link {
+	font-size: 0.9em;
+	margin: 0.5em 0;
+	padding: 0.5em;
+	color: $color-white-opage;
+
+	a {
+		font-weight: 500;
+		color: $color-white;
+	}
+}

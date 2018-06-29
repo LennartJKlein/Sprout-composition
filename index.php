@@ -416,6 +416,8 @@
 <aside id="aside">
 	
 	<?php include 'templates/premiumteaser.php'; ?>
+
+	<?php include 'templates/premiummessage.php'; ?>
 	
 	<div class="panel panel--clean">
 		<ul class="eventList">

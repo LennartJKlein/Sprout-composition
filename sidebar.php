@@ -53,13 +53,9 @@
 		</div>
 	</div>
 
-	<div class="panel premiumTeaser role-unknown">
-		<div class="premiumTeaser-figure"><img src="images/premium-logo-white.svg" class="premiumTeaser-image" /></div>
-		<h3 class="premiumTeaser-title">Ongelimiteerd de beste verhalen en events.</h3>
-		<p class="premiumTeaser-description">De volledige Sprout-beleving kun je 1 maand gratis uitproberen. Daarna voor &euro;00,- per maand.</p>
-		<a href="/word-member.php" class="button button--white">1 maand uitproberen</a>
-		<p class="premiumTeaser-link">Al een toegangscode?<br><a href="#" onClick="openLoginForm()">Premium inschakelen</a></p>
-	</div>
+	<?php include 'templates/premiumteaser.php'; ?>
+
+	<?php include 'templates/premiumthank.php'; ?>
 
 	<div class="panel panel--clean">
 		<ul class="eventList">
@@ -316,7 +312,7 @@
 		<h4 class="quote-title">Quote van een topondernemer</h4>
 		<p class="quote-text">When something is important enough, you do it even if the odds are not in your favor</p>
 		<p class="quote-writer">Elon Musk</p>
-		<img src="images/quote-elon-musk.png" class="quote-image" />
+		<img src="images/uploads/quote-elon-musk.png" class="quote-image" />
 	</div>
 
 	<div class="panel panel--headed panel--headed-big panel--headed-tertiary">

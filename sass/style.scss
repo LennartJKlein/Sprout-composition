@@ -14,7 +14,6 @@
 @import "layout/modal";
 @import "layout/notification";
 @import "components/spinner";
-@import "components/shareModal";
 @import "components/articles";
 @import "components/article";
 @import "components/articleAuthor";
@@ -27,18 +26,19 @@
 @import "components/event";
 @import "components/eventList";
 @import "components/eventTeaser";
+@import "components/forumpostsTeaser";
 @import "components/figure";
 @import "components/investmentList";
 @import "components/linkList";
 @import "components/list";
+@import "components/newsletterTeaser";
+@import "components/premiumMessage";
 @import "components/premiumModal";
 @import "components/premiumTeaser";
-@import "components/newsletterTeaser";
-@import "components/forumpostsTeaser";
+@import "components/premiumUnlock";
 @import "components/pagination";
 @import "components/partnerTeaser";
 @import "components/posterList";
-@import "components/premiumUnlock";
 @import "components/progressLine";
 @import "components/progressPanel";
 @import "components/quote";
@@ -46,5 +46,6 @@
 @import "components/search";
 @import "components/shareActions";
 @import "components/shareList";
+@import "components/shareModal";
 @import "components/topic";
 @import "role";
