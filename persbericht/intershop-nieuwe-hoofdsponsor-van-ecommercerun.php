@@ -111,9 +111,7 @@
 			<a href="#" class="button button--secondary button--clean button--center">Meer events</a>
 		</div>
 
-		<div class="banner banner--rectangle">
-			<img src="http://via.placeholder.com/285x140" class="banner-image" />
-		</div>
+		<?php include '../templates/banner--filmstrip.php'; ?>
 
 		<div class="panel">
 			<h3 class="panel-title"><i class="panel-title-icon fa fa-folder"></i>Alles over...</h3>

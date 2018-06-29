@@ -357,9 +357,7 @@
 			<a href="#" class="button button--secondary button--clean button--center">Meer events</a>
 		</div>
 
-		<div class="banner banner--rectangle">
-			<img src="http://via.placeholder.com/285x140" class="banner-image" />
-		</div>
+		<?php include '../templates/banner--rectangle.php'; ?>
 	</div>
 
 	<div class="aside-panelgroup">
@@ -380,13 +378,9 @@
 
 
 	<div class="aside-panelgroup">
-		<div class="banner banner--rectangle">
-			<img src="http://via.placeholder.com/285x140" class="banner-image" />
-		</div>
+		<?php include '../templates/banner--filmstrip.php'; ?>
 
-		<div class="banner banner--rectangle">
-			<img src="http://via.placeholder.com/285x140" class="banner-image" />
-		</div>
+		<?php include '../templates/banner--rectangle.php'; ?>
 	</div>
 
 </aside>

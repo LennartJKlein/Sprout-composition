@@ -232,9 +232,7 @@
 		<a href="investeringen" class="button button--center button--small">naar het forum</a>
 	</div>
 	
-	<div class="banner banner--rectangle">
-		<img src="http://via.placeholder.com/285x140" class="banner-image" />
-	</div>
+	<?php include '../templates/banner--rectangle.php'; ?>
 
 	<div class="panel panel--headed panel--headed-overflow">
 		<h3 class="panel-title">Recente investeringen</h3>
@@ -275,6 +273,8 @@
 			<li class="linkList-item"><a class="linkList-link" href="https://oristand.co/product/oristand-stand-up-desk/">Portable Stand Up Desk<span class="linkList-source">ORISTAND</span></a></li>
 		</ul>
 	</div>
+
+	<?php include '../templates/banner--filmstrip.php'; ?>
 
 	<div class="panel panel--headed panel--headed-overflow panel--headed-secondary">
 		<h3 class="panel-title">

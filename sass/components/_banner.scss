@@ -1,47 +1,134 @@
 .banner {
-	position: relative;
+	background: $color-primary-dark;
+	@include flex;
+	@include align-items(center);
+	@include justify-content(center);
 	overflow: hidden;
 	width: 100%;
-	margin: 1.5em 0;
-	filter: invert(0.2);
-	@include round-border;
 }
 
-.banner--rectangle {
-	height: 0;
-	padding-bottom: $percent-1of2;
+.banner-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0.25rem;
+	padding: 1rem;
+	font-size: 1.2em;
+	line-height: 1;
+	color: $color-white-opage;
+	z-index: 1100;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: 0;
 
-	.banner-image {
-		position: absolute;
+	&:hover,
+	&:active,
+	&:focus {
+		color: $color-white;
 	}
 }
 
-.banner--square {
-	height: 0;
-	padding-bottom: 100%;
-
-	.banner-image {
-		position: absolute;
-	}
-}
-
-.banner--beam {
-	height: 0;
-	padding-bottom: $percent-1of6;
-
-	.banner-image {
-		position: absolute;
-	}
+.banner-container {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .banner-image {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	object-fit: contain;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	filter: invert(0.2); // To remove!
 
 	&:after {
 		content: ' ';
 		display: block;
 		clear: both;
+	}
+}
+
+.banner--billboard {
+	width: auto;
+	margin: -1em -1.5em 1em;
+
+	@include tablet {
+		margin: -4em -5vw 4em;
+	}
+
+	@include desktop {
+		margin: -4em -5vw 4em;
+	}
+
+	.banner-container {
+		height: 0;
+		padding-bottom: $percent-1of4;
+		max-width: 970px;
+	}
+
+	.banner-image {
+		max-width: 970px;
+		max-height: 250px;
+		filter: invert(0); // To remove!
+	}
+
+	.banner-close {
+		color: $color-primary-light;
+	}
+}
+
+.banner--leaderboard {
+	margin: 1.5em auto;
+	@include round-border;
+	
+	.banner-container {
+		height: 0;
+		padding-bottom: $percent-1of8;
+		max-width: 728px;
+	}
+
+	.banner-image {
+		max-width: 728px;
+		max-height: 90px;
+	}
+}
+
+.banner--filmstrip {
+	background: transparent;
+	margin: 1.5em auto;
+	max-width: 300px;
+	@include round-border;
+	
+	.banner-container {
+		height: 0;
+		padding-bottom: 200%;
+		max-width: 300px;
+	}
+
+	.banner-image {
+		max-width: 300px;
+		max-height: 600px;
+	}
+}
+
+.banner--rectangle {
+	background: transparent;
+	margin: 1.5em auto;
+	max-width: 300px;
+	@include round-border;
+	
+	.banner-container {
+		height: 0;
+		padding-bottom: $percent-5of6;
+		max-width: 300px;
+	}
+
+	.banner-image {
+		max-width: 300px;
+		max-height: 250px;
 	}
 }

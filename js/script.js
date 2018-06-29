@@ -223,6 +223,13 @@ $(function() {
 		$.cookie("sprout-role", "unknown", { path: "/" });
 	}
 
+	// Banner actions
+	$(".banner-close").on("click", function(){
+		$(this).parents(".banner").slideUp(function(){
+			$(this).remove();
+		});
+	});
+
 	// Add media query reference to body
 	function checkMQ() {
 		return window.getComputedStyle($("body").get(0), ":before").getPropertyValue("content").replace(/"/g, "").replace(/"/g, "");

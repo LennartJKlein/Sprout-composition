@@ -1,5 +1,7 @@
 <?php include 'templates/header.php'; ?>
 
+	<?php include 'templates/banner--billboard.php'; ?>
+
 	<div class="articleFilter">
 		<span class="articleFilter-label">Filteren op</span>
 		<button class="articleFilter-button button button--small" name="startups">Startups</button>
@@ -150,9 +152,8 @@
 		</div>
 	</div>
 
-	<div class="banner banner--beam">
-		<img src="http://via.placeholder.com/1000x150" class="banner-image" />
-	</div>
+	<?php include 'templates/banner--leaderboard.php'; ?>
+
 
 	<div class="forumTeaser">
 		<h2 class="forumTeaser-title">
@@ -447,10 +448,8 @@
 			<li class="linkList-item"><a class="linkList-link" href="/topic/direct-marketing.php">Zeker voor de zaak</a></li>
 		</ul>
 	</div>
+
 	
-	<div class="banner banner--rectangle">
-		<img src="http://via.placeholder.com/285x140" class="banner-image" />
-	</div>
 
 	<div class="panel panel--headed panel--headed-overflow">
 		<h3 class="panel-title">Recente investeringen</h3>

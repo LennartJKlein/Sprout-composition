@@ -2567,48 +2567,138 @@ body {
 
 /* line 1, ../sass/components/_banner.scss */
 .banner {
-  position: relative;
+  background: #224456;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
   overflow: hidden;
-  width: 100%;
-  margin: 1.5em 0;
-  filter: invert(0.2);
-  border-radius: 0.25rem;
-  overflow: hidden; }
+  width: 100%; }
 
 /* line 10, ../sass/components/_banner.scss */
-.banner--rectangle {
-  height: 0;
-  padding-bottom: 50%; }
-  /* line 14, ../sass/components/_banner.scss */
-  .banner--rectangle .banner-image {
-    position: absolute; }
+.banner-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0.25rem;
+  padding: 1rem;
+  font-size: 1.2em;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.2);
+  z-index: 1100;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: 0; }
+  /* line 25, ../sass/components/_banner.scss */
+  .banner-close:hover, .banner-close:active, .banner-close:focus {
+    color: #fefefe; }
 
-/* line 19, ../sass/components/_banner.scss */
-.banner--square {
-  height: 0;
-  padding-bottom: 100%; }
-  /* line 23, ../sass/components/_banner.scss */
-  .banner--square .banner-image {
-    position: absolute; }
+/* line 32, ../sass/components/_banner.scss */
+.banner-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin: 0 auto; }
 
-/* line 28, ../sass/components/_banner.scss */
-.banner--beam {
-  height: 0;
-  padding-bottom: calc(100% / 6); }
-  /* line 32, ../sass/components/_banner.scss */
-  .banner--beam .banner-image {
-    position: absolute; }
-
-/* line 37, ../sass/components/_banner.scss */
+/* line 39, ../sass/components/_banner.scss */
 .banner-image {
   width: 100%;
   height: 100%;
-  object-fit: cover; }
-  /* line 42, ../sass/components/_banner.scss */
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  filter: invert(0.2); }
+  /* line 48, ../sass/components/_banner.scss */
   .banner-image:after {
     content: ' ';
     display: block;
     clear: both; }
+
+/* line 55, ../sass/components/_banner.scss */
+.banner--billboard {
+  width: auto;
+  margin: -1em -1.5em 1em; }
+  @media (min-width: 769px) {
+    /* line 55, ../sass/components/_banner.scss */
+    .banner--billboard {
+      margin: -4em -5vw 4em; } }
+  @media (min-width: 1200px) {
+    /* line 55, ../sass/components/_banner.scss */
+    .banner--billboard {
+      margin: -4em -5vw 4em; } }
+  /* line 67, ../sass/components/_banner.scss */
+  .banner--billboard .banner-container {
+    height: 0;
+    padding-bottom: 25%;
+    max-width: 970px; }
+  /* line 73, ../sass/components/_banner.scss */
+  .banner--billboard .banner-image {
+    max-width: 970px;
+    max-height: 250px;
+    filter: invert(0); }
+  /* line 79, ../sass/components/_banner.scss */
+  .banner--billboard .banner-close {
+    color: #9FB1BC; }
+
+/* line 84, ../sass/components/_banner.scss */
+.banner--leaderboard {
+  margin: 1.5em auto;
+  border-radius: 0.25rem;
+  overflow: hidden; }
+  /* line 88, ../sass/components/_banner.scss */
+  .banner--leaderboard .banner-container {
+    height: 0;
+    padding-bottom: 12.3%;
+    max-width: 728px; }
+  /* line 94, ../sass/components/_banner.scss */
+  .banner--leaderboard .banner-image {
+    max-width: 728px;
+    max-height: 90px; }
+
+/* line 100, ../sass/components/_banner.scss */
+.banner--filmstrip {
+  background: transparent;
+  margin: 1.5em auto;
+  max-width: 300px;
+  border-radius: 0.25rem;
+  overflow: hidden; }
+  /* line 106, ../sass/components/_banner.scss */
+  .banner--filmstrip .banner-container {
+    height: 0;
+    padding-bottom: 200%;
+    max-width: 300px; }
+  /* line 112, ../sass/components/_banner.scss */
+  .banner--filmstrip .banner-image {
+    max-width: 300px;
+    max-height: 600px; }
+
+/* line 118, ../sass/components/_banner.scss */
+.banner--rectangle {
+  background: transparent;
+  margin: 1.5em auto;
+  max-width: 300px;
+  border-radius: 0.25rem;
+  overflow: hidden; }
+  /* line 124, ../sass/components/_banner.scss */
+  .banner--rectangle .banner-container {
+    height: 0;
+    padding-bottom: calc((100% / 6) * 5);
+    max-width: 300px; }
+  /* line 130, ../sass/components/_banner.scss */
+  .banner--rectangle .banner-image {
+    max-width: 300px;
+    max-height: 250px; }
 
 /* line 1, ../sass/components/_breadcrumb.scss */
 .breadcrumb {
