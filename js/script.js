@@ -2,11 +2,20 @@ var tooltipNeeded = true;
 var cookieWidth = null;
 var url = null;
 
-// Tracks window resizing
-var screenWidth = $(window).width();
-
 // On page load
 $(function() {
+
+	// Global variables
+	var screenWidth = $(window).width(),
+		scrollWindow = $("#page"),
+		windowHeight = $(scrollWindow).height(),
+		windowHeightHalf = windowHeight / 2,
+		scrollPosition = 0;
+	
+	$(scrollWindow).on("scroll", function(e){	
+		scrollPosition = $(scrollWindow).scrollTop();
+		checkFloaters();
+	});
 	
 	// Resizes the navigation
 	initiateNavigationWidth();
@@ -81,9 +90,9 @@ $(function() {
 
 		$(window).bind("resize", function(e) {
 			screenWidth = $(window).width();
-		    if (!$(e.target).hasClass("ui-resizable")) {
+			if (!$(e.target).hasClass("ui-resizable")) {
 				resetHeaderWidth(screenWidth);
-		    }
+			}
 		});
 
 		resetHeaderWidth(screenWidth);
@@ -138,10 +147,10 @@ $(function() {
 			$("#header").css("width", "");
 
 		} else if (checkMQ() == "tablet-landscape") {
-	    	$("#header").css("width", "115px");
-	    	$("#header").addClass("minimum");
+			$("#header").css("width", "115px");
+			$("#header").addClass("minimum");
 
-	    } else {
+		} else {
 			$("#header").css("width", cookieWidth + "px");
 
 			if (cookieWidth <= 115) {
@@ -228,6 +237,21 @@ $(function() {
 		$(this).parents(".banner").slideUp(function(){
 			$(this).remove();
 		});
+	});
+
+	// Check floating objects
+	function checkFloaters() {
+		$(".panel--mobilefloat").each(function(){
+			if (scrollPosition >= windowHeightHalf && !$(this).hasClass("revealed")) {
+				$(this).addClass('visible').addClass("revealed");
+				$(this).find(".panel-toggle .fa").removeClass("fa-chevron-up").addClass("fa-chevron-down");
+			}
+		});
+	}
+
+	$(".panel--mobilefloat .panel-toggle").on("click", function(){
+		$(this).find(".fa").toggleClass("fa-chevron-down").toggleClass("fa-chevron-up").addClass("revealed");
+		$(this).parents(".panel").toggleClass("visible");
 	});
 
 	// Add media query reference to body

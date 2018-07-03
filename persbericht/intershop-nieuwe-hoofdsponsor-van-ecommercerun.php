@@ -15,7 +15,7 @@
 				<?php include '../templates/shareactions--wide.php'; ?>
 				
 				<div class="article-hero figure">
-					<img src="../images/persberichten/ecommercerun2017.jpg" class="figure-image" />
+					<img src="../images/uploads/persberichten/ecommercerun2017.jpg" class="figure-image" />
 					<span class="figure-credit">&copy; Joost Verkerk</span>
 				</div>
 				<div class="article-info">
@@ -26,7 +26,7 @@
 					<div class="articleAuthor">
 						<div class="articleAuthor-summary">
 							<a href="auteur.php" class="articleAuthor-link">
-								<img src="../images/avatars/eurolutions.png" class="articleAuthor-image" />
+								<img src="../images/uploads/avatars/eurolutions.png" class="articleAuthor-image" />
 								<span class="articleAuthor-name">Eurolutions</span>
 							</a>
 							<span class="articleAuthor-toggle fa fa-chevron-down"></span>
@@ -55,7 +55,7 @@
 				<div class="articleAuthor articleAuthor--bottom">
 					<div class="articleAuthor-content">
 						<a href="auteur.php" class="articleAuthor-link">
-							<img src="../images/avatars/eurolutions.png" class="articleAuthor-image" />
+							<img src="../images/uploads/avatars/eurolutions.png" class="articleAuthor-image" />
 							<span class="articleAuthor-name">Eurolutions</span>
 						</a>
 						<p>Eurolutions is een internetuitgeverij uit Utrecht dat zich heeft gespecialiseerd in zakelijke media. Het werd opgericht in 2002 en verdiende in eerste instantie zijn sporen als website-bouwer. Al snel werd de opgedane kennis en ervaring ingezet om andere (startende) ondernemers te informeren.</p>

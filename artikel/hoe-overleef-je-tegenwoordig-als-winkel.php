@@ -45,7 +45,7 @@
 				<?php include '../templates/shareactions--wide.php'; ?>
 				
 				<div class="article-hero figure">
-					<img src="../images/articles/article-hero.jpg" class="figure-image" />
+					<img src="../images/uploads/articles/article-hero.jpg" class="figure-image" />
 					<span class="figure-credit">&copy; Maikel Thijssen</span>
 				</div>
 				<div class="article-info">
@@ -56,7 +56,7 @@
 					<div class="articleAuthor">
 						<div class="articleAuthor-summary">
 							<a href="auteur.php" class="articleAuthor-link">
-								<img src="../images/avatars/jelmer-luimstra.jpg" class="articleAuthor-image" />
+								<img src="../images/uploads/avatars/jelmer-luimstra.jpg" class="articleAuthor-image" />
 								<span class="articleAuthor-name">Jelmer Luimstra</span>
 								<span class="articleAuthor-company">SchrijvenVoorWeb</span>
 							</a>
@@ -85,7 +85,7 @@
 				<p>Aan tafel zitten opvallend veel millennials; Boris Blijham en Danny ten Nijenhuis van de Amsterdamse naar eigen zeggen “weinig hippe” telefoon-reperatieservice ThePhoneLab, e-commercemanager Dax Stokman van kledingmerk <a href="#">ETQ</a>, Randy Hoogeweegen van de Amsterdamse kledingwinkel <a href="#">ABOUT. lifestyle for men</a>, Mark Bos van motorpakkenwinkel <a href="#">Motorkledingcenter</a> en social influencer <a href="#">Sabine de Witte</a>, die – zoals dat gaat – voor de helft van de tijd aanwezig is, en voor de andere helft haar Instagram bijwerkt. Het leven van een influencer gaat niet over rozen. Bob Zwanikken van apparatuurwinkel Wifimedia is - zoals hij zelf al direct opmerkt - de enige ‘oudere’ retailer. Maar goed, hij werkt samen met Radio 538. Dat kan de rest dan weer niet zeggen.</p>
 				<p>Met zoveel jonge retailers is het dan ook niet verwonderlijk dat het gesprek al snel over de onlinewereld gaat. Ooit, lang geleden, had je als retailer weinig problemen met klagende klanten. Immers, de ontevredenen zouden hun beklag misschien aan een beperkt aantal vrienden doen, maar ze hadden verder geen podium. In de internetwereld is dit anders. Iedereen realiseert: een vernietigende tweet of online-beoordeling op een platform kan funest zijn voor je omzet.</p>
 				<div class="figure">
-					<img src="../images/articles/article-figure1.jpg" class="figure-image" />
+					<img src="../images/uploads/articles/article-figure1.jpg" class="figure-image" />
 					<div class="figure-credit">
 						Boris Blijham en Danny ten Nijenhuis van ThePhoneLab.
 					</div>
@@ -94,7 +94,7 @@
 				<p>Bij ThePhoneLab hebben ze het geweten. “Een ontevreden klant plaatste eens tien negatieve reviews onder verschillende namen”, vertelt Ten Nijenhuis. “Zoiets kan erg vervelend zijn voor je bedrijf.” Hij probeert klanten daarom zo tevreden mogelijk te houden. Toch is dat niet altijd even gemakkelijk. <a href="#">Ten Nijenhuis</a> heeft momenteel drie locaties in Amsterdam, waar hij telefoons repareert. Maar wat als de ondernemer een klant moet vertellen dat het vervangen van een scherm 200 euro kost? Of dat tevreden klanten oplevert, is maar de vraag.</p>
 				<p>Bos herkent dit soort negatieve beoordelingen. Hij heeft er daarom beleid van gemaakt om altijd binnen enkele dagen te reageren. Kijken of je er samen uitkomt, want zo weet hij als geen ander: een slechte beoordeling is kostbaar. De overige ondernemers knikken. Daarnaast probeert Bos het personeel in zijn winkels bij de les te houden met een etiquettehandboek en mystery shoppers. Ook probeert hij iets te doen met beleving, dat hippe toverwoord in de retailbranche. Klanten testritjes met motors laten maken, of een inkoopdag voor tweedehands motorkleding. Alles voor een tevreden en betrokken klant, zo beredeneert de ondernemer.</p>
 				<div class="figure">
-					<img src="../images/articles/article-figure2.jpg" class="figure-image" />
+					<img src="../images/uploads/articles/article-figure2.jpg" class="figure-image" />
 					<div class="figure-credit">
 						Lightspeed-topman Dax Dasilva vertelt, de ondernemers luisteren.
 					</div>
@@ -112,7 +112,7 @@
 				<div class="articleAuthor articleAuthor--bottom">
 					<div class="articleAuthor-content">
 						<a href="auteur.php" class="articleAuthor-link">
-							<img src="../images/avatars/jelmer-luimstra.jpg" class="articleAuthor-image" />
+							<img src="../images/uploads/avatars/jelmer-luimstra.jpg" class="articleAuthor-image" />
 							<span class="articleAuthor-name">Jelmer Luimstra</span>
 							<span class="articleAuthor-company">SchrijvenVoorWeb</span>
 						</a>						
@@ -140,7 +140,7 @@
 				<?php include '../templates/shareactions--wide.php'; ?>
 				
 				<div class="article-hero figure">
-					<img src="../images/articles/article-hero3.jpg" class="figure-image" />
+					<img src="../images/uploads/articles/article-hero3.jpg" class="figure-image" />
 					<span class="figure-credit">&copy; Maikel Thijssen</span>
 				</div>
 				<div class="article-info">
@@ -151,7 +151,7 @@
 					<div class="articleAuthor">
 						<div class="articleAuthor-summary">
 							<a href="auteur.php" class="articleAuthor-link">
-								<img src="../images/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
+								<img src="../images/uploads/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
 								<span class="articleAuthor-name">Fred Rutgers</span>
 								<span class="articleAuthor-company">SchrijvenVoorWeb</span>
 							</a>
@@ -195,7 +195,7 @@
 				<div class="articleAuthor articleAuthor--bottom">
 					<div class="articleAuthor-content">
 						<a href="auteur.php" class="articleAuthor-link">
-							<img src="../images/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
+							<img src="../images/uploads/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
 							<span class="articleAuthor-name">Fred Rutgers</span>
 							<span class="articleAuthor-company">SchrijvenVoorWeb</span>
 						</a>
@@ -222,7 +222,7 @@
 				<?php include '../templates/shareactions--wide.php'; ?>
 				
 				<div class="article-hero figure">
-					<img src="../images/articles/article-hero2.jpg" class="figure-image" />
+					<img src="../images/uploads/articles/article-hero2.jpg" class="figure-image" />
 					<span class="figure-credit">&copy; E. G. Idee</span>
 				</div>
 				<div class="article-info">
@@ -233,7 +233,7 @@
 					<div class="articleAuthor">
 						<div class="articleAuthor-summary">
 							<a href="auteur.php" class="articleAuthor-link">
-								<img src="../images/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
+								<img src="../images/uploads/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
 								<span class="articleAuthor-name">Fred Rutgers</span>
 								<span class="articleAuthor-company">Expert</span>
 							</a>
@@ -277,7 +277,7 @@
 				<div class="articleAuthor articleAuthor--bottom">
 					<div class="articleAuthor-content">
 						<a href="auteur.php" class="articleAuthor-link">
-							<img src="../images/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
+							<img src="../images/uploads/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
 							<span class="articleAuthor-name">Fred Rutgers</span>
 							<span class="articleAuthor-company">Expert</span>
 						</a>
@@ -303,7 +303,7 @@
 							<div class="card-tag">retail</div>
 						</div>
 						<div class="card-figure">
-							<img src="../images/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
+							<img src="../images/uploads/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -319,7 +319,7 @@
 							<div class="card-tag">retail</div>
 						</div>
 						<div class="card-figure">
-							<img src="../images/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
+							<img src="../images/uploads/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">

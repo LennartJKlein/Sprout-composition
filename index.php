@@ -18,7 +18,7 @@
 						<div class="card-tag">nieuwsupdate</div>
 					</div>
 					<div class="card-figure">
-						<img src="images/articles/foodora-overweegt-zzp-constructie.jpg" class="card-image" />
+						<img src="images/uploads/articles/foodora-overweegt-zzp-constructie.jpg" class="card-image" />
 					</div>
 				</div>
 				<div class="card-content">
@@ -35,7 +35,7 @@
 						<div class="card-tag">startups</div>
 					</div>
 					<div class="card-figure">
-						<img src="images/articles/undagrid.jpg" class="card-image" />
+						<img src="images/uploads/articles/undagrid.jpg" class="card-image" />
 					</div>
 				</div>
 				<div class="card-content">
@@ -52,7 +52,7 @@
 						<div class="card-tag">startups</div>
 					</div>
 					<div class="card-figure">
-						<img src="images/articles/uber-ceo-travis-kalanick-only-gets-around-using-uber-hes-also-been-known-to-moonlight-as-an-uber-driver.jpg" class="card-image" />
+						<img src="images/uploads/articles/uber-ceo-travis-kalanick-only-gets-around-using-uber-hes-also-been-known-to-moonlight-as-an-uber-driver.jpg" class="card-image" />
 					</div>
 				</div>
 				<div class="card-content">
@@ -70,7 +70,7 @@
 						<div class="card-tag">stories</div>
 					</div>
 					<div class="card-figure">
-						<img src="images/articles/mz-newsroom-01.jpg" class="card-image" />
+						<img src="images/uploads/articles/mz-newsroom-01.jpg" class="card-image" />
 					</div>
 				</div>
 				<div class="card-content">
@@ -87,7 +87,7 @@
 						<div class="card-tag">scaleups</div>
 					</div>
 					<div class="card-figure">
-						<img src="images/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="card-image" />
+						<img src="images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="card-image" />
 					</div>
 				</div>
 				<div class="card-content">
@@ -105,7 +105,7 @@
 						<div class="card-tag">scaleups</div>
 					</div>
 					<div class="card-figure">
-						<img src="images/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="card-image" />
+						<img src="images/uploads/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="card-image" />
 					</div>
 				</div>
 				<div class="card-content">
@@ -122,7 +122,7 @@
 						<div class="card-tag">scaleups</div>
 					</div>
 					<div class="card-figure">
-						<img src="images/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
+						<img src="images/uploads/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
 					</div>
 				</div>
 				<div class="card-content">
@@ -140,7 +140,7 @@
 						<div class="card-tag">investeren</div>
 					</div>
 					<div class="card-figure">
-						<img src="images/articles/bill_gates.png" class="card-image" />
+						<img src="images/uploads/articles/bill_gates.png" class="card-image" />
 					</div>
 				</div>
 				<div class="card-content">
@@ -176,120 +176,126 @@
 		</div>
 	</div>
 
-	<div class="grid grid--themes">
-		<div class="grid-cell articleList">
-			<h2 class="articleList-title"><a href="tag.php" class="articleList-title-link"><i class="fa fa-flash" aria-hidden="true"></i> Trending</a></h2>
-			<div class="articleList-list">
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="images/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList-image" />
+	<div class="grid grid--categories">
+		<div class="grid-cell">
+			<div class="articleList articleList--highlightfirst">
+				<h2 class="articleList-title"><a href="tag.php" class="articleList-title-link"><i class="fa fa-flash" aria-hidden="true"></i> Trending</a></h2>
+				<div class="articleList-list">
+					<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
+						<div class="articleList-figurecontainer">
+							<div class="articleList-figure">
+								<img src="images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList-image" />
+							</div>
 						</div>
-					</div>
-					<h3 class="articleList-articleTitle">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
-				</a>
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="images/articles/bill_gates.png" class="articleList-image" />
+						<h3 class="articleList-article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
+					</a>
+					<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
+						<div class="articleList-figurecontainer">
+							<div class="articleList-figure">
+								<img src="images/uploads/articles/bill_gates.png" class="articleList-image" />
+							</div>
 						</div>
-					</div>
-					<h3 class="articleList-articleTitle">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
-				</a>
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="images/articles/pexels-photo-436413.jpeg" class="articleList-image" />
+						<h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
+					</a>
+					<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
+						<div class="articleList-figurecontainer">
+							<div class="articleList-figure">
+								<img src="images/uploads/articles/pexels-photo-436413.jpg" class="articleList-image" />
+							</div>
 						</div>
-					</div>
-					<h3 class="articleList-articleTitle">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
-				</a>
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="images/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="articleList-image" />
+						<h3 class="articleList-article-title">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
+					</a>
+					<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
+						<div class="articleList-figurecontainer">
+							<div class="articleList-figure">
+								<img src="images/uploads/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="articleList-image" />
+							</div>
 						</div>
-					</div>
-					<h3 class="articleList-articleTitle">Zo verklaart Uber de liefde aan managers</h3>
-				</a>
+						<h3 class="articleList-article-title">Zo verklaart Uber de liefde aan managers</h3>
+					</a>
+				</div>
+				<a href="#" class="button button--arrow button--clean articleList-button"><i class="fa fa-chevron-right" aria-hidden="true"></i> Topartikelen deze maand</a>
 			</div>
-			<a href="#" class="button button--arrow button--clean articleList-button"><i class="fa fa-chevron-right" aria-hidden="true"></i> Topartikelen deze maand</a>
 		</div>
-		<div class="grid-cell articleList">
-			<h2 class="articleList-title"><a href="persberichten.php" class="articleList-title-link text--partner"><i class="fa fa-bullhorn" aria-hidden="true"></i> Persberichten</a></h2>
-			<div class="articleList-list">
-				<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="images/articles/schermafbeelding_2017-08-15_om_17.10.42.png" class="articleList-image" />
+		<div class="grid-cell">
+			<div class="articleList articleList--highlightfirst">
+				<h2 class="articleList-title"><a href="persberichten.php" class="articleList-title-link text--partner"><i class="fa fa-bullhorn" aria-hidden="true"></i> Persberichten</a></h2>
+				<div class="articleList-list">
+					<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="articleList-article">
+						<div class="articleList-figurecontainer">
+							<div class="articleList-figure">
+								<img src="images/uploads/articles/schermafbeelding_2017-08-15_om_17.10.42.png" class="articleList-image" />
+							</div>
 						</div>
-					</div>
-					<h3 class="articleList-articleTitle">Deze ondernemer helpt game-ontwikkelaars aan een investeerder</h3>
-				</a>
-				<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="images/articles/pexels-photo-436413.jpeg" class="articleList-image" />
+						<h3 class="articleList-article-title">Deze ondernemer helpt game-ontwikkelaars aan een investeerder</h3>
+					</a>
+					<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="articleList-article">
+						<div class="articleList-figurecontainer">
+							<div class="articleList-figure">
+								<img src="images/uploads/articles/pexels-photo-436413.jpg" class="articleList-image" />
+							</div>
 						</div>
-					</div>
-					<h3 class="articleList-articleTitle">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
-				</a>
-				<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="images/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="articleList-image" />
+						<h3 class="articleList-article-title">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
+					</a>
+					<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="articleList-article">
+						<div class="articleList-figurecontainer">
+							<div class="articleList-figure">
+								<img src="images/uploads/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="articleList-image" />
+							</div>
 						</div>
-					</div>
-					<h3 class="articleList-articleTitle">Zo verklaart Uber de liefde aan managers</h3>
-				</a>
-				<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="images/articles/bill_gates.png" class="articleList-image" />
+						<h3 class="articleList-article-title">Zo verklaart Uber de liefde aan managers</h3>
+					</a>
+					<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="articleList-article">
+						<div class="articleList-figurecontainer">
+							<div class="articleList-figure">
+								<img src="images/uploads/articles/bill_gates.png" class="articleList-image" />
+							</div>
 						</div>
-					</div>
-					<h3 class="articleList-articleTitle">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
-				</a>
+						<h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
+					</a>
+				</div>
+				<a href="#" class="button button--arrow button--clean articleList-button text--partner"><i class="fa fa-plus" aria-hidden="true"></i> Een persbericht plaatsen</a>
 			</div>
-			<a href="#" class="button button--arrow button--clean articleList-button text--partner"><i class="fa fa-plus" aria-hidden="true"></i> Een persbericht plaatsen</a>
 		</div>
-		<div class="grid-cell articleList">
-			<h2 class="articleList-title"><a href="tag.php" class="articleList-title-link text--premium"><i class="fa fa-star" aria-hidden="true"></i> Premium</a></h2>
-			<div class="articleList-list">
-				<a href="artikel/premium-artikel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="images/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="articleList-image" />
+		<div class="grid-cell">
+			<div class="articleList articleList--highlightfirst">
+				<h2 class="articleList-title"><a href="tag.php" class="articleList-title-link text--premium"><i class="fa fa-star" aria-hidden="true"></i> Premium</a></h2>
+				<div class="articleList-list">
+					<a href="artikel/premium-artikel.php" class="articleList-article">
+						<div class="articleList-figurecontainer">
+							<div class="articleList-figure">
+								<img src="images/uploads/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="articleList-image" />
+							</div>
 						</div>
-					</div>
-					<h3 class="articleList-articleTitle">Zo verklaart Uber de liefde aan managers</h3>
-				</a>
-				<a href="artikel/premium-artikel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="images/articles/pexels-photo-436413.jpeg" class="articleList-image" />
+						<h3 class="articleList-article-title">Zo verklaart Uber de liefde aan managers</h3>
+					</a>
+					<a href="artikel/premium-artikel.php" class="articleList-article">
+						<div class="articleList-figurecontainer">
+							<div class="articleList-figure">
+								<img src="images/uploads/articles/pexels-photo-436413.jpg" class="articleList-image" />
+							</div>
 						</div>
-					</div>
-					<h3 class="articleList-articleTitle">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
-				</a>
-				<a href="artikel/premium-artikel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="images/articles/bill_gates.png" class="articleList-image" />
+						<h3 class="articleList-article-title">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
+					</a>
+					<a href="artikel/premium-artikel.php" class="articleList-article">
+						<div class="articleList-figurecontainer">
+							<div class="articleList-figure">
+								<img src="images/uploads/articles/bill_gates.png" class="articleList-image" />
+							</div>
 						</div>
-					</div>
-					<h3 class="articleList-articleTitle">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
-				</a>
-				<a href="artikel/premium-artikel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="images/articles/schermafbeelding_2017-08-15_om_17.10.42.png" class="articleList-image" />
+						<h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
+					</a>
+					<a href="artikel/premium-artikel.php" class="articleList-article">
+						<div class="articleList-figurecontainer">
+							<div class="articleList-figure">
+								<img src="images/uploads/articles/schermafbeelding_2017-08-15_om_17.10.42.png" class="articleList-image" />
+							</div>
 						</div>
-					</div>
-					<h3 class="articleList-articleTitle">Deze ondernemer helpt game-ontwikkelaars aan een investeerder</h3>
-				</a>
+						<h3 class="articleList-article-title">Deze ondernemer helpt game-ontwikkelaars aan een investeerder</h3>
+					</a>
+				</div>
+				<a href="#" class="button button--arrow button--clean articleList-button text--premium"><i class="fa fa-chevron-right" aria-hidden="true"></i> Alle premium artikelen</a>
 			</div>
-			<a href="#" class="button button--arrow button--clean articleList-button text--premium"><i class="fa fa-chevron-right" aria-hidden="true"></i> Alle premium artikelen</a>
 		</div>
 	</div>
 
@@ -301,7 +307,7 @@
 						<div class="card-tag">scaleups</div>
 					</div>
 					<div class="card-figure">
-						<img src="images/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="card-image" />
+						<img src="images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="card-image" />
 					</div>
 				</div>
 				<div class="card-content">
@@ -319,7 +325,7 @@
 						<div class="card-tag">scaleups</div>
 					</div>
 					<div class="card-figure">
-						<img src="images/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="card-image" />
+						<img src="images/uploads/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="card-image" />
 					</div>
 				</div>
 				<div class="card-content">
@@ -336,7 +342,7 @@
 						<div class="card-tag">scaleups</div>
 					</div>
 					<div class="card-figure">
-						<img src="images/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
+						<img src="images/uploads/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
 					</div>
 				</div>
 				<div class="card-content">
@@ -354,7 +360,7 @@
 						<div class="card-tag">investeren</div>
 					</div>
 					<div class="card-figure">
-						<img src="images/articles/bill_gates.png" class="card-image" />
+						<img src="images/uploads/articles/bill_gates.png" class="card-image" />
 					</div>
 				</div>
 				<div class="card-content">
@@ -371,7 +377,7 @@
 						<div class="card-tag">scaleups</div>
 					</div>
 					<div class="card-figure">
-						<img src="images/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="card-image" />
+						<img src="images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="card-image" />
 					</div>
 				</div>
 				<div class="card-content">
@@ -389,7 +395,7 @@
 						<div class="card-tag">scaleups</div>
 					</div>
 					<div class="card-figure">
-						<img src="images/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="card-image" />
+						<img src="images/uploads/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="card-image" />
 					</div>
 				</div>
 				<div class="card-content">
@@ -455,7 +461,7 @@
 		<h3 class="panel-title">Recente investeringen</h3>
 		<ul class="investmentList">
 			<li class="investmentList-item active">
-				<div class="investmentList-logo"><a class="investmentList-link" href="https://index.co/investments"><img src="images/avatars/callrail.png" /></a></div>
+				<div class="investmentList-logo"><a class="investmentList-link" href="https://index.co/investments"><img src="images/uploads/avatars/callrail.png" /></a></div>
 				<div class="investmentList-description">
 					<a href="https://www.callrail.com/" class="investmentList-company">CallRail</a>
 					<a href="#" class="investmentList-value">$75M</a>

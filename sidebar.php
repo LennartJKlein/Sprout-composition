@@ -17,45 +17,45 @@
 	
 	<div class="panel">
 		<h3 class="panel-title panel-title--tertiary"><i class="panel-title-icon fa fa-bolt" aria-hidden="true"></i>Trending now</h3>
-		<div class="articleList-list articleList-list--panel">
-			<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article articleList-article--panel">
+		<div class="articleList articleList--wide">
+			<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
 				<div class="articleList-figurecontainer">
 					<div class="articleList-figure">
-						<img src="images/articles/schermafbeelding_2017-08-15_om_17.10.42.png" class="articleList-image" />
+						<img src="images/uploads/articles/schermafbeelding_2017-08-15_om_17.10.42.png" class="articleList-image" />
 					</div>
 				</div>
-				<h3 class="articleList-articleTitle">Deze ondernemer helpt game-ontwikkelaars aan een investeerder</h3>
+				<h3 class="articleList-article-title">Deze ondernemer helpt game-ontwikkelaars aan een investeerder</h3>
 			</a>
-			<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article articleList-article--panel">
+			<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
 				<div class="articleList-figurecontainer">
 					<div class="articleList-figure">
-						<img src="images/articles/pexels-photo-436413.jpeg" class="articleList-image" />
+						<img src="images/uploads/articles/pexels-photo-436413.jpg" class="articleList-image" />
 					</div>
 				</div>
-				<h3 class="articleList-articleTitle">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
+				<h3 class="articleList-article-title">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
 			</a>
-			<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article articleList-article--panel">
+			<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
 				<div class="articleList-figurecontainer">
 					<div class="articleList-figure">
-						<img src="images/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="articleList-image" />
+						<img src="images/uploads/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="articleList-image" />
 					</div>
 				</div>
-				<h3 class="articleList-articleTitle">Zo verklaart Uber de liefde aan managers</h3>
+				<h3 class="articleList-article-title">Zo verklaart Uber de liefde aan managers</h3>
 			</a>
-			<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article articleList-article--panel">
+			<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
 				<div class="articleList-figurecontainer">
 					<div class="articleList-figure">
-						<img src="images/articles/bill_gates.png" class="articleList-image" />
+						<img src="images/uploads/articles/bill_gates.png" class="articleList-image" />
 					</div>
 				</div>
-				<h3 class="articleList-articleTitle">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
+				<h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
 			</a>
 		</div>
 	</div>
 
 	<?php include 'templates/premiumteaser.php'; ?>
 
-	<?php include 'templates/premiumthank.php'; ?>
+	<?php include 'templates/premiummessage.php'; ?>
 
 	<div class="panel panel--clean">
 		<ul class="eventList">
@@ -82,38 +82,38 @@
 
 	<div class="panel">
 		<h3 class="panel-title"><i class="panel-title-icon fa fa-bullhorn" aria-hidden="true"></i> Persberichten</h3>
-		<div class="articleList-list articleList-list--panel">
-			<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article articleList-article--panel">
+		<div class="articleList articleList--wide">
+			<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
 				<div class="articleList-figurecontainer">
 					<div class="articleList-figure">
-						<img src="images/articles/schermafbeelding_2017-08-15_om_17.10.42.png" class="articleList-image" />
+						<img src="images/uploads/articles/schermafbeelding_2017-08-15_om_17.10.42.png" class="articleList-image" />
 					</div>
 				</div>
-				<h3 class="articleList-articleTitle">Deze ondernemer helpt game-ontwikkelaars aan een investeerder</h3>
+				<h3 class="articleList-article-title">Deze ondernemer helpt game-ontwikkelaars aan een investeerder</h3>
 			</a>
-			<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article articleList-article--panel">
+			<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
 				<div class="articleList-figurecontainer">
 					<div class="articleList-figure">
-						<img src="images/articles/pexels-photo-436413.jpeg" class="articleList-image" />
+						<img src="images/uploads/articles/pexels-photo-436413.jpg" class="articleList-image" />
 					</div>
 				</div>
-				<h3 class="articleList-articleTitle">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
+				<h3 class="articleList-article-title">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
 			</a>
-			<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article articleList-article--panel">
+			<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
 				<div class="articleList-figurecontainer">
 					<div class="articleList-figure">
-						<img src="images/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="articleList-image" />
+						<img src="images/uploads/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="articleList-image" />
 					</div>
 				</div>
-				<h3 class="articleList-articleTitle">Zo verklaart Uber de liefde aan managers</h3>
+				<h3 class="articleList-article-title">Zo verklaart Uber de liefde aan managers</h3>
 			</a>
-			<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article articleList-article--panel">
+			<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
 				<div class="articleList-figurecontainer">
 					<div class="articleList-figure">
-						<img src="images/articles/bill_gates.png" class="articleList-image" />
+						<img src="images/uploads/articles/bill_gates.png" class="articleList-image" />
 					</div>
 				</div>
-				<h3 class="articleList-articleTitle">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
+				<h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
 			</a>
 		</div>
 		<div>
@@ -144,7 +144,7 @@
 	<div class="panel panel--primary">
 		<h3 class="panel-title">Verleid je toekomstige investeerder</h3>
 		<div class="panel-content">
-			<p class="p--compact"><img src="/images/fund_cover.png" /></p>
+			<p class="p--compact"><img src="/images/uploads/fund_cover.png" /></p>
 			<a href="#" class="button button--center button--small button--white"><i class="fa fa-shopping-cart" aria-hidden="true"></i> pre-order nu</a>
 		</div>
 	</div>
@@ -152,7 +152,7 @@
 	<div class="panel panel--headed panel--headed-big panel--headed-tertiary">
 		<h3 class="panel-title">
 			Whitepaper 'Zo bereik je je doelgroep via Facebook'
-			<img src="images/whitepaper-image.jpg" class="panel-title-image" />
+			<img src="/images/uploads/partners/whitepaper-image.jpg" class="panel-title-image" />
 		</h3>
 		<div class="panel-content">
 			<p class="p--compact">Facebook is groot en veruit het goedkoopste advertentiekanaal.  90 procent van de Nederlanders is actief op sociale media en 9,6 miljoen hebben een Facebookaccount. Ideaal dus om voor je bedrijf in te zetten. In de whitepaper ‘Adverteren via Facebook’ ontdek je hoe je dit aanpakt en je je doelgroep optimaal bereikt. Laat je inspireren.</p>
@@ -210,7 +210,7 @@
 				</div>
 				<a class="forumpostsTeaser-author" href="/member/rebecca-roggeveen">
 					<span class="forumpostsTeaser-name">Rebecca Roggeveen</span>
-					<img class="forumpostsTeaser-avatar" src="images/avatars/rebecca-roggeveen.jpg" />
+					<img class="forumpostsTeaser-avatar" src="images/uploads/avatars/rebecca-roggeveen.jpg" />
 				</a>
 			</li>
 		</ul>
@@ -239,7 +239,7 @@
 		<ul class="investmentList">
 			<li class="investmentList-item active">
 				<div class="investmentList-logo">
-					<a class="investmentList-link" href="https://index.co/investments"><img src="images/avatars/callrail.png" /></a>
+					<a class="investmentList-link" href="https://index.co/investments"><img src="images/uploads/avatars/callrail.png" /></a>
 				</div>
 				<div class="investmentList-description">
 					<a href="https://www.callrail.com/" class="investmentList-company">CallRail</a>
@@ -287,7 +287,7 @@
 					<img class="posterList-image" src="images/network-poster.jpg" />
 				</a>
 				<a class="posterList-author" href="/member/rebecca-roggeveen">
-					<img class="posterList-avatar" src="images/avatars/rebecca-roggeveen.jpg" />
+					<img class="posterList-avatar" src="images/uploads/avatars/rebecca-roggeveen.jpg" />
 					<span class="posterList-name">Rebecca Roggeveen</span>
 				</a>
 			</li>

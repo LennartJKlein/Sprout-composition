@@ -17,7 +17,7 @@
                             <div class="card-tag">Uitgelicht evenement</div>
                         </div>
                         <div class="card-figure">
-                            <img src="images/events/the_next_web.jpg" class="card-image" />
+                            <img src="images/uploads/events/the_next_web.jpg" class="card-image" />
                         </div>
                     </div>
                     <div class="card-content">
@@ -32,7 +32,7 @@
                 <a href="evenement/nk-pitchen-2018.php" class="card card--event" tag="scaleups">
                     <div class="card-figurecontainer">
                         <div class="card-figure">
-                            <img src="images/events/nk_pitchen_2017-_0138-_hd.jpg" class="card-image" />
+                            <img src="images/uploads/events/nk_pitchen_2017-_0138-_hd.jpg" class="card-image" />
                         </div>
                     </div>
                     <div class="card-content">
@@ -47,7 +47,7 @@
                 <a href="evenement/the-next-web-conference-2018.php" class="card card--event" tag="scaleups">
                     <div class="card-figurecontainer">
                         <div class="card-figure">
-                            <img src="images/events/MYC_30.jpg" class="card-image" />
+                            <img src="images/uploads/events/MYC_30.jpg" class="card-image" />
                         </div>
                     </div>
                     <div class="card-content">
@@ -65,7 +65,7 @@
                             <div class="card-tag">partner evenement</div>
                         </div>
                         <div class="card-figure">
-                            <img src="images/events/Energy-Hack-foto_6.png" class="card-image" />
+                            <img src="images/uploads/events/Energy-Hack-foto_6.png" class="card-image" />
                         </div>
                     </div>
                     <div class="card-content">
@@ -80,7 +80,7 @@
                 <a href="evenement/the-next-web-conference-2018.php" class="card card--event" tag="investeren">
                     <div class="card-figurecontainer">
                         <div class="card-figure">
-                            <img src="images/events/Fb-Omruil-visuals-1.png" class="card-image" />
+                            <img src="images/uploads/events/Fb-Omruil-visuals-1.png" class="card-image" />
                         </div>
                     </div>
                     <div class="card-content">
@@ -98,7 +98,7 @@
                             <div class="card-tag">partner evenement</div>
                         </div>
                         <div class="card-figure">
-                            <img src="images/events/att_education.jpg" class="card-image" />
+                            <img src="images/uploads/events/att_education.jpg" class="card-image" />
                         </div>
                     </div>
                     <div class="card-content">
@@ -116,7 +116,7 @@
                             <div class="card-tag">partner evenement</div>
                         </div>
                         <div class="card-figure">
-                            <img src="images/events/31117510996_761d4bdc26_k.jpg" class="card-image" />
+                            <img src="images/uploads/events/31117510996_761d4bdc26_k.jpg" class="card-image" />
                         </div>
                     </div>
                     <div class="card-content">

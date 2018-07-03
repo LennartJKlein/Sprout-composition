@@ -272,10 +272,8 @@
 	margin-right: 0.5em;
 }
 
-.button--arrow {	
-	-webkit-align-self: flex-start;
-	-ms-flex-item-align: start;
-	align-self: flex-start;
+.button--arrow {
+	@include align-self(flex-start);
 	vertical-align: middle;
 
 	i {

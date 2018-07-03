@@ -3,6 +3,7 @@
     font-weight: bold;
     font-size: 0.8em;
     margin-bottom: 0.5em;
+    margin-top: -1rem;
     @include order(-3);
 
     a {
@@ -32,6 +33,7 @@
     }
 
     @include tablet {
+        margin-top: 0;
         font-size: 1em;
     }
 

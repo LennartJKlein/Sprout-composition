@@ -45,7 +45,7 @@
 			echo '<meta property="og:title" content="7 redenen waarom klanten je winkel de rug toekeren" />';
 			echo '<meta property="og:url" content="'.$url.'" />';
 			echo '<meta property="og:description" content="7 redenen waarom klanten je winkel de rug toekeren">';
-			echo '<meta property="og:image" content="//sprout.lennartklein.nl/images/articles/article-hero3.jpg">';
+			echo '<meta property="og:image" content="//sprout.lennartklein.nl/images/uploads/articles/article-hero3.jpg">';
 			echo '<meta property="og:type" content="article" />';
 			echo '<meta property="og:locale" content="nl_NL" />';
 		}
@@ -86,42 +86,42 @@
 							<a href="/artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
 								<div class="articleList-figurecontainer">
 									<div class="articleList-figure">
-										<img src="/images/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList-image" />
+										<img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList-image" />
 									</div>
 								</div>
-								<h3 class="articleList-articleTitle">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
+								<h3 class="articleList-article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
 							</a>
 							<a href="/artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
 								<div class="articleList-figurecontainer">
 									<div class="articleList-figure">
-										<img src="/images/articles/bill_gates.png" class="articleList-image" />
+										<img src="/images/uploads/articles/bill_gates.png" class="articleList-image" />
 									</div>
 								</div>
-								<h3 class="articleList-articleTitle">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
+								<h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
 							</a>
 							<a href="/artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
 								<div class="articleList-figurecontainer">
 									<div class="articleList-figure">
-										<img src="/images/articles/schermafbeelding_2017-08-15_om_17.10.42.png" class="articleList-image" />
+										<img src="/images/uploads/articles/schermafbeelding_2017-08-15_om_17.10.42.png" class="articleList-image" />
 									</div>
 								</div>
-								<h3 class="articleList-articleTitle">Deze ondernemer helpt game-ontwikkelaars aan een investeerder</h3>
+								<h3 class="articleList-article-title">Deze ondernemer helpt game-ontwikkelaars aan een investeerder</h3>
 							</a>
 							<a href="/artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
 								<div class="articleList-figurecontainer">
 									<div class="articleList-figure">
-										<img src="/images/articles/pexels-photo-436413.jpeg" class="articleList-image" />
+										<img src="/images/uploads/articles/pexels-photo-436413.jpg" class="articleList-image" />
 									</div>
 								</div>
-								<h3 class="articleList-articleTitle">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
+								<h3 class="articleList-article-title">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
 							</a>
 							<a href="/artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
 								<div class="articleList-figurecontainer">
 									<div class="articleList-figure">
-										<img src="/images/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="articleList-image" />
+										<img src="/images/uploads/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="articleList-image" />
 									</div>
 								</div>
-								<h3 class="articleList-articleTitle">Zo verklaart Uber de liefde aan managers</h3>
+								<h3 class="articleList-article-title">Zo verklaart Uber de liefde aan managers</h3>
 							</a>
 						</div>
 					</div>

@@ -15,7 +15,7 @@
 				<?php include '../templates/shareactions--wide.php'; ?>
 				
 				<div class="article-hero figure">
-					<img src="../images/articles/article-hero-premium.jpg" class="figure-image" />
+					<img src="../images/uploads/articles/article-hero-premium.jpg" class="figure-image" />
 					<span class="figure-credit">&copy; Joost Verkerk</span>
 				</div>
 				<div class="article-info">
@@ -26,7 +26,7 @@
 					<div class="articleAuthor">
 						<div class="articleAuthor-summary">
 							<a href="auteur.php" class="articleAuthor-link">
-								<img src="../images/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
+								<img src="../images/uploads/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
 								<span class="articleAuthor-name">Remy Ludo Gieling</span>
 								<span class="articleAuthor-company">Sprout</span>
 							</a>
@@ -78,7 +78,7 @@
 					<div class="articleAuthor articleAuthor--bottom">
 						<div class="articleAuthor-content">
 							<a href="auteur.php" class="articleAuthor-link">
-								<img src="../images/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
+								<img src="../images/uploads/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
 								<span class="articleAuthor-name">Fred Rutgers</span>
 								<span class="articleAuthor-company">SchrijvenVoorWeb</span>
 							</a>
@@ -122,7 +122,7 @@
 							<div class="card-tag">retail</div>
 						</div>
 						<div class="card-figure">
-							<img src="../images/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
+							<img src="../images/uploads/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -138,7 +138,7 @@
 							<div class="card-tag">retail</div>
 						</div>
 						<div class="card-figure">
-							<img src="../images/articles/foodora-overweegt-zzp-constructie.jpg" class="card-image" />
+							<img src="../images/uploads/articles/foodora-overweegt-zzp-constructie.jpg" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">

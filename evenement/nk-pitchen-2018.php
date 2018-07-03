@@ -18,13 +18,11 @@
                     <div class="card-tags">
                         <div class="card-tag">Archief</div>
                     </div>
-                    <img src="../images/events/nk_pitchen_2017.jpg" class="figure-image" />
+                    <img src="../images/uploads/events/nk_pitchen_2017.jpg" class="figure-image" />
                 </div>
                 <div class="event-info">
                     <div>
-                        <a href="https://goo.gl/maps/ZTBrAnb34aU2" target="_blank" class="event-infoItem"><i class="event-icon fa fa-map-marker"></i><span>JAARBEURS UTRECHT
-JAARBEURSPLEIN
-UTRECHT</span></a>
+                        <a href="https://goo.gl/maps/ZTBrAnb34aU2" target="_blank" class="event-infoItem"><i class="event-icon fa fa-map-marker"></i><span>JAARBEURS UTRECHT<br>JAARBEURSPLEIN<br>UTRECHT</span></a>
                         <div class="event-infoItem"><i class="event-icon fa fa-clock-o"></i><span>26 maart - 19:00 tot 23:00</span></div>
                     </div>
                     <div>
@@ -63,7 +61,7 @@ UTRECHT</span></a>
                 <a href="../evenement/events-detail.php" class="card card--event card--horizontal" tag="retail">
                     <div class="card-figurecontainer">
                         <div class="card-figure">
-                            <img src="../images/events/31117510996_761d4bdc26_k.jpg" class="card-image" />
+                            <img src="../images/uploads/events/31117510996_761d4bdc26_k.jpg" class="card-image" />
                         </div>
                     </div>
                     <div class="card-content">
@@ -77,7 +75,7 @@ UTRECHT</span></a>
                 <a href="../evenement/events-detail.php" class="card card--horizontal card--partner" tag="retail">
                     <div class="card-figurecontainer">
                         <div class="card-figure">
-                            <img src="../images/events/MYC_30.jpg" class="card-image" />
+                            <img src="../images/uploads/events/MYC_30.jpg" class="card-image" />
                         </div>
                     </div>
                     <div class="card-content">

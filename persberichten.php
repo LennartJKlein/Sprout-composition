@@ -18,7 +18,7 @@
 							<div class="card-tag">investeren</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/articles/foodora-overweegt-zzp-constructie.jpg" class="card-image" />
+							<img src="images/uploads/articles/foodora-overweegt-zzp-constructie.jpg" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -36,7 +36,7 @@
 							<div class="card-tag">startups</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/articles/undagrid.jpg" class="card-image" />
+							<img src="images/uploads/articles/undagrid.jpg" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -54,7 +54,7 @@
 							<div class="card-tag">startups</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/articles/uber-ceo-travis-kalanick-only-gets-around-using-uber-hes-also-been-known-to-moonlight-as-an-uber-driver.jpg" class="card-image" />
+							<img src="images/uploads/articles/uber-ceo-travis-kalanick-only-gets-around-using-uber-hes-also-been-known-to-moonlight-as-an-uber-driver.jpg" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -72,7 +72,7 @@
 							<div class="card-tag">stories</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/articles/mz-newsroom-01.jpg" class="card-image" />
+							<img src="images/uploads/articles/mz-newsroom-01.jpg" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -90,7 +90,7 @@
 							<div class="card-tag">scaleups</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="card-image" />
+							<img src="images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -108,7 +108,7 @@
 							<div class="card-tag">scaleups</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="card-image" />
+							<img src="images/uploads/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -126,7 +126,7 @@
 							<div class="card-tag">scaleups</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
+							<img src="images/uploads/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -144,7 +144,7 @@
 							<div class="card-tag">investeren</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/articles/bill_gates.png" class="card-image" />
+							<img src="images/uploads/articles/bill_gates.png" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -161,7 +161,7 @@
 							<div class="card-tag">scaleups</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="card-image" />
+							<img src="images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -179,7 +179,7 @@
 							<div class="card-tag">scaleups</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="card-image" />
+							<img src="images/uploads/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -196,7 +196,7 @@
 							<div class="card-tag">scaleups</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
+							<img src="images/uploads/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -214,7 +214,7 @@
 							<div class="card-tag">investeren</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/articles/bill_gates.png" class="card-image" />
+							<img src="images/uploads/articles/bill_gates.png" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -231,7 +231,7 @@
 							<div class="card-tag">scaleups</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="card-image" />
+							<img src="images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -249,7 +249,7 @@
 							<div class="card-tag">scaleups</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="card-image" />
+							<img src="images/uploads/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
