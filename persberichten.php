@@ -11,7 +11,7 @@
 
 		<div class="grid grid--articles">
 			<div class="grid-cell grid-cell--wide">
-				<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--hero card--m-vertical card--horizontal card--textfirst card--partner" tag="startups">
+				<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--hero card--vertical-mobile card--horizontal card--textfirst card--partner" tag="startups">
 					<div class="card-figurecontainer">
 						<div class="card-tags">
 							<div class="card-tag card-tag--partner">persbericht</div>
@@ -29,7 +29,7 @@
 				</a>
 			</div>
 			<div class="grid-cell grid-cell--wide">
-				<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--hero card--m-vertical card--horizontal card--textfirst card--partner" tag="startups">
+				<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--hero card--vertical-mobile card--horizontal card--textfirst card--partner" tag="startups">
 					<div class="card-figurecontainer">
 						<div class="card-tags">
 							<div class="card-tag card-tag--partner">persbericht</div>

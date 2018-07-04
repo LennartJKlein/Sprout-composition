@@ -194,12 +194,46 @@
 	}
 }
 
-.card--m-vertical,
-.card--m-vertical.card--hero,
-.card--m-vertical.card--horizontal.card--textfirst {
+.card--vertical-mobile,
+.card--vertical-mobile.card--hero,
+.card--vertical-mobile.card--horizontal.card--textfirst {
+	@include mobile-only {
+		@include flex-flow(column nowrap);
 
-	@media (max-width: #{$mobile-width}) {
-		@include flex-flow(inherit);
+		.card-figurecontainer {
+			width: inherit;
+		}
+
+		.card-content {
+			@include flex-grow(1);
+			width: inherit;
+			-webkit-box-ordinal-group: inherit;
+			-moz-box-ordinal-group: inherit;
+			-webkit-order: inherit;
+			-ms-flex-order: inherit;
+			order: inherit;
+		}
+	}
+}
+
+.card--horizontal-mobile {
+	@include mobile-only {
+		@include flex-flow(row nowrap);
+
+		.card-figurecontainer {
+			width: $percent-1of3;
+		}
+
+		.card-content {
+			@include flex-grow(1);
+			width: $percent-2of3;
+		}
+	}
+}
+
+.card--vertical-tabletlandscape {
+	@include tablet-landscape {
+		@include flex-flow(column nowrap);
 
 		.card-figurecontainer {
 			width: inherit;

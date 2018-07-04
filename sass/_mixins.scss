@@ -5,7 +5,7 @@ $tablet-landscape-width: 800px;
 $desktop-width: 1200px;
 $desktop-large-width: 1680px;
 
-@mixin only-mobile {
+@mixin mobile-only {
 	@media (max-width: #{$mobile-width}) {
 		@content;
 	}
@@ -19,6 +19,12 @@ $desktop-large-width: 1680px;
 
 @mixin tablet {
 	@media (min-width: #{$tablet-width}) {
+		@content;
+	}
+}
+
+@mixin tablet-only {
+	@media (min-width: #{$tablet-width}) and (max-width: #{$tablet-landscape-width}) {
 		@content;
 	}
 }
@@ -222,6 +228,12 @@ $desktop-large-width: 1680px;
 @mixin font-awesome {
 	font-family: "Font Awesome";
 	display: inline-block;
+}
+
+@mixin shadow-none {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;	
 }
 
 @mixin shadow-low {

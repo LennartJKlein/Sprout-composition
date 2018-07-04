@@ -275,7 +275,8 @@
 	border-radius: 50vw;
 	background-color: $color-primary;
 	@include flex;
-	flex-flow: row wrap;
+	@include flex-flow(row wrap);
+	@include flex-flow(column nowrap);
 	@include justify-content(space-between);
 	height: 0;
 	width: 0;
@@ -292,24 +293,21 @@
 		top .15s,
 		right .15s;
 
-	@include only-mobile {
-		@include flex-flow(column nowrap);
+	&.open {
+		top: 0;
+		right: 0;
+		border-radius: .75em;
+		height: calc(100% - 2em);
+		width: calc(100% - 2em);
+		max-width: 35em;
 
-		&.open {
-			top: 0;
-			right: 0;
-			border-radius: .75em;
-			height: calc(100% - 2em);
-			width: calc(100% - 2em);
+		.nav-head {
+			opacity: 1;
+		}
 
-			.nav-head {
-				opacity: 1;
-			}
-
-			.nav-footer {
-				opacity: 1;
-				@include flex-grow(1);
-			}
+		.nav-footer {
+			opacity: 1;
+			@include flex-grow(1);
 		}
 	}
 
@@ -326,6 +324,17 @@
 		width: auto;
 		top: 0;
 		right: 0;
+
+		&.open {
+			border-radius: 0;
+			height: 100%;
+			width: auto;
+			max-width: none;
+
+			.nav-footer {
+				@include flex-grow(0);
+			}
+		}
 
 		* {
 			opacity: 1;

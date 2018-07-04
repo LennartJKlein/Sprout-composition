@@ -14,7 +14,7 @@
                 <div class="topic-description">Vind nieuwe klanten met deze tips, trucs en voorbeelden voor direct marketing.</div>
             </div>
             <div class="topic-spotlight">
-                <a href="../artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--hero card--textfirst" tag="direct-marketing">
+                <a href="../artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--horizontal card--vertical-tabletlandscape" tag="direct-marketing">
                     <div class="card-figurecontainer">
                         <div class="card-tags">
                             <div class="card-tag">direct marketing</div>
@@ -39,7 +39,7 @@
 
                 <div class="grid grid--articles">
                     <div class="grid-cell">
-                        <a href="../artikel/premium-artikel.php" class="card card--textfirst card--premium" tag="stories">
+                        <a href="../artikel/premium-artikel.php" class="card card--textfirst card--vertical-mobile card--horizontal card--premium" tag="stories">
                             <div class="card-figurecontainer">
                                 <div class="card-tags">
                                     <div class="card-tag card-tag--premium"><i class="fa fa-star" aria-hidden="true"></i> premium</div>
@@ -57,7 +57,7 @@
                         </a>
                     </div>
                     <div class="grid-cell">
-                        <a href="../artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--textfirst" tag="direct marketing">
+                        <a href="../artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--textfirst card--vertical-mobile card--horizontal" tag="direct marketing">
                             <div class="card-figurecontainer">
                                 <div class="card-tags">
                                     <div class="card-tag">direct marketing</div>
@@ -74,7 +74,7 @@
                         </a>
                     </div>
                     <div class="grid-cell">
-                        <a href="../artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--textfirst" tag="direct-marketing">
+                        <a href="../artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--textfirst card--vertical-mobile card--horizontal" tag="direct-marketing">
                             <div class="card-figurecontainer">
                                 <div class="card-tags">
                                     <div class="card-tag">direct marketing</div>
@@ -91,7 +91,7 @@
                         </a>
                     </div>
                     <div class="grid-cell">
-                        <a href="../artikel/premium-artikel.php" class="card card--textfirst card--premium" tag="direct marketing">
+                        <a href="../artikel/premium-artikel.php" class="card card--textfirst card--vertical-mobile card--horizontal card--premium" tag="direct marketing">
                             <div class="card-figurecontainer">
                                 <div class="card-tags">
                                     <div class="card-tag card-tag--premium"><i class="fa fa-star" aria-hidden="true"></i> premium</div>
@@ -275,6 +275,17 @@
                 Facebook is groot en veruit het goedkoopste advertentiekanaal.  90 procent van de Nederlanders is actief op sociale media en 9,6 miljoen hebben een Facebookaccount. Ideaal dus om voor je bedrijf in te zetten. In de whitepaper ‘Adverteren via Facebook’ ontdek je hoe je dit aanpakt en je je doelgroep optimaal bereikt. Laat je inspireren.
             </p>
             <a href="#" class="button button--clean button--arrow button--small"><i class="fa fa-chevron-right" aria-hidden="true"></i> gratis aanvragen</a>
+        </div>
+    </div>
+
+    <div class="panel panel--headed panel--headed-big panel--headed-tertiary">
+        <h3 class="panel-title">
+            Whitepaper 'Zo bereik je je doelgroep via Facebook'
+            <img src="/images/uploads/partners/whitepaper-image.jpg" class="panel-title-image" />
+        </h3>
+        <div class="panel-content">
+            <p class="p--compact">Facebook is groot en veruit het goedkoopste advertentiekanaal.  90 procent van de Nederlanders is actief op sociale media en 9,6 miljoen hebben een Facebookaccount. Ideaal dus om voor je bedrijf in te zetten. In de whitepaper ‘Adverteren via Facebook’ ontdek je hoe je dit aanpakt en je je doelgroep optimaal bereikt. Laat je inspireren.</p>
+            <a href="#" class="button button--center button--small">gratis aanvragen</a>
         </div>
     </div>
 

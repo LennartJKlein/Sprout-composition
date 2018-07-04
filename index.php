@@ -12,7 +12,7 @@
 	
 	<div class="grid grid--articles">
 		<div class="grid-cell grid-cell--wide">
-			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--hero card--m-vertical card--horizontal card--textfirst" tag="startups">
+			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--hero card--vertical-mobile card--horizontal card--textfirst" tag="startups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag">nieuwsupdate</div>
@@ -29,7 +29,7 @@
 			</a>
 		</div>
 		<div class="grid-cell grid-cell--wide">
-			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--hero card--m-vertical card--horizontal card--textfirst" tag="startups">
+			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--hero card--vertical-mobile card--horizontal card--textfirst" tag="startups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag">startups</div>

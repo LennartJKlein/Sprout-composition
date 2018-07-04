@@ -120,7 +120,7 @@ $(function() {
 		});
 
 		// Shows tooltip for resizing the navigation
-		if (checkMQ() == "tablet-landscape" || checkMQ() == "desktop") {	
+		if (checkMQ() == "tablet-landscape" || checkMQ() == "desktop") {
 			if (cookieWidth == null) {
 				var shake;
 
@@ -241,14 +241,17 @@ $(function() {
 
 	// Check floating objects
 	function checkFloaters() {
-		$(".panel--mobilefloat").each(function(){
-			if (scrollPosition >= windowHeightHalf && !$(this).hasClass("revealed")) {
-				$(this).addClass('visible').addClass("revealed");
-				$(this).find(".panel-toggle .fa").removeClass("fa-chevron-up").addClass("fa-chevron-down");
-			}
-		});
+		if (checkMQ() != "tablet-landscape" && checkMQ() != "desktop") {
+			$(".panel--mobilefloat").each(function(){
+				if (scrollPosition >= windowHeightHalf && !$(this).hasClass("revealed")) {
+					$(this).addClass('visible').addClass("revealed");
+					$(this).find(".panel-toggle .fa").removeClass("fa-chevron-up").addClass("fa-chevron-down");
+				}
+			});
+		}
 	}
 
+	// Toggle a floating panel
 	$(".panel--mobilefloat .panel-toggle").on("click", function(){
 		$(this).find(".fa").toggleClass("fa-chevron-down").toggleClass("fa-chevron-up").addClass("revealed");
 		$(this).parents(".panel").toggleClass("visible");

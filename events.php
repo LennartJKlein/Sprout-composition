@@ -11,7 +11,7 @@
 
         <div class="grid grid--events">
             <div class="grid-cell grid-cell--wide">
-                <a href="evenement/the-next-web-conference-2018.php" class="card card--event card--hero card--m-vertical card--horizontal card--textfirst" tag="startups">
+                <a href="evenement/the-next-web-conference-2018.php" class="card card--event card--hero card--vertical-mobile card--horizontal card--textfirst" tag="startups">
                     <div class="card-figurecontainer">
                         <div class="card-tags">
                             <div class="card-tag">Uitgelicht evenement</div>

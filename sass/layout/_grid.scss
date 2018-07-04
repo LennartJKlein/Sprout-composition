@@ -29,7 +29,7 @@
 	.grid-cell {
 		width: 100%;
 
-		@include only-mobile {
+		@include mobile-only {
 			width: $percent-1of2;
 		}
 
@@ -111,7 +111,7 @@
 			padding-right: 1.5em;
 			padding-top: 1.5em;
 			padding-bottom: 1.5em;
-			width: auto;
+			width: calc(100% + 3em);
 		}
 
 		@include tablet {
