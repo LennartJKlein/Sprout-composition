@@ -42,6 +42,14 @@ $(function() {
 		$(".navToggle").toggleClass("open");
 		$(".nav").toggleClass("open");
 	}
+	function openNavigation() {
+		$(".navToggle").addClass("open");
+		$(".nav").addClass("open");
+	}
+	function closeNavigation() {
+		$(".navToggle").removeClass("open");
+		$(".nav").removeClass("open");
+	}
 
 	// Toggles extra info on author
 	$(".articleAuthor-summary").on("click", function(){
@@ -159,7 +167,7 @@ $(function() {
 	});
 
 	function openPremiumModal() {
-		toggleNavigation();
+		closeNavigation();
 		$(".premiumModal").addClass("modal--active");
 	}
 

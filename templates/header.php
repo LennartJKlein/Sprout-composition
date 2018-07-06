@@ -54,7 +54,7 @@
 </head>
 <body class="<?php if(!isset($_COOKIE['sprout-role'])){ $_COOKIE['sprout-role'] = 'unknown';} echo 'role-'.$_COOKIE['sprout-role'];?>">
 
-<?php include $_SERVER['DOCUMENT_ROOT'].'/templates/premiummodal.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/templates/modals/premiumsettings.php'; ?>
 
 <header 
 	id="header" 
@@ -65,7 +65,7 @@
 		<button class="navToggle"><i aria-hidden="true" class="fa fa-bars"></i></button>
 	</div>
 
-	<?php if (strpos($url,'artikel') !== false) {include 'sharemodal.php';} ?>
+	<?php if (strpos($url,'artikel') !== false) {include $_SERVER['DOCUMENT_ROOT'].'/templates/modals/shareoptions.php';} ?>
 
 	<nav class="nav">
 		<div class="nav-head">
@@ -131,7 +131,7 @@
 				</div>
 			</div>
 			<ul class="menu menu-main">
-				<!-- Todo: echte menu items inladen -->
+				<!-- Todo: load real menu items -->
 				<li class="menu-item" hint="Nieuws"><a href="/index.php" class="menu-link active"><i aria-hidden="true" class="fa fa-newspaper-o"></i><span class="menu-label">Nieuws</span></a></li>
 				<li class="menu-item" hint="Events"><a href="/events.php" class="menu-link"><i aria-hidden="true" class="fa fa-calendar-o"></i><span class="menu-label">Events</span><span class="menu-link-notification">2</span></a></li>
 				<li class="menu-item" hint="Nieuwsbrief"><a href="#" class="menu-link"><i aria-hidden="true" class="fa fa-paper-plane"></i><span class="menu-label">Nieuwsbrief</span></a></li>
