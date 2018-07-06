@@ -357,7 +357,7 @@
 			<a href="#" class="button button--secondary button--clean button--center">Meer events</a>
 		</div>
 
-		<?php include '../templates/banner--rectangle.php'; ?>
+		<?php include '../templates/banners/banner--rectangle.php'; ?>
 	</div>
 
 	<div class="aside-panelgroup">
@@ -378,9 +378,9 @@
 
 
 	<div class="aside-panelgroup">
-		<?php include '../templates/banner--filmstrip.php'; ?>
+		<?php include '../templates/banners/banner--filmstrip.php'; ?>
 
-		<?php include '../templates/banner--rectangle.php'; ?>
+		<?php include '../templates/banners/banner--rectangle.php'; ?>
 	</div>
 
 </aside>

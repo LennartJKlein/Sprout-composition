@@ -111,7 +111,7 @@
 			<a href="#" class="button button--secondary button--clean button--center">Meer events</a>
 		</div>
 
-		<?php include '../templates/banner--filmstrip.php'; ?>
+		<?php include '../templates/banners/banner--filmstrip.php'; ?>
 
 		<div class="panel">
 			<h3 class="panel-title"><i class="panel-title-icon fa fa-folder"></i>Alles over...</h3>

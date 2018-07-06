@@ -1,13 +1,13 @@
 <?php include 'templates/header.php'; ?>
 
-	<?php include 'templates/banner--billboard.php'; ?>
+	<?php include 'templates/banners/banner--billboard.php'; ?>
 
-	<div class="articleFilter">
-		<span class="articleFilter-label">Filteren op</span>
-		<a href="/topic/direct-marketing.php" class="articleFilter-button button button--small" name="startups">Startups</a>
-		<a href="/topic/direct-marketing.php" class="articleFilter-button button button--small" name="scaleups">Scaleups</a>
-		<a href="/topic/direct-marketing.php" class="articleFilter-button button button--small" name="investeren">Investeren</a>
-		<a href="/topic/direct-marketing.php" class="articleFilter-button button button--small button--clean" name="">...</a>
+	<div class="gridHeader">
+		<span class="gridHeader-label">Filteren op</span>
+		<a href="/topic/direct-marketing.php" class="gridHeader-button button button--small" name="startups">Startups</a>
+		<a href="/topic/direct-marketing.php" class="gridHeader-button button button--small" name="scaleups">Scaleups</a>
+		<a href="/topic/direct-marketing.php" class="gridHeader-button button button--small" name="investeren">Investeren</a>
+		<a href="/topic/direct-marketing.php" class="gridHeader-button button button--small button--clean" name="">...</a>
 	</div>
 	
 	<div class="grid grid--articles">
@@ -152,7 +152,7 @@
 		</div>
 	</div>
 
-	<?php include 'templates/banner--leaderboard.php'; ?>
+	<?php include 'templates/banners/banner--leaderboard.php'; ?>
 
 
 	<div class="forumTeaser">
@@ -419,78 +419,18 @@
 
 <aside id="aside">
 	
-	<?php include 'templates/premiumteaser.php'; ?>
+	<?php include 'templates/widgets/premiumteaser.php'; ?>
 
-	<?php include 'templates/premiummessage.php'; ?>
+	<?php include 'templates/widgets/premiummessage.php'; ?>
 	
-	<div class="panel panel--clean">
-		<ul class="eventList">
-			<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="evenement/the-next-web-conference-2018.php">
-				<div class="eventTeaser-description">
-					<span class="eventTeaser-heading">Binnenkort</span>
-					<h4 class="eventTeaser-title">Amsterdam talks tech - smart cities &amp; mobility</h4>
-				</div>
-				<span class="eventTeaser-date">8 okt</span>
-			</a></li>
-			<li class="eventTeaser eventTeaser--minimal"><a class="eventTeaser-link" href="evenement/nk-pitchen-2018.php">
-				<div class="eventTeaser-description">
-					<span class="eventTeaser-heading">Volgende maand</span>
-					<h4 class="eventTeaser-title">Scaleup summit 2017</h4>
-				</div>
-				<span class="eventTeaser-date">24 nov</span>
-			</a></li>
-		</ul>
-		<a href="#" class="button button--secondary button--clean button--center">Meer events</a>
-	</div>
+	<?php include 'templates/widgets/events.php'; ?>
 
-	<div class="panel">
-		<h3 class="panel-title"><i class="panel-title-icon fa fa-folder"></i>Alles over...</h3>
-		<ul class="linkList">
-			<li class="linkList-item"><a class="linkList-link" href="/topic/direct-marketing.php">Direct Marketing</a></li>
-			<li class="linkList-item"><a class="linkList-link" href="/topic/direct-marketing.php">Crowdfunding</a></li>
-			<li class="linkList-item"><a class="linkList-link" href="/topic/direct-marketing.php">Zeker voor de zaak</a></li>
-		</ul>
-	</div>
+	<?php include 'templates/widgets/topics.php'; ?>
 
-	
+	<?php include 'templates/widgets/investments.php'; ?>
 
-	<div class="panel panel--headed panel--headed-overflow">
-		<h3 class="panel-title">Recente investeringen</h3>
-		<ul class="investmentList">
-			<li class="investmentList-item active">
-				<div class="investmentList-logo"><a class="investmentList-link" href="https://index.co/investments"><img src="images/uploads/avatars/callrail.png" /></a></div>
-				<div class="investmentList-description">
-					<a href="https://www.callrail.com/" class="investmentList-company">CallRail</a>
-					<a href="#" class="investmentList-value">$75M</a>
-					<a href="http://www.sageviewcapital.com/" class="investmentList-details"><i class="fa fa-handshake-o"></i>Sageview Capital</a>
-					<a href="#" class="investmentList-details"><i class="fa fa-tag"></i>advertising</a>
-				</div>
-			</a></li>
-		</ul>
-		<div class="pagination pagination--block">
-			<a href="#" class="button button--clean pagination-button"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-			<ul class="pagination-list">
-				<li class="pagination-item"><a href="#" class="pagination-link"> </a></li>
-				<li class="pagination-item"><a href="#" class="pagination-link"> </a></li>
-				<li class="pagination-item"><a href="#" class="pagination-link"> </a></li>
-				<li class="pagination-item active"><a href="#" class="pagination-link">CallRail</a></li>
-				<li class="pagination-item"><a href="#" class="pagination-link"> </a></li>
-				<li class="pagination-item"><a href="#" class="pagination-link"> </a></li>
-				<li class="pagination-item"><a href="#" class="pagination-link"> </a></li>
-			</ul>
-			<a href="#" class="button button--clean pagination-button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-		</div>
-		<a href="investeringen" class="button button--center button--small">meer investeringen</a>
-	</div>
+	<?php include 'templates/widgets/externallinks.php'; ?>
 
-	<div class="panel">
-		<h3 class="panel-title"><i class="panel-title-icon fa fa-lightbulb-o"></i>Webtips van de redactie</h3>
-		<ul class="linkList">
-			<li class="linkList-item"><a class="linkList-link" href="https://www.businessinsider.nl/de-17-opmerkelijkste-uitspraken-trump/">De 14 meest briljante (of waanzinnige) uitspraken van Donald Trump tijdens de Amerikaanse verkiezingscampagne<span class="linkList-source">Business Insider</span></a></li>
-			<li class="linkList-item"><a class="linkList-link" href="https://thenextweb.com/contributors/2017/09/05/august-africa-bad-elections-good-drones-ebay/#.tnw_j83D6kMu">August in Africa: Bad elections, good drones, and eBay<span class="linkList-source">The Next Web</span></a></li>
-			<li class="linkList-item"><a class="linkList-link" href="https://oristand.co/product/oristand-stand-up-desk/">Portable Stand Up Desk<span class="linkList-source">ORISTAND</span></a></li>
-		</ul>
-	</div>
 
 </aside>
 
