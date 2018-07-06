@@ -406,18 +406,15 @@
 			</a>
 		</div>
 	</div>
+
+	<!-- Todo: add call that loads more articles into the grid above -->
 	<div class="pagination pagination--articles">
-		<a href="#" class="button button--clean pagination-button"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-		<ul class="pagination-list">
-			<li class="pagination-item active">1</li>
-			<li class="pagination-item"><a href="#" class="pagination-link">2</a></li>
-			<li class="pagination-item"><a href="#" class="pagination-link">3</a></li>
-			<li class="pagination-item"><a href="#" class="pagination-link">4</a></li>
-			<li class="pagination-item">...</li>
-			<li class="pagination-item"><a href="#" class="pagination-link">100</a></li>
-		</ul>
-		<a href="#" class="button button--clean pagination-button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+		<button class="pagination-loadmore button button--primary button--center button--big"><span class="spinner spinner--inline"></span>meer artikelen</button>
 	</div>
+
+	<!-- Other option: pagination with numbers: -->
+	<?php //include 'templates/pagination.php'; ?>
+
 </section>
 
 <aside id="aside">

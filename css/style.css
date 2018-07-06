@@ -1442,61 +1442,56 @@ body {
 
 /* line 249, ../sass/layout/_button.scss */
 .button--big {
-  padding: 0.8em 1.1em;
+  padding: 1em 1.5em;
   font-size: 1em; }
-  @media (min-width: 769px) {
-    /* line 249, ../sass/layout/_button.scss */
-    .button--big {
-      font-size: 1.1em; } }
 
-/* line 258, ../sass/layout/_button.scss */
+/* line 254, ../sass/layout/_button.scss */
 .button--center {
-  margin: 0 auto;
   position: relative;
   left: 50%;
   transform: translateX(-50%); }
 
-/* line 265, ../sass/layout/_button.scss */
+/* line 260, ../sass/layout/_button.scss */
 .button--right {
   margin: -1.5em auto 1.5em 0;
   position: relative;
   float: right; }
 
-/* line 271, ../sass/layout/_button.scss */
+/* line 266, ../sass/layout/_button.scss */
 .button--space {
   margin-right: 0.5em; }
 
-/* line 275, ../sass/layout/_button.scss */
+/* line 270, ../sass/layout/_button.scss */
 .button--arrow {
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
   vertical-align: middle; }
-  /* line 279, ../sass/layout/_button.scss */
+  /* line 274, ../sass/layout/_button.scss */
   .button--arrow i {
     transition: font-size .2s;
     font-size: .75em;
     margin-left: .25em;
     vertical-align: middle; }
-  /* line 287, ../sass/layout/_button.scss */
+  /* line 282, ../sass/layout/_button.scss */
   .button--arrow:hover i {
     font-size: 1.05em; }
 
-/* line 293, ../sass/layout/_button.scss */
+/* line 288, ../sass/layout/_button.scss */
 .button--clean {
   border: 0;
   padding-left: 0.5em;
   padding-right: 0.5em; }
-  /* line 298, ../sass/layout/_button.scss */
+  /* line 293, ../sass/layout/_button.scss */
   .button--clean:hover {
     background: transparent;
     color: inherit; }
-  /* line 303, ../sass/layout/_button.scss */
+  /* line 298, ../sass/layout/_button.scss */
   .button--clean:active, .button--clean:focus {
     background: transparent;
     color: inherit; }
 
-/* line 311, ../sass/layout/_button.scss */
+/* line 306, ../sass/layout/_button.scss */
 .buttonContainer:after {
   content: '';
   display: block;
@@ -1861,16 +1856,30 @@ body {
   position: relative;
   display: none;
   margin: 5em auto -5em;
-  width: 1em;
-  height: 1em; }
+  width: 2em;
+  height: 2em; }
   @media (min-width: 769px) {
     /* line 1, ../sass/components/_spinner.scss */
     .spinner {
       margin: 10em auto -10em; } }
   /* line 12, ../sass/components/_spinner.scss */
   .spinner:before {
-    content: url("/images/spinner.svg");
-    display: block; }
+    content: '';
+    background-image: url("/images/spinner.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    height: 100%;
+    width: 100%; }
+
+/* line 24, ../sass/components/_spinner.scss */
+.spinner--inline {
+  display: inline-block;
+  height: 1.25em;
+  margin: 0 1em 0 0;
+  vertical-align: text-bottom;
+  width: 1.25em; }
 
 /* line 1, ../sass/components/_articles.scss */
 .articles {
@@ -2882,7 +2891,7 @@ body {
   /* line 67, ../sass/components/_banner.scss */
   .banner--billboard .banner-container {
     height: 0;
-    padding-bottom: 25%;
+    padding-bottom: 25.77%;
     max-width: 970px; }
   /* line 73, ../sass/components/_banner.scss */
   .banner--billboard .banner-image {
@@ -2901,7 +2910,7 @@ body {
   /* line 88, ../sass/components/_banner.scss */
   .banner--leaderboard .banner-container {
     height: 0;
-    padding-bottom: 12.3%;
+    padding-bottom: 12.36%;
     max-width: 728px; }
   /* line 94, ../sass/components/_banner.scss */
   .banner--leaderboard .banner-image {

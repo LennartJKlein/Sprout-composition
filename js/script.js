@@ -161,6 +161,7 @@ $(function() {
 		}
 	}
 
+	// Tooltip for resizing the navigation
 	function shakeTooltip() {
 		if (tooltipNeeded) {
 			$(".header-resize-tip").addClass("pulse");
@@ -169,7 +170,6 @@ $(function() {
 			$("#header .ui-resizable-e").show();
 		}
 	}
-
 	function hideTooltip(loop) {
 		tooltipNeeded = false;
 		$(".header-resize-tip").removeClass("pulse");
