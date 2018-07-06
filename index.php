@@ -213,39 +213,7 @@
 						</div>
 						<h3 class="articleList-article-title">Zo verklaart Uber de liefde aan managers</h3>
 					</a>
-				</div>
-				<a href="#" class="button button--arrow button--clean articleList-button"><i class="fa fa-chevron-right" aria-hidden="true"></i> Topartikelen deze maand</a>
-			</div>
-		</div>
-		<div class="grid-cell">
-			<div class="articleList articleList--highlightfirst">
-				<h2 class="articleList-title"><a href="persberichten.php" class="articleList-title-link text--partner"><i class="fa fa-bullhorn" aria-hidden="true"></i> Persberichten</a></h2>
-				<div class="articleList-list">
-					<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="articleList-article">
-						<div class="articleList-figurecontainer">
-							<div class="articleList-figure">
-								<img src="images/uploads/articles/schermafbeelding_2017-08-15_om_17.10.42.png" class="articleList-image" />
-							</div>
-						</div>
-						<h3 class="articleList-article-title">Deze ondernemer helpt game-ontwikkelaars aan een investeerder</h3>
-					</a>
-					<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="articleList-article">
-						<div class="articleList-figurecontainer">
-							<div class="articleList-figure">
-								<img src="images/uploads/articles/pexels-photo-436413.jpg" class="articleList-image" />
-							</div>
-						</div>
-						<h3 class="articleList-article-title">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
-					</a>
-					<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="articleList-article">
-						<div class="articleList-figurecontainer">
-							<div class="articleList-figure">
-								<img src="images/uploads/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="articleList-image" />
-							</div>
-						</div>
-						<h3 class="articleList-article-title">Zo verklaart Uber de liefde aan managers</h3>
-					</a>
-					<a href="persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="articleList-article">
+					<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
 						<div class="articleList-figurecontainer">
 							<div class="articleList-figure">
 								<img src="images/uploads/articles/bill_gates.png" class="articleList-image" />
@@ -253,8 +221,16 @@
 						</div>
 						<h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
 					</a>
+					<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
+						<div class="articleList-figurecontainer">
+							<div class="articleList-figure">
+								<img src="images/uploads/articles/pexels-photo-436413.jpg" class="articleList-image" />
+							</div>
+						</div>
+						<h3 class="articleList-article-title">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
+					</a>
 				</div>
-				<a href="#" class="button button--arrow button--clean articleList-button text--partner"><i class="fa fa-plus" aria-hidden="true"></i> Een persbericht plaatsen</a>
+				<a href="artikelen-trending.php" class="button button--arrow button--clean articleList-button"><i class="fa fa-chevron-right" aria-hidden="true"></i> Topartikelen deze maand</a>
 			</div>
 		</div>
 		<div class="grid-cell">
@@ -269,6 +245,15 @@
 						</div>
 						<h3 class="articleList-article-title">Zo verklaart Uber de liefde aan managers</h3>
 					</a>
+
+					<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
+						<div class="articleList-figurecontainer">
+							<div class="articleList-figure">
+								<img src="images/uploads/articles/bill_gates.png" class="articleList-image" />
+							</div>
+						</div>
+						<h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
+					</a>
 					<a href="artikel/premium-artikel.php" class="articleList-article">
 						<div class="articleList-figurecontainer">
 							<div class="articleList-figure">
@@ -293,8 +278,16 @@
 						</div>
 						<h3 class="articleList-article-title">Deze ondernemer helpt game-ontwikkelaars aan een investeerder</h3>
 					</a>
+					<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
+						<div class="articleList-figurecontainer">
+							<div class="articleList-figure">
+								<img src="images/uploads/articles/pexels-photo-436413.jpg" class="articleList-image" />
+							</div>
+						</div>
+						<h3 class="articleList-article-title">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
+					</a>
 				</div>
-				<a href="#" class="button button--arrow button--clean articleList-button text--premium"><i class="fa fa-chevron-right" aria-hidden="true"></i> Alle premium artikelen</a>
+				<a href="artikelen-premium.php" class="button button--arrow button--clean articleList-button text--premium"><i class="fa fa-chevron-right" aria-hidden="true"></i> Alle premium artikelen</a>
 			</div>
 		</div>
 	</div>
@@ -422,6 +415,8 @@
 	<?php include 'templates/widgets/premiumteaser.php'; ?>
 
 	<?php include 'templates/widgets/premiummessage.php'; ?>
+	
+	<?php include 'templates/widgets/articles--partners.php'; ?>
 	
 	<?php include 'templates/widgets/events.php'; ?>
 

@@ -35,9 +35,9 @@
 		</a>
 	</div>
 	<div>
-		<a href="#" class="button button--center button--small button--secondary"><i class="fa fa-plus" aria-hidden="true"></i> persbericht plaatsen</a>
+		<a href="/partner-worden.php" class="button button--center button--small button--secondary"><i class="fa fa-plus" aria-hidden="true"></i> persbericht plaatsen</a>
 	</div>
 	<div>
-		<a href="#" class="button button--center button--secondary button--clean">Alle persberichten</a>
+		<a href="/persberichten.php" class="button button--center button--secondary button--clean">Alle persberichten</a>
 	</div>
 </div>

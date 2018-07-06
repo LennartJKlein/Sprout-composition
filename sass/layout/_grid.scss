@@ -83,11 +83,6 @@
 		@include tablet-landscape {
 			margin-top: 0;
 			margin-bottom: 0;
-			width: $percent-1of3;
-			
-			&:nth-of-type(odd):last-of-type {
-				width: $percent-1of3;
-			}
 		}
 	}
 }
