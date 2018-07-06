@@ -32,7 +32,7 @@
 
 	<?php include 'templates/widgets/userads.php'; ?>
 
-	<?php include 'templates/widgets/newsletter--wide.php'; ?>
+	<?php include 'templates/widgets/newsletterteaser--wide.php'; ?>
 	
 	<?php include 'templates/banners/banner--billboard.php'; ?>
 	
@@ -73,6 +73,8 @@
 	<?php include 'templates/widgets/externallinks.php'; ?>
 
 	<?php include 'templates/widgets/userads.php'; ?>
+
+	<?php include 'templates/widgets/newsletterteaser.php'; ?>
 
 	<?php include 'templates/widgets/quote.php'; ?>
 	

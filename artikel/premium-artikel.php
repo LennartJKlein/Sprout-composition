@@ -105,7 +105,7 @@
 			</footer>
 
 			<?php if ($_COOKIE['sprout-role'] != "premium") { 
-				include $_SERVER['DOCUMENT_ROOT'].'/templates/widgets/premiumteaser.php'; 
+				include '../templates/widgets/premiumteaser.php'; 
 			} ?>
 
 		</article>
