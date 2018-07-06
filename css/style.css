@@ -1427,7 +1427,7 @@ body {
   background: linear-gradient(to bottom right, #007AC9, #DC0451);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
-  /* line 109, ../sass/_mixins.scss */
+  /* line 115, ../sass/_mixins.scss */
   .button--premium .fa {
     -webkit-background-clip: none;
     -webkit-text-fill-color: #007AC9; }
@@ -1437,7 +1437,7 @@ body {
     -webkit-text-fill-color: inherit;
     color: #fefefe;
     background: linear-gradient(to bottom right, #007AC9, #DC0451); }
-    /* line 123, ../sass/_mixins.scss */
+    /* line 129, ../sass/_mixins.scss */
     .button--premium:hover .fa {
       -webkit-background-clip: none;
       -webkit-text-fill-color: #fefefe; }
@@ -1447,7 +1447,7 @@ body {
     color: #fefefe;
     -webkit-background-clip: unset;
     -webkit-text-fill-color: inherit; }
-    /* line 123, ../sass/_mixins.scss */
+    /* line 129, ../sass/_mixins.scss */
     .button--premium:active .fa, .button--premium:focus .fa {
       -webkit-background-clip: none;
       -webkit-text-fill-color: #fefefe; }
@@ -2645,7 +2645,7 @@ body {
   /* line 37, ../sass/components/_articlelist.scss */
   .articleList--highlightfirst .articleList-article:first-of-type .articleList-figure {
     position: relative; }
-    /* line 65, ../sass/_mixins.scss */
+    /* line 71, ../sass/_mixins.scss */
     .articleList--highlightfirst .articleList-article:first-of-type .articleList-figure:before {
       content: '';
       position: absolute;
@@ -2860,9 +2860,10 @@ body {
   -webkit-justify-content: center;
   justify-content: center;
   overflow: hidden;
+  position: relative;
   width: 100%; }
 
-/* line 10, ../sass/components/_banner.scss */
+/* line 11, ../sass/components/_banner.scss */
 .banner-close {
   position: absolute;
   top: 0;
@@ -2877,18 +2878,18 @@ body {
   background: transparent;
   border: 0;
   outline: 0; }
-  /* line 25, ../sass/components/_banner.scss */
+  /* line 26, ../sass/components/_banner.scss */
   .banner-close:hover, .banner-close:active, .banner-close:focus {
     color: #fefefe; }
 
-/* line 32, ../sass/components/_banner.scss */
+/* line 33, ../sass/components/_banner.scss */
 .banner-container {
   overflow: hidden;
   position: relative;
   width: 100%;
   margin: 0 auto; }
 
-/* line 39, ../sass/components/_banner.scss */
+/* line 40, ../sass/components/_banner.scss */
 .banner-image {
   width: 100%;
   height: 100%;
@@ -2897,65 +2898,65 @@ body {
   top: 50%;
   transform: translateY(-50%);
   filter: invert(0.2); }
-  /* line 48, ../sass/components/_banner.scss */
+  /* line 49, ../sass/components/_banner.scss */
   .banner-image:after {
     content: ' ';
     display: block;
     clear: both; }
 
-/* line 55, ../sass/components/_banner.scss */
+/* line 56, ../sass/components/_banner.scss */
 .banner--billboard {
   width: auto;
   margin: -1em -1.5em 1em; }
   @media (min-width: 769px) {
-    /* line 55, ../sass/components/_banner.scss */
+    /* line 56, ../sass/components/_banner.scss */
     .banner--billboard {
       margin: -4em -5vw 4em; } }
   @media (min-width: 1200px) {
-    /* line 55, ../sass/components/_banner.scss */
+    /* line 56, ../sass/components/_banner.scss */
     .banner--billboard {
       margin: -4em -5vw 4em; } }
-  /* line 67, ../sass/components/_banner.scss */
+  /* line 68, ../sass/components/_banner.scss */
   .banner--billboard .banner-container {
     height: 0;
     padding-bottom: 25.77%; }
-  /* line 73, ../sass/components/_banner.scss */
+  /* line 74, ../sass/components/_banner.scss */
   .banner--billboard .banner-image {
     filter: invert(0); }
-  /* line 79, ../sass/components/_banner.scss */
+  /* line 80, ../sass/components/_banner.scss */
   .banner--billboard .banner-close {
     color: #9FB1BC; }
 
-/* line 84, ../sass/components/_banner.scss */
+/* line 85, ../sass/components/_banner.scss */
 .banner--leaderboard {
   margin: 1.5em auto;
   border-radius: 0.25rem;
   overflow: hidden; }
-  /* line 88, ../sass/components/_banner.scss */
+  /* line 89, ../sass/components/_banner.scss */
   .banner--leaderboard .banner-container {
     height: 0;
     padding-bottom: 12.36%; }
 
-/* line 100, ../sass/components/_banner.scss */
+/* line 101, ../sass/components/_banner.scss */
 .banner--filmstrip {
   background: transparent;
   margin: 1.5em auto;
   max-width: 300px;
   border-radius: 0.25rem;
   overflow: hidden; }
-  /* line 106, ../sass/components/_banner.scss */
+  /* line 107, ../sass/components/_banner.scss */
   .banner--filmstrip .banner-container {
     height: 0;
     padding-bottom: 200%; }
 
-/* line 118, ../sass/components/_banner.scss */
+/* line 119, ../sass/components/_banner.scss */
 .banner--rectangle {
   background: transparent;
   margin: 1.5em auto;
   max-width: 300px;
   border-radius: 0.25rem;
   overflow: hidden; }
-  /* line 124, ../sass/components/_banner.scss */
+  /* line 125, ../sass/components/_banner.scss */
   .banner--rectangle .banner-container {
     height: 0;
     padding-bottom: calc((100% / 6) * 5); }
@@ -3289,7 +3290,7 @@ body {
     .card--overlay .card-figurecontainer {
       width: 100%;
       position: relative; }
-      /* line 65, ../sass/_mixins.scss */
+      /* line 71, ../sass/_mixins.scss */
       .card--overlay .card-figurecontainer:before {
         content: '';
         position: absolute;
@@ -3352,14 +3353,14 @@ body {
   background: linear-gradient(to bottom right, #007AC9, #DC0451);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
-  /* line 116, ../sass/_mixins.scss */
+  /* line 122, ../sass/_mixins.scss */
   .card--premium .card-button .fa {
     -webkit-background-clip: none;
     -webkit-text-fill-color: #DC0451; }
 /* line 318, ../sass/components/_card.scss */
 .card--premium .card-figure {
   position: relative; }
-  /* line 85, ../sass/_mixins.scss */
+  /* line 91, ../sass/_mixins.scss */
   .card--premium .card-figure:before {
     content: '';
     position: absolute;
@@ -4024,11 +4025,8 @@ body {
 /* line 7, ../sass/components/_investmentlist.scss */
 .investmentList-item {
   background: #fefefe;
-  display: block;
   text-decoration: none;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-flex-flow: row nowrap;
   -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
@@ -4045,15 +4043,24 @@ body {
   border-radius: 0.25rem;
   overflow: hidden;
   transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
-  /* line 19, ../sass/components/_investmentlist.scss */
+  /* line 18, ../sass/components/_investmentlist.scss */
   .investmentList-item:hover, .investmentList-item:active {
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-    /* line 23, ../sass/components/_investmentlist.scss */
+    /* line 22, ../sass/components/_investmentlist.scss */
     .investmentList-item:hover .investmentList-logo, .investmentList-item:active .investmentList-logo {
-      width: 27%; }
+      width: 5.25em; }
+  /* line 27, ../sass/components/_investmentlist.scss */
+  .investmentList-item.active {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
 
-/* line 29, ../sass/components/_investmentlist.scss */
+/* line 32, ../sass/components/_investmentlist.scss */
 .investmentList-logo {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4071,33 +4078,41 @@ body {
   background: #f2f0f0;
   padding: 0.5em;
   text-align: center;
-  width: 25%;
+  width: 5em;
   transition: width 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); }
 
-/* line 40, ../sass/components/_investmentlist.scss */
+/* line 43, ../sass/components/_investmentlist.scss */
 .investmentList-description {
-  padding: 1.5em 2em;
-  width: 75%;
+  padding: 1.25em 1.75em;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -moz-flex-shrink: 1;
+  -ms-flex: 1;
+  flex-shrink: 1;
   justify-content: stretch; }
 
-/* line 48, ../sass/components/_investmentlist.scss */
+/* line 52, ../sass/components/_investmentlist.scss */
 .investmentList-company {
   color: #2E5266;
   font-weight: 500;
   font-size: 1em;
   margin-bottom: 0;
   text-decoration: none; }
-  /* line 55, ../sass/components/_investmentlist.scss */
+  /* line 59, ../sass/components/_investmentlist.scss */
   .investmentList-company:hover, .investmentList-company:active {
     color: #2E5266; }
 
-/* line 61, ../sass/components/_investmentlist.scss */
+/* line 65, ../sass/components/_investmentlist.scss */
 .investmentList-value {
   text-transform: uppercase;
   color: #777777;
@@ -4105,23 +4120,20 @@ body {
   font-size: 2em;
   margin-bottom: 0.25em;
   text-decoration: none; }
-  /* line 69, ../sass/components/_investmentlist.scss */
-  .investmentList-value:hover, .investmentList-value:active {
-    color: #2E5266; }
 
-/* line 75, ../sass/components/_investmentlist.scss */
+/* line 74, ../sass/components/_investmentlist.scss */
 .investmentList-details {
   color: #777777;
   font-size: 0.8em;
   text-decoration: none;
   padding: 0.15em 0; }
-  /* line 81, ../sass/components/_investmentlist.scss */
+  /* line 80, ../sass/components/_investmentlist.scss */
   .investmentList-details:hover, .investmentList-details:active {
     color: #2E5266; }
-  /* line 86, ../sass/components/_investmentlist.scss */
+  /* line 85, ../sass/components/_investmentlist.scss */
   .investmentList-details .fa {
     margin-right: 0.5em;
-    width: 10%;
+    width: 2em;
     text-align: center; }
 
 /* line 1, ../sass/components/_linklist.scss */
@@ -4807,11 +4819,12 @@ body {
 
 /* line 10, ../sass/components/_pagination.scss */
 .pagination--block {
-  margin: 1.5em 0; }
-  /* line 13, ../sass/components/_pagination.scss */
+  margin: 1.5em 0;
+  max-width: none; }
+  /* line 14, ../sass/components/_pagination.scss */
   .pagination--block .pagination-list {
     margin: 0; }
-  /* line 17, ../sass/components/_pagination.scss */
+  /* line 18, ../sass/components/_pagination.scss */
   .pagination--block .pagination-item {
     background: #f2f0f0;
     margin-left: 0.15em;
@@ -4822,26 +4835,26 @@ body {
     -ms-flex-align: stretch;
     -webkit-align-items: stretch;
     align-items: stretch; }
-    /* line 24, ../sass/components/_pagination.scss */
+    /* line 25, ../sass/components/_pagination.scss */
     .pagination--block .pagination-item.active {
       padding: 0; }
-      /* line 27, ../sass/components/_pagination.scss */
+      /* line 28, ../sass/components/_pagination.scss */
       .pagination--block .pagination-item.active .pagination-link {
         background: #2E5266;
         color: #fefefe;
         padding: 0.5em 1em; }
-  /* line 35, ../sass/components/_pagination.scss */
+  /* line 36, ../sass/components/_pagination.scss */
   .pagination--block .pagination-link {
     text-decoration: none;
     font-size: 0.8em;
     font-weight: bold;
     padding: 0.5em; }
 
-/* line 43, ../sass/components/_pagination.scss */
+/* line 44, ../sass/components/_pagination.scss */
 .pagination-button {
   padding: 0.5em 1em; }
 
-/* line 47, ../sass/components/_pagination.scss */
+/* line 48, ../sass/components/_pagination.scss */
 .pagination-list {
   padding: 0;
   list-style: none;
@@ -4857,23 +4870,28 @@ body {
   -moz-box-pack: justify;
   -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
-  justify-content: space-between; }
+  justify-content: space-between;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  overflow: hidden; }
 
-/* line 55, ../sass/components/_pagination.scss */
+/* line 58, ../sass/components/_pagination.scss */
 .pagination-item {
-  font-weight: 500;
-  color: #777777;
-  border-radius: 0.25rem;
-  overflow: hidden;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
   -moz-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
-  align-items: center; }
-  /* line 62, ../sass/components/_pagination.scss */
+  align-items: center;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  color: #777777;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  /* line 66, ../sass/components/_pagination.scss */
   .pagination-item.active {
     background: #e5e2de;
     color: #231f20;
@@ -4881,14 +4899,28 @@ body {
     pointer-events: none;
     padding: 0.5em 1em;
     margin-left: 0.5em;
-    margin-right: 0.5em; }
+    margin-right: 0.5em;
+    overflow: visible; }
+    /* line 76, ../sass/components/_pagination.scss */
+    .pagination-item.active .pagination-link {
+      border-radius: 0.25rem;
+      overflow: hidden;
+      text-overflow: unset; }
 
-/* line 73, ../sass/components/_pagination.scss */
+/* line 83, ../sass/components/_pagination.scss */
 .pagination-link {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  outline: 0;
+  overflow: hidden;
   text-decoration: none;
-  padding: 0.5em 1em; }
-  /* line 77, ../sass/components/_pagination.scss */
-  .pagination-link:active {
+  text-overflow: ellipsis;
+  transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+  white-space: nowrap; }
+  /* line 95, ../sass/components/_pagination.scss */
+  .pagination-link:hover, .pagination-link:active {
     background: #DD6E42;
     color: #fefefe; }
 
@@ -5300,7 +5332,8 @@ body {
 /* line 48, ../sass/components/_quote.scss */
 .quote-image {
   margin-top: -7em;
-  margin-bottom: -2.5em; }
+  margin-bottom: -2.5em;
+  max-width: 15em; }
 
 /* line 1, ../sass/components/_relatedarticles.scss */
 .relatedArticles {

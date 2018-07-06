@@ -6,23 +6,26 @@
 
 .investmentList-item {
 	background: $color-white;
-	display: block;
 	text-decoration: none;
-	@include flex;
+	display: none;
 	@include flex-flow(row nowrap);
 	@include justify-content(space-between);
 	@include align-items(stretch);
 	@include round-border;
 	transition: all 0.4s cubic-bezier(.25,.8,.25,1);
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	@include shadow-low;
 
 	&:hover,
 	&:active {
-		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+		@include shadow-medium;
 	
 		.investmentList-logo {
-			width: 27%;
+			width: 5.25em;
 		}
+	}
+
+	&.active {
+		@include flex;
 	}
 }
 
@@ -33,15 +36,16 @@
 	background: $color-grey-light;
 	padding: 0.5em;
 	text-align: center;
-	width: $percent-1of4;
+	width: 5em;
 	transition: width 0.4s cubic-bezier(.25,.8,.25,1);
 }
 
 .investmentList-description {
-	padding: 1.5em 2em;
-	width: $percent-3of4;
+	padding: 1.25em 1.75em;
 	@include flex;
 	@include flex-flow(column nowrap);
+	@include flex-grow(1);
+	@include flex-shrink(1);
 	justify-content: stretch;
 }
 
@@ -65,11 +69,6 @@
 	font-size: 2em;
 	margin-bottom: 0.25em;
 	text-decoration: none;
-
-	&:hover,
-	&:active {
-		color: $color-primary;
-	}
 }
 
 .investmentList-details {
@@ -85,7 +84,7 @@
 
 	.fa {
 		margin-right: 0.5em;
-		width: $percent-1of10;
+		width: 2em;
 		text-align: center;
 	}
 }

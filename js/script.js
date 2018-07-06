@@ -235,6 +235,60 @@ $(function() {
 		$(this).parents(".panel").toggleClass("visible");
 	});
 
+	// Pagination functions
+	$(".pagination-item, .pagination-button").on("click", function(){
+		var pagination = $(this).parents(".pagination"),
+			action = $(this).attr("action");
+
+		navigatePagination(pagination, action);
+
+		abortInvestmentLooper();
+	});
+	function navigatePagination(pagination, action) {
+		var allData = $(pagination.attr("dataset")).children();
+
+		if (allData != null) {
+
+			var activeData = $(pagination.attr("dataset")).children(".active"),
+				itemsList = pagination.find(".pagination-list"),
+				items = itemsList.children(),
+				activeItem = itemsList.find(".active"),
+				activeIndex = activeItem.index(),
+				item = null;
+
+			if ($.isNumeric(action)) {
+				item = items.eq(action);
+			}
+
+			if (action == "previous") {
+				item = activeItem.prev();
+			}
+
+			if (action == "next") {
+				item = activeItem.next();
+			}
+
+			if (item.length) {
+				activeItem.removeClass("active");
+				item.addClass("active");
+					
+				activeData.removeClass("active");
+				allData.eq(item.index()).addClass("active");
+			} else {
+				abortInvestmentLooper();
+			}
+		}
+	}
+
+	// Automatic looper through pagination
+	var investmentLooper = setInterval(function(){
+		var pagination = $(".pagination[dataset='#investmentList']");
+		navigatePagination(pagination, "next");
+	}, 3000);
+	function abortInvestmentLooper() {
+		clearInterval(investmentLooper);
+	}
+
 	// Add media query reference to body
 	function checkMQ() {
 		return window.getComputedStyle($("body").get(0), ":before").getPropertyValue("content").replace(/"/g, "").replace(/"/g, "");
