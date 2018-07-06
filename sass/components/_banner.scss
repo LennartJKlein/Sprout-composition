@@ -67,9 +67,12 @@
 	.banner-container {
 		height: 0;
 		padding-bottom: 25.77%;
+		// max-width: 970px;
 	}
 
 	.banner-image {
+		// max-width: 970px;
+		// max-height: 250px;
 		filter: invert(0); // To remove!
 	}
 
@@ -85,12 +88,12 @@
 	.banner-container {
 		height: 0;
 		padding-bottom: 12.36%;
-		max-width: 728px;
+		// max-width: 728px;
 	}
 
 	.banner-image {
-		max-width: 728px;
-		max-height: 90px;
+		// max-width: 728px;
+		// max-height: 90px;
 	}
 }
 
@@ -103,12 +106,12 @@
 	.banner-container {
 		height: 0;
 		padding-bottom: 200%;
-		max-width: 300px;
+		// max-width: 300px;
 	}
 
 	.banner-image {
-		max-width: 300px;
-		max-height: 600px;
+		// max-width: 300px;
+		// max-height: 600px;
 	}
 }
 
@@ -121,11 +124,11 @@
 	.banner-container {
 		height: 0;
 		padding-bottom: $percent-5of6;
-		max-width: 300px;
+		// max-width: 300px;
 	}
 
 	.banner-image {
-		max-width: 300px;
-		max-height: 250px;
+		// max-width: 300px;
+		// max-height: 250px;
 	}
 }

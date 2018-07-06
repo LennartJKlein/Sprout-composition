@@ -3,9 +3,6 @@
 	@include align-items(center);
 	@include justify-content(space-between);
 	position: relative;
-}
-
-.pagination--articles {
 	max-width: 400px;
 	margin: 0 auto 4em;
 }

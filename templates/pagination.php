@@ -1,4 +1,4 @@
-<div class="pagination pagination--articles">
+<div class="pagination">
 	<a href="#" class="button button--clean pagination-button"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
 	<ul class="pagination-list">
 		<li class="pagination-item active">1</li>

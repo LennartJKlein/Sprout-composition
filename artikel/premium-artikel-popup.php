@@ -1,6 +1,6 @@
 <?php include '../templates/header.php'; ?>
 
-	<?php include '../templates/premiumteaser--modal.php'; ?>	
+	<?php include '../templates/modals/premiumteaser.php'; ?>	
 
 	<section class="articles">
 

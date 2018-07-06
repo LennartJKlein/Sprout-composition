@@ -408,7 +408,7 @@
 	</div>
 
 	<!-- Todo: add call that loads more articles into the grid above -->
-	<div class="pagination pagination--articles">
+	<div class="pagination">
 		<button class="pagination-loadmore button button--primary button--center button--big"><span class="spinner spinner--inline"></span>meer artikelen</button>
 	</div>
 
