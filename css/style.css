@@ -2549,38 +2549,6 @@ body {
     font-weight: normal;
     content: "Leestijd: "; }
 
-/* line 1, ../sass/components/_articlefilter.scss */
-.articleFilter {
-  width: 100%;
-  text-align: right;
-  margin-bottom: 1.5em; }
-  @media (min-width: 769px) {
-    /* line 1, ../sass/components/_articlefilter.scss */
-    .articleFilter {
-      margin-bottom: 2em; } }
-
-/* line 11, ../sass/components/_articlefilter.scss */
-.articleFilter-button {
-  display: inline-block;
-  margin-left: 0.5em; }
-  @media (min-width: 769px) {
-    /* line 11, ../sass/components/_articlefilter.scss */
-    .articleFilter-button {
-      margin-left: 1em; } }
-
-/* line 20, ../sass/components/_articlefilter.scss */
-.articleFilter-label {
-  display: none;
-  font-weight: 600;
-  font-size: 0.8em;
-  color: #777777;
-  margin: 0 0 0.75em; }
-  @media (min-width: 769px) {
-    /* line 20, ../sass/components/_articlefilter.scss */
-    .articleFilter-label {
-      display: inline-block;
-      margin: 0; } }
-
 /* line 1, ../sass/components/_articlelist.scss */
 .articleList {
   display: -webkit-flex;
@@ -2891,62 +2859,59 @@ body {
   /* line 67, ../sass/components/_banner.scss */
   .banner--billboard .banner-container {
     height: 0;
-    padding-bottom: 25.77%;
-    max-width: 970px; }
-  /* line 73, ../sass/components/_banner.scss */
+    padding-bottom: 25.77%; }
+  /* line 72, ../sass/components/_banner.scss */
   .banner--billboard .banner-image {
-    max-width: 970px;
-    max-height: 250px;
     filter: invert(0); }
-  /* line 79, ../sass/components/_banner.scss */
+  /* line 76, ../sass/components/_banner.scss */
   .banner--billboard .banner-close {
     color: #9FB1BC; }
 
-/* line 84, ../sass/components/_banner.scss */
+/* line 81, ../sass/components/_banner.scss */
 .banner--leaderboard {
   margin: 1.5em auto;
   border-radius: 0.25rem;
   overflow: hidden; }
-  /* line 88, ../sass/components/_banner.scss */
+  /* line 85, ../sass/components/_banner.scss */
   .banner--leaderboard .banner-container {
     height: 0;
     padding-bottom: 12.36%;
     max-width: 728px; }
-  /* line 94, ../sass/components/_banner.scss */
+  /* line 91, ../sass/components/_banner.scss */
   .banner--leaderboard .banner-image {
     max-width: 728px;
     max-height: 90px; }
 
-/* line 100, ../sass/components/_banner.scss */
+/* line 97, ../sass/components/_banner.scss */
 .banner--filmstrip {
   background: transparent;
   margin: 1.5em auto;
   max-width: 300px;
   border-radius: 0.25rem;
   overflow: hidden; }
-  /* line 106, ../sass/components/_banner.scss */
+  /* line 103, ../sass/components/_banner.scss */
   .banner--filmstrip .banner-container {
     height: 0;
     padding-bottom: 200%;
     max-width: 300px; }
-  /* line 112, ../sass/components/_banner.scss */
+  /* line 109, ../sass/components/_banner.scss */
   .banner--filmstrip .banner-image {
     max-width: 300px;
     max-height: 600px; }
 
-/* line 118, ../sass/components/_banner.scss */
+/* line 115, ../sass/components/_banner.scss */
 .banner--rectangle {
   background: transparent;
   margin: 1.5em auto;
   max-width: 300px;
   border-radius: 0.25rem;
   overflow: hidden; }
-  /* line 124, ../sass/components/_banner.scss */
+  /* line 121, ../sass/components/_banner.scss */
   .banner--rectangle .banner-container {
     height: 0;
     padding-bottom: calc((100% / 6) * 5);
     max-width: 300px; }
-  /* line 130, ../sass/components/_banner.scss */
+  /* line 127, ../sass/components/_banner.scss */
   .banner--rectangle .banner-image {
     max-width: 300px;
     max-height: 250px; }
@@ -3973,6 +3938,38 @@ body {
   color: #fefefe;
   text-shadow: 0 1px 1px #231f20;
   z-index: 1; }
+
+/* line 1, ../sass/components/_gridHeader.scss */
+.gridHeader {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 1.5em; }
+  @media (min-width: 769px) {
+    /* line 1, ../sass/components/_gridHeader.scss */
+    .gridHeader {
+      margin-bottom: 2em; } }
+
+/* line 11, ../sass/components/_gridHeader.scss */
+.gridHeader-button {
+  display: inline-block;
+  margin-left: 0.5em; }
+  @media (min-width: 769px) {
+    /* line 11, ../sass/components/_gridHeader.scss */
+    .gridHeader-button {
+      margin-left: 1em; } }
+
+/* line 20, ../sass/components/_gridHeader.scss */
+.gridHeader-label {
+  display: none;
+  font-weight: 600;
+  font-size: 0.8em;
+  color: #777777;
+  margin: 0 0 0.75em; }
+  @media (min-width: 769px) {
+    /* line 20, ../sass/components/_gridHeader.scss */
+    .gridHeader-label {
+      display: inline-block;
+      margin: 0; } }
 
 /* line 1, ../sass/components/_investmentlist.scss */
 .investmentList {

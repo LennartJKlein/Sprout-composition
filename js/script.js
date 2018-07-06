@@ -34,36 +34,6 @@ $(function() {
 		$(".search-resultscontainer").removeClass("open").slideUp();
 	});
 
-	// Filters articles on homepage
-	$(".articleFilter-button").on("click", function(){
-		if (!$(this).hasClass("button--solid")) {
-			var tag = $(this).attr("name");
-			if (tag !== "") {
-				$(".articleFilter-button").each(function(){
-					$(this).removeClass("button--solid");
-				});
-
-				$(this).toggleClass("button--solid");
-
-				$(".card").each(function(){
-					$(this).show();
-				});
-
-				$(".card").not('.card[tag="'+ tag +'"]').each(function(){
-					$(this).hide();
-				});
-			}
-		} else {
-			$(".articleFilter-button").each(function(){
-				$(this).removeClass("button--solid");
-			});
-
-			$(".card").each(function(){
-				$(this).show();
-			});
-		}
-	});
-
 	// Navigation on mobile
 	$(".navToggle").on("click", function(){
 		toggleNavigation();

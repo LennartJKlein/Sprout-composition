@@ -4,10 +4,10 @@
 
 	<div class="articleFilter">
 		<span class="articleFilter-label">Filteren op</span>
-		<button class="articleFilter-button button button--small" name="startups">Startups</button>
-		<button class="articleFilter-button button button--small" name="scaleups">Scaleups</button>
-		<button class="articleFilter-button button button--small" name="investeren">Investeren</button>
-		<button class="articleFilter-button button button--small button--clean" name="">...</button>
+		<a href="/topic/direct-marketing.php" class="articleFilter-button button button--small" name="startups">Startups</a>
+		<a href="/topic/direct-marketing.php" class="articleFilter-button button button--small" name="scaleups">Scaleups</a>
+		<a href="/topic/direct-marketing.php" class="articleFilter-button button button--small" name="investeren">Investeren</a>
+		<a href="/topic/direct-marketing.php" class="articleFilter-button button button--small button--clean" name="">...</a>
 	</div>
 	
 	<div class="grid grid--articles">
