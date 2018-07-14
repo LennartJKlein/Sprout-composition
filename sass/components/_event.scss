@@ -16,23 +16,23 @@
 
 .event-info {
     background: $color-secondary;
-    align-items: baseline;
-    display: flex;
-    flex-direction: column;
+    color: $color-white;
+    @include flex;
+    @include align-items(baseline);
+    @include flex-flow(row wrap);
+    @include justify-content(space-between);
+    @include order(-1);
     margin: -1.5rem -1.5rem 2rem -1.5rem;
     padding: 1.5rem;
-    @include order(-1);
     z-index: 1;
 
     @include tablet {
-        color: $color-white;
-        flex-direction: row;
-        justify-content: space-between;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        border-bottom-left-radius: 1.2em;
         margin-top: 0;
         margin-right: -5vw;
         @include order(0);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
     @include desktop {
@@ -42,34 +42,33 @@
 }
 
 .event-infoItem {
-    color: $color-white;
-    display: block;
-    margin-bottom: 0.75em;
+    @include flex;
+    @include flex-flow(row nowrap);
+    @include justify-content(flex-start);
+    @include align-items(baseline);
+    margin-bottom: 1em;
+    min-width: $percent-1of2;
 
-    &:hover,
-    &:active,
-    &:focus {
+    a {
         color: $color-white;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: $color-white;
+        }
     }
 
     @include tablet {
-        margin-bottom: 0.5em;
-        margin-right: 2em;
         margin-top: 0.5em;
-    }
-}
-
-.event-infoContainer {
-
-    @include desktop-large {
-        display: flex;
+        width: $percent-1of2;
     }
 }
 
 .event-icon {
     width: 1em;
     text-align: center;
-    margin-right: 0.5em;
+    margin-right: 1em;
 }
 
 .event-heading {
@@ -204,8 +203,7 @@
             font-size: 1.1em; 
         }
     }
-    
-    div,
+
     h2,
     h3, 
     p,
@@ -242,3 +240,87 @@
         }
     }
 }
+
+.event-signup {
+    background: $color-white;
+    @include round-border;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+    padding: 1em;
+
+    @include tablet {
+        padding: 2em;
+    }
+
+    @include desktop {
+        max-width: 70rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+
+.event-signupTitle {
+    margin-top: 0.5em;
+}
+
+.event-options {
+    @include flex;
+    @include justify-content(space-between);
+    @include align-items(center);
+    @include flex-flow(column nowrap);
+    margin-top: 1em;
+
+    @include tablet {
+        @include flex-flow(row nowrap);
+        margin-top: 3em;
+    }
+}
+
+.event-coupon {
+    @include flex;
+    @include justify-content(flex-start);
+    @include align-items(center);
+    @include flex-flow(row nowrap);
+    @include order(-1);
+    margin-bottom: 1em;
+
+    @include tablet {
+        @include order(0);
+    }
+}
+
+.event-couponLabel {
+    color: $color-grey-dark;
+    margin-right: 1em;
+}
+
+.event-couponCode {
+    background: $color-grey;
+    @include round-border;
+    font-family: monospace;
+    font-size: 1.25em;
+    letter-spacing: 0.15em;
+    padding: 0.75em 1em 0.5em;
+    text-align: center;
+    position: relative;
+
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background: $color-premium;
+        z-index: 1;
+    }
+}
+
+.event-externallink {
+    
+    @include tablet {
+        margin-right: 1em;
+    }
+}
+

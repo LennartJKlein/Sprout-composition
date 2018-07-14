@@ -1,4 +1,4 @@
-<div class="panel premiumTeaser role-unknown">
+<div class="panel premiumTeaser premiumTeaser--list role-unknown">
 	<div class="premiumTeaser-figure"><img src="/images/premium-logo-white.svg" class="premiumTeaser-image" /></div>
 	<h3 class="premiumTeaser-title">Ongelimiteerd de beste verhalen en events.</h3>
 	<p class="premiumTeaser-description">De volledige Sprout-beleving kun je 1 maand gratis uitproberen. Daarna voor &euro;00,- per maand.</p>

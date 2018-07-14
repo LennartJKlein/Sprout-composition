@@ -1,6 +1,8 @@
 <?php include '../templates/header.php'; ?>
 
-    <section class="event">
+    <!-- Dit is een voorbeeld van een event dat is afgelopen -->
+
+    <section class="events">
         
         <article class="event">
             <header class="event-header">
@@ -21,14 +23,10 @@
                     <img src="../images/uploads/events/nk_pitchen_2017.jpg" class="figure-image" />
                 </div>
                 <div class="event-info">
-                    <div>
-                        <a href="https://goo.gl/maps/ZTBrAnb34aU2" target="_blank" class="event-infoItem"><i class="event-icon fa fa-map-marker"></i><span>JAARBEURS UTRECHT<br>JAARBEURSPLEIN<br>UTRECHT</span></a>
-                        <div class="event-infoItem"><i class="event-icon fa fa-clock-o"></i><span>26 maart - 19:00 tot 23:00</span></div>
-                    </div>
-                    <div>
-                        <div class="event-infoItem"><i class="event-icon fa fa-euro"></i><span>99,- (excl BTW)</span></div>
-                        <div class="event-infoItem"><i class="event-icon fa fa-user-plus"></i><span>De eerste 25 tickets gratis voor Sprout members</span></div>
-                    </div>
+                    <div class="event-infoItem"><i class="event-icon fa fa-map-marker"></i><div><a href="https://goo.gl/maps/ZTBrAnb34aU2" target="_blank">Jaarbeurs Utrecht<br/>Jaarbeursplein, Utrecht</a></div></div>
+                    <div class="event-infoItem"><i class="event-icon fa fa-clock-o"></i><div>26 maart - 19:00 tot 23:00</div></div>
+                    <div class="event-infoItem"><i class="event-icon fa fa-euro"></i><div>99,- (excl BTW)</div></div>
+                    <div class="event-infoItem"><i class="event-icon fa fa-star"></i><div>Eerste 25 tickets gratis</div></div>
                 </div>
             </header>
             <main class="event-content">
@@ -46,10 +44,12 @@
                 22:00 Netwerkborrel </p>
                 <h2>Aanmelden</h2>
                 <p>Exclusief voor Sprout Members en Partners zijn er 25 gratis tickets die wij mogen verloten. Wil je hier gebruik van maken, stuur dan eenvoudig een mailtje naar events@sprout.nl</p>
-                <div>
-                    <div class="notification">Dit evenement is al geweest.</div>
-                </div>
             </main>
+
+             <div class="event-signup">
+                <h3 class="event-signupTitle">Deelnemen</h3>
+                <div class="notification">Dit evenement is al geweest.</div>
+            </div>
         </article>
 
     </section>
@@ -101,8 +101,8 @@
     <div class="aside-panelgroup">
         <div class="panel panel--headed panel--headed-overflow">
             <h3 class="panel-title">Mede mogelijk door</h3>
-            <img src="../images/logo-postnl-channel-sprout.png" class="panel-figure" />
-            <a href="#" class="button button--primary" onClick="openForm('register')">Whitepaper downloaden</a>
+            <img src="../images/uploads/partners/logo-postnl-channel-sprout.png" class="panel-figure" />
+            <a href="#" class="button button--primary button--center" onClick="openForm('register')">Whitepaper downloaden</a>
         </div>
 
         <div class="panel">

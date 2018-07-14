@@ -1,8 +1,10 @@
 <?php include '../templates/header.php'; ?>
 
+    <!-- Dit is een voorbeeld van een event -->
+
     <section class="events">
         
-        <div class="event">
+        <article class="event">
             <header class="event-header">
                 <div class="breadcrumb">
                     <a href="/index.php">Sprout.nl</a>
@@ -15,28 +17,41 @@
                     <img src="../images/uploads/events/the_next_web.jpg" class="figure-image" />
                 </div>
                 <div class="event-info">
-                    <div class="event-infoContainer">
-                        <a href="https://goo.gl/maps/ZTBrAnb34aU2" target="_blank" class="event-infoItem"><i class="event-icon fa fa-map-marker"></i><span>Westergasfabriek Amsterdam</span></a>
-                        <div class="event-infoItem"><i class="event-icon fa fa-clock-o"></i><span>24 en 25 mei - 09:00 tot 18:00</span></div>
-                    </div>
-                    <div class="event-infoContainer">
-                        <div class="event-infoItem"><i class="event-icon fa fa-euro"></i><span>515,- (excl BTW)</span></div>
-                        <div class="event-infoItem"><i class="event-icon fa fa-user-plus"></i><span>10% korting voor members!</span></div>
-                    </div>
+                    <div class="event-infoItem"><i class="event-icon fa fa-map-marker"></i><div><a href="https://goo.gl/maps/ZTBrAnb34aU2" target="_blank">Westergasfabriek Amsterdam</a></div></div>
+                    <div class="event-infoItem"><i class="event-icon fa fa-clock-o"></i><div>24 en 25 mei - 09:00 tot 18:00</div></div>
+                    <div class="event-infoItem"><i class="event-icon fa fa-euro"></i><div>515,- (excl BTW)</div></div>
+                    <div class="event-infoItem"><i class="event-icon fa fa-star"></i><div>10% korting</div></div>
                 </div>
             </header>
+
             <main class="event-content">
                 <p>Met honderd side-events, 200 investeringsfondsen, 1500 startups en een epische hack battle is dit een event dat je als techliefhebber niet mag missen. Bekijk op de website het hele programma en sprekersoverzicht.</p>
-                <p>Als partner van dit evenement is Sprout aanwezig en publiceert met regelmaat over sprekers en het programma. </p>
-                <h2>Aanmelden</h2>
-                <p>Speciaal voor Sprout Members mogen wij een exclusieve korting aanbieden. Members krijgen voor het Super Ealy Bird-tarief 10% korting. hiermee krijg je toegang tot de volledige tweedaagse conferentie, het openings én eindfeest en inzicht in de gastenlijst. Wil je hier gebruik van maken? Stuur dan een mailtje naar events@sprout.nl</p>
-                <p>Niet ingelogd? Je moet ingelogd zijn om je aan te melden voor dit evenement.</p>
-                <div>
-                    <button class="button button--secondary button--space">inloggen</button>
-                    <button class="button button--grey button--space">registreren</button>
-                </div>
+                <p>Als partner van dit evenement is Sprout aanwezig en publiceert met regelmaat over sprekers en het programma.</p>
             </main>
-        </div>
+
+             <div class="event-signup">
+                <h3 class="event-signupTitle">Deelnemen</h3>
+                <p>Speciaal voor Sprout Members mogen wij een exclusieve korting aanbieden. Members krijgen voor het Super Early Bird-tarief 10% korting. hiermee krijg je toegang tot de volledige tweedaagse conferentie, het openings én eindfeest en inzicht in de gastenlijst.</p>
+                <div class="event-options">
+                    <div class="event-externallink">
+                        <a href="http://www.google.com/" target="_new" class="button button--secondary"><i class="fa fa-external-link" aria-hidden="true"></i> aanmelden</a>
+                    </div>
+                    <div class="event-coupon">
+                        <span class="event-couponLabel">Kortingscode:</span>
+                        <span class="event-couponCode">
+                            <?php if($_COOKIE['sprout-role'] == "premium"): ?>
+                                TR03DBI2
+                            <?php elseif($_COOKIE['sprout-role'] == "unknown"): ?>
+                                ********
+                            <?php endif; ?>
+                        </span>
+                    </div>
+                </div>
+
+                <?php include '../templates/widgets/premiumteaser--events.php'; ?>
+
+            </div>
+        </article>
 
     </section>
 
@@ -87,8 +102,8 @@
     <div class="aside-panelgroup">
         <div class="panel panel--headed panel--headed-overflow">
             <h3 class="panel-title">Mede mogelijk door</h3>
-            <img src="../images/logo-postnl-channel-sprout.png" class="panel-figure" />
-            <a href="#" class="button button--primary" onClick="openForm('register')">Whitepaper downloaden</a>
+            <img src="../images/uploads/partners/logo-postnl-channel-sprout.png" class="panel-figure" />
+            <a href="#" class="button button--primary button--center" onClick="openForm('register')">Whitepaper downloaden</a>
         </div>
 
         <div class="panel">

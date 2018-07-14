@@ -3445,32 +3445,44 @@ body {
 /* line 17, ../sass/components/_event.scss */
 .event-info {
   background: #DD6E42;
-  align-items: baseline;
+  color: #fefefe;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  margin: -1.5rem -1.5rem 2rem -1.5rem;
-  padding: 1.5rem;
+  -webkit-box-align: baseline;
+  -moz-box-align: baseline;
+  -ms-flex-align: baseline;
+  -webkit-align-items: baseline;
+  align-items: baseline;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
   -webkit-box-ordinal-group: 0;
   -moz-box-ordinal-group: 0;
   -webkit-order: -1;
   -ms-flex-order: -1;
   order: -1;
+  margin: -1.5rem -1.5rem 2rem -1.5rem;
+  padding: 1.5rem;
   z-index: 1; }
   @media (min-width: 769px) {
     /* line 17, ../sass/components/_event.scss */
     .event-info {
-      color: #fefefe;
-      flex-direction: row;
-      justify-content: space-between;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
+      border-bottom-left-radius: 1.2em;
       margin-top: 0;
       margin-right: -5vw;
       -webkit-box-ordinal-group: 1;
       -moz-box-ordinal-group: 1;
       -webkit-order: 0;
       -ms-flex-order: 0;
-      order: 0; } }
+      order: 0;
+      padding-top: 1rem;
+      padding-bottom: 1rem; } }
   @media (min-width: 1200px) {
     /* line 17, ../sass/components/_event.scss */
     .event-info {
@@ -3479,31 +3491,43 @@ body {
 
 /* line 44, ../sass/components/_event.scss */
 .event-infoItem {
-  color: #fefefe;
-  display: block;
-  margin-bottom: 0.75em; }
-  /* line 49, ../sass/components/_event.scss */
-  .event-infoItem:hover, .event-infoItem:active, .event-infoItem:focus {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-box-align: baseline;
+  -moz-box-align: baseline;
+  -ms-flex-align: baseline;
+  -webkit-align-items: baseline;
+  align-items: baseline;
+  margin-bottom: 1em;
+  min-width: 50%; }
+  /* line 52, ../sass/components/_event.scss */
+  .event-infoItem a {
     color: #fefefe; }
+    /* line 55, ../sass/components/_event.scss */
+    .event-infoItem a:hover, .event-infoItem a:active, .event-infoItem a:focus {
+      color: #fefefe; }
   @media (min-width: 769px) {
     /* line 44, ../sass/components/_event.scss */
     .event-infoItem {
-      margin-bottom: 0.5em;
-      margin-right: 2em;
-      margin-top: 0.5em; } }
+      margin-top: 0.5em;
+      width: 50%; } }
 
-@media (min-width: 1680px) {
-  /* line 62, ../sass/components/_event.scss */
-  .event-infoContainer {
-    display: flex; } }
-
-/* line 69, ../sass/components/_event.scss */
+/* line 68, ../sass/components/_event.scss */
 .event-icon {
   width: 1em;
   text-align: center;
-  margin-right: 0.5em; }
+  margin-right: 1em; }
 
-/* line 75, ../sass/components/_event.scss */
+/* line 74, ../sass/components/_event.scss */
 .event-heading {
   color: #DD6E42;
   text-transform: uppercase;
@@ -3515,12 +3539,12 @@ body {
   -ms-flex-order: -3;
   order: -3; }
   @media (min-width: 1200px) {
-    /* line 75, ../sass/components/_event.scss */
+    /* line 74, ../sass/components/_event.scss */
     .event-heading {
       padding-left: 4rem;
       padding-right: 4rem; } }
 
-/* line 88, ../sass/components/_event.scss */
+/* line 87, ../sass/components/_event.scss */
 .event-title {
   margin: 0.5em 0;
   font-size: 1.85em;
@@ -3531,7 +3555,7 @@ body {
   -ms-flex-order: -2;
   order: -2; }
   @media (min-width: 769px) {
-    /* line 88, ../sass/components/_event.scss */
+    /* line 87, ../sass/components/_event.scss */
     .event-title {
       font-size: 2.6em;
       -webkit-box-ordinal-group: 1;
@@ -3540,14 +3564,14 @@ body {
       -ms-flex-order: 0;
       order: 0; } }
   @media (min-width: 1200px) {
-    /* line 88, ../sass/components/_event.scss */
+    /* line 87, ../sass/components/_event.scss */
     .event-title {
       font-size: 3em;
       max-width: 70rem;
       padding-left: 4rem;
       padding-right: 4rem; } }
 
-/* line 107, ../sass/components/_event.scss */
+/* line 106, ../sass/components/_event.scss */
 .event-notification {
   margin: 1em 0 2em;
   -webkit-box-ordinal-group: 0;
@@ -3556,7 +3580,7 @@ body {
   -ms-flex-order: -1;
   order: -1; }
   @media (min-width: 769px) {
-    /* line 107, ../sass/components/_event.scss */
+    /* line 106, ../sass/components/_event.scss */
     .event-notification {
       -webkit-box-ordinal-group: 1;
       -moz-box-ordinal-group: 1;
@@ -3564,13 +3588,13 @@ body {
       -ms-flex-order: 0;
       order: 0; } }
   @media (min-width: 1200px) {
-    /* line 107, ../sass/components/_event.scss */
+    /* line 106, ../sass/components/_event.scss */
     .event-notification {
       max-width: 70rem;
       padding-left: 4rem;
       padding-right: 4rem; } }
 
-/* line 122, ../sass/components/_event.scss */
+/* line 121, ../sass/components/_event.scss */
 .event-intro {
   font-family: "Kepler", Cambria, Georgia, Times New Roman, serif;
   margin: -1rem -1.5rem 0 -1.5rem;
@@ -3583,7 +3607,7 @@ body {
   -ms-flex-order: 0;
   order: 0; }
   @media (min-width: 769px) {
-    /* line 122, ../sass/components/_event.scss */
+    /* line 121, ../sass/components/_event.scss */
     .event-intro {
       color: #231f20;
       margin: 0 0 2em 0;
@@ -3595,7 +3619,7 @@ body {
       -ms-flex-order: 0;
       order: 0; } }
   @media (min-width: 1200px) {
-    /* line 122, ../sass/components/_event.scss */
+    /* line 121, ../sass/components/_event.scss */
     .event-intro {
       max-width: 70rem;
       padding-left: 4rem;
@@ -3603,7 +3627,7 @@ body {
       margin-left: auto;
       margin-right: auto; } }
 
-/* line 147, ../sass/components/_event.scss */
+/* line 146, ../sass/components/_event.scss */
 .event-hero {
   -webkit-box-ordinal-group: 0;
   -moz-box-ordinal-group: 0;
@@ -3611,37 +3635,37 @@ body {
   -ms-flex-order: -1;
   order: -1; }
   @media (min-width: 769px) {
-    /* line 147, ../sass/components/_event.scss */
+    /* line 146, ../sass/components/_event.scss */
     .event-hero {
       -webkit-box-ordinal-group: 1;
       -moz-box-ordinal-group: 1;
       -webkit-order: 0;
       -ms-flex-order: 0;
       order: 0; } }
-  /* line 154, ../sass/components/_event.scss */
+  /* line 153, ../sass/components/_event.scss */
   .event-hero.figure {
     margin: 0 -1.5em 1.5em;
     max-height: 75vh; }
     @media (min-width: 769px) {
-      /* line 154, ../sass/components/_event.scss */
+      /* line 153, ../sass/components/_event.scss */
       .event-hero.figure {
         margin-top: 1em;
         margin-bottom: 0em;
         margin-left: -5vw;
         margin-right: -5vw; } }
   @media (min-width: 769px) {
-    /* line 166, ../sass/components/_event.scss */
+    /* line 165, ../sass/components/_event.scss */
     .event-hero .figure-credit {
       bottom: 5.5em; } }
 
-/* line 176, ../sass/components/_event.scss */
+/* line 175, ../sass/components/_event.scss */
 .event-content h2 {
   color: #DD6E42;
   font-family: "Gotham", "Century Gothic", Arial, Helvetica, sans-serif;
   font-size: 1.4em;
   line-height: 1.25;
   margin: 2.3em 0 0.7em; }
-/* line 184, ../sass/components/_event.scss */
+/* line 183, ../sass/components/_event.scss */
 .event-content ul,
 .event-content ol {
   margin-top: 0;
@@ -3650,22 +3674,21 @@ body {
   font-size: 1.05em;
   margin-bottom: 2em;
   font-weight: normal; }
-  /* line 193, ../sass/components/_event.scss */
+  /* line 192, ../sass/components/_event.scss */
   .event-content ul a,
   .event-content ol a {
     font-weight: 500; }
   @media (min-width: 1200px) {
-    /* line 184, ../sass/components/_event.scss */
+    /* line 183, ../sass/components/_event.scss */
     .event-content ul,
     .event-content ol {
       font-size: 1.1em; } }
 @media (min-width: 1200px) {
-  /* line 202, ../sass/components/_event.scss */
+  /* line 201, ../sass/components/_event.scss */
   .event-content p {
     font-size: 1.1em; } }
 @media (min-width: 1200px) {
-  /* line 208, ../sass/components/_event.scss */
-  .event-content div,
+  /* line 207, ../sass/components/_event.scss */
   .event-content h2,
   .event-content h3,
   .event-content p,
@@ -3678,23 +3701,139 @@ body {
     margin-left: auto;
     margin-right: auto; } }
 @media (min-width: 1200px) {
-  /* line 224, ../sass/components/_event.scss */
+  /* line 222, ../sass/components/_event.scss */
   .event-content blockquote {
     width: 100%;
     max-width: calc(70rem - 8rem);
     margin-left: auto;
     margin-right: auto; } }
-/* line 233, ../sass/components/_event.scss */
+/* line 231, ../sass/components/_event.scss */
 .event-content .figure {
   margin-left: -1.5em;
   margin-right: -1.5em;
   margin-top: 3em;
   margin-bottom: 3em; }
   @media (min-width: 769px) {
-    /* line 233, ../sass/components/_event.scss */
+    /* line 231, ../sass/components/_event.scss */
     .event-content .figure {
       margin-left: -5vw;
       margin-right: -5vw; } }
+
+/* line 244, ../sass/components/_event.scss */
+.event-signup {
+  background: #fefefe;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+  padding: 1em; }
+  @media (min-width: 769px) {
+    /* line 244, ../sass/components/_event.scss */
+    .event-signup {
+      padding: 2em; } }
+  @media (min-width: 1200px) {
+    /* line 244, ../sass/components/_event.scss */
+    .event-signup {
+      max-width: 70rem;
+      margin-left: 4rem;
+      margin-right: 4rem; } }
+
+/* line 262, ../sass/components/_event.scss */
+.event-signupTitle {
+  margin-top: 0.5em; }
+
+/* line 266, ../sass/components/_event.scss */
+.event-options {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  margin-top: 1em; }
+  @media (min-width: 769px) {
+    /* line 266, ../sass/components/_event.scss */
+    .event-options {
+      -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      margin-top: 3em; } }
+
+/* line 279, ../sass/components/_event.scss */
+.event-coupon {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-ordinal-group: 0;
+  -moz-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+  margin-bottom: 1em; }
+  @media (min-width: 769px) {
+    /* line 279, ../sass/components/_event.scss */
+    .event-coupon {
+      -webkit-box-ordinal-group: 1;
+      -moz-box-ordinal-group: 1;
+      -webkit-order: 0;
+      -ms-flex-order: 0;
+      order: 0; } }
+
+/* line 292, ../sass/components/_event.scss */
+.event-couponLabel {
+  color: #777777;
+  margin-right: 1em; }
+
+/* line 297, ../sass/components/_event.scss */
+.event-couponCode {
+  background: #e5e2de;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 1.25em;
+  letter-spacing: 0.15em;
+  padding: 0.75em 1em 0.5em;
+  text-align: center;
+  position: relative; }
+  /* line 307, ../sass/components/_event.scss */
+  .event-couponCode:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to bottom right, #007AC9, #DC0451);
+    z-index: 1; }
+
+@media (min-width: 769px) {
+  /* line 320, ../sass/components/_event.scss */
+  .event-externallink {
+    margin-right: 1em; } }
 
 /* line 1, ../sass/components/_eventlist.scss */
 .eventList {
@@ -4685,28 +4824,33 @@ body {
         padding-bottom: 0; } }
 
 /* line 47, ../sass/components/_premiumteaser.scss */
+.premiumTeaser--events {
+  margin-bottom: 0;
+  margin-top: 2em; }
+
+/* line 52, ../sass/components/_premiumteaser.scss */
 .premiumTeaser-figure {
   position: relative;
   width: 70%;
   max-width: 210px;
   margin: 0.5em auto 1.5em; }
 
-/* line 54, ../sass/components/_premiumteaser.scss */
+/* line 59, ../sass/components/_premiumteaser.scss */
 .premiumTeaser-image {
   width: 100%;
   height: 100%;
   object-fit: contain; }
 
-/* line 60, ../sass/components/_premiumteaser.scss */
+/* line 65, ../sass/components/_premiumteaser.scss */
 .premiumTeaser-title {
   color: #fefefe; }
 
-/* line 64, ../sass/components/_premiumteaser.scss */
+/* line 69, ../sass/components/_premiumteaser.scss */
 .premiumTeaser-description {
   color: #fefefe;
   font-size: 0.9em; }
 
-/* line 69, ../sass/components/_premiumteaser.scss */
+/* line 74, ../sass/components/_premiumteaser.scss */
 .premiumTeaser-list {
   text-align: left;
   list-style: none;
@@ -4717,10 +4861,10 @@ body {
   margin: 2em auto;
   padding: 0; }
   @media (min-width: 1200px) {
-    /* line 69, ../sass/components/_premiumteaser.scss */
+    /* line 74, ../sass/components/_premiumteaser.scss */
     .premiumTeaser-list {
       max-width: 35rem; } }
-  /* line 83, ../sass/components/_premiumteaser.scss */
+  /* line 88, ../sass/components/_premiumteaser.scss */
   .premiumTeaser-list li {
     margin: 1em 0;
     display: -webkit-flex;
@@ -4739,7 +4883,7 @@ body {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center; }
-  /* line 91, ../sass/components/_premiumteaser.scss */
+  /* line 96, ../sass/components/_premiumteaser.scss */
   .premiumTeaser-list .fa {
     width: 2.5em;
     text-align: center;
@@ -4754,13 +4898,13 @@ body {
     -ms-flex: 0;
     flex-shrink: 0; }
 
-/* line 100, ../sass/components/_premiumteaser.scss */
+/* line 105, ../sass/components/_premiumteaser.scss */
 .premiumTeaser-link {
   font-size: 0.9em;
   margin: 0.5em 0;
   padding: 0.5em;
   color: rgba(255, 255, 255, 0.2); }
-  /* line 106, ../sass/components/_premiumteaser.scss */
+  /* line 111, ../sass/components/_premiumteaser.scss */
   .premiumTeaser-link a {
     font-weight: 500;
     color: #fefefe; }
