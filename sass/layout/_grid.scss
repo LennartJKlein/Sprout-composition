@@ -24,17 +24,13 @@
 }
 
 .grid--events {
-	margin-bottom: 1em;
+	margin-bottom: 3em;
 
 	.grid-cell {
 		width: 100%;
 
-		@include mobile-only {
-			width: $percent-1of2;
-		}
-
 		@include tablet {
-			width: $percent-1of3;
+			width: $percent-1of2;
 		}
 	}
 

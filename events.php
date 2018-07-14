@@ -27,7 +27,7 @@
             </a>
         </div>
         <div class="grid-cell">
-            <a href="evenement/nk-pitchen-2018.php" class="card card--event" tag="scaleups">
+            <a href="evenement/nk-pitchen-2018.php" class="card card--event card--horizontal" tag="scaleups">
                 <div class="card-figurecontainer">
                     <div class="card-figure">
                         <img src="images/uploads/events/nk_pitchen_2017-_0138-_hd.jpg" class="card-image" />
@@ -42,7 +42,7 @@
             </a>
         </div>
         <div class="grid-cell">
-            <a href="evenement/the-next-web-conference-2018.php" class="card card--event" tag="scaleups">
+            <a href="evenement/the-next-web-conference-2018.php" class="card card--event card--horizontal" tag="scaleups">
                 <div class="card-figurecontainer">
                     <div class="card-figure">
                         <img src="images/uploads/events/MYC_30.jpg" class="card-image" />
@@ -57,7 +57,7 @@
             </a>
         </div>
         <div class="grid-cell">
-            <a href="evenement/the-next-web-conference-2018.php" class="card card--partner" tag="scaleups">
+            <a href="evenement/the-next-web-conference-2018.php" class="card card--partner card--horizontal" tag="scaleups">
                 <div class="card-figurecontainer">
                     <div class="card-tags">
                         <div class="card-tag">partner evenement</div>
@@ -75,7 +75,7 @@
             </a>
         </div>
         <div class="grid-cell">
-            <a href="evenement/the-next-web-conference-2018.php" class="card card--event" tag="investeren">
+            <a href="evenement/the-next-web-conference-2018.php" class="card card--event card--horizontal" tag="investeren">
                 <div class="card-figurecontainer">
                     <div class="card-figure">
                         <img src="images/uploads/events/Fb-Omruil-visuals-1.png" class="card-image" />
@@ -90,7 +90,7 @@
             </a>
         </div>
         <div class="grid-cell">
-            <a href="evenement/the-next-web-conference-2018.php" class="card card--partner" tag="scaleups">
+            <a href="evenement/the-next-web-conference-2018.php" class="card card--partner card--horizontal" tag="scaleups">
                 <div class="card-figurecontainer">
                     <div class="card-tags">
                         <div class="card-tag">partner evenement</div>
@@ -108,7 +108,7 @@
             </a>
         </div>
         <div class="grid-cell">
-            <a href="evenement/the-next-web-conference-2018.php" class="card card--partner" tag="scaleups">
+            <a href="evenement/the-next-web-conference-2018.php" class="card card--partner card--horizontal" tag="scaleups">
                 <div class="card-figurecontainer">
                     <div class="card-tags">
                         <div class="card-tag">partner evenement</div>
@@ -126,7 +126,11 @@
             </a>
         </div>
         <div class="grid-cell grid-cell--wide">
-            <div><a href="events-archief.php" class="button button--center button--secondary">Bekijk het archief</a></div>
+            <div>
+                <p class="text--center">Event niet gevonden?<br/>
+                    <a href="events-archief.php" class="button button--secondary">Bekijk afgelopen events</a>
+                </p>
+            </div>
         </div>
     </div>
 
