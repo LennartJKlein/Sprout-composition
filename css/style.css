@@ -5709,34 +5709,35 @@ body {
 
 /* line 1, ../sass/components/_quote.scss */
 .quote {
-  width: 100%;
   background: #2E5266;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  overflow: hidden;
   padding: 2em;
-  overflow: hidden; }
+  width: 100%; }
 
-/* line 8, ../sass/components/_quote.scss */
+/* line 9, ../sass/components/_quote.scss */
 .quote-title {
   color: #9FB1BC;
   font-size: 0.8em;
   margin-top: 0; }
 
-/* line 14, ../sass/components/_quote.scss */
+/* line 15, ../sass/components/_quote.scss */
 .quote-writer {
   color: #9FB1BC;
   font-size: 1em;
   font-weight: bold;
   text-align: right; }
-  /* line 20, ../sass/components/_quote.scss */
+  /* line 21, ../sass/components/_quote.scss */
   .quote-writer:before {
     content: '~ ';
     opacity: 0.5; }
 
-/* line 26, ../sass/components/_quote.scss */
+/* line 27, ../sass/components/_quote.scss */
 .quote-text {
   color: #fefefe;
   font-weight: bold;
-  font-size: 2em;
-  font-size: 1.5vw;
+  font-size: 1.25em;
   line-height: 1.25; }
   /* line 33, ../sass/components/_quote.scss */
   .quote-text:before {
