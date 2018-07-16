@@ -14,7 +14,7 @@
                 <div class="topic-description">Vind nieuwe klanten met deze tips, trucs en voorbeelden voor direct marketing.</div>
             </div>
             <div class="topic-spotlight">
-                <a href="../artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--horizontal card--vertical-tabletlandscape" tag="direct-marketing">
+                <a href="../artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--tablet-horizontal card--tabletlandscape-vertical" tag="direct-marketing">
                     <div class="card-figurecontainer">
                         <div class="card-tags">
                             <div class="card-tag">direct marketing</div>
@@ -37,9 +37,9 @@
 
                 <h2 class="topic-subtitle"><i class="fa fa-flash" aria-hidden="true"></i> Het laatste nieuws over direct marketing...</h2>
 
-                <div class="grid grid--articles">
+                <div class="grid grid--tablet-6">
                     <div class="grid-cell">
-                        <a href="../artikel/premium-artikel.php" class="card card--textfirst card--vertical-mobile card--horizontal card--premium" tag="stories">
+                        <a href="../artikel/premium-artikel.php" class="card card--textfirst card--tablet-horizontal card--premium" tag="stories">
                             <div class="card-figurecontainer">
                                 <div class="card-tags">
                                     <div class="card-tag card-tag--premium"><i class="fa fa-star" aria-hidden="true"></i> premium</div>
@@ -57,7 +57,7 @@
                         </a>
                     </div>
                     <div class="grid-cell">
-                        <a href="../artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--textfirst card--vertical-mobile card--horizontal" tag="direct marketing">
+                        <a href="../artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--textfirst card--tablet-horizontal" tag="direct marketing">
                             <div class="card-figurecontainer">
                                 <div class="card-tags">
                                     <div class="card-tag">direct marketing</div>
@@ -74,7 +74,7 @@
                         </a>
                     </div>
                     <div class="grid-cell">
-                        <a href="../artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--textfirst card--vertical-mobile card--horizontal" tag="direct-marketing">
+                        <a href="../artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--textfirst card--tablet-horizontal" tag="direct-marketing">
                             <div class="card-figurecontainer">
                                 <div class="card-tags">
                                     <div class="card-tag">direct marketing</div>
@@ -91,7 +91,7 @@
                         </a>
                     </div>
                     <div class="grid-cell">
-                        <a href="../artikel/premium-artikel.php" class="card card--textfirst card--vertical-mobile card--horizontal card--premium" tag="direct marketing">
+                        <a href="../artikel/premium-artikel.php" class="card card--textfirst card--tablet-horizontal card--premium" tag="direct marketing">
                             <div class="card-figurecontainer">
                                 <div class="card-tags">
                                     <div class="card-tag card-tag--premium"><i class="fa fa-star" aria-hidden="true"></i> premium</div>
@@ -112,7 +112,7 @@
             </div>
 
             <div class="topic-subjects">
-                <div class="grid grid--subjects">
+                <div class="grid grid--subjects grid--tablet-6 grid--tabletlandscape-4">
                     <div class="grid-cell">
                         <div class="articleList articleList--highlighticon articleList--negative">
                             <h2 class="articleList-title"><i class="articleList-icon fa fa-cube" aria-hidden="true"></i> De basics</h2>
@@ -241,9 +241,9 @@
 
             <div class="topic-partners">
                 <h2 class="topic-subtitle">Dit topic wordt gesponsord door:</h2>
-                <div class="grid grid--partners">
+                <div class="grid grid--tablet-6">
                     <div class="grid-cell">
-                        <a href="/partner/post-nl.php" class="card card--horizontal" tag="PostNL">
+                        <a href="/partner/post-nl.php" class="card card--tablet-horizontal" tag="PostNL">
                             <div class="card-figurecontainer">
                                 <div class="card-figure">
                                     <img src="../images/uploads/partners/logo-postnl-channel-sprout.png" class="card-image" />

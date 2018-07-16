@@ -1,4 +1,6 @@
 <?php include 'templates/header.php'; ?>
+
+    <!-- Dit is een voorbeeld van een lijstpagina met cards naar berichten die door partner-users zijn gepubliceerd -->
  
     <div class="breadcrumb">
         <a href="/index.php">Sprout.nl</a>
@@ -7,9 +9,9 @@
     <h1 class="main-title">Persberichten van partners</h1>
     <div class="main-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet egestas tortor, sit amet auctor sapien venenatis quis.</div>
 
-	<div class="grid grid--articles">
+	<div class="grid grid--mobile-12 grid--tabletlandscape-6">
 		<div class="grid-cell grid-cell--wide">
-			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--hero card--vertical-mobile card--horizontal card--textfirst card--partner" tag="startups">
+			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--partner card--textfirst card--tablet-horizontal card--tablet-big" tag="startups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--partner">persbericht</div>
@@ -26,8 +28,8 @@
 				</div>
 			</a>
 		</div>
-		<div class="grid-cell grid-cell--wide">
-			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--hero card--vertical-mobile card--horizontal card--textfirst card--partner" tag="startups">
+		<div class="grid-cell">
+			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--partner card--textfirst card--horizontal" tag="startups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--partner">persbericht</div>
@@ -44,8 +46,8 @@
 				</div>
 			</a>
 		</div>
-		<div class="grid-cell grid-cell--wide">
-			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--hero card--horizontal card--textfirst card--partner" tag="startups">
+		<div class="grid-cell">
+			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--partner card--textfirst card--horizontal" tag="startups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--partner">persbericht</div>
@@ -62,8 +64,8 @@
 				</div>
 			</a>
 		</div>
-		<div class="grid-cell grid-cell--wide">
-			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--hero card--horizontal card--textfirst card--partner" tag="stories">
+		<div class="grid-cell">
+			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--partner card--textfirst card--horizontal" tag="stories">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--partner">persbericht</div>
@@ -80,8 +82,8 @@
 				</div>
 			</a>
 		</div>
-		<div class="grid-cell grid-cell--wide">
-			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--horizontal card--partner" tag="scaleups">
+		<div class="grid-cell">
+			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--partner card--textfirst card--horizontal" tag="scaleups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--partner">persbericht</div>
@@ -98,8 +100,8 @@
 				</div>
 			</a>
 		</div>
-		<div class="grid-cell grid-cell--wide">
-			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--horizontal card--partner" tag="scaleups">
+		<div class="grid-cell">
+			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--partner card--textfirst card--horizontal" tag="scaleups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--partner">persbericht</div>
@@ -116,8 +118,8 @@
 				</div>
 			</a>
 		</div>
-		<div class="grid-cell grid-cell--wide">
-			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--horizontal card--partner" tag="scaleups">
+		<div class="grid-cell">
+			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--partner card--textfirst card--horizontal" tag="scaleups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--partner">persbericht</div>
@@ -134,8 +136,8 @@
 				</div>
 			</a>
 		</div>
-		<div class="grid-cell grid-cell--wide">
-			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--horizontal card--partner" tag="investeren">
+		<div class="grid-cell">
+			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--partner card--textfirst card--horizontal" tag="investeren">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--partner">persbericht</div>
@@ -152,8 +154,8 @@
 				</div>
 			</a>
 		</div>
-		<div class="grid-cell grid-cell--wide">
-			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--horizontal card--partner" tag="scaleups">
+		<div class="grid-cell">
+			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--partner card--textfirst card--horizontal" tag="scaleups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag">scaleups</div>
@@ -169,8 +171,8 @@
 				</div>
 			</a>
 		</div>
-		<div class="grid-cell grid-cell--wide">
-			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--horizontal card--partner" tag="scaleups">
+		<div class="grid-cell">
+			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--partner card--textfirst card--horizontal" tag="scaleups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--premium"><i class="fa fa-star" aria-hidden="true"></i> premium</div>
@@ -187,8 +189,8 @@
 				</div>
 			</a>
 		</div>
-		<div class="grid-cell grid-cell--wide">
-			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--horizontal card--partner" tag="scaleups">
+		<div class="grid-cell">
+			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--partner card--textfirst card--horizontal" tag="scaleups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag">scaleups</div>
@@ -204,8 +206,8 @@
 				</div>
 			</a>
 		</div>
-		<div class="grid-cell grid-cell--wide">
-			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--horizontal card--partner" tag="investeren">
+		<div class="grid-cell">
+			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--partner card--textfirst card--horizontal" tag="investeren">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--partner">persbericht</div>
@@ -222,8 +224,8 @@
 				</div>
 			</a>
 		</div>
-		<div class="grid-cell grid-cell--wide">
-			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--horizontal card--partner" tag="scaleups">
+		<div class="grid-cell">
+			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--partner card--textfirst card--horizontal" tag="scaleups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag">scaleups</div>
@@ -239,8 +241,8 @@
 				</div>
 			</a>
 		</div>
-		<div class="grid-cell grid-cell--wide">
-			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--horizontal card--partner" tag="scaleups">
+		<div class="grid-cell">
+			<a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--partner card--textfirst card--horizontal" tag="scaleups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--premium"><i class="fa fa-star" aria-hidden="true"></i> premium</div>
@@ -258,18 +260,8 @@
 			</a>
 		</div>
 	</div>
-	<div class="pagination pagination--articles">
-		<a href="#" class="button button--clean pagination-button"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-		<ul class="pagination-list">
-			<li class="pagination-item active">1</li>
-			<li class="pagination-item"><a href="#" class="pagination-link">2</a></li>
-			<li class="pagination-item"><a href="#" class="pagination-link">3</a></li>
-			<li class="pagination-item"><a href="#" class="pagination-link">4</a></li>
-			<li class="pagination-item">...</li>
-			<li class="pagination-item"><a href="#" class="pagination-link">100</a></li>
-		</ul>
-		<a href="#" class="button button--clean pagination-button"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-	</div>
+        
+    <?php include 'templates/pagination.php'; ?>
 
 </section>
 

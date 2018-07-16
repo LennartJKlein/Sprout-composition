@@ -15,7 +15,7 @@
     
     <div class="grid grid--mobile-12 grid--tablet-6 grid--tabletlandscape-4 grid--desktop-3">
         <div class="grid-cell">
-            <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--big card--vertical-mobile card--textfirst" tag="startups">
+            <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="startups">
                 <div class="card-figurecontainer">
                     <div class="card-tags">
                         <div class="card-tag">onderneming</div>
@@ -32,7 +32,7 @@
             </a>
         </div>
         <div class="grid-cell">
-            <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--big card--vertical-mobile card--textfirst" tag="startups">
+            <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="startups">
                 <div class="card-figurecontainer">
                     <div class="card-tags">
                         <div class="card-tag">onderneming</div>
@@ -49,7 +49,7 @@
             </a>
         </div>
         <div class="grid-cell">
-            <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--big card--textfirst" tag="startups">
+            <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="startups">
                 <div class="card-figurecontainer">
                     <div class="card-tags">
                         <div class="card-tag">onderneming</div>
@@ -66,7 +66,7 @@
             </a>
         </div>
         <div class="grid-cell">
-            <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card card--big card--textfirst" tag="stories">
+            <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="stories">
                 <div class="card-figurecontainer">
                     <div class="card-tags">
                         <div class="card-tag">onderneming</div>

@@ -10,9 +10,9 @@
 		<a href="/topic/direct-marketing.php" class="gridHeader-button button button--small button--clean" name="">...</a>
 	</div>
 	
-	<div class="grid grid--articles">
+	<div class="grid grid--tablet-6">
 		<div class="grid-cell grid-cell--wide">
-			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--hero card--vertical-mobile card--horizontal card--textfirst" tag="startups">
+			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--tablet-horizontal card--tabletlandscape-textfirst card--tabletlandscape-big" tag="startups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag">nieuwsupdate</div>
@@ -29,7 +29,7 @@
 			</a>
 		</div>
 		<div class="grid-cell grid-cell--wide">
-			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--hero card--vertical-mobile card--horizontal card--textfirst" tag="startups">
+			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--tablet-horizontal card--tabletlandscape-textfirst card--tabletlandscape-big" tag="startups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag">startups</div>
@@ -46,7 +46,7 @@
 			</a>
 		</div>
 		<div class="grid-cell grid-cell--wide">
-			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--hero card--horizontal card--textfirst" tag="startups">
+			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--big card--horizontal card--tabletlandscape-textfirst card--tabletlandscape-big" tag="startups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag">startups</div>
@@ -63,7 +63,7 @@
 			</a>
 		</div>
 		<div class="grid-cell grid-cell--wide">
-			<a href="artikel/premium-artikel.php" class="card card--hero card--horizontal card--textfirst card--premium" tag="stories">
+			<a href="artikel/premium-artikel.php" class="card card--big card--horizontal card--tabletlandscape-textfirst card--tabletlandscape-big card--premium" tag="stories">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--premium"><i class="fa fa-star" aria-hidden="true"></i> premium</div>
@@ -156,7 +156,7 @@
 
 	<?php include 'templates/widgets/newsletterteaser--wide.php'; ?>
 
-	<div class="grid grid--categories">
+	<div class="grid grid--categories grid--tablet-6">
 		<div class="grid-cell">
 			<div class="articleList articleList--highlightfirst">
 				<h2 class="articleList-title"><a href="tag.php" class="articleList-title-link"><i class="fa fa-flash" aria-hidden="true"></i> Trending</a></h2>
@@ -272,7 +272,7 @@
 		</div>
 	</div>
 
-	<div class="grid grid--articles">
+	<div class="grid grid--tablet-6">
 		<div class="grid-cell grid-cell--wide">
 			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--horizontal" tag="scaleups">
 				<div class="card-figurecontainer">

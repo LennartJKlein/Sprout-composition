@@ -10,7 +10,7 @@
 	@include shadow-low;
 	@include round-border;
 
-	@include tablet {
+	@include tablet-landscape {
 		margin-bottom: 3em;
 	}
 
@@ -153,34 +153,6 @@
 	}
 }
 
-.card--hero {
-
-	.card-title {
-		@include tablet {
-			font-size: 1.85em;
-		}
-	}
-
-	&.card--horizontal {
-
-		.card-figurecontainer {
-			width: $percent-1of3;
-
-			@include tablet {
-				width: $percent-1of2;
-			}
-		}
-
-		.card-content {
-			width: $percent-2of3;
-
-			@include tablet {
-				width: $percent-1of2;
-			}
-		}
-	}
-}
-
 .card--horizontal {
 	@include flex-flow(row nowrap);
 
@@ -195,7 +167,7 @@
 }
 
 .card--vertical-mobile,
-.card--vertical-mobile.card--hero,
+.card--vertical-mobile.card--big,
 .card--vertical-mobile.card--horizontal.card--textfirst {
 	@include mobile-only {
 		@include flex-flow(column nowrap);
@@ -216,8 +188,8 @@
 	}
 }
 
-.card--horizontal-mobile {
-	@include mobile-only {
+.card--tablet-horizontal {
+	@include tablet {
 		@include flex-flow(row nowrap);
 
 		.card-figurecontainer {
@@ -231,7 +203,62 @@
 	}
 }
 
-.card--vertical-tabletlandscape {
+.card--tablet-vertical {
+	@include tablet {
+		@include flex-flow(column nowrap);
+
+		.card-figurecontainer {
+			width: inherit;
+		}
+
+		.card-content {
+			@include flex-grow(1);
+			width: inherit;
+			-webkit-box-ordinal-group: inherit;
+			-moz-box-ordinal-group: inherit;
+			-webkit-order: inherit;
+			-ms-flex-order: inherit;
+			order: inherit;
+		}
+
+		&.card--big {
+			.card-figurecontainer {
+				width: inherit;
+			}
+
+			.card-content {
+				width: inherit;
+			}
+		}
+	}
+}
+
+.card--tabletlandscape-horizontal {
+	@include tablet-landscape {
+		@include flex-flow(row nowrap);
+
+		.card-figurecontainer {
+			width: $percent-1of3;
+		}
+
+		.card-content {
+			@include flex-grow(1);
+			width: $percent-2of3;
+		}
+
+		&.card--big {
+			.card-figurecontainer {
+				width: $percent-1of2;
+			}
+
+			.card-content {
+				width: $percent-1of2;
+			}
+		}
+	}
+}
+
+.card--tabletlandscape-vertical {
 	@include tablet-landscape {
 		@include flex-flow(column nowrap);
 
@@ -248,11 +275,193 @@
 			-ms-flex-order: inherit;
 			order: inherit;
 		}
+
+		&.card--big {
+			.card-figurecontainer {
+				width: inherit;
+			}
+
+			.card-content {
+				width: inherit;
+			}
+		}
+	}
+}
+
+.card--desktop-horizontal {
+	@include desktop {
+		@include flex-flow(row nowrap);
+
+		.card-figurecontainer {
+			width: $percent-1of3;
+		}
+
+		.card-content {
+			@include flex-grow(1);
+			width: $percent-2of3;
+		}
+
+		&.card--big {
+			.card-figurecontainer {
+				width: $percent-1of2;
+			}
+
+			.card-content {
+				width: $percent-1of2;
+			}
+		}
+	}
+}
+
+.card--desktop-vertical {
+	@include desktop {
+		@include flex-flow(column nowrap);
+
+		.card-figurecontainer {
+			width: inherit;
+		}
+
+		.card-content {
+			@include flex-grow(1);
+			width: inherit;
+			-webkit-box-ordinal-group: inherit;
+			-moz-box-ordinal-group: inherit;
+			-webkit-order: inherit;
+			-ms-flex-order: inherit;
+			order: inherit;
+		}
+
+		&.card--big {
+			.card-figurecontainer {
+				width: inherit;
+			}
+
+			.card-content {
+				width: inherit;
+			}
+		}
+	}
+}
+
+.card--textfirst {
+
+	&.card--horizontal {
+		.card-content {
+			@include order(-1);
+		}
+	}
+
+	&.card--tablet-horizontal {
+		@include tablet {
+			.card-content {
+				@include order(-1);
+			}
+		}
+	}
+
+	&.card--tabletlandscape-horizontal {
+		@include tablet-landscape {
+			.card-content {
+				@include order(-1);
+			}
+		}
+	}
+
+	&.card--desktop-horizontal {
+		@include desktop {
+			.card-content {
+				@include order(-1);
+			}
+		}
+	}
+}
+
+.card--tablet-textfirst {
+	@include tablet {
+		&[class*="horizontal"] {
+			.card-content {
+				@include order(-1);
+			}
+		}
+	}
+}
+
+.card--tabletlandscape-textfirst {
+	@include tablet-landscape {
+		&[class*="horizontal"] {
+			.card-content {
+				@include order(-1);
+			}
+		}
+	}
+}
+
+.card--desktop-textfirst {
+	@include desktop {
+		&[class*="horizontal"] {
+			.card-content {
+				@include order(-1);
+			}
+		}
+	}
+}
+
+.card--big,
+.card--tablet-big {
+	@include tablet {
+		.card-title {
+			font-size: 1.85em;
+		}
+
+		&[class*="horizontal"] {
+			.card-figurecontainer {
+				width: $percent-1of2;
+			}
+
+			.card-content {
+				width: $percent-1of2;
+			}
+		}
+	}
+}
+
+.card--tabletlandscape-big {
+	@include tablet-landscape {
+		.card-title {
+			font-size: 1.85em;
+		}
+
+		&[class*="horizontal"] {
+			.card-figurecontainer {
+				width: $percent-1of2;
+			}
+
+			.card-content {
+				width: $percent-1of2;
+			}
+		}
+	}
+}
+
+.card--desktop-big {
+	@include desktop {
+		.card-title {
+			font-size: 1.85em;
+		}
+
+		&[class*="horizontal"] {
+			.card-figurecontainer {
+				width: $percent-1of2;
+			}
+
+			.card-content {
+				width: $percent-1of2;
+			}
+		}
 	}
 }
 
 .card--overlay {
-
 	@include tablet {
 		position: relative;
 
@@ -282,18 +491,6 @@
 
 		.card-button {
 			color: $color-white;
-		}
-	}
-}
-
-.card--textfirst {
-
-	&.card--horizontal {
-		@include tablet {
-
-			.card-content {
-				@include order(-1);
-			}
 		}
 	}
 }

@@ -366,7 +366,7 @@
 	opacity: 0;
 	transition: opacity .2s;
 
-	@include tablet {
+	@include tablet-landscape {
 		display: block;
 		opacity: 1;
 		transition: none;

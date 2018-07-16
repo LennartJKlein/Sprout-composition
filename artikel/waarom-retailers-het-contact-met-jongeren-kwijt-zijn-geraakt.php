@@ -296,7 +296,7 @@
 
 	<div class="relatedArticles">
 		<h4 class="relatedArticles-title">Omdat je veel over <button class="button button--small button--primary" name="scaleups">Retail</button> leest:</h4>
-		<div class="grid grid--articles">
+		<div class="grid grid--tablet-6">
 			<div class="grid-cell">
 				<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--horizontal" tag="retail">
 					<div class="card-figurecontainer">

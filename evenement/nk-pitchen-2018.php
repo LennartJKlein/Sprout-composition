@@ -56,7 +56,7 @@
 
     <div class="relatedArticles">
         <h4 class="relatedArticles-title">Bekijk ook deze evenementen</h4>
-        <div class="grid grid--articles">
+        <div class="grid grid--tablet-6">
             <div class="grid-cell">
                 <a href="../evenement/events-detail.php" class="card card--event card--horizontal" tag="retail">
                     <div class="card-figurecontainer">

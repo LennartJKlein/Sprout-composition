@@ -10,48 +10,8 @@
 	margin-left: -1.5em;
 }
 
-.grid-cell {
-	@include flex;
-	-webkit-flex-direction: column;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	padding-left: 1.5em;
-	width: 100%;
-}
-
-.grid-cell--wide {
-	width: 100%;
-}
-
 .grid--events {
 	margin-bottom: 3em;
-
-	.grid-cell {
-		width: 100%;
-
-		@include tablet {
-			width: $percent-1of2;
-		}
-	}
-
-	.grid-cell--wide {
-		width: 100%;
-	}
-}
-
-.grid--articles {
-
-	.grid-cell {
-		width: 100%;
-
-		@include tablet {
-			width: $percent-1of2;
-		}
-	}
-
-	.grid-cell--wide {
-		width: 100%;
-	}
 }
 
 .grid--categories {
@@ -64,13 +24,10 @@
 	}
 	
 	.grid-cell {
-		width: 100%;
 		margin-top: 1em;
 		margin-bottom: 1em;
 
 		@include tablet {
-			width: $percent-1of2;
-
 			&:nth-of-type(odd):last-of-type {
 				width: 100%;
 			}
@@ -92,7 +49,6 @@
 	}
 	
 	.grid-cell {
-		width: 100%;
 		margin-top: 1em;
 		margin-bottom: 1em;
 
@@ -106,8 +62,6 @@
 		}
 
 		@include tablet {
-			width: $percent-1of2;
-
 			&:nth-of-type(even) {
 				background: transparent;
 				width: $percent-1of2;
@@ -120,7 +74,6 @@
 		@include tablet-landscape {
 			margin-top: 0;
 			margin-bottom: 0;
-			width: $percent-1of3;
 
 			&:nth-of-type(even) {
 				width: $percent-1of3;
@@ -129,19 +82,17 @@
 	}
 }
 
-.grid--partners {
+.grid-cell {
+	@include flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-left: 1.5em;
+	width: 100%;
+}
 
-	.grid-cell {
-		width: 100%;
-
-		@include tablet {
-			width: $percent-1of2;
-		}
-	}
-
-	.grid-cell--wide {
-		width: 100%;
-	}
+.grid-cell--wide {
+	width: 100%;
 }
 
 .grid--mobile-6 {
