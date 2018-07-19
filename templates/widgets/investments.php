@@ -3,7 +3,7 @@
 	<ul class="investmentList" id="investmentList">
 		<li class="investmentList-item active">
 			<div class="investmentList-logo">
-				<a class="investmentList-link" href="https://index.co/investments"><img src="images/uploads/avatars/influence4you.jpg" /></a>
+				<a class="investmentList-link" href="https://index.co/investments"><img src="/images/uploads/avatars/influence4you.jpg" /></a>
 			</div>
 			<div class="investmentList-description">
 				<a href="https://www.callrail.com/" class="investmentList-company">Influence4You</a>
@@ -14,7 +14,7 @@
 		</li>
 		<li class="investmentList-item">
 			<div class="investmentList-logo">
-				<a class="investmentList-link" href="https://index.co/investments"><img src="images/uploads/avatars/case-on-it.jpg" /></a>
+				<a class="investmentList-link" href="https://index.co/investments"><img src="/images/uploads/avatars/case-on-it.jpg" /></a>
 			</div>
 			<div class="investmentList-description">
 				<a href="https://www.callrail.com/" class="investmentList-company">Case on IT</a>
@@ -25,7 +25,7 @@
 		</li>
 		<li class="investmentList-item">
 			<div class="investmentList-logo">
-				<a class="investmentList-link" href="https://index.co/investments"><img src="images/uploads/avatars/emoov.png" /></a>
+				<a class="investmentList-link" href="https://index.co/investments"><img src="/images/uploads/avatars/emoov.png" /></a>
 			</div>
 			<div class="investmentList-description">
 				<a href="https://www.callrail.com/" class="investmentList-company">emoov</a>
@@ -36,7 +36,7 @@
 		</li>
 		<li class="investmentList-item">
 			<div class="investmentList-logo">
-				<a class="investmentList-link" href="https://index.co/investments"><img src="images/uploads/avatars/callrail.png" /></a>
+				<a class="investmentList-link" href="https://index.co/investments"><img src="/images/uploads/avatars/callrail.png" /></a>
 			</div>
 			<div class="investmentList-description">
 				<a href="https://www.callrail.com/" class="investmentList-company">CallRail</a>
@@ -47,7 +47,7 @@
 		</li>
 		<li class="investmentList-item">
 			<div class="investmentList-logo">
-				<a class="investmentList-link" href="https://index.co/investments"><img src="images/uploads/avatars/airwallex.jpg" /></a>
+				<a class="investmentList-link" href="https://index.co/investments"><img src="/images/uploads/avatars/airwallex.jpg" /></a>
 			</div>
 			<div class="investmentList-description">
 				<a href="https://www.callrail.com/" class="investmentList-company">Airwallex</a>
@@ -58,7 +58,7 @@
 		</li>
 		<li class="investmentList-item">
 			<div class="investmentList-logo">
-				<a class="investmentList-link" href="https://index.co/investments"><img src="images/uploads/avatars/dolead.png" /></a>
+				<a class="investmentList-link" href="https://index.co/investments"><img src="/images/uploads/avatars/dolead.png" /></a>
 			</div>
 			<div class="investmentList-description">
 				<a href="https://www.callrail.com/" class="investmentList-company">Dolead</a>
@@ -69,7 +69,7 @@
 		</li>
 		<li class="investmentList-item">
 			<div class="investmentList-logo">
-				<a class="investmentList-link" href="https://index.co/investments"><img src="images/uploads/avatars/flatsy.jpg" /></a>
+				<a class="investmentList-link" href="https://index.co/investments"><img src="/images/uploads/avatars/flatsy.jpg" /></a>
 			</div>
 			<div class="investmentList-description">
 				<a href="https://www.callrail.com/" class="investmentList-company">Flatsy</a>

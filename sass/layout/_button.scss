@@ -70,57 +70,63 @@
 		border-color: $color-secondary-dark;
 		background: $color-secondary-dark;
 	}
+
+	&.button--solid {
+		background: $color-secondary;
+		color: $color-white;
+		
+		&:active,
+		&:focus {
+			border-color: $color-secondary-dark;
+			background: $color-secondary-dark;
+		}
+	}
 }
 
-.button--premium-primary {
-	color: $color-premium-primary;
-	border: solid 2px $color-premium-primary;
+.button--black {
+	color: $color-black;
+	border: solid 2px $color-black;
 
 	&:hover {
-		color: $color-white;
-		border-color: $color-premium-primary;
-		background: $color-premium-primary;
+		border-color: $color-black;
+		background: $color-black;
 	}
 
 	&:active,
 	&:focus {
+		border-color: $color-black;
+		background: $color-black;
+	}
+
+	&.button--solid {
+		background: $color-black;
 		color: $color-white;
-		border-color: $color-premium-primary;
-		background: $color-premium-primary;
 	}
 }
 
-.button--premium-secondary {
-	color: $color-premium-secondary;
-	border: solid 2px $color-premium-secondary;
+.button--grey {
+	color: $color-grey-dark;
+	border: solid 2px $color-grey-dark;
 
 	&:hover {
-		color: $color-white;
-		border-color: $color-premium-secondary;
-		background: $color-premium-secondary;
+		border-color: $color-grey-dark;
+		background: $color-grey-dark;
 	}
 
 	&:active,
 	&:focus {
+		border-color: $color-black;
+		background: $color-black;
+	}
+
+	&.button--solid {
+		background: $color-grey-dark;
 		color: $color-white;
-		border-color: $color-premium-secondary;
-		background: $color-premium-secondary;
-	}
-}
 
-.button--partner {
-	color: $color-partner;
-	border: solid 2px $color-partner;
-
-	&:hover {
-		border-color: $color-partner;
-		background: $color-partner;
-	}
-
-	&:active,
-	&:focus {
-		border-color: $color-partner-light;
-		background: $color-partner-light;
+		&:active,
+		&:focus {
+			background: $color-black;
+		}
 	}
 }
 
@@ -139,6 +145,11 @@
 		color: $color-primary;
 		border-color: $color-white;
 		background: $color-white;
+	}
+
+	&.button--solid {
+		background: $color-white;
+		color: $color-primary;
 	}
 
 	&.button--clean {
@@ -208,6 +219,7 @@
 
 	&.button--solid {
 		color: $color-white;
+		color: $color-white;
 		background: $color-premium;
 		-webkit-background-clip: unset;
 		-webkit-text-fill-color: inherit;
@@ -221,19 +233,70 @@
 	}
 }
 
-.button--grey {
-	color: $color-grey-dark;
-	border: solid 2px $color-grey-dark;
+.button--premium-primary {
+	color: $color-premium-primary;
+	border: solid 2px $color-premium-primary;
 
 	&:hover {
-		border-color: $color-grey-dark;
-		background: $color-grey-dark;
+		color: $color-white;
+		border-color: $color-premium-primary;
+		background: $color-premium-primary;
 	}
 
 	&:active,
 	&:focus {
-		border-color: $color-black;
-		background: $color-black;
+		color: $color-white;
+		border-color: $color-premium-primary;
+		background: $color-premium-primary;
+	}
+
+	&.button--solid {
+		background: $color-premium-primary;
+		color: $color-white;
+	}
+}
+
+.button--premium-secondary {
+	color: $color-premium-secondary;
+	border: solid 2px $color-premium-secondary;
+
+	&:hover {
+		color: $color-white;
+		border-color: $color-premium-secondary;
+		background: $color-premium-secondary;
+	}
+
+	&:active,
+	&:focus {
+		color: $color-white;
+		border-color: $color-premium-secondary;
+		background: $color-premium-secondary;
+	}
+
+	&.button--solid {
+		background: $color-premium-secondary;
+		color: $color-white;
+	}
+}
+
+.button--partner {
+	color: $color-partner;
+	border: solid 2px $color-partner;
+
+	&:hover {
+		border-color: $color-partner;
+		background: $color-partner;
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color-partner-light;
+		background: $color-partner-light;
+	}
+
+	&.button--solid {
+		background: $color-partner;
+		color: $color-white;
 	}
 }
 
@@ -300,6 +363,11 @@
 		background: transparent;
 		color: inherit;
 	}
+}
+
+.button--block {
+	display: block;
+	width: 100%;
 }
 
 .buttonContainer {

@@ -1,7 +1,7 @@
 <div class="panel panel--headed panel--headed-overflow panel--headed-secondary">
 	<h3 class="panel-title">
 		<i class="panel-title-icon fa fa-comment"></i>Hot forum topics
-		<img src="images/background-panel-title-social.png" class="panel-title-image" />
+		<img src="/images/background-panel-title-social.png" class="panel-title-image" />
 	</h3>
 	<ul class="forumpostsTeaser">
 		<li class="forumpostsTeaser-item active">

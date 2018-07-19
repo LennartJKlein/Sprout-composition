@@ -67,3 +67,49 @@
         line-height: 1.6;
     }
 }
+
+.main-body {
+
+    @include desktop {
+        width: 100%;
+        max-width: 70rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2 {
+        color: $color-secondary;
+        font-family: $font-gotham;
+        font-size: 1.6em;
+        line-height: 1.25;
+        margin: 2.3em 0 0.7em;
+
+        @include desktop {
+            font-size: 1.8em;
+        }
+    }
+
+    p {
+        @include tablet {
+            font-size: 1.05em;
+        }
+
+        @include desktop {
+            font-size: 1.1em; 
+        }
+    }
+
+    .figure {
+        margin-left: -1.5em;
+        margin-right: -1.5em;
+        margin-top: 3em;
+        margin-bottom: 3em;
+
+        @include tablet {
+            margin-left: -5vw;
+            margin-right: -5vw;
+        }
+    }
+}

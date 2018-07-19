@@ -5,6 +5,10 @@
 	font-family: $font-opensans;
 	margin-bottom: 2em;
 	position: relative;
+
+	.quote {
+		background: $color-white-opage;
+	}
 }
 
 .premiumMessage--negative {

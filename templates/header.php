@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/css/animate.min.css">
 	<link rel="stylesheet" href="/css/style.css">
+	<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=sunburst"></script>
 	<script src="/js/modernizr.js"></script>
 	<script src="/js/jquery-3.3.1.js"></script>
 	<script src="/js/jquery-ui.js"></script>

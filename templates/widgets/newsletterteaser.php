@@ -1,7 +1,7 @@
 <div class="panel panel--headed panel--headed-big panel--headed-tertiary">
 	<h3 class="panel-title newsletterTeaser-title">
 		Mis geen enkel ondernemersnieuws
-		<img src="images/newsletter-background.jpg" class="panel-title-image" />
+		<img src="/images/newsletter-background.jpg" class="panel-title-image" />
 	</h3>
 	<div class="panel-content">
 		<p class="p--compact">Altijd op de hoogte van het laatste nieuws en achtergronden voor startups, scaleups en investeerders? Laat je e-mailadres achter en mis niks!</p>

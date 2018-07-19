@@ -1,16 +1,17 @@
 <?php include '../templates/header.php'; ?>
 
     <!-- Dit is een voorbeeld van een event dat is afgelopen -->
+    
+    <div class="breadcrumb">
+        <a href="/index.php">Sprout.nl</a>
+        <a href="/events.php">Events</a>
+        <a href="/evenement/nk-pitchen-2018.php">NK Pitchen 2018</a>
+    </div>
 
     <section class="events">
         
         <article class="event">
             <header class="event-header">
-                <div class="breadcrumb">
-                    <a href="/index.php">Sprout.nl</a>
-                    <a href="/events.php">Events</a>
-                    <a href="/evenement/nk-pitchen-2018.php">NK Pitchen 2018</a>
-                </div>
                 <h1 class="event-title">NK Pitchen 2018</h1>
                 <div class="event-notification">
                     <div class="notification">Dit evenement is al geweest.</div>

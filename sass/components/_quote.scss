@@ -1,21 +1,87 @@
 .quote {
+	border-right: solid 4px $color-secondary;
+	color: $color-secondary;
+	font-family: $font-kepler;
+	font-weight: bold;
+	margin: 0em 0 1em 0;
+	padding: 0.5em 1em;
+	text-align: right;
+
+	@include tablet {
+		padding-left: $percent-1of6;
+	}
+}
+
+.quote--big {
 	background: $color-primary;
+	border-right: none;
 	@include round-border;
+	color: inherit;
+	font-weight: inherit;
+	font-size: 1.2em;
+	margin: 0;
 	overflow: hidden;
 	padding: 2em;
+	text-align: left;
+	font-family: $font-opensans;
 	width: 100%;
+
+	.quote-text {
+		color: $color-white;
+		font-size: 1.25em;
+		line-height: 1.25;
+
+		&:before {
+			opacity: 0.5;
+			display: inline-block;
+			margin-right: 0.05em;
+		}
+
+		&:after {
+			opacity: 0.5;
+			display: inline-block;
+			margin-left: 0.05em;
+		}
+	}
+
+	.quote-writer {
+		color: $color-primary-light;
+	}
+}
+
+.quote-text {
+	color: $color-secondary;
+	font-family: $font-kepler;
+	font-weight: bold;
+	display: block;
+	font-size: 1.5em;
+
+	@include tablet {
+		font-size: 1.75em;
+	}
+
+	&:before {
+		content: '\201C';
+	}
+
+	&:after {
+		content: '\201D';
+	}
 }
 
 .quote-title {
 	color: $color-primary-light;
+	display: block;
 	font-size: 0.8em;
 	margin-top: 0;
 }
 
 .quote-writer {
-	color: $color-primary-light;
+	color: $color-secondary-light;
+	display: block;
 	font-size: 1em;
 	font-weight: bold;
+	margin-top: 0.5em;
 	text-align: right;
 
 	&:before {
@@ -24,29 +90,8 @@
 	}
 }
 
-.quote-text {
-	color: $color-white;
-	font-weight: bold;
-	font-size: 1.25em;
-	line-height: 1.25;
-
-	&:before {
-		content: "\201C";
-		opacity: 0.5;
-		display: inline-block;
-		margin-right: 0.05em;
-	}
-
-	&:after {
-		content: "\201D";
-		opacity: 0.5;
-		display: inline-block;
-		margin-left: 0.05em;
-	}
-}
-
 .quote-image {
-	margin-top: -7em;
+	margin-top: -5em;
 	margin-bottom: -2.5em;
-	max-width: 15em;
+	max-width: 14em;
 }

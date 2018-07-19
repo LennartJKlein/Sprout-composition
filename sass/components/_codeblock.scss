@@ -1,0 +1,16 @@
+.codeBlock {
+    background: #000000;
+    @include round-border;
+    color: $color-grey-light;
+    margin-bottom: 2em;
+    overflow: hidden;
+	padding: 2em;
+	width: 100%;
+
+	.prettyprint {
+		float: left;
+    	overflow: hidden;
+        white-space: pre-wrap;
+        width: 100%;
+	}
+}

@@ -1,16 +1,17 @@
 <?php include '../templates/header.php'; ?>
 
     <!-- Dit is een voorbeeld van een event -->
+    
+    <div class="breadcrumb">
+        <a href="/index.php">Sprout.nl</a>
+        <a href="/events.php">Events</a>
+        <a href="/evenement/the-next-web-conference-2018.php">The Next Web Conference 2018</a>
+    </div>
 
     <section class="events">
         
         <article class="event">
             <header class="event-header">
-                <div class="breadcrumb">
-                    <a href="/index.php">Sprout.nl</a>
-                    <a href="/events.php">Events</a>
-                    <a href="/evenement/the-next-web-conference-2018.php">The Next Web Conference 2018</a>
-                </div>
                 <h1 class="event-title">The Next Web Conference 2018</h1>
                 <div class="event-intro">Op 24 en 25 mei vindt in Amsterdam de grootste techconferentie van Europa plaats: TNW Conference 2018. Tienduizend bezoekers vanuit de hele wereld komen hier luisteren naar sprekers als Constantijn van Oranje Nassau (StartupDelta), Anjali Sud (Vimeo), Mike Curtis (Airbnb), John Collison (Stripe) Rich Pierson (Headspace), Alex Le (Reddit) en vele anderen!</div>
                 <div class="event-hero figure">

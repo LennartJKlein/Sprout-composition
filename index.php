@@ -1,16 +1,18 @@
 <?php include 'templates/header.php'; ?>
 
 	<?php include 'templates/banners/banner--billboard.php'; ?>
-
-	<div class="gridHeader">
-		<span class="gridHeader-label">Filteren op</span>
-		<a href="/topic/direct-marketing.php" class="gridHeader-button button button--small" name="startups">Startups</a>
-		<a href="/topic/direct-marketing.php" class="gridHeader-button button button--small" name="scaleups">Scaleups</a>
-		<a href="/topic/direct-marketing.php" class="gridHeader-button button button--small" name="investeren">Investeren</a>
-		<a href="/topic/direct-marketing.php" class="gridHeader-button button button--small button--clean" name="">...</a>
-	</div>
 	
 	<div class="grid grid--tablet-6">
+		<div class="grid-cell grid-cell--wide">
+			<div class="gridHeader">
+				<span class="gridHeader-label">Filteren op</span>
+				<a href="/topic/direct-marketing.php" class="gridHeader-button button button--small" name="startups">Startups</a>
+				<a href="/topic/direct-marketing.php" class="gridHeader-button button button--small" name="scaleups">Scaleups</a>
+				<a href="/topic/direct-marketing.php" class="gridHeader-button button button--small" name="investeren">Investeren</a>
+				<a href="/topic/direct-marketing.php" class="gridHeader-button button button--small button--clean" name="">...</a>
+			</div>
+		</div>
+
 		<div class="grid-cell grid-cell--wide">
 			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--tablet-horizontal card--tabletlandscape-textfirst card--tabletlandscape-big" tag="startups">
 				<div class="card-figurecontainer">
@@ -46,7 +48,7 @@
 			</a>
 		</div>
 		<div class="grid-cell grid-cell--wide">
-			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--big card--horizontal card--tabletlandscape-textfirst card--tabletlandscape-big" tag="startups">
+			<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--horizontal card--tabletlandscape-textfirst card--tabletlandscape-big" tag="startups">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag">startups</div>
@@ -63,7 +65,7 @@
 			</a>
 		</div>
 		<div class="grid-cell grid-cell--wide">
-			<a href="artikel/premium-artikel.php" class="card card--big card--horizontal card--tabletlandscape-textfirst card--tabletlandscape-big card--premium" tag="stories">
+			<a href="artikel/premium-artikel.php" class="card card--horizontal card--tabletlandscape-textfirst card--tabletlandscape-big card--premium" tag="stories">
 				<div class="card-figurecontainer">
 					<div class="card-tags">
 						<div class="card-tag card-tag--premium"><i class="fa fa-star" aria-hidden="true"></i> premium</div>

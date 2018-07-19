@@ -8,6 +8,11 @@
 	flex-wrap: wrap;
 	@include justify-content(flex-start);
 	margin-left: -1.5em;
+	margin-bottom: 1em;
+
+	@include tablet {
+		margin-bottom: 2em;
+	}
 }
 
 .grid--events {
@@ -95,8 +100,38 @@
 	width: 100%;
 }
 
-.grid--mobile-6 {
 
+.grid--2 {
+	.grid-cell {
+		width: $percent-1of6;
+	}
+
+	.grid-cell--wide {
+		width: 100%;
+	}
+}
+
+.grid--3 {
+	.grid-cell {
+		width: $percent-1of4;
+	}
+
+	.grid-cell--wide {
+		width: 100%;
+	}
+}
+
+.grid--4 {
+	.grid-cell {
+		width: $percent-1of3;
+	}
+
+	.grid-cell--wide {
+		width: 100%;
+	}
+}
+
+.grid--6 {
 	.grid-cell {
 		width: $percent-1of2;
 	}
@@ -106,8 +141,7 @@
 	}
 }
 
-.grid--mobile-12 {
-
+.grid--12 {
 	.grid-cell {
 		width: 100%;
 	}

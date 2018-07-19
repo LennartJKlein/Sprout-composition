@@ -23,11 +23,20 @@ h3 {
 	font-size: 1.25em;
 	font-weight: bold;
 	line-height: 1.25;
-	margin: 0 0 1em;
+	margin: 0 0 0.75em;
 
-	@include tablet {
-		font-size: 1.4em;
-	}
+    @include tablet {
+        margin-bottom: 1em;
+    }
+}
+
+h4 {
+    color: $color-secondary;
+    font-size: 1em;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.25;
+    margin: 0 0 0.5em;
 }
 
 p {
@@ -64,32 +73,100 @@ input {
 	font-family: $font-opensans;
 }
 
-.text--premium {
-	color: $color-premium-secondary !important;
-	background: $color-premium !important;
-	-webkit-background-clip: text !important;
-	-webkit-text-fill-color: transparent !important;
-
-	.fa {
-		-webkit-background-clip: none !important;
-		-webkit-text-fill-color: $color-premium-primary !important;
-	}
-}
-
-.text--partner {
-	color: $color-partner !important;
-}
-
-.text--event {
-	color: $color-event !important;
+.text--center {
+    text-align: center;
 }
 
 .text--white {
     color: $color-white !important;
 }
 
-.text--center {
-	text-align: center;
+.text--grey-light {
+    color: $color-grey-light !important;
+}
+
+.text--grey {
+    color: $color-grey !important;
+}
+
+.text--grey-dark {
+    color: $color-grey-dark !important;
+}
+
+.text--black {
+    color: $color-black !important;
+}
+
+.text--primary {
+    color: $color-primary !important;
+}
+
+.text--primary-light {
+    color: $color-primary-light !important;
+}
+
+.text--primary-dark {
+    color: $color-primary-dark !important;
+}
+
+.text--secondary {
+    color: $color-secondary !important;
+}
+
+.text--secondary-light {
+    color: $color-secondary-light !important;
+}
+
+.text--secondary-dark {
+    color: $color-secondary-dark !important;
+}
+
+.text--tertiary {
+    color: $color-tertiary !important;
+}
+
+.text--premium {
+    color: $color-premium-secondary !important;
+    background: $color-premium !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+
+    .fa {
+        -webkit-background-clip: none !important;
+        -webkit-text-fill-color: $color-premium-primary !important;
+    }
+}
+
+.text--premium-primary {
+    color: $color-premium-primary !important;
+}
+
+.text--premium-secondary {
+    color: $color-premium-secondary !important;
+}
+
+.text--partner {
+    color: $color-partner !important;
+}
+
+.text--partner-light {
+    color: $color-partner-light !important;
+}
+
+.text--newsletter {
+    color: $color-newsletter !important;
+}
+
+.text--gotham {
+    font-family: $font-gotham;
+}
+
+.text--kepler {
+    font-family: $font-kepler;
+}
+
+.text--opensans {
+    font-family: $font-opensans;
 }
 
 @charset 'UTF-8';
