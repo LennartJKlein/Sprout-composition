@@ -1,5 +1,5 @@
 <div class="panel">
-	<h3 class="panel-title panel-title--tertiary"><i class="panel-title-icon fa fa-bolt" aria-hidden="true"></i>Trending now</h3>
+	<h3 class="panel-title panel-title--secondary"><i class="panel-title-icon fa fa-bolt" aria-hidden="true"></i>Trending now</h3>
 	<div class="articleList articleList--wide">
 		<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
 			<div class="articleList-figurecontainer">

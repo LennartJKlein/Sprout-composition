@@ -2,7 +2,8 @@
     background: #000000;
     @include round-border;
     color: $color-grey-light;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
+    margin-top: -0.5em;
     overflow: hidden;
 	padding: 2em;
 	width: 100%;
@@ -13,4 +14,13 @@
         white-space: pre-wrap;
         width: 100%;
 	}
+}
+
+code {
+    color: $color-primary;
+    font-size: 1.2em;
+
+    &.prettyprint {
+        font-size: 1.1em;
+    }
 }

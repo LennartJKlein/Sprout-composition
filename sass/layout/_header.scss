@@ -396,6 +396,12 @@
 	}
 }
 
+.current-menu-item {
+	.menu-link {
+		background-color: $color-white-opage;
+	}
+}
+
 #header.minimum .menu-item {
 	// Hover tooltip
 	&:hover,
@@ -441,10 +447,6 @@
 	&:focus {
 		background-color: $color-black-opage;
 		color: $color-white;
-	}
-
-	&.active {
-		background-color: $color-white-opage;
 	}
 
 	@include tablet-landscape {

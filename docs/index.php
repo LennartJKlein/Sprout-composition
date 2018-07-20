@@ -1,6 +1,8 @@
 <?php include '../templates/header.php'; ?>
 
-	<!-- Deze pagina bevat alle kennis en voorbeelden van dit Wordpress thema -->
+	<!-- Deze directory bevat alle kennis en voorbeelden van dit Wordpress thema -->
+
+	<a href="https://github.com/LennartJKlein/Sprout-composition" target="_new" class="button button--right"><i class="fa fa-external-link" aria-hidden="true"></i>Github repository</a>
 
 	<div class="breadcrumb">
 		<a href="/index.php">Sprout.nl</a>
@@ -14,6 +16,7 @@
 	</div>
 
 	<div class="main-body">
+
 		<h2>Het doel van een browser composition</h2>
 		<p>Deze <em>browser composition</em> is in feite een verzameling van HTML, SCSS en PHP dat het ontwerpen van het Wordpress-thema tastbaar en effici&euml;nt maakte. Anders dan een Photoshop-ontwerp, is zo'n <em>browser composition</em> direct te testen op verschillende apparaten, zodat de responsiveness en vormgeving voor elk apparaat geoptimaliseerd kon worden. Een optimale leeservaring staat immers bovenaan voor de nieuwe site van Sprout. Een <em>browser composition</em> is dus voor een grote applicaties zoals de nieuwe website van Sprout, een handige tool.</p>
 

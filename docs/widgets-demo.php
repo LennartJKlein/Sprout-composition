@@ -1,5 +1,7 @@
 <?php include '../templates/header.php'; ?>
 
+	<a href="https://github.com/LennartJKlein/Sprout-composition" target="_new" class="button button--right"><i class="fa fa-external-link" aria-hidden="true"></i>Github repository</a>
+
 	<div class="breadcrumb">
 		<a href="/index.php">Sprout.nl</a>
 		<a href="/docs/index.php">Documentatie</a>
@@ -18,7 +20,7 @@
 		<?php include '../templates/widgets/investments.php'; ?>
 		<br/><br/>
 
-		<h3>Recente forumposts <em class="text--grey-dark">(forumpostsTeaser)</em></h3>
+		<h3>Recente forumposts <em class="text--grey-dark">(forumpostsWidget)</em></h3>
 		<?php include '../templates/widgets/forumposts.php'; ?>
 		<br/><br/>
 		
@@ -46,7 +48,7 @@
 		<?php include '../templates/widgets/events.php'; ?>
 		<br/><br/>
 
-		<h3>Uitgelichte channels <em class="text--grey-dark">(panel + linkList)</em></h3>
+		<h3>Uitgelichte topics <em class="text--grey-dark">(panel + linkList)</em></h3>
 		<?php include '../templates/widgets/topics.php'; ?>
 		<br/><br/>
 
@@ -82,7 +84,7 @@
 
 <aside id="aside">
 
-	<h3>Recente forumposts <em class="text--grey-dark">(forumpostsTeaser)</em></h3>
+	<h3>Recente forumposts <em class="text--grey-dark">(forumpostsWidget)</em></h3>
 	<?php include '../templates/widgets/forumposts.php'; ?>
 	<br/><br/>
 		
@@ -110,7 +112,7 @@
 	<?php include '../templates/widgets/events.php'; ?>
 	<br/><br/>
 
-	<h3>Uitgelichte channels <em class="text--grey-dark">(panel + linkList)</em></h3>
+	<h3>Uitgelichte topics <em class="text--grey-dark">(panel + linkList)</em></h3>
 	<?php include '../templates/widgets/topics.php'; ?>
 	<br/><br/>
 

@@ -40,18 +40,6 @@
 	<!-- Google Open Search (omnibox 'tab') -->
     <link rel="search" type="application/opensearchdescription+xml" title="Sprout" href="/manifests/opensearch.xml" />
 
-    <?php
-		if (strpos($url,'artikel') !== false) {
-			// TODO: load article info for social sharing
-			echo '<meta property="og:title" content="7 redenen waarom klanten je winkel de rug toekeren" />';
-			echo '<meta property="og:url" content="'.$url.'" />';
-			echo '<meta property="og:description" content="7 redenen waarom klanten je winkel de rug toekeren">';
-			echo '<meta property="og:image" content="//sprout.lennartklein.nl/images/uploads/articles/article-hero3.jpg">';
-			echo '<meta property="og:type" content="article" />';
-			echo '<meta property="og:locale" content="nl_NL" />';
-		}
-    ?>
-
 </head>
 <body class="<?php if(!isset($_COOKIE['sprout-role'])){ $_COOKIE['sprout-role'] = 'unknown';} echo 'role-'.$_COOKIE['sprout-role'];?>">
 
@@ -66,7 +54,9 @@
 		<button class="navToggle"><i aria-hidden="true" class="fa fa-bars"></i></button>
 	</div>
 
-	<?php if (strpos($url,'artikel') !== false) {include $_SERVER['DOCUMENT_ROOT'].'/templates/modals/shareoptions.php';} ?>
+	<?php if (strpos($url,'artikel') !== false) {
+		include $_SERVER['DOCUMENT_ROOT'].'/templates/modals/sharemodal.php';
+	} ?>
 
 	<nav class="nav">
 		<div class="nav-head">
@@ -131,16 +121,16 @@
 					<div class="grid-cell"></div>
 				</div>
 			</div>
-			<ul class="menu menu-main">
+			<ul class="menu menu--main">
 				<!-- Todo: load real menu items -->
-				<li class="menu-item" hint="Nieuws"><a href="/index.php" class="menu-link active"><i aria-hidden="true" class="fa fa-newspaper-o"></i><span class="menu-label">Nieuws</span></a></li>
+				<li class="menu-item current-menu-item" hint="Nieuws"><a href="/index.php" class="menu-link"><i aria-hidden="true" class="fa fa-newspaper-o"></i><span class="menu-label">Nieuws</span></a></li>
 				<li class="menu-item" hint="Events"><a href="/events.php" class="menu-link"><i aria-hidden="true" class="fa fa-calendar-o"></i><span class="menu-label">Events</span><span class="menu-link-notification">2</span></a></li>
 				<li class="menu-item" hint="Nieuwsbrief"><a href="#" class="menu-link"><i aria-hidden="true" class="fa fa-paper-plane"></i><span class="menu-label">Nieuwsbrief</span></a></li>
 				<li class="menu-item" hint="Shop"><a href="#" class="menu-link"><i aria-hidden="true" class="fa fa-book"></i><span class="menu-label">Shop</span></a></li>
 			</ul>
 		</div>
 		<div class="nav-footer">
-			<ul class="menu menu-tools">
+			<ul class="menu menu--tools">
 				<li class="menu-item" hint="Contact"><a href="#" class="menu-link"><i aria-hidden="true" class="fa fa-question-circle"></i><span class="menu-label">Contact</span></a></li>
 			</ul>
 

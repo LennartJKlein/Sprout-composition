@@ -69,17 +69,7 @@
 				</div>
 			</footer>
 
-			<div class="panel partnerTeaser role-unknown">
-				<h3 class="partnerTeaser-title">Ook een persbericht plaatsen? <br/>
-					Wordt PARTNER <span class="fa fa-heart text--big text--white"></span></h3>
-				<ul class="partnerTeaser-list">
-					<li><i class="fa fa-newspaper-o"></i><span>Plaats tot wel <strong>6 persberichten per jaar</strong> op de site.</span></li>
-					<li><i class="fa fa-tag"></i><span>Sponsor een onderwerp en <strong>adverteer met jouw content</strong>.</span></li>
-					<li><i class="fa fa-handshake-o"></i><span>Een partnerschap met Sprout is <strong>op maat gemaakt</strong> voor jouw organisatie.</span></li>
-				</ul>
-				<p class="partnerTeaser-description">In overleg komen we tot een partnerdeal die voor ons beiden werkt.</p>
-				<a href="partner-worden.php" class="button button--white">Sluit jouw deal</a>
-			</div>
+			<?php include '../templates/widgets/partnerteaser.php'; ?>
 
 		</article>
 				

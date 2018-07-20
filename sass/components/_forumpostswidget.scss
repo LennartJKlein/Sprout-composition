@@ -1,10 +1,10 @@
-.forumpostsTeaser {
+.forumpostsWidget {
 	padding: 0;
 	list-style: none;
 	position: relative;
 }
 
-.forumpostsTeaser-item {
+.forumpostsWidget-item {
 	background: $color-white;
 	display: block;
 	text-decoration: none;
@@ -22,7 +22,7 @@
 	}
 }
 
-.forumpostsTeaser-title {
+.forumpostsWidget-title {
 	margin: 1rem;
 	font-weight: bold;
 	line-height: 1.5;
@@ -32,12 +32,12 @@
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 7;
 
-	.forumpostsTeaser-link {
+	.forumpostsWidget-link {
 		color: $color-black;
 	}
 }
 
-.forumpostsTeaser-content {
+.forumpostsWidget-content {
 	margin: 1rem;
 	line-height: 1.5;
 	overflow: hidden;
@@ -46,7 +46,7 @@
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 7;
 
-	.forumpostsTeaser-link {
+	.forumpostsWidget-link {
 		color: $color-black;
 	}
 
@@ -59,7 +59,7 @@
 	}
 }
 
-.forumpostsTeaser-link {
+.forumpostsWidget-link {
 	text-decoration: none;
 
 	&:hover,
@@ -68,7 +68,7 @@
 	}
 }
 
-.forumpostsTeaser-author {
+.forumpostsWidget-author {
 	@include flex;
 	@include flex-flow(row nowrap);
 	@include justify-content(space-between);
@@ -82,17 +82,17 @@
 	}
 }
 
-.forumpostsTeaser-name {
+.forumpostsWidget-name {
 	font-weight: bold;
 	color: $color-secondary;
 }
 
-.forumpostsTeaser-avatar {
+.forumpostsWidget-avatar {
 	width: $percent-1of5;
 	@include circle-border;
 }
 
-.forumpostsTeaser-stats {
+.forumpostsWidget-stats {
 	@include flex;
 	@include flex-flow(row nowrap);
 	@include justify-content(flex-end);
@@ -106,10 +106,10 @@
 	}
 }
 
-.forumpostsTeaser-views {
+.forumpostsWidget-views {
 	margin: 0 1em;
 }
 
-.forumpostsTeaser-comments {
+.forumpostsWidget-comments {
 	margin: 0 1em;
 }

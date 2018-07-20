@@ -3,16 +3,16 @@
 		<i class="panel-title-icon fa fa-comment"></i>Hot forum topics
 		<img src="/images/background-panel-title-social.png" class="panel-title-image" />
 	</h3>
-	<ul class="forumpostsTeaser">
-		<li class="forumpostsTeaser-item active">
-			<div class="forumpostsTeaser-title">
-				<a href="/forum/post/13103958" class="forumpostsTeaser-link">
+	<ul class="forumpostsWidget">
+		<li class="forumpostsWidget-item active">
+			<div class="forumpostsWidget-title">
+				<a href="/forum/post/13103958" class="forumpostsWidget-link">
 					Hoe vind ik een goed jong commercieel talent?
 				</a>
 			</div>
-			<a class="forumpostsTeaser-stats" href="/forum/post/13103958">
-				<span class="forumpostsTeaser-views">1,044 <i class="fa fa-eye"></i></span>
-				<span class="forumpostsTeaser-posts">6 <i class="fa fa-comment"></i></span>
+			<a class="forumpostsWidget-stats" href="/forum/post/13103958">
+				<span class="forumpostsWidget-views">1,044 <i class="fa fa-eye"></i></span>
+				<span class="forumpostsWidget-posts">6 <i class="fa fa-comment"></i></span>
 			</a>
 		</li>
 	</ul>

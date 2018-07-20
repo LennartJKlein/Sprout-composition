@@ -5,13 +5,16 @@
 	<li class="linkList-item"><a class="linkList-link" href="typography.php">Typografie</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="colours.php">Kleuren</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="buttons.php">Buttons</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="icons.php">Iconen</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="animations.php">Animaties</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="grid.php">Grid</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="header.php">Header</a></li>
 </ul>
 
 <h3><i class="headingIcon fa fa-user"></i>Bezoeker</h3>
 <ul class="linkList linkList--spaced">
 	<li class="linkList-item"><a class="linkList-link" href="roles.php">Rollen</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="premium.php">Premium</a></li>
 </ul>
 
 <h3><i class="headingIcon fa fa-sticky-note"></i>Post types</h3>
@@ -31,7 +34,8 @@
 
 <h3><i class="headingIcon fa fa-puzzle-piece"></i>Widgets</h3>
 <ul class="linkList linkList--spaced">
-	<li class="linkList-item"><a class="linkList-link" href="widgets.php">Alle widgets</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="widgets.php">Uitleg</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="widgets-demo.php">Alle widgets</a></li>
 </ul>
 
 <h3><i class="headingIcon fa fa-cubes"></i>Components</h3>
@@ -40,8 +44,10 @@
 	<li class="linkList-item"><a class="linkList-link" href="article.php">article</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="articleauthor.php">articleAuthor</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="articlemeta.php">articleMeta</a></li>
-	<li class="linkList-item"><a class="linkList-link" href="progressline.php">progressLine</a></li>
-	<li class="linkList-item"><a class="linkList-link" href="progresspanel.php">progressPanel</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="article.php#progressline">progressLine</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="article.php#progresspanel">progressPanel</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="article.php#shareActions.php">shareActions</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="article.php#shareModal.php">shareModal</a></li>
 </ul>
 <h4><i class="headingIcon fa fa-align-left"></i>Content</h4>
 <ul class="linkList linkList--spaced">
@@ -53,8 +59,8 @@
 <h4><i class="headingIcon fa fa-square"></i>Cards / teasers</h4>
 <ul class="linkList linkList--spaced">
 	<li class="linkList-item"><a class="linkList-link" href="card.php">card</a></li>
-	<li class="linkList-item"><a class="linkList-link" href="eventteaser.php">eventTeaser</a></li>
-	<li class="linkList-item"><a class="linkList-link" href="forumpoststeaser.php">forumpostsTeaser</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="eventteaser.php">eventWidget</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="forumpoststeaser.php">forumpostsWidget</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="newsletterteaser.php">newsletterTeaser</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="partnerteaser.php">partnerTeaser</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="premiumteaser.php">premiumTeaser</a></li>

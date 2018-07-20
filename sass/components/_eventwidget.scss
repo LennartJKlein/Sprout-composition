@@ -1,4 +1,4 @@
-.eventTeaser {
+.eventWidget {
 	transition: all 0.4s cubic-bezier(.25,.8,.25,1);
 	@include round-border;
 
@@ -9,24 +9,24 @@
 	}
 }
 
-.eventTeaser--partner {
+.eventWidget--partner {
 
-	.eventTeaser-heading {
+	.eventWidget-heading {
 		color: $color-partner;
 	}
 
-	.eventTeaser-date {
+	.eventWidget-date {
 		background: $color-partner;
 	}
 }
 
-.eventTeaser--minimal {
+.eventWidget--minimal {
 	&:not(:last-of-type) {
 		margin-bottom: 1em;
 	}
 }
 
-.eventTeaser-link {
+.eventWidget-link {
 	background: $color-white;
 	display: block;
 	text-decoration: none;
@@ -36,7 +36,7 @@
 	@include align-items(stretch);
 }
 
-.eventTeaser-description {
+.eventWidget-description {
 	padding: 1.5em 2em;
 	width: $percent-3of4;
 	@include flex;
@@ -44,14 +44,14 @@
 	@include justify-content(stretch);
 }
 
-.eventTeaser-heading {
+.eventWidget-heading {
 	color: $color-secondary;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 	font-size: 0.8em;
 }
 
-.eventTeaser-title {
+.eventWidget-title {
 	text-transform: uppercase;
 	color: $color-black;
 	font-style: normal;
@@ -60,7 +60,7 @@
 	margin-bottom: 0;
 }
 
-.eventTeaser-date {
+.eventWidget-date {
 	@include flex;
 	@include align-items(center);
 	@include justify-content(center);
