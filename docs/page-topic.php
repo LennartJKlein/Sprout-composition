@@ -20,7 +20,7 @@
 	<div class="main-body">
 
 		<div class="panel">
-			<h3 class="panel-title">Demo</h3>
+			<h3 class="panel-title">Demo's</h3>
 			<ul class="linkList">
 				<li class="linkList-item">
 					<a class="linkList-link" href="/topic/direct-marketing.php" target="_new">Topic: 'Direct Marketing' (uitgebreid)</a>

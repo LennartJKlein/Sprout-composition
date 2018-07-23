@@ -6,7 +6,9 @@
         <a href="/events-archief.php">Archief</a>
     </div>
 
-    <h1 class="main-title">Afgelopen events</h1>
+    <header class="main-header">
+        <h1 class="main-title">Afgelopen events</h1>
+    </header>
 
     <div class="grid grid--events">
         <div class="grid-cell">

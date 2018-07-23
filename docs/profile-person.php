@@ -12,13 +12,14 @@
 		<h1 class="main-title">Gebruikersprofiel</h1>
 
 		<div class="main-intro">
-			<p></p>
+			<p><em>Van de gebruikerspagina is nog geen ontwerp gemaakt. Dit is in een later stadium nog te ontwerpen.</em></p>
 		</div>
 	</header>
 
 	<div class="main-body">
-		
-
+		<p>
+			Voor details is het goed voor nu het FO als uitgangspunt te nemen.
+		</p>
 	</div>
 
 </section>

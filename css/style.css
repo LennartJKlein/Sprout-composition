@@ -4227,15 +4227,15 @@ code {
       bottom: 5.5em; } }
 
 /* line 175, ../sass/components/_event.scss */
-.event-content h2 {
+.event-body h2 {
   color: #DD6E42;
   font-family: "Gotham", "Century Gothic", Arial, Helvetica, sans-serif;
   font-size: 1.4em;
   line-height: 1.25;
   margin: 2.3em 0 0.7em; }
 /* line 183, ../sass/components/_event.scss */
-.event-content ul,
-.event-content ol {
+.event-body ul,
+.event-body ol {
   margin-top: 0;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   line-height: 1.75;
@@ -4243,25 +4243,25 @@ code {
   margin-bottom: 2em;
   font-weight: normal; }
   /* line 192, ../sass/components/_event.scss */
-  .event-content ul a,
-  .event-content ol a {
+  .event-body ul a,
+  .event-body ol a {
     font-weight: 500; }
   @media (min-width: 1200px) {
     /* line 183, ../sass/components/_event.scss */
-    .event-content ul,
-    .event-content ol {
+    .event-body ul,
+    .event-body ol {
       font-size: 1.1em; } }
 @media (min-width: 1200px) {
   /* line 201, ../sass/components/_event.scss */
-  .event-content p {
+  .event-body p {
     font-size: 1.1em; } }
 @media (min-width: 1200px) {
   /* line 207, ../sass/components/_event.scss */
-  .event-content h2,
-  .event-content h3,
-  .event-content p,
-  .event-content ol,
-  .event-content ul {
+  .event-body h2,
+  .event-body h3,
+  .event-body p,
+  .event-body ol,
+  .event-body ul {
     width: 100%;
     max-width: 70rem;
     padding-left: 4rem;
@@ -4270,20 +4270,20 @@ code {
     margin-right: auto; } }
 @media (min-width: 1200px) {
   /* line 222, ../sass/components/_event.scss */
-  .event-content blockquote {
+  .event-body blockquote {
     width: 100%;
     max-width: calc(70rem - 8rem);
     margin-left: auto;
     margin-right: auto; } }
 /* line 231, ../sass/components/_event.scss */
-.event-content .figure {
+.event-body .figure {
   margin-left: -1.5em;
   margin-right: -1.5em;
   margin-top: 3em;
   margin-bottom: 3em; }
   @media (min-width: 768px) {
     /* line 231, ../sass/components/_event.scss */
-    .event-content .figure {
+    .event-body .figure {
       margin-left: -5vw;
       margin-right: -5vw; } }
 
@@ -4410,30 +4410,30 @@ code {
   list-style: none;
   position: relative; }
 
-/* line 1, ../sass/components/_eventwidget.scss */
-.eventWidget {
+/* line 1, ../sass/components/_eventcard.scss */
+.eventCard {
   transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
   border-radius: 0.25rem;
   overflow: hidden; }
-  /* line 5, ../sass/components/_eventwidget.scss */
-  .eventWidget:hover, .eventWidget:active, .eventWidget:focus {
+  /* line 5, ../sass/components/_eventcard.scss */
+  .eventCard:hover, .eventCard:active, .eventCard:focus {
     -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
-/* line 14, ../sass/components/_eventwidget.scss */
-.eventWidget--partner .eventWidget-heading {
+/* line 14, ../sass/components/_eventcard.scss */
+.eventCard--partner .eventCard-heading {
   color: #007AC9; }
-/* line 18, ../sass/components/_eventwidget.scss */
-.eventWidget--partner .eventWidget-date {
+/* line 18, ../sass/components/_eventcard.scss */
+.eventCard--partner .eventCard-date {
   background: #007AC9; }
 
-/* line 24, ../sass/components/_eventwidget.scss */
-.eventWidget--minimal:not(:last-of-type) {
+/* line 24, ../sass/components/_eventcard.scss */
+.eventCard--minimal:not(:last-of-type) {
   margin-bottom: 1em; }
 
-/* line 29, ../sass/components/_eventwidget.scss */
-.eventWidget-link {
+/* line 29, ../sass/components/_eventcard.scss */
+.eventCard-link {
   background: #fefefe;
   display: block;
   text-decoration: none;
@@ -4454,8 +4454,8 @@ code {
   -webkit-align-items: stretch;
   align-items: stretch; }
 
-/* line 39, ../sass/components/_eventwidget.scss */
-.eventWidget-description {
+/* line 39, ../sass/components/_eventcard.scss */
+.eventCard-description {
   padding: 1.5em 2em;
   width: 75%;
   display: -webkit-flex;
@@ -4470,15 +4470,15 @@ code {
   -webkit-justify-content: stretch;
   justify-content: stretch; }
 
-/* line 47, ../sass/components/_eventwidget.scss */
-.eventWidget-heading {
+/* line 47, ../sass/components/_eventcard.scss */
+.eventCard-heading {
   color: #DD6E42;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-size: 0.8em; }
 
-/* line 54, ../sass/components/_eventwidget.scss */
-.eventWidget-title {
+/* line 54, ../sass/components/_eventcard.scss */
+.eventCard-title {
   text-transform: uppercase;
   color: #231f20;
   font-style: normal;
@@ -4486,8 +4486,8 @@ code {
   margin-top: 0.5em;
   margin-bottom: 0; }
 
-/* line 63, ../sass/components/_eventwidget.scss */
-.eventWidget-date {
+/* line 63, ../sass/components/_eventcard.scss */
+.eventCard-date {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;

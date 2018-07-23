@@ -6,7 +6,7 @@
 		<a href="/index.php">Sprout.nl</a>
 		<a href="/docs/index.php">Documentatie</a>
 		<a href="/docs/post-types.php">Post types</a>
-		<a href="/docs/post-article.php">Persbericht</a>
+		<a href="/docs/post-partnerarticle.php">Persbericht</a>
 	</div>
 
 	<header class="main-header">

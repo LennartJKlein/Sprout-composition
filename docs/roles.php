@@ -37,10 +37,9 @@
 		<h3 id="onderneming">6. Onderneming</h3>
 		<p>Dit is een user die <em>slechts een openbaar <a href="profile-company.php">bedrijfsprofiel</a> heeft.</em></p>
 
-
 		<h2 id="bezoekers">Bezoekers</h2>
 		<p>Bezoekers kunnen <em>unknown</em> zijn, &oacute;f wanneer ze hun toegangscode hebben ingevoerd op de site; <em>premium</em>. Welke rol de bezoeker heeft, wordt opgeslagen en uitgelezen via een cookie genaamd: <code>sprout-role</code>. Op basis van die rol worden bepaalde elementen verborgen of weergegeven.</p>
-		<div class="notification">Wordpress-users zijn automatisch 'premium'.</div>
+		<div class="notification">Dit systeem is zeer primitief op het moment. Het is niet beveiligd, valideert niets en is slechts gebouwd zodat de browser composition een idee geeft hoe de flow van activeren van je toegangscode verloopt.</div>
 		<h3 id="unknown">1. Unknown</h3>
 		<p>Dit is elke ongeregistreerde bezoeker van de website. In de browser composition krijgt de <code>&lt;body&gt;</code> in dat geval de class:</p>
 		<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
@@ -54,6 +53,7 @@
 			<body class="role-premium">
 		'))) ?></code></pre>
 		<div class="notification">Het toevoegen van de class <code>.role-premium</code> aan een ander element dan <code>body</code>, maakt dat het element enkel zichtbaar is voor premium-bezoekers.</div>
+		<div class="notification">Wordpress-users zijn automatisch 'premium'.</div>
 		<br/>
 
 	</div>

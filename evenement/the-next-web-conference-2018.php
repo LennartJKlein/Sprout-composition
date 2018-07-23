@@ -1,6 +1,6 @@
 <?php include '../templates/header.php'; ?>
 
-    <!-- Dit is een voorbeeld van een event -->
+    <!-- Dit is een voorbeeld van het post type: event (aankomend) -->
     
     <div class="breadcrumb">
         <a href="/index.php">Sprout.nl</a>
@@ -18,14 +18,14 @@
                     <img src="../images/uploads/events/the_next_web.jpg" class="figure-image" />
                 </div>
                 <div class="event-info">
-                    <div class="event-infoItem"><i class="event-icon fa fa-map-marker"></i><div><a href="https://goo.gl/maps/ZTBrAnb34aU2" target="_blank">Westergasfabriek Amsterdam</a></div></div>
-                    <div class="event-infoItem"><i class="event-icon fa fa-clock-o"></i><div>24 en 25 mei - 09:00 tot 18:00</div></div>
-                    <div class="event-infoItem"><i class="event-icon fa fa-euro"></i><div>515,- (excl BTW)</div></div>
-                    <div class="event-infoItem"><i class="event-icon fa fa-star"></i><div>10% korting</div></div>
+                    <div class="event-infoItem" name="location"><i class="event-icon fa fa-map-marker"></i><div><a href="https://goo.gl/maps/ZTBrAnb34aU2" target="_blank">Westergasfabriek Amsterdam</a></div></div>
+                    <div class="event-infoItem" name="date time"><i class="event-icon fa fa-clock-o"></i><div>24 en 25 mei - 09:00 tot 18:00</div></div>
+                    <div class="event-infoItem" name="price"><i class="event-icon fa fa-euro"></i><div>515,- (excl BTW)</div></div>
+                    <div class="event-infoItem" name="discount"><i class="event-icon fa fa-star"></i><div>10% korting</div></div>
                 </div>
             </header>
 
-            <main class="event-content">
+            <main class="event-body">
                 <p>Met honderd side-events, 200 investeringsfondsen, 1500 startups en een epische hack battle is dit een event dat je als techliefhebber niet mag missen. Bekijk op de website het hele programma en sprekersoverzicht.</p>
                 <p>Als partner van dit evenement is Sprout aanwezig en publiceert met regelmaat over sprekers en het programma.</p>
             </main>

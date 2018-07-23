@@ -24,13 +24,13 @@
                     <img src="../images/uploads/events/nk_pitchen_2017.jpg" class="figure-image" />
                 </div>
                 <div class="event-info">
-                    <div class="event-infoItem"><i class="event-icon fa fa-map-marker"></i><div><a href="https://goo.gl/maps/ZTBrAnb34aU2" target="_blank">Jaarbeurs Utrecht<br/>Jaarbeursplein, Utrecht</a></div></div>
-                    <div class="event-infoItem"><i class="event-icon fa fa-clock-o"></i><div>26 maart - 19:00 tot 23:00</div></div>
-                    <div class="event-infoItem"><i class="event-icon fa fa-euro"></i><div>99,- (excl BTW)</div></div>
-                    <div class="event-infoItem"><i class="event-icon fa fa-star"></i><div>Eerste 25 tickets gratis</div></div>
+                    <div class="event-infoItem" name="location"><i class="event-icon fa fa-map-marker"></i><div><a href="https://goo.gl/maps/ZTBrAnb34aU2" target="_blank">Jaarbeurs Utrecht<br/>Jaarbeursplein, Utrecht</a></div></div>
+                    <div class="event-infoItem" name="date time"><i class="event-icon fa fa-clock-o"></i><div>26 maart - 19:00 tot 23:00</div></div>
+                    <div class="event-infoItem" name="price"><i class="event-icon fa fa-euro"></i><div>99,- (excl BTW)</div></div>
+                    <div class="event-infoItem" name="discount"><i class="event-icon fa fa-star"></i><div>Eerste 25 tickets gratis</div></div>
                 </div>
             </header>
-            <main class="event-content">
+            <main class="event-body">
                 <p>Als ondernemender pitch je voortdurend: in de kroeg, op netwerkbijeenkomsten, voor investeerders en bij de media. We willen sneller en nog speciefieker weten waarom we naar een verhaal, boodschap of opdracht luisteren. Goed kunnen pitchen is daarom belangrijker dan ooit. Laat je tijdens het NK pitchen op maandag 26 maart inspireren door bijzonderen pitchers en werk aan je eigen pitchvaardigheden door de kundige uitleg van experts. </p>
                 <p>Wordt jij Nederlands Kampioen pitchen? Doe dan mee aan het NK Pitchen en schrijf je hier in!</p>
                 <h2>Programma</h2>
