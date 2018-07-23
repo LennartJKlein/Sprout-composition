@@ -9,11 +9,13 @@
 		<a href="/docs/post-article.php">Persbericht</a>
 	</div>
 
-	<h1 class="main-title">Persbericht</h1>
+	<header class="main-header">
+		<h1 class="main-title">Persbericht</h1>
 
-	<div class="main-intro">
-		<p>Een persbericht is een post type dat gebruikt wordt om nieuws van partners te publiceren. De onderstaande informatie vestigt de aandacht op een aantal zaken van dit post type.</p>
-	</div>
+		<div class="main-intro">
+			<p>Een persbericht is een post type dat gebruikt wordt om nieuws van partners te publiceren. De onderstaande informatie vestigt de aandacht op een aantal zaken van deze post type.</p>
+		</div>
+	</header>
 
 	<div class="main-body">
 
@@ -26,10 +28,10 @@
 			</ul>
 		</div>
 
-		<div class="notification">De PHP pagina van bovenstaande demo kan worden gebruikt om de template voor dit post type te maken.</div>
+		<div class="notification">De PHP pagina van bovenstaande demo kan worden gebruikt om de wp-template voor deze post type te maken.</div>
 
 		<h2>Wordpress velden</h2>
-		<p>Een persbericht bestaat uit zowel de standaardvelden die Wordpress meegeeft aan een post, als wat extra velden. Hieronder staan de velden die de <a href="roles.php#partner">partner</a> of <a href="roles.php#auteur">auteur</a> via het CMS i.i.g. moeten kunnen invoeren:</p>
+		<p>Een persbericht bestaat uit zowel de standaardvelden die Wordpress meegeeft aan een post, als wat extra velden. Hieronder staan de velden die  via het CMS moeten kunnen worden ingevoerd:</p>
 		<table class="table">
 			<thead>
 				<tr>
@@ -103,7 +105,7 @@
 		<p>Zoals beschreven op de pagina <a href="widgets.php">widgets</a>, kan er per <a href="topic.php">topic</a> (in Wordpress: <em>category</em>) worden ingesteld welke widgets in de sidebar verschijnen. Op de pagina van een persbericht wordt dus op basis van die category (='persbericht') bepaald welke widgets in de sidebar verschijnen.</p>
 
 		<h2 id="social-sharing">Social sharing</h2>
-		<p>Een persbericht moet gedeeld kunnen worden op sociale media. In deze browser composition is de techniek daarvoor hetzelfde alsbij het post type '<a href="post-article.php#social-sharing">artikel</a>'.</p>
+		<p>Een persbericht moet gedeeld kunnen worden op sociale media. In deze browser composition is de techniek daarvoor hetzelfde als bij het post type '<a href="post-article.php#social-sharing">artikel</a>'.</p>
 
 	</div>
 

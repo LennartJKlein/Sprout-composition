@@ -5,20 +5,20 @@
 	<div class="breadcrumb">
 		<a href="/index.php">Sprout.nl</a>
 		<a href="/docs/index.php">Documentatie</a>
-		<a href="/docs/icons.php">Iconen</a>
+		<a href="/docs/profile-company.php">Bedrijfsprofiel</a>
 	</div>
 
-	
 	<header class="main-header">
-		<h1 class="main-title">Iconen</h1>
+		<h1 class="main-title">Bedrijfsprofiel</h1>
 
 		<div class="main-intro">
-			<p>Door de browser composition heen worden iconen gebruikt. Deze zijn afkomstig van <a href="https://fontawesome.com/v4.7.0/icons/">FontAwesome v4.7.0</a>.</p>
+			<p></p>
 		</div>
 	</header>
 
 	<div class="main-body">
-		<p>Op hun website is voldoende informatie te vinden over het gebruik ervan.</p>
+		
+
 	</div>
 
 </section>

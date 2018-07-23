@@ -11,9 +11,11 @@
 	<li class="linkList-item"><a class="linkList-link" href="header.php">Header</a></li>
 </ul>
 
-<h3><i class="headingIcon fa fa-user"></i>Bezoeker</h3>
+<h3><i class="headingIcon fa fa-user"></i>Profielen</h3>
 <ul class="linkList linkList--spaced">
 	<li class="linkList-item"><a class="linkList-link" href="roles.php">Rollen</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="profile-person.php">Gebruikersprofiel</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="profile-company.php">Bedrijfsprofiel</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="premium.php">Premium</a></li>
 </ul>
 
@@ -22,20 +24,19 @@
 	<li class="linkList-item"><a class="linkList-link" href="post-article.php">Artikel</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="post-partnerarticle.php">Persbericht</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="post-event.php">Event</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="post-partnerevent.php">Partner event</a></li>
 </ul>
 
 <h3><i class="headingIcon fa fa-file"></i>Page types</h3>
 <ul class="linkList linkList--spaced">
-	<li class="linkList-item"><a class="linkList-link" href="#"><strike>Default</strike></a></li>
+	<li class="linkList-item"><a class="linkList-link" href="page-default.php">Default page</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="page-list.php">Lijst</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="page-topic.php">Topic</a></li>
-	<li class="linkList-item"><a class="linkList-link" href="#"><strike>WP user</strike></a></li>
 </ul>
 
 <h3><i class="headingIcon fa fa-puzzle-piece"></i>Widgets</h3>
 <ul class="linkList linkList--spaced">
-	<li class="linkList-item"><a class="linkList-link" href="widgets.php">Uitleg</a></li>
-	<li class="linkList-item"><a class="linkList-link" href="widgets-demo.php">Alle widgets</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="widgets.php">Widgets</a></li>
 </ul>
 
 <h3><i class="headingIcon fa fa-cubes"></i>Components</h3>
@@ -52,6 +53,7 @@
 <h4><i class="headingIcon fa fa-align-left"></i>Content</h4>
 <ul class="linkList linkList--spaced">
 	<li class="linkList-item"><a class="linkList-link" href="banner.php">banner</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="buttons.php">button</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="figure.php">figure</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="notification.php">notification</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="quote.php">quote</a></li>

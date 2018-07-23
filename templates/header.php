@@ -54,9 +54,13 @@
 		<button class="navToggle"><i aria-hidden="true" class="fa fa-bars"></i></button>
 	</div>
 
-	<?php if (strpos($url,'artikel') !== false) {
-		include $_SERVER['DOCUMENT_ROOT'].'/templates/modals/sharemodal.php';
-	} ?>
+	<?php 
+		// Logica om in deze browser composition de deelknoppen alleen op bepaalde pagina's in te laden in de header.
+		// Todo: betere oplossing zoeken
+		if (strpos($url,'artikel') !== false || strpos($url,'lijst') !== false) {
+			include $_SERVER['DOCUMENT_ROOT'].'/templates/modals/sharemodal.php';
+		}
+	?>
 
 	<nav class="nav">
 		<div class="nav-head">

@@ -1,4 +1,4 @@
-<?php include 'templates/header.php'; ?>
+<?php include '../templates/header.php'; ?>
 
     <!-- Dit is een voorbeeld van een lijstpagina met cards naar andere pagina's -->
 
@@ -6,12 +6,21 @@
         <a href="/index.php">Sprout.nl</a>
         <a href="/25-onder-de-25-van-2018.php">25 onder de 25 van 2018</a>
     </div>
+    
     <h1 class="main-title">25 onder de 25 van 2018</h1>
+
     <div class="main-intro">
-        <p>Dit zijn de 25 meest veelbelovende ondernemers onder de 25 jaar van 2018. Ze zijn jong, barsten van het talent en de energie. Laat je niet afleiden door hun wilde haren en jonge overmoed, want voor je het weet zijn ze je met hun startups voorbij gestreefd. De 25 onder de 25 wordt elk jaar samengesteld door de redactie van Sprout.</p>
-        <p>Deel de lijst via<strong> <u><a href="http://twitter.com/share?url=https://www.sprout.nl/lijsten/25-onder-de-25-van-2018&amp;text=Dit zijn de beste jonge ondernemers van NL!&amp;via=sprout_nl" target="_blank">Twitter</a></u> | <u><a href="http://www.facebook.com/sharer.php?u=https://www.sprout.nl/lijsten/25-onder-de-25-van-2018" target="_blank">Facebook</a></u></strong> </p>
-        <p>Zie ook: <u><a href="/25-onder-de-25-van-2017" target="_blank">De 25 onder de 25 van 2017</a></u></p>
+        <p><img src="/images/uploads/25-onder-de-25-2018.jpg" alt="logo 25 onder de 25 2018" title="logo 25 onder de 25 2018" style="max-width: 300px; width: 20%; margin: 0 1em 1em 0; float: left;">Dit zijn de 25 meest veelbelovende ondernemers onder de 25 jaar van 2018. Ze zijn jong, barsten van het talent en de energie. Laat je niet afleiden door hun wilde haren en jonge overmoed, want voor je het weet zijn ze je met hun startups voorbij gestreefd. De 25 onder de 25 wordt elk jaar samengesteld door de redactie van Sprout.</p>
     </div>
+
+    <div class="main-body">
+        <p>
+            Zie ook: <u><a href="/25-onder-de-25-van-2017.php">De 25 onder de 25 van 2017</a></u>
+        </p>
+    </div>
+    
+    <?php include '../templates/shareactions--wide.php'; ?>
+
     
     <div class="grid grid--mobile-12 grid--tablet-6 grid--tabletlandscape-4 grid--desktop-3">
         <div class="grid-cell">
@@ -21,7 +30,7 @@
                         <div class="card-tag">onderneming</div>
                     </div>
                     <div class="card-figure">
-                        <img src="images/uploads/avant-arte.jpg" class="card-image" />
+                        <img src="/images/uploads/avant-arte.jpg" class="card-image" />
                     </div>
                 </div>
                 <div class="card-content">
@@ -38,7 +47,7 @@
                         <div class="card-tag">onderneming</div>
                     </div>
                     <div class="card-figure">
-                        <img src="images/uploads/ballin-amsterdam.jpg" class="card-image" />
+                        <img src="/images/uploads/ballin-amsterdam.jpg" class="card-image" />
                     </div>
                 </div>
                 <div class="card-content">
@@ -55,7 +64,7 @@
                         <div class="card-tag">onderneming</div>
                     </div>
                     <div class="card-figure">
-                        <img src="images/uploads/birds-ai.jpg" class="card-image" />
+                        <img src="/images/uploads/birds-ai.jpg" class="card-image" />
                     </div>
                 </div>
                 <div class="card-content">
@@ -72,7 +81,7 @@
                         <div class="card-tag">onderneming</div>
                     </div>
                     <div class="card-figure">
-                        <img src="images/uploads/boxrs4all.jpg" class="card-image" />
+                        <img src="/images/uploads/boxrs4all.jpg" class="card-image" />
                     </div>
                 </div>
                 <div class="card-content">
@@ -89,7 +98,7 @@
                         <div class="card-tag">onderneming</div>
                     </div>
                     <div class="card-figure">
-                        <img src="images/uploads/compendium-geneeskunde.jpg" class="card-image" />
+                        <img src="/images/uploads/compendium-geneeskunde.jpg" class="card-image" />
                     </div>
                 </div>
                 <div class="card-content">
@@ -106,7 +115,7 @@
                         <div class="card-tag">onderneming</div>
                     </div>
                     <div class="card-figure">
-                        <img src="images/uploads/create.jpg" class="card-image" />
+                        <img src="/images/uploads/create.jpg" class="card-image" />
                     </div>
                 </div>
                 <div class="card-content">
@@ -123,7 +132,7 @@
                         <div class="card-tag">onderneming</div>
                     </div>
                     <div class="card-figure">
-                        <img src="images/uploads/danielle-cathari.jpg" class="card-image" />
+                        <img src="/images/uploads/danielle-cathari.jpg" class="card-image" />
                     </div>
                 </div>
                 <div class="card-content">
@@ -140,7 +149,7 @@
                         <div class="card-tag">onderneming</div>
                     </div>
                     <div class="card-figure">
-                        <img src="images/uploads/festival-wallet.jpg" class="card-image" />
+                        <img src="/images/uploads/festival-wallet.jpg" class="card-image" />
                     </div>
                 </div>
                 <div class="card-content">
@@ -154,11 +163,10 @@
             <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="scaleups">
                 <div class="card-figurecontainer">
                     <div class="card-tags">
-                        <div class="card-tag card-tag--premium"><i class="fa fa-star" aria-hidden="true"></i> premium</div>
                         <div class="card-tag">onderneming</div>
                     </div>
                     <div class="card-figure">
-                        <img src="images/uploads/gight.jpg" class="card-image" />
+                        <img src="/images/uploads/gight.jpg" class="card-image" />
                     </div>
                 </div>
                 <div class="card-content">
@@ -175,7 +183,7 @@
                         <div class="card-tag">onderneming</div>
                     </div>
                     <div class="card-figure">
-                        <img src="images/uploads/grenzelooswerk.jpg" class="card-image" />
+                        <img src="/images/uploads/grenzelooswerk.jpg" class="card-image" />
                     </div>
                 </div>
                 <div class="card-content">
@@ -192,7 +200,7 @@
                         <div class="card-tag">onderneming</div>
                     </div>
                     <div class="card-figure">
-                        <img src="images/uploads/hemax.jpg" class="card-image" />
+                        <img src="/images/uploads/hemax.jpg" class="card-image" />
                     </div>
                 </div>
                 <div class="card-content">
@@ -209,7 +217,7 @@
                         <div class="card-tag">onderneming</div>
                     </div>
                     <div class="card-figure">
-                        <img src="images/uploads/hero-balancer.jpg" class="card-image" />
+                        <img src="/images/uploads/hero-balancer.jpg" class="card-image" />
                     </div>
                 </div>
                 <div class="card-content">
@@ -223,11 +231,10 @@
             <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="scaleups">
                 <div class="card-figurecontainer">
                     <div class="card-tags">
-                        <div class="card-tag card-tag--premium"><i class="fa fa-star" aria-hidden="true"></i> premium</div>
                         <div class="card-tag">onderneming</div>
                     </div>
                     <div class="card-figure">
-                        <img src="images/uploads/holthausen-clean-technology.jpg" class="card-image" />
+                        <img src="/images/uploads/holthausen-clean-technology.jpg" class="card-image" />
                     </div>
                 </div>
                 <div class="card-content">
@@ -239,8 +246,8 @@
         </div>
     </div>
         
-    <?php include 'templates/pagination.php'; ?>
+    <?php include '../templates/pagination.php'; ?>
 
 </section>
         
-<?php include 'templates/footer.php'; ?>
+<?php include '../templates/footer.php'; ?>

@@ -112,7 +112,11 @@
 					</div>
 				</div>
 			</footer>
+			
+			<?php include '../templates/banners/banner--leaderboard.php'; ?>
+
 		</article>
+
 		
 		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="1.6s" data-offset="150">
 			<header class="article-header">
@@ -194,6 +198,9 @@
 					</div>
 				</div>
 			</footer>
+			
+			<?php include '../templates/banners/banner--leaderboard.php'; ?>
+		
 		</article>
 		
 		<article class="article reveal" data-animate="fadeInUp" data-duration="0.75s" data-delay="1.6s" data-offset="150">
@@ -288,7 +295,6 @@
 				</div>
 			</footer>
 		</article>
-
 		
 	</section>
 

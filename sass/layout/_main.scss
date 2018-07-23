@@ -4,10 +4,14 @@
 	position: relative;
 
 	@include tablet {
-		padding: 4em 5vw 0;
+		padding: 2em 5vw 0;
 		@include flex-shrink(1);
 		@include flex-grow(1);
 	}
+
+    @include tablet-landscape {
+        padding-top: 3em;
+    }
 
 	@include desktop {
 		padding: 4em 5vw 2em;
@@ -15,11 +19,25 @@
 	}
 }
 
+.main-header {
+    @include flex;
+    @include flex-flow(column nowrap);
+    @include align-items(stretch);
+    width: 100%;
+
+    @include desktop {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 70rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
 .main-title {
 	margin: 0.5em 0 1em;
     font-size: 1.85em;
     font-family: $font-gotham;
-    @include order(-2);
 
     @include tablet {
         font-size: 2.6em;
@@ -28,36 +46,23 @@
 
     @include desktop {
         font-size: 3em;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 70rem;
-        padding-left: 4rem;
-        padding-right: 4rem;
     }
 }
 
 .main-intro {
     font-family: $font-kepler;
-    margin: -1rem -1.5rem 0 -1.5rem;
-    padding: 1.5rem;
+    margin: 0 -1.5rem;
+    padding: 0.5rem 1.5rem;
     font-size: 1.25em;
     line-height: 1.6;
-    @include order(0);
+    width: 100%;
     
     @include tablet {
         color: $color-black;
-        margin: -1.5rem 0 2em 0;
-        padding: 0;
         font-size: 1.5em;
+        margin: -0.5em 0 0.5em 0;
         @include order(0);
-    }
-
-    @include desktop {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 70rem;
-        padding-left: 4rem;
-        padding-right: 4rem;
+        padding: 0;
     }
 
     p {
@@ -66,9 +71,37 @@
         margin-bottom: 1em;
         line-height: 1.6;
     }
+
+    code {
+        font-size: 1.1em;
+    }
+}
+
+.main-hero {
+
+    @include tablet {
+        @include order(1);
+    }
+
+    &.figure {
+        margin: 0 -1.5em 1.5em;
+        max-height: 75vh;
+
+        @include tablet {
+            margin-top: 1em;
+            margin-bottom: 0;
+            margin-left: -5vw;
+            margin-right: -5vw;
+        }
+    }
 }
 
 .main-body {
+    margin-bottom: 1em;
+
+    @include tablet {
+        margin-bottom: 2em;
+    }
 
     @include desktop {
         width: 100%;
@@ -111,5 +144,23 @@
             margin-left: -5vw;
             margin-right: -5vw;
         }
+    }
+}
+
+.main-container {
+    margin-bottom: 1em;
+
+    @include tablet {
+        margin-bottom: 2em;
+    }
+
+    @include desktop {
+        width: 100%;
+        max-width: 70rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3em;
     }
 }

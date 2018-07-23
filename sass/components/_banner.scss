@@ -58,7 +58,11 @@
 	margin: -1em -1.5em 1em;
 
 	@include tablet {
-		margin: -4em -5vw 4em;
+		margin: -2em -5vw 4em;
+	}
+
+	@include tablet-landscape {
+		margin: -3em -5vw 4em;
 	}
 
 	@include desktop {

@@ -7,14 +7,17 @@
 		<a href="/docs/index.php">Documentatie</a>
 		<a href="/docs/header.php">Header</a>
 	</div>
+	
+	<header class="main-header">
+		<h1 class="main-title">Header</h1>
 
-	<h1 class="main-title">Header</h1>
-
-	<div class="main-intro">
-		<p>De header van de browser composition is de blauwe verticale balk aan de linkerzijde van het scherm. Met behulp van flex-box is deze altijd in balans met de pagina en de sidebar. Bezoekers hebben zelfs de mogelijkheid de breedte ervan aan te passen. Dit wordt opgeslagen in een cookie.</p>
-	</div>
+		<div class="main-intro">
+			<p>De header van de browser composition is de blauwe verticale balk aan de linkerzijde van het scherm.</p>
+		</div>
+	</header>
 
 	<div class="main-body">
+		<p>Met behulp van flex-box is deze altijd in balans met de pagina en de sidebar. Bezoekers hebben zelfs de mogelijkheid de breedte ervan aan te passen. Dit wordt opgeslagen in de cookie '<code>sprout-nav-width</code>', welke de breedte van de header is (in pixels, opgeslagen als integer).</p>
 		<h2>Todo</h2>
 		<h3>1. Zoeken</h3>
 		<p>Het zoekveld (<code>.search-field</code>) en de container voor de zoekresultaten (<code>.search-resultscontainer</code>) zijn gebouwd, maar moeten nog gekoppeld worden aan een zoekfunctie van Wordpress zelf (of een plugin).</p>

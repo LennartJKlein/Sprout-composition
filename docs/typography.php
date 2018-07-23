@@ -8,11 +8,13 @@
 		<a href="/docs/colours.php">Typografie</a>
 	</div>
 
-	<h1 class="main-title">Typografie</h1>
+	<header class="main-header">
+		<h1 class="main-title">Typografie</h1>
 
-	<div class="main-intro">
-		<p>Onderstaand is de typografie te zien die door de browser composition heen wordt gebruikt.</p>
-	</div>
+		<div class="main-intro">
+			<p>Onderstaand is de typografie te zien die door de browser composition heen wordt gebruikt.</p>
+		</div>
+	</header>
 
 	<div class="main-body">
 	

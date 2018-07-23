@@ -10,13 +10,13 @@
 		<a href="/docs/components.php">Components</a>
 		<a href="/docs/banners.php">Banner</a>
 	</div>
+	<header class="main-header">
+		<h1 class="main-title">Banner</h1>
 
-	<h1 class="main-title">Banner</h1>
-
-	<div class="main-intro">
-		<p>Op deze pagina staan de verschillende varianten van het banner-component.</p>
-	</div>
-
+		<div class="main-intro">
+			<p>Op deze pagina staan de verschillende varianten van het banner-component.</p>
+		</div>
+	</header>
 	<div class="main-body">
 		
 		<h3>Billboard</h3>

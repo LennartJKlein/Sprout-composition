@@ -7,12 +7,14 @@
 		<a href="/docs/index.php">Documentatie</a>
 		<a href="/docs/colours.php">Kleuren</a>
 	</div>
+	
+	<header class="main-header">
+		<h1 class="main-title">Kleuren</h1>
 
-	<h1 class="main-title">Kleuren</h1>
-
-	<div class="main-intro">
-		<p>Onderstaand zijn de kleuren te zien die in de variabelen van SCSS worden toegepast.</p>
-	</div>
+		<div class="main-intro">
+			<p>Onderstaand zijn de kleuren te zien die in de variabelen van SCSS worden toegepast.</p>
+		</div>
+	</header>
 
 	<div class="main-body">
 	

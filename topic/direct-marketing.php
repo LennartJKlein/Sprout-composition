@@ -1,17 +1,19 @@
 <?php include '../templates/header.php'; ?>
 
+    <!-- Dit is een voorbeeld van een topicpagina over de topic'direct marketing' met de uitgebreide template -->
+
     <div class="breadcrumb">
         <a href="/index.php">Sprout.nl</a>
         <a href="/topics.php">Topic</a>
         <a href="/topic/direct-marketing.php">Direct marketing</a>
     </div>
     
-    <section class="topic">
+    <section class="topic topic--extensive">
         
         <header class="topic-header">
-            <div class="topic-intro">
+            <div class="topic-description">
                 <h1 class="topic-title">Direct marketing</h1>
-                <div class="topic-description">Vind nieuwe klanten met deze tips, trucs en voorbeelden voor direct marketing.</div>
+                <div class="topic-intro">Vind nieuwe klanten met deze tips, trucs en voorbeelden voor direct marketing.</div>
             </div>
             <div class="topic-spotlight">
                 <a href="../artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--tablet-horizontal card--tabletlandscape-vertical" tag="direct-marketing">
@@ -107,6 +109,12 @@
                                 <span class="card-button">Lees zijn aanpak <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
                             </div>
                         </a>
+                    </div>
+                    <div class="grid-cell grid-cell--wide">
+                        <!-- Todo: add call that loads more posts into the grid above -->
+                        <div class="pagination">
+                            <button class="pagination-loadmore button button--primary button--center button--big"><span class="spinner spinner--inline"></span>laad meer</button>
+                        </div>
                     </div>
                 </div>
             </div>

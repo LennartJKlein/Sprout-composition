@@ -9,11 +9,13 @@
 		<a href="/docs/index.php">Documentatie</a>
 	</div>
 
-	<h1 class="main-title">Documentatie</h1>
+	<header class="main-header">
+		<h1 class="main-title">Documentatie</h1>
 
-	<div class="main-intro">
-		<p>Deze website is een <em>browser composition</em>. Het dient als basis voor het te ontwikkelen Wordpress-thema voor Sprout.nl.</p>
-	</div>
+		<div class="main-intro">
+			<p>Deze website is een <em>browser composition</em>. Het dient als basis voor het te ontwikkelen Wordpress-thema voor Sprout.nl.</p>
+		</div>
+	</header>
 
 	<div class="main-body">
 

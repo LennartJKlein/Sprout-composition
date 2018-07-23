@@ -9,11 +9,13 @@
 		<a href="/docs/post-article.php">Artikel</a>
 	</div>
 
-	<h1 class="main-title">Artikel</h1>
+	<header class="main-header">
+		<h1 class="main-title">Artikel</h1>
 
-	<div class="main-intro">
-		<p>Een artikel is het basistype voor een Wordpress-post. De onderstaande informatie vestigt de aandacht op een aantal zaken van dit post type.</p>
-	</div>
+		<div class="main-intro">
+			<p>Een artikel is het basistype voor een Wordpress-post. De onderstaande informatie vestigt de aandacht op een aantal zaken van deze post type.</p>
+		</div>
+	</header>
 
 	<div class="main-body">
 
@@ -37,10 +39,10 @@
 
 		<div class="notification">Alle JavaScript van de artikelpagina is te vinden in het bestand <code>article.js</code></div>
 
-		<div class="notification">De PHP pagina's van bovenstaande demo's kunnen worden gebruikt om de templates voor dit post type te maken.</div>
+		<div class="notification">De PHP pagina's van bovenstaande demo's kunnen worden gebruikt om de wp-templates voor deze post type te maken.</div>
 
 		<h2>Wordpress velden</h2>
-		<p>Een artikel bestaat uit zowel de standaardvelden die Wordpress meegeeft aan een post, als wat extra velden. Hieronder staan de velden die de <a href="roles.php#auteur">auteur</a> via het CMS i.i.g. moet kunnen invoeren:</p>
+		<p>Een artikel bestaat uit zowel de standaardvelden die Wordpress meegeeft aan een post, als wat extra velden. Hieronder staan de velden die  via het CMS moeten kunnen worden ingevoerd:</p>
 		<table class="table">
 			<thead>
 				<tr>
@@ -103,6 +105,16 @@
 				<tr>
 					<td></td>
 					<td>Premium artikel? <em>(checkbox)</em></td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Instant additional articles? <em>(checkbox)</em></td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Selectiemethode instant additional articles <em>(default, chronologisch, topic)</em></td>
 					<td>-</td>
 				</tr>
 			</tbody>
@@ -247,7 +259,15 @@
 		<h2 id="instant-additional-article">Instant additional article</h2>
 		<div class="figure card"><img src="../images/uploads/instant-additional-article.gif" class="figure-image" /></div>
 		<p>De browser composition heeft een feature om lezers te verleiden n&oacute;g een artikel te lezen. Wanneer hij de onderkant van een artikel bereikt, laat de pagina een gerelateerd volgend artikel daaronder invliegen. <em>(Dit gebeurt enkel op grote schermen).</em></p>
-		<div class="notification">De feature 'additional live load' maakt gebruik van de bibliotheek <a href="https://maximzhurkin.github.io/jquery-scrolla/" target="_new">Scrolla</a>. Meer daarover op de pagina '<a href="animations.php">animaties</a>'.</div>
+		<p>Per artikel kan in het CMS worden ingesteld of deze feature wordt gebruikt en welke selectiemethode plaatsvindt:
+			<ul class="list">
+				<li>Default. Het eerste relevante artikel volgens titel en body.</li>
+				<li>Chronologisch. Het eerstvolgende artikel op datum (terug in de tijd).</li>
+				<li>Topic. Ander artikel uit het topic inladen.</li>
+			</ul>
+		</p>
+
+		<div class="notification">De feature 'instant additional article' maakt gebruik van de bibliotheek <a href="https://maximzhurkin.github.io/jquery-scrolla/" target="_new">Scrolla</a>. Meer daarover op de pagina '<a href="animations.php">animaties</a>'.</div>
 		
 		<h3 id="progresspanel">Progress panel</h3>
 		<p>Om de lezer overzicht te geven over de ingeladen artikelen, is op grote schermen in de rechter bovenhoek het progressPanel te zien. Dit is een lijst met de artikelen die op de pagina zijn ingeladen. Daarbij wordt aangegeven welke gelezen zijn en hoe ver de lezer is. De volgende HTML code is daarvoor bovenaan de artikelpagina geplaatst:</p>
@@ -309,7 +329,7 @@
 
 		<h2>Todo</h2>
 		<h3>1. Template files</h3>
-		<p>Er zullen 2 template files moeten komen voor dit post type, namelijk: 'artikel' en 'premium artikel'. Afhankelijk van de checkbox 'Premium artikel'?' moet het ene of andere template worden gebruikt. De demopagina's kunnen als basis dienen voor die templates.</p>
+		<p>Er zullen 2 template files moeten komen voor deze post type, namelijk: 'artikel' en 'premium artikel'. Afhankelijk van de checkbox 'Premium artikel'?' moet het ene of andere template worden gebruikt. De demopagina's kunnen als basis dienen voor die templates.</p>
 		<h3>2. Lazy load</h3>
 		<p>Op dit moment zijn er al 3 artikelen opgenomen in de PHP-code van de artikelpagina. Het tweede en derde artikel worden vervolgens weergegeven zodra ze in beeld komen. Desondanks moet in de uiteindelijk website de HTML van het volgende artikel moet pas worden opgehaald en ingeladen zodra de onderkant van het voorgaande artikel is bereikt. Dit in verband met trage verbindingen en SEO.</p>
 		<h3>3. Meta data</h3>

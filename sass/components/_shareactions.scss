@@ -12,6 +12,8 @@
 }
 
 .shareActions--wide {
+	margin-bottom: 3em;
+
 	@include desktop {
 		width: 100%;
 		max-width: 70rem;

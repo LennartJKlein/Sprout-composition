@@ -147,6 +147,18 @@
 	}
 }
 
+.grid--tablet-2 {
+	@include tablet {
+		.grid-cell {
+			width: $percent-1of6;
+		}
+
+		.grid-cell--wide {
+			width: 100%;
+		}
+	}
+}
+
 .grid--tablet-3 {
 	@include tablet {
 		.grid-cell {
@@ -195,6 +207,18 @@
 	}
 }
 
+.grid--tabletlandscape-2 {
+	@include tablet-landscape {
+		.grid-cell {
+			width: $percent-1of6;
+		}
+
+		.grid-cell--wide {
+			width: 100%;
+		}
+	}
+}
+
 .grid--tabletlandscape-3 {
 	@include tablet-landscape {
 		.grid-cell {
@@ -235,6 +259,18 @@
 	@include tablet-landscape {
 		.grid-cell {
 			width: 100%;
+		}
+
+		.grid-cell--wide {
+			width: 100%;
+		}
+	}
+}
+
+.grid--desktop-2 {
+	@include desktop {
+		.grid-cell {
+			width: $percent-1of6;
 		}
 
 		.grid-cell--wide {

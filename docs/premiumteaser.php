@@ -11,11 +11,13 @@
 		<a href="/docs/premiumteaser.php">premiumTeaser</a>
 	</div>
 
-	<h1 class="main-title">premiumTeaser</h1>
+	<header class="main-header">
+		<h1 class="main-title">premiumTeaser</h1>
 
-	<div class="main-intro">
-		<p>De premiumTeasers zijn bedoeld om bezoekers over te halen PREMIUM aan te schaffen. De teasers zijn zowel te gebruiken in de sidebar, als in de pagina. Op deze pagina staan de verschillende varianten van deze widget.</p>
-	</div>
+		<div class="main-intro">
+			<p>De premiumTeasers zijn bedoeld om bezoekers over te halen PREMIUM aan te schaffen. De teasers zijn zowel te gebruiken in de sidebar, als in de pagina. Op deze pagina staan de verschillende varianten van deze widget.</p>
+		</div>
+	</header>
 
 	<div class="main-body">
 	

@@ -7,12 +7,14 @@
 		<a href="/docs/index.php">Documentatie</a>
 		<a href="/docs/animations.php">Grid</a>
 	</div>
+	
+	<header class="main-header">
+		<h1 class="main-title">Grid</h1>
 
-	<h1 class="main-title">Grid</h1>
-
-	<div class="main-intro">
-		<p>Voor deze browser composition is een eigen grid ontwikkeld (vanuit het Bootstrap-gedachtegoed).</p>
-	</div>
+		<div class="main-intro">
+			<p>Voor deze browser composition is een eigen grid ontwikkeld (vanuit het Bootstrap-gedachtegoed).</p>
+		</div>
+	</header>
 
 	<div class="main-body">
 		<div class="notification">Dit grid is mobile-first ontworpen.</div>

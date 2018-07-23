@@ -4,6 +4,7 @@
 	margin: 5em auto -5em;
 	width: 2em;
 	height: 2em;
+	z-index: 3;
 
 	@include tablet {
 		margin: 10em auto -10em;

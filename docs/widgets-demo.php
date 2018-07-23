@@ -8,11 +8,13 @@
 		<a href="/docs/widgets.php">Alle widgets</a>
 	</div>
 
-	<h1 class="main-title">Alle widgets</h1>
+	<header class="main-header">
+		<h1 class="main-title">Alle widgets</h1>
 
-	<div class="main-intro">
-		<p>Op deze pagina staan voorbeelden van verschillende widgets, samengesteld uit &eacute;&eacute;n of meerdere componenten. Deze widgets kunnen zowel in de sidebar als in de pagina geplaatst worden.</p>
-	</div>
+		<div class="main-intro">
+			<p>Op deze pagina staan voorbeelden van verschillende widgets, samengesteld uit &eacute;&eacute;n of meerdere componenten. Deze widgets kunnen zowel in de sidebar als in de pagina geplaatst worden.</p>
+		</div>
+	</header>
 
 	<div class="main-body">
 
