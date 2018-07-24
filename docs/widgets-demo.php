@@ -25,7 +25,7 @@
 		<br/><br/>
 
 		<h3 id="premiumteaser">Teasing PREMIUM <small><em class="text--grey-dark">(<a class="text--grey-dark" href="https://github.com/LennartJKlein/Sprout-composition/blob/master/templates/widgets/premiumteaser.php">Broncode</a>)</em></small></h3>
-		Components: <a class="text--grey-dark" href="premiumteaser.php">premiumTeaser</a><br/><br/>
+		Components: <a class="text--grey-dark" href="comp-premiumteaser.php">premiumTeaser</a><br/><br/>
 		<?php include '../templates/widgets/premiumteaser.php'; ?>
 		<br/><br/>
 		
@@ -113,7 +113,7 @@
 	<br/><br/>
 
 	<h3>Teasing PREMIUM <small><em class="text--grey-dark">(<a class="text--grey-dark" href="https://github.com/LennartJKlein/Sprout-composition/blob/master/templates/widgets/premiumteaser.php">Broncode</a>)</em></small></h3>
-	Components: <a class="text--grey-dark" href="premiumteaser.php">premiumTeaser</a><br/><br/>
+	Components: <a class="text--grey-dark" href="comp-premiumteaser.php">premiumTeaser</a><br/><br/>
 	<?php include '../templates/widgets/premiumteaser.php'; ?>
 	<br/><br/>
 		

@@ -4,7 +4,7 @@
 <ul class="linkList linkList--spaced">
 	<li class="linkList-item"><a class="linkList-link" href="typography.php">Typografie</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="colours.php">Kleuren</a></li>
-	<li class="linkList-item"><a class="linkList-link" href="buttons.php">Buttons</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="comp-buttons.php">Buttons</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="icons.php">Iconen</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="animations.php">Animaties</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="grid.php">Grid</a></li>
@@ -42,12 +42,13 @@
 <h3><i class="headingIcon fa fa-cubes"></i>Components</h3>
 <h4><i class="headingIcon fa fa-file-text"></i>Artikel</h4>
 <ul class="linkList linkList--spaced">
-	<li class="linkList-item"><a class="linkList-link" href="article.php">article</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="comp-article.php">article</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="comp-articleauthor.php">articleAuthor</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="comp-articlemeta.php">articleMeta</a></li>
-	<li class="linkList-item"><a class="linkList-link" href="article.php#progressline">progressLine</a></li>
-	<li class="linkList-item"><a class="linkList-link" href="article.php#progresspanel">progressPanel</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="comp-progressline.php">progressLine</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="post-article.php#progresspanel">progressPanel</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="comp-shareactions.php">shareActions</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="comp-sharelist.php">shareList</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="comp-sharemodal.php">shareModal</a></li>
 </ul>
 <h4><i class="headingIcon fa fa-align-left"></i>Content</h4>
@@ -61,8 +62,8 @@
 <h4><i class="headingIcon fa fa-square"></i>Cards / teasers</h4>
 <ul class="linkList linkList--spaced">
 	<li class="linkList-item"><a class="linkList-link" href="comp-card.php">card</a></li>
-	<li class="linkList-item"><a class="linkList-link" href="comp-eventteaser.php">eventCard</a></li>
-	<li class="linkList-item"><a class="linkList-link" href="comp-forumpoststeaser.php">forumpostsWidget</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="comp-eventcard.php">eventCard</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="comp-forumpostswidget.php">forumpostsWidget</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="comp-newsletterteaser.php">newsletterTeaser</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="comp-partnerteaser.php">partnerTeaser</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="comp-premiumteaser.php">premiumTeaser</a></li>
@@ -79,7 +80,7 @@
 <ul class="linkList linkList--spaced">
 	<li class="linkList-item"><a class="linkList-link" href="comp-list.php">list</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="comp-articlelist.php">articleList</a></li>
-	<li class="linkList-item"><a class="linkList-link" href="comp-widgets.php">eventList</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="comp-eventlist.php">eventList</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="comp-investmentlist.php">investmentList</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="comp-linklist.php">linkList</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="comp-posterlist.php">posterList</a></li>
@@ -93,6 +94,7 @@
 </ul>
 <h4><i class="headingIcon fa fa-paint-brush"></i>Layout</h4>
 <ul class="linkList linkList--spaced">
+	<li class="linkList-item"><a class="linkList-link" href="comp-gridHeader.php">gridHeader</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="comp-headingicon.php">headingIcon</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="comp-pagination.php">pagination</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="comp-search.php">search</a></li>

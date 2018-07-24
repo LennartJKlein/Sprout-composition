@@ -112,7 +112,7 @@
         margin-right: auto;
     }
 
-    h2 {
+    > h2 {
         color: $color-secondary;
         font-family: $font-gotham;
         font-size: 1.6em;
@@ -124,7 +124,7 @@
         }
     }
 
-    p {
+    > p {
         @include tablet {
             font-size: 1.05em;
         }

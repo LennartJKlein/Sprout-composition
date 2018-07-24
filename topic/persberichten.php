@@ -1,25 +1,25 @@
 <?php include '../templates/header.php'; ?>
 
-    <!-- Dit is een voorbeeld van een topicpagina over de topic 'persbericht' met de eenvoudige template -->
+	<!-- Dit is een voorbeeld van een topicpagina over de topic 'persbericht' met de eenvoudige template -->
  
-    <div class="breadcrumb">
-        <a href="/index.php">Sprout.nl</a>
-        <a href="/topics.php">Topic</a>
-        <a href="/topic/persberichten.php">Persberichten van partners</a>
-    </div>
-    
-    <section class="topic">
-        
-        <header class="topic-header">
-            <div class="topic-description">
-			    <h1 class="topic-title">Persberichten van partners</h1>
-			    <div class="topic-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet egestas tortor, sit amet auctor sapien venenatis quis.</div>
+	<div class="breadcrumb">
+		<a href="/index.php">Sprout.nl</a>
+		<a href="/topics.php">Topic</a>
+		<a href="/topic/persberichten.php">Persberichten van partners</a>
+	</div>
+	
+	<section class="topic">
+		
+		<header class="topic-header">
+			<div class="topic-description">
+				<h1 class="topic-title">Persberichten van partners</h1>
+				<div class="topic-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet egestas tortor, sit amet auctor sapien venenatis quis.</div>
 			</div>
 		</header>
 
-        <main class="topic-content">
+		<main class="topic-content">
 
-            <div class="topic-news">
+			<div class="topic-news">
 
 				<div class="grid grid--mobile-12 grid--tabletlandscape-6">
 					<div class="grid-cell grid-cell--wide">
@@ -271,17 +271,17 @@
 							</div>
 						</a>
 					</div>
-                    <div class="grid-cell grid-cell--wide">
-    					<?php include '../templates/pagination.php'; ?>
-                    </div>
+					<div class="grid-cell grid-cell--wide">
+						<?php include '../templates/pagination.php'; ?>
+					</div>
 				</div>
 			</div>
 
-            <div class="topic-summary">
-                <h4>In het kort</h4>
-                <p>Direct marketing is een vorm van marketing waarbij een bedrijf direct in contact treedt met individuele (potentiële) klanten. Bijvoorbeeld door het inzetten van post (direct mail), telefoon (telemarketing), e-mail, mobiele platformen en kortingsbonnen. Dit wordt ook wel <em>below the line</em> genoemd.</p>
-                <p>In een bredere definitie omvat direct marketing ook communicatie door adverteren in kranten, tijdschriften, websites, zoekmachines, radio en televisie. Doordat er bij direct marketing een direct contact is met de klant, wordt het ook wel dialoogmarketing genoemd.</p>
-            </div>
+			<div class="topic-summary">
+				<h4>In het kort</h4>
+				<p>Direct marketing is een vorm van marketing waarbij een bedrijf direct in contact treedt met individuele (potentiële) klanten. Bijvoorbeeld door het inzetten van post (direct mail), telefoon (telemarketing), e-mail, mobiele platformen en kortingsbonnen. Dit wordt ook wel <em>below the line</em> genoemd.</p>
+				<p>In een bredere definitie omvat direct marketing ook communicatie door adverteren in kranten, tijdschriften, websites, zoekmachines, radio en televisie. Doordat er bij direct marketing een direct contact is met de klant, wordt het ook wel dialoogmarketing genoemd.</p>
+			</div>
 
 		</main>
 	</section>
@@ -290,11 +290,11 @@
 
 <aside id="aside">
 
-    <?php include '../templates/widgets/premiumteaser.php'; ?>
+	<?php include '../templates/widgets/premiumteaser.php'; ?>
 
-    <?php include '../templates/banners/banner--rectangle.php'; ?>
-    
-    <?php include '../templates/widgets/eventspartners.php' ?>
+	<?php include '../templates/banners/banner--rectangle.php'; ?>
+	
+	<?php include '../templates/widgets/eventspartners.php' ?>
 
 </aside>
 

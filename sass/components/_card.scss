@@ -166,28 +166,6 @@
 	}
 }
 
-.card--vertical-mobile,
-.card--vertical-mobile.card--big,
-.card--vertical-mobile.card--horizontal.card--textfirst {
-	@include mobile-only {
-		@include flex-flow(column nowrap);
-
-		.card-figurecontainer {
-			width: inherit;
-		}
-
-		.card-content {
-			@include flex-grow(1);
-			width: inherit;
-			-webkit-box-ordinal-group: inherit;
-			-moz-box-ordinal-group: inherit;
-			-webkit-order: inherit;
-			-ms-flex-order: inherit;
-			order: inherit;
-		}
-	}
-}
-
 .card--tablet-horizontal {
 	@include tablet {
 		@include flex-flow(row nowrap);
