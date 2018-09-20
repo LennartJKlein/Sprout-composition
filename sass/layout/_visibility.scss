@@ -1,0 +1,35 @@
+.hidden-mobile {
+	@include mobile-only {
+		display: none;
+	}
+}
+
+.hidden-tablet {
+	@include tablet-only {
+		display: none;
+	}
+}
+
+.hidden-desktop {
+	@include desktop {
+		display: none;
+	}
+}
+
+.show-mobile {
+	@include mobile-only {
+		display: inherit;
+	}
+}
+
+.show-tablet {
+	@include tablet-only {
+		display: inherit;
+	}
+}
+
+.show-desktop {
+	@include desktop {
+		display: inherit;
+	}
+}

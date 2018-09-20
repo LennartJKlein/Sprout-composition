@@ -10,7 +10,27 @@
     
     <section class="topic topic--extensive">
         
+        <div class="topic-partners hidden-desktop">
+            <h2 class="topic-subtitle">Dit topic wordt gesponsord door:</h2>
+            <div class="grid">
+                <div class="grid-cell">
+                    <a href="/partner/post-nl.php" class="card card--tablet-horizontal" tag="PostNL">
+                        <div class="card-figurecontainer">
+                            <div class="card-figure">
+                                <img src="../images/uploads/partners/logo-postnl-channel-sprout.png" class="card-image" />
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">PostNL</h3>
+                            <span class="card-button">Bekijk deze partner <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
         <header class="topic-header">
+
             <div class="topic-description">
                 <h1 class="topic-title">Direct marketing</h1>
                 <div class="topic-intro">Vind nieuwe klanten met deze tips, trucs en voorbeelden voor direct marketing.</div>
@@ -247,25 +267,6 @@
                 <p>In een bredere definitie omvat direct marketing ook communicatie door adverteren in kranten, tijdschriften, websites, zoekmachines, radio en televisie. Doordat er bij direct marketing een direct contact is met de klant, wordt het ook wel dialoogmarketing genoemd.</p>
             </div>
 
-            <div class="topic-partners">
-                <h2 class="topic-subtitle">Dit topic wordt gesponsord door:</h2>
-                <div class="grid grid--tablet-6">
-                    <div class="grid-cell">
-                        <a href="/partner/post-nl.php" class="card card--tablet-horizontal" tag="PostNL">
-                            <div class="card-figurecontainer">
-                                <div class="card-figure">
-                                    <img src="../images/uploads/partners/logo-postnl-channel-sprout.png" class="card-image" />
-                                </div>
-                            </div>
-                            <div class="card-content">
-                                <h3 class="card-title">PostNL</h3>
-                                <span class="card-button">Bekijk deze partner <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
-                            </div>
-                        </a>
-                    </div>
-                </div>                
-            </div>
-
         </main>
 
     </section>
@@ -273,6 +274,25 @@
 </section>
 
 <aside id="aside">
+
+    <div class="topic-partners hidden-mobile hidden-tablet">
+        <h2 class="topic-subtitle">Dit topic wordt gesponsord door:</h2>
+        <div class="grid">
+            <div class="grid-cell">
+                <a href="/partner/post-nl.php" class="card card--tablet-horizontal" tag="PostNL">
+                    <div class="card-figurecontainer">
+                        <div class="card-figure">
+                            <img src="../images/uploads/partners/logo-postnl-channel-sprout.png" class="card-image" />
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">PostNL</h3>
+                        <span class="card-button">Bekijk deze partner <i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 
     <div class="panel panel--mobilefloat">
         <div class="panel-toggle"><i class="panel-toggle-icon fa fa-chevron-up" aria-hidden="true"></i></div>
