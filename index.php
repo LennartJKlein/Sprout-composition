@@ -382,14 +382,8 @@
 		</div>
 	</div>
 
-	<!-- Todo: add call that loads more posts into the grid above -->
+	<!-- Todo: add call that opens new page with older posts -->
 	<?php include 'templates/pagination.php'; ?>
-<!-- 	<div class="pagination">
-		<button class="pagination-loadmore button button--primary button--center button--big"><span class="spinner spinner--inline"></span>laad meer</button>
-	</div> -->
-
-	<!-- Other option: pagination with numbers: -->
-	<?php //include 'templates/pagination.php'; ?>
 
 </section>
 
