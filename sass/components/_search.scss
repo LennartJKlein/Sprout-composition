@@ -1,4 +1,4 @@
-#search {
+.search {
 	background-color: $color-primary-dark;
 	position: relative;
 	margin: -0.5em -0.5em 0.5em -0.5em;
@@ -8,6 +8,41 @@
 	@include tablet {
 		background-color: transparent;
 		margin: 0 2em 2em;
+	}
+
+	&--inpage {
+		margin-left: auto;
+		margin-right: auto;
+
+		.search-field {
+			border-radius: 0.5rem;
+			color: $color-primary;
+			width: 100%;
+			transition: all .3s;
+			padding: 1em 1.5em;
+			background: $color-white;
+			box-shadow: none;
+			font-size: 1rem;
+
+			&:focus,
+			&:active {
+				box-shadow: none;
+			}
+		}
+
+		.search-submit {
+			background: $color-primary;
+			border-radius: 0 0.5rem 0.5rem 0;
+			left: auto;
+			right: 0;
+			font-size: 1rem;
+			font-weight: bold;
+			text-transform: uppercase;
+			padding: 0 1em;
+			user-select: auto;
+			pointer-events: auto;
+			width: auto;
+		}
 	}
 }
 

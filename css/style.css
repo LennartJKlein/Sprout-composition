@@ -6171,7 +6171,7 @@ code {
     margin-right: 0.5em; }
 
 /* line 1, ../sass/components/_search.scss */
-#search {
+.search {
   background-color: #224456;
   position: relative;
   margin: -0.5em -0.5em 0.5em -0.5em;
@@ -6179,11 +6179,41 @@ code {
   overflow: visible; }
   @media (min-width: 768px) {
     /* line 1, ../sass/components/_search.scss */
-    #search {
+    .search {
       background-color: transparent;
       margin: 0 2em 2em; } }
+  /* line 13, ../sass/components/_search.scss */
+  .search--inpage {
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 17, ../sass/components/_search.scss */
+    .search--inpage .search-field {
+      border-radius: 0.5rem;
+      color: #2E5266;
+      width: 100%;
+      transition: all .3s;
+      padding: 1em 1.5em;
+      background: #fefefe;
+      box-shadow: none;
+      font-size: 1rem; }
+      /* line 27, ../sass/components/_search.scss */
+      .search--inpage .search-field:focus, .search--inpage .search-field:active {
+        box-shadow: none; }
+    /* line 33, ../sass/components/_search.scss */
+    .search--inpage .search-submit {
+      background: #2E5266;
+      border-radius: 0 0.5rem 0.5rem 0;
+      left: auto;
+      right: 0;
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 0 1em;
+      user-select: auto;
+      pointer-events: auto;
+      width: auto; }
 
-/* line 14, ../sass/components/_search.scss */
+/* line 49, ../sass/components/_search.scss */
 .search-field {
   border: 0;
   background: transparent;
@@ -6195,29 +6225,29 @@ code {
   height: calc(48px + 1rem);
   transition: box-shadow .2s;
   box-shadow: none; }
-  /* line 26, ../sass/components/_search.scss */
+  /* line 61, ../sass/components/_search.scss */
   .search-field::-webkit-input-placeholder {
     color: #fefefe; }
-  /* line 29, ../sass/components/_search.scss */
+  /* line 64, ../sass/components/_search.scss */
   .search-field::-moz-placeholder {
     color: #fefefe; }
-  /* line 32, ../sass/components/_search.scss */
+  /* line 67, ../sass/components/_search.scss */
   .search-field:-ms-input-placeholder {
     color: #fefefe; }
-  /* line 35, ../sass/components/_search.scss */
+  /* line 70, ../sass/components/_search.scss */
   .search-field:-moz-placeholder {
     color: #fefefe; }
   @media (min-width: 768px) {
-    /* line 14, ../sass/components/_search.scss */
+    /* line 49, ../sass/components/_search.scss */
     .search-field {
       height: auto;
       padding: 1em 0 1em calc(10% + 1.3rem); } }
-  /* line 44, ../sass/components/_search.scss */
+  /* line 79, ../sass/components/_search.scss */
   .search-field:focus, .search-field:active {
     box-shadow: 0 2px 0 0 #fefefe;
     outline: 0; }
 
-/* line 51, ../sass/components/_search.scss */
+/* line 86, ../sass/components/_search.scss */
 .search-placeholder {
   display: none;
   padding: 1em 0;
@@ -6230,7 +6260,7 @@ code {
   position: relative;
   color: transparent; }
 
-/* line 64, ../sass/components/_search.scss */
+/* line 99, ../sass/components/_search.scss */
 .search-submit {
   position: absolute;
   left: 1em;
@@ -6246,11 +6276,11 @@ code {
   cursor: pointer;
   background: transparent;
   color: #fefefe; }
-  /* line 80, ../sass/components/_search.scss */
+  /* line 115, ../sass/components/_search.scss */
   .search-submit:focus, .search-submit:active {
     background-color: #2E5266; }
   @media (min-width: 768px) {
-    /* line 64, ../sass/components/_search.scss */
+    /* line 99, ../sass/components/_search.scss */
     .search-submit {
       left: 0;
       width: 10%;
@@ -6259,12 +6289,12 @@ code {
       transform: translateY(0);
       user-select: none;
       pointer-events: none; } }
-  /* line 95, ../sass/components/_search.scss */
+  /* line 130, ../sass/components/_search.scss */
   .search-submit .fa {
     font-size: 1.4em;
     text-align: center; }
 
-/* line 101, ../sass/components/_search.scss */
+/* line 136, ../sass/components/_search.scss */
 .search-resultscontainer {
   width: 0;
   position: absolute;
@@ -6275,10 +6305,10 @@ code {
   top: 0;
   transition: width 0.7s;
   display: none; }
-  /* line 112, ../sass/components/_search.scss */
+  /* line 147, ../sass/components/_search.scss */
   .search-resultscontainer.open {
     width: calc(100vw - 100%); }
-  /* line 116, ../sass/components/_search.scss */
+  /* line 151, ../sass/components/_search.scss */
   .search-resultscontainer .grid-cell {
     max-width: 300px; }
 

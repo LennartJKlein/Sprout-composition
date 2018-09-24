@@ -68,7 +68,7 @@
 				<img src="/images/sprout-logo.png" class="logo-image" />
 				<img src="/images/sprout-logo-s.png" class="logo-image-s" />
 			</a>
-			<form id="search">
+			<form id="search" class="search">
 				<input type="text" placeholder="Zoeken..." class="search-field" />
 				<div class="search-placeholder">.</div>
 				<button type="submit" class="search-submit"><i aria-hidden="true" class="fa fa-search"></i></button>
