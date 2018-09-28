@@ -10,7 +10,7 @@
         <h1 class="main-title">Afgelopen events</h1>
     </header>
 
-    <div class="grid grid--events">
+    <div class="grid grid--tablet-6 grid--desktop-4 grid--equal-height grid--events">
         <div class="grid-cell">
             <a href="evenement/nk-pitchen-2018.php" class="card card--event" tag="scaleups">
                 <div class="card-figurecontainer">

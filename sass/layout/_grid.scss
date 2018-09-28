@@ -326,3 +326,17 @@
 		}
 	}
 }
+
+.grid--equal-height {
+	flex-wrap: wrap;
+	align-items: stretch;
+
+	.grid-cell {
+		margin-bottom: 1.5rem;
+	}
+
+	.card {
+		height: 100%;
+		margin-bottom: 0;
+	}
+}
