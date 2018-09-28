@@ -1612,6 +1612,18 @@ body {
   .grid--desktop-12 .grid-cell--wide {
     width: 100%; } }
 
+/* line 330, ../sass/layout/_grid.scss */
+.grid--equal-height {
+  flex-wrap: wrap;
+  align-items: stretch; }
+  /* line 334, ../sass/layout/_grid.scss */
+  .grid--equal-height .grid-cell {
+    margin-bottom: 1.5rem; }
+  /* line 338, ../sass/layout/_grid.scss */
+  .grid--equal-height .card {
+    height: 100%;
+    margin-bottom: 0; }
+
 /* line 1, ../sass/layout/_button.scss */
 .button {
   background: transparent;
@@ -6337,6 +6349,16 @@ code {
       padding-right: 4rem;
       margin-left: auto;
       margin-right: auto; } }
+
+/* line 27, ../sass/components/_shareactions.scss */
+.shareActions--fluid {
+  margin: 2rem 0; }
+  /* line 31, ../sass/components/_shareactions.scss */
+  .shareActions--fluid .shareList-item:first-of-type .shareList-link {
+    margin-left: 0; }
+  /* line 37, ../sass/components/_shareactions.scss */
+  .shareActions--fluid .shareList-item:last-of-type .shareList-link {
+    margin-right: 0; }
 
 /* line 1, ../sass/components/_sharelist.scss */
 .shareList {

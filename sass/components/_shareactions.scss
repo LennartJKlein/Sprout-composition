@@ -23,3 +23,19 @@
 		margin-right: auto;
 	}
 }
+
+.shareActions--fluid {
+	margin: 2rem 0;
+
+	.shareList-item:first-of-type {
+		.shareList-link {
+			margin-left: 0;
+		}
+	}
+
+	.shareList-item:last-of-type {
+		.shareList-link {
+			margin-right: 0;
+		}
+	}
+}
