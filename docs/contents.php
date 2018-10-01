@@ -9,6 +9,7 @@
 	<li class="linkList-item"><a class="linkList-link" href="animations.php">Animaties</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="grid.php">Grid</a></li>
 	<li class="linkList-item"><a class="linkList-link" href="header.php">Header</a></li>
+	<li class="linkList-item"><a class="linkList-link" href="404.php">404</a></li>
 </ul>
 
 <h3><i class="headingIcon fa fa-user"></i>Profielen</h3>

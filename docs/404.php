@@ -1,4 +1,4 @@
-<?php include 'templates/header.php'; ?>
+<?php include '../templates/header.php'; ?>
 
 	<header class="main-header">
 
@@ -22,13 +22,13 @@
 		<h2>Wat we wel voor je hebben</h2>
 		<div class="grid grid--6 grid--tablet-6 grid--desktop-6 grid--equal-height">
 			<div class="grid-cell">
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card" tag="scaleups">
+				<a href="/artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card" tag="scaleups">
 					<div class="card-figurecontainer">
 						<div class="card-tags">
 							<div class="card-tag">scaleups</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="card-image" />
+							<img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -39,14 +39,14 @@
 				</a>
 			</div>
 			<div class="grid-cell">
-				<a href="artikel/premium-artikel.php" class="card card--premium" tag="scaleups">
+				<a href="/artikel/premium-artikel.php" class="card card--premium" tag="scaleups">
 					<div class="card-figurecontainer">
 						<div class="card-tags">
 							<div class="card-tag card-tag--premium"><i class="fa fa-star" aria-hidden="true"></i> premium</div>
 							<div class="card-tag">scaleups</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/uploads/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="card-image" />
+							<img src="/images/uploads/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -57,13 +57,13 @@
 				</a>
 			</div>
 			<div class="grid-cell">
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card" tag="scaleups">
+				<a href="/artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card" tag="scaleups">
 					<div class="card-figurecontainer">
 						<div class="card-tags">
 							<div class="card-tag">scaleups</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/uploads/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
+							<img src="/images/uploads/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -81,7 +81,7 @@
 							<div class="card-tag">investeren</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/uploads/articles/bill_gates.png" class="card-image" />
+							<img src="/images/uploads/articles/bill_gates.png" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -92,13 +92,13 @@
 				</a>
 			</div>
 			<div class="grid-cell">
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card" tag="scaleups">
+				<a href="/artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card" tag="scaleups">
 					<div class="card-figurecontainer">
 						<div class="card-tags">
 							<div class="card-tag">scaleups</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="card-image" />
+							<img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -109,14 +109,14 @@
 				</a>
 			</div>
 			<div class="grid-cell">
-				<a href="artikel/premium-artikel.php" class="card card--premium" tag="scaleups">
+				<a href="/artikel/premium-artikel.php" class="card card--premium" tag="scaleups">
 					<div class="card-figurecontainer">
 						<div class="card-tags">
 							<div class="card-tag card-tag--premium"><i class="fa fa-star" aria-hidden="true"></i> premium</div>
 							<div class="card-tag">scaleups</div>
 						</div>
 						<div class="card-figure">
-							<img src="images/uploads/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="card-image" />
+							<img src="/images/uploads/articles/schermafbeelding_2017-08-16_om_10.48.45.png" class="card-image" />
 						</div>
 					</div>
 					<div class="card-content">
@@ -131,4 +131,10 @@
 
 </section>
 
-<?php include 'templates/footer.php'; ?>
+<aside id="aside">
+
+	<?php include 'contents.php'; ?>
+
+</aside>
+
+<?php include '../templates/footer.php'; ?>
