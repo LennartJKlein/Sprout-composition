@@ -9,7 +9,7 @@
 
 .topic--extensive {
 
-	.topic-header {
+	.topic__header {
 		background: $color-primary-light;
 		padding: 1.5em;
 		margin-top: 1em;
@@ -27,14 +27,14 @@
 		}
 	}
 
-	.topic-description {
+	.topic__description {
 		@include tablet {
 			padding-right: 1rem;
 			width: $percent-1of2;
 		}
 	}
 
-	.topic-title {
+	.topic__title {
 		color: $color-primary-dark;
 		margin-top: 0;
 		margin-bottom: 0.25em;
@@ -45,7 +45,7 @@
 		}
 	}
 	
-	.topic-intro {
+	.topic__intro {
 		color: $color-primary;
 		margin-bottom: 0;
 		
@@ -56,7 +56,7 @@
 	}
 }
 
-.topic-header {
+.topic__header {
 	@include flex;
 	@include flex-flow(column nowrap);
 	@include justify-content(flex-start);
@@ -71,7 +71,7 @@
 	}
 }
 
-.topic-title {
+.topic__title {
 	margin: 0.5em 0 1em;
     font-size: 1.85em;
     font-family: $font-gotham;
@@ -87,7 +87,7 @@
     }
 }
 
-.topic-intro {
+.topic__intro {
     font-family: $font-kepler;
     margin: -1rem -1.5rem 0 -1.5rem;
     padding: 1.5rem;
@@ -115,7 +115,7 @@
     }
 }
 
-.topic-spotlight {
+.topic__spotlight {
 	margin-top: 0.5em;
 
 	@include tablet {
@@ -129,7 +129,7 @@
 	}
 }
 
-.topic-subtitle {
+.topic__subtitle {
 	font-size: 1.25em;
 	margin-bottom: 1.5em;
 	margin-left: 0;
@@ -138,7 +138,7 @@
 	color: $color-primary;
 }
 
-.topic-subjects {
+.topic__subjects {
 	background: $color-primary-light;
 	margin-bottom: 3em;
 	margin-left: -1.5em;
@@ -152,7 +152,7 @@
 	}
 }
 
-.topic-summary {
+.topic__summary {
 	h4 {
 		color: $color-primary;
 	}

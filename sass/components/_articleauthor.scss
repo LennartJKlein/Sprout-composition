@@ -24,7 +24,7 @@
 		padding: 1rem 5.5rem;
 	}
 
-	.articleAuthor-link {
+	.articleAuthor__link {
 		margin-bottom: 2em;
 		color: $color-black;
 		font-size: 1.1em;
@@ -35,7 +35,7 @@
 		}
 	}
 
-	.articleAuthor-image {
+	.articleAuthor__image {
 		height: 6em;
 
 		@include tablet {
@@ -43,7 +43,7 @@
 		}
 	}
 
-	.articleAuthor-name {
+	.articleAuthor__name {
 		&:before {
 			content: 'Geschreven door:';
 			display: block;
@@ -66,7 +66,7 @@
 		}
 	}
 
-	.articleAuthor-company {
+	.articleAuthor__company {
 		&:before {
 			content: '(';
 		}
@@ -76,7 +76,7 @@
 		}
 	}
 
-	.articleAuthor-sociallink {
+	.articleAuthor__sociallink {
 		&:hover,
 		&:focus,
 		&:active {
@@ -84,17 +84,17 @@
 		}
 	}
 
-	.articleAuthor-content {
+	.articleAuthor__content {
 		p {
 			color: $color-black;
 		}
 	}
 
-	.articleAuthor-social {
+	.articleAuthor__social {
 		text-align: center;
 	}
 
-	.articleAuthor-expand {
+	.articleAuthor__expand {
 		top: auto;
 		bottom: 100%;
 		box-shadow: none;
@@ -103,7 +103,7 @@
 	}
 }
 
-.articleAuthor-content {
+.articleAuthor__content {
 	@include flex;
 	@include flex-flow(column nowrap);
 	@include justify-content(space-between);
@@ -115,7 +115,7 @@
 	}
 }
 
-.articleAuthor-summary {
+.articleAuthor__summary {
 	@include flex;
 	@include justify-content(space-between);
 	@include align-items(center);
@@ -123,7 +123,7 @@
 	cursor: pointer;
 }
 
-.articleAuthor-link {
+.articleAuthor__link {
 	@include flex;
 	@include justify-content(space-between);
 	@include align-items(center);
@@ -135,13 +135,13 @@
 	&:hover {
 		color: $color-white;
 
-		.articleAuthor-image {
+		.articleAuthor__image {
 			transform: scale(1.1);
 		}
 	}
 }
 
-.articleAuthor-toggle {
+.articleAuthor__toggle {
 	padding: 1em;
 	border-radius: 100%;
 	cursor: pointer;
@@ -152,7 +152,7 @@
 	}
 }
 
-.articleAuthor-image {
+.articleAuthor__image {
 	@include circle-border;
 	overflow: hidden;
 	margin-right: 1.5em;
@@ -160,12 +160,12 @@
 	transition: all .2s;
 }
 
-.articleAuthor-name {
+.articleAuthor__name {
 	font-weight: 600;
 	text-align: left;
 }
 
-.articleAuthor-company {
+.articleAuthor__company {
 	font-weight: normal;
 	font-size: 0.85em;
 	display: none;
@@ -178,7 +178,7 @@
 	}
 }
 
-.articleAuthor-expand {
+.articleAuthor__expand {
 	display: none;
 	background: $color-black;
 	border-top: solid 1px $color-black;
@@ -202,7 +202,7 @@
 	}
 }
 
-.articleAuthor-sociallink {
+.articleAuthor__sociallink {
 	margin-right: 0.5em;
 	margin-bottom: 0.5em;
 

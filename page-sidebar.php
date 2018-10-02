@@ -5,22 +5,22 @@
 		<a href="/page-sidebar.php">Default page (sidebar)</a>
 	</div>
 
-	<header class="main-header">
+	<header class="main__header">
 
-		<h1 class="main-title">Default page (sidebar)</h1>
+		<h1 class="main__title">Default page (sidebar)</h1>
 					
-		<div class="main-hero figure">
-			<img src="../images/uploads/main-hero.jpg" class="figure-image" />
-			<span class="figure-credit">&copy; Gerrit Postman</span>
+		<div class="main__hero figure">
+			<img src="../images/uploads/main-hero.jpg" class="figure__image" />
+			<span class="figure__credit">&copy; Gerrit Postman</span>
 		</div>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget purus pretium, pretium nibh nec, imperdiet lacus. Etiam sollicitudin placerat iaculis. In sit amet vestibulum felis. Aenean lobortis bibendum justo, quis gravida turpis aliquet interdum. Sed eget pharetra libero. Sed tempor sed velit non dictum. Nullam in magna sit amet augue laoreet semper. Ut posuere ultrices mi vulputate egestas.</p>
 		</div>
 
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 
 		<h2>H2 Titel</h2>
 		<p><strong>Ondertitel of inleiding. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></p>
@@ -79,15 +79,15 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget purus pretium, pretium nibh nec, imperdiet lacus. Etiam sollicitudin placerat iaculis. In sit amet vestibulum felis. Aenean lobortis bibendum justo, quis gravida turpis aliquet interdum. Sed eget pharetra libero. Sed tempor sed velit non dictum. Nullam in magna sit amet augue laoreet semper. Ut posuere ultrices mi vulputate egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget purus pretium, pretium nibh nec, imperdiet lacus. Etiam sollicitudin placerat iaculis. In sit amet vestibulum felis. Aenean lobortis bibendum justo, quis gravida turpis aliquet interdum. Sed eget pharetra libero. Sed tempor sed velit non dictum. Nullam in magna sit amet augue laoreet semper. Ut posuere ultrices mi vulputate egestas.</p>
 
 		<div class="panel">
-			<h3 class="panel-title">Lorem ipsum</h3>
-			<div class="panel-content">
+			<h3 class="panel__title">Lorem ipsum</h3>
+			<div class="panel__content">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget purus pretium, pretium nibh nec, imperdiet lacus. Etiam sollicitudin placerat iaculis. In sit amet vestibulum felis. Aenean lobortis bibendum justo, quis gravida turpis aliquet interdum. Sed eget pharetra libero. Sed tempor sed velit non dictum. Nullam in magna sit amet augue laoreet semper. Ut posuere ultrices mi vulputate egestas.</p>
 				<ul class="linkList">
 					<li class="linkList-item">
-						<a class="linkList-link" href="#" target="_new">Eerste link</a>
+						<a class="linkList__link" href="#" target="_new">Eerste link</a>
 					</li>
 					<li class="linkList-item">
-						<a class="linkList-link" href="#" target="_new">Tweede link</a>
+						<a class="linkList__link" href="#" target="_new">Tweede link</a>
 					</li>
 				</ul>
 
@@ -103,8 +103,8 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget purus pretium, pretium nibh nec, imperdiet lacus. Etiam sollicitudin placerat iaculis. In sit amet vestibulum felis. Aenean lobortis bibendum justo, quis gravida turpis aliquet interdum. Sed eget pharetra libero. Sed tempor sed velit non dictum. Nullam in magna sit amet augue laoreet semper.</p>
 
 		<div class="figure">
-			<img src="../images/uploads/articles/article-figure1.jpg" class="figure-image" />
-			<div class="figure-credit">
+			<img src="../images/uploads/articles/article-figure1.jpg" class="figure__image" />
+			<div class="figure__credit">
 				Boris Blijham en Danny ten Nijenhuis van ThePhoneLab.
 			</div>
 		</div>

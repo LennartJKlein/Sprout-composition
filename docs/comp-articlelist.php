@@ -9,66 +9,66 @@
 		<a href="/docs/comp-articlelist.php">articleList</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">articleList</h1>
-		<div class="main-intro">Dit component wordt gebruikt om post van het type 'artikel' met lijst-items te laten zien, in plaats van de gebruikelijke <a href="comp-card.php">card</a>.</div>
+	<header class="main__header">
+		<h1 class="main__title">articleList</h1>
+		<div class="main__intro">Dit component wordt gebruikt om post van het type 'artikel' met lijst-items te laten zien, in plaats van de gebruikelijke <a href="comp-card.php">card</a>.</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 		<h2>Default</h2>
 		<div class="articleList">
-			<a href="#" class="articleList-article">
-				<div class="articleList-figurecontainer">
-					<div class="articleList-figure">
-						<img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList-image" />
+			<a href="#" class="articleList__article">
+				<div class="articleList__figurecontainer">
+					<div class="articleList__figure">
+						<img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList__image" />
 					</div>
 				</div>
-				<h3 class="articleList-article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
+				<h3 class="articleList__article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
 			</a>
-			<a href="#" class="articleList-article">
-				<div class="articleList-figurecontainer">
-					<div class="articleList-figure">
-						<img src="/images/uploads/articles/bill_gates.png" class="articleList-image" />
+			<a href="#" class="articleList__article">
+				<div class="articleList__figurecontainer">
+					<div class="articleList__figure">
+						<img src="/images/uploads/articles/bill_gates.png" class="articleList__image" />
 					</div>
 				</div>
-				<h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
+				<h3 class="articleList__article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
 			</a>
-			<a href="#" class="articleList-article">
-				<div class="articleList-figurecontainer">
-					<div class="articleList-figure">
-						<img src="/images/uploads/articles/schermafbeelding_2017-08-15_om_17.10.42.png" class="articleList-image" />
+			<a href="#" class="articleList__article">
+				<div class="articleList__figurecontainer">
+					<div class="articleList__figure">
+						<img src="/images/uploads/articles/schermafbeelding_2017-08-15_om_17.10.42.png" class="articleList__image" />
 					</div>
 				</div>
-				<h3 class="articleList-article-title">Deze ondernemer helpt game-ontwikkelaars aan een investeerder</h3>
+				<h3 class="articleList__article-title">Deze ondernemer helpt game-ontwikkelaars aan een investeerder</h3>
 			</a>
 		</div>
 		<a href="#" class="button button--arrow button--clean articleList-button"><i class="fa fa-chevron-right" aria-hidden="true"></i> Meer artikelen</a>
 		<br/>
 		<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<div class="articleList">
-			    <a href="#" class="articleList-article">
-			        <div class="articleList-figurecontainer">
-			            <div class="articleList-figure">
-			                <img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList-image" />
+			    <a href="#" class="articleList__article">
+			        <div class="articleList__figurecontainer">
+			            <div class="articleList__figure">
+			                <img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList__image" />
 			            </div>
 			        </div>
-			        <h3 class="articleList-article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
+			        <h3 class="articleList__article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
 			    </a>
-			    <a href="#" class="articleList-article">
-			        <div class="articleList-figurecontainer">
-			            <div class="articleList-figure">
-			                <img src="/images/uploads/articles/bill_gates.png" class="articleList-image" />
+			    <a href="#" class="articleList__article">
+			        <div class="articleList__figurecontainer">
+			            <div class="articleList__figure">
+			                <img src="/images/uploads/articles/bill_gates.png" class="articleList__image" />
 			            </div>
 			        </div>
-			        <h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
+			        <h3 class="articleList__article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
 			    </a>
-			    <a href="#" class="articleList-article">
-			        <div class="articleList-figurecontainer">
-			            <div class="articleList-figure">
-			                <img src="/images/uploads/articles/schermafbeelding_2017-08-15_om_17.10.42.png" class="articleList-image" />
+			    <a href="#" class="articleList__article">
+			        <div class="articleList__figurecontainer">
+			            <div class="articleList__figure">
+			                <img src="/images/uploads/articles/schermafbeelding_2017-08-15_om_17.10.42.png" class="articleList__image" />
 			            </div>
 			        </div>
-			        <h3 class="articleList-article-title">Deze ondernemer helpt game-ontwikkelaars aan een investeerder</h3>
+			        <h3 class="articleList__article-title">Deze ondernemer helpt game-ontwikkelaars aan een investeerder</h3>
 			    </a>
 			</div>
 			<a href="#" class="button button--arrow button--clean articleList-button"><i class="fa fa-chevron-right" aria-hidden="true"></i> Meer artikelen</a>
@@ -78,29 +78,29 @@
 		<h3>--wide</h3>
 		<div class="articleList articleList--wide">
 			<div class="articleList-list">
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList-image" />
+				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+					<div class="articleList__figurecontainer">
+						<div class="articleList__figure">
+							<img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList__image" />
 						</div>
 					</div>
-					<h3 class="articleList-article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
+					<h3 class="articleList__article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
 				</a>
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="/images/uploads/articles/bill_gates.png" class="articleList-image" />
+				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+					<div class="articleList__figurecontainer">
+						<div class="articleList__figure">
+							<img src="/images/uploads/articles/bill_gates.png" class="articleList__image" />
 						</div>
 					</div>
-					<h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
+					<h3 class="articleList__article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
 				</a>
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="/images/uploads/articles/pexels-photo-436413.jpg" class="articleList-image" />
+				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+					<div class="articleList__figurecontainer">
+						<div class="articleList__figure">
+							<img src="/images/uploads/articles/pexels-photo-436413.jpg" class="articleList__image" />
 						</div>
 					</div>
-					<h3 class="articleList-article-title">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
+					<h3 class="articleList__article-title">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
 				</a>
 			</div>
 			<a href="#.php" class="button button--arrow button--clean articleList-button"><i class="fa fa-chevron-right" aria-hidden="true"></i> Meer artikelen</a>
@@ -109,29 +109,29 @@
 		<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<div class="articleList articleList--wide">
 			    <div class="articleList-list">
-			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-			            <div class="articleList-figurecontainer">
-			                <div class="articleList-figure">
-			                    <img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList-image" />
+			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+			            <div class="articleList__figurecontainer">
+			                <div class="articleList__figure">
+			                    <img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList__image" />
 			                </div>
 			            </div>
-			            <h3 class="articleList-article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
+			            <h3 class="articleList__article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
 			        </a>
-			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-			            <div class="articleList-figurecontainer">
-			                <div class="articleList-figure">
-			                    <img src="/images/uploads/articles/bill_gates.png" class="articleList-image" />
+			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+			            <div class="articleList__figurecontainer">
+			                <div class="articleList__figure">
+			                    <img src="/images/uploads/articles/bill_gates.png" class="articleList__image" />
 			                </div>
 			            </div>
-			            <h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
+			            <h3 class="articleList__article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
 			        </a>
-			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-			            <div class="articleList-figurecontainer">
-			                <div class="articleList-figure">
-			                    <img src="/images/uploads/articles/pexels-photo-436413.jpg" class="articleList-image" />
+			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+			            <div class="articleList__figurecontainer">
+			                <div class="articleList__figure">
+			                    <img src="/images/uploads/articles/pexels-photo-436413.jpg" class="articleList__image" />
 			                </div>
 			            </div>
-			            <h3 class="articleList-article-title">Oud-ondernemer Netflix: Voor 10 dollar onbeperkt naar de bios</h3>
+			            <h3 class="articleList__article-title">Oud-ondernemer Netflix: Voor 10 dollar onbeperkt naar de bios</h3>
 			        </a>
 			    </div>
 			    <a href="#.php" class="button button--arrow button--clean articleList-button"><i class="fa fa-chevron-right" aria-hidden="true"></i> Meer artikelen</a>
@@ -142,31 +142,31 @@
 
 		<h3>--highlighticon</h3>
 		<div class="articleList articleList--highlighticon">
-			<h2 class="articleList-title"><a href="tag.php" class="articleList-title-link"><i class="fa fa-flash" aria-hidden="true"></i> Trending</a></h2>
+			<h2 class="articleList__title"><a href="tag.php" class="articleList__title-link"><i class="fa fa-flash" aria-hidden="true"></i> Trending</a></h2>
 			<div class="articleList-list">
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList-image" />
+				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+					<div class="articleList__figurecontainer">
+						<div class="articleList__figure">
+							<img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList__image" />
 						</div>
 					</div>
-					<h3 class="articleList-article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
+					<h3 class="articleList__article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
 				</a>
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="/images/uploads/articles/bill_gates.png" class="articleList-image" />
+				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+					<div class="articleList__figurecontainer">
+						<div class="articleList__figure">
+							<img src="/images/uploads/articles/bill_gates.png" class="articleList__image" />
 						</div>
 					</div>
-					<h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
+					<h3 class="articleList__article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
 				</a>
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="/images/uploads/articles/pexels-photo-436413.jpg" class="articleList-image" />
+				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+					<div class="articleList__figurecontainer">
+						<div class="articleList__figure">
+							<img src="/images/uploads/articles/pexels-photo-436413.jpg" class="articleList__image" />
 						</div>
 					</div>
-					<h3 class="articleList-article-title">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
+					<h3 class="articleList__article-title">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
 				</a>
 			</div>
 			<a href="#.php" class="button button--arrow button--clean articleList-button"><i class="fa fa-chevron-right" aria-hidden="true"></i> Meer artikelen</a>
@@ -174,31 +174,31 @@
 		<br/>
 		<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<div class="articleList articleList--highlighticon">
-			    <h2 class="articleList-title"><a href="tag.php" class="articleList-title-link"><i class="fa fa-flash" aria-hidden="true"></i> Trending</a></h2>
+			    <h2 class="articleList__title"><a href="tag.php" class="articleList__title-link"><i class="fa fa-flash" aria-hidden="true"></i> Trending</a></h2>
 			    <div class="articleList-list">
-			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-			            <div class="articleList-figurecontainer">
-			                <div class="articleList-figure">
-			                    <img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList-image" />
+			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+			            <div class="articleList__figurecontainer">
+			                <div class="articleList__figure">
+			                    <img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList__image" />
 			                </div>
 			            </div>
-			            <h3 class="articleList-article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
+			            <h3 class="articleList__article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
 			        </a>
-			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-			            <div class="articleList-figurecontainer">
-			                <div class="articleList-figure">
-			                    <img src="/images/uploads/articles/bill_gates.png" class="articleList-image" />
+			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+			            <div class="articleList__figurecontainer">
+			                <div class="articleList__figure">
+			                    <img src="/images/uploads/articles/bill_gates.png" class="articleList__image" />
 			                </div>
 			            </div>
-			            <h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
+			            <h3 class="articleList__article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
 			        </a>
-			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-			            <div class="articleList-figurecontainer">
-			                <div class="articleList-figure">
-			                    <img src="/images/uploads/articles/pexels-photo-436413.jpg" class="articleList-image" />
+			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+			            <div class="articleList__figurecontainer">
+			                <div class="articleList__figure">
+			                    <img src="/images/uploads/articles/pexels-photo-436413.jpg" class="articleList__image" />
 			                </div>
 			            </div>
-			            <h3 class="articleList-article-title">Oud-ondernemer Netflix: Voor 10 dollar onbeperkt naar de bios</h3>
+			            <h3 class="articleList__article-title">Oud-ondernemer Netflix: Voor 10 dollar onbeperkt naar de bios</h3>
 			        </a>
 			    </div>
 			    <a href="#.php" class="button button--arrow button--clean articleList-button"><i class="fa fa-chevron-right" aria-hidden="true"></i> Meer artikelen</a>
@@ -209,29 +209,29 @@
 		<h3>--negative</h3>
 		<div class="articleList articleList--negative">
 			<div class="articleList-list">
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList-image" />
+				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+					<div class="articleList__figurecontainer">
+						<div class="articleList__figure">
+							<img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList__image" />
 						</div>
 					</div>
-					<h3 class="articleList-article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
+					<h3 class="articleList__article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
 				</a>
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="/images/uploads/articles/bill_gates.png" class="articleList-image" />
+				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+					<div class="articleList__figurecontainer">
+						<div class="articleList__figure">
+							<img src="/images/uploads/articles/bill_gates.png" class="articleList__image" />
 						</div>
 					</div>
-					<h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
+					<h3 class="articleList__article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
 				</a>
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="/images/uploads/articles/pexels-photo-436413.jpg" class="articleList-image" />
+				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+					<div class="articleList__figurecontainer">
+						<div class="articleList__figure">
+							<img src="/images/uploads/articles/pexels-photo-436413.jpg" class="articleList__image" />
 						</div>
 					</div>
-					<h3 class="articleList-article-title">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
+					<h3 class="articleList__article-title">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
 				</a>
 			</div>
 			<a href="#.php" class="button button--arrow button--clean articleList-button"><i class="fa fa-chevron-right" aria-hidden="true"></i> Meer artikelen</a>
@@ -240,29 +240,29 @@
 		<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<div class="articleList articleList--negative">
 			    <div class="articleList-list">
-			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-			            <div class="articleList-figurecontainer">
-			                <div class="articleList-figure">
-			                    <img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList-image" />
+			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+			            <div class="articleList__figurecontainer">
+			                <div class="articleList__figure">
+			                    <img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList__image" />
 			                </div>
 			            </div>
-			            <h3 class="articleList-article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
+			            <h3 class="articleList__article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
 			        </a>
-			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-			            <div class="articleList-figurecontainer">
-			                <div class="articleList-figure">
-			                    <img src="/images/uploads/articles/bill_gates.png" class="articleList-image" />
+			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+			            <div class="articleList__figurecontainer">
+			                <div class="articleList__figure">
+			                    <img src="/images/uploads/articles/bill_gates.png" class="articleList__image" />
 			                </div>
 			            </div>
-			            <h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
+			            <h3 class="articleList__article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
 			        </a>
-			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-			            <div class="articleList-figurecontainer">
-			                <div class="articleList-figure">
-			                    <img src="/images/uploads/articles/pexels-photo-436413.jpg" class="articleList-image" />
+			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+			            <div class="articleList__figurecontainer">
+			                <div class="articleList__figure">
+			                    <img src="/images/uploads/articles/pexels-photo-436413.jpg" class="articleList__image" />
 			                </div>
 			            </div>
-			            <h3 class="articleList-article-title">Oud-ondernemer Netflix: Voor 10 dollar onbeperkt naar de bios</h3>
+			            <h3 class="articleList__article-title">Oud-ondernemer Netflix: Voor 10 dollar onbeperkt naar de bios</h3>
 			        </a>
 			    </div>
 			    <a href="#.php" class="button button--arrow button--clean articleList-button"><i class="fa fa-chevron-right" aria-hidden="true"></i> Meer artikelen</a>
@@ -273,31 +273,31 @@
 
 		<h3>--highlightfirst</h3>
 		<div class="articleList articleList--highlightfirst">
-			<h2 class="articleList-title"><a href="tag.php" class="articleList-title-link"><i class="fa fa-flash" aria-hidden="true"></i> Trending</a></h2>
+			<h2 class="articleList__title"><a href="tag.php" class="articleList__title-link"><i class="fa fa-flash" aria-hidden="true"></i> Trending</a></h2>
 			<div class="articleList-list">
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList-image" />
+				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+					<div class="articleList__figurecontainer">
+						<div class="articleList__figure">
+							<img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList__image" />
 						</div>
 					</div>
-					<h3 class="articleList-article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
+					<h3 class="articleList__article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
 				</a>
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="/images/uploads/articles/bill_gates.png" class="articleList-image" />
+				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+					<div class="articleList__figurecontainer">
+						<div class="articleList__figure">
+							<img src="/images/uploads/articles/bill_gates.png" class="articleList__image" />
 						</div>
 					</div>
-					<h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
+					<h3 class="articleList__article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
 				</a>
-				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-					<div class="articleList-figurecontainer">
-						<div class="articleList-figure">
-							<img src="/images/uploads/articles/pexels-photo-436413.jpg" class="articleList-image" />
+				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+					<div class="articleList__figurecontainer">
+						<div class="articleList__figure">
+							<img src="/images/uploads/articles/pexels-photo-436413.jpg" class="articleList__image" />
 						</div>
 					</div>
-					<h3 class="articleList-article-title">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
+					<h3 class="articleList__article-title">Oud-ondernemer Netflix: 'Voor 10 dollar onbeperkt naar de bios'</h3>
 				</a>
 			</div>
 			<a href="#.php" class="button button--arrow button--clean articleList-button"><i class="fa fa-chevron-right" aria-hidden="true"></i> Meer artikelen</a>
@@ -305,31 +305,31 @@
 		<br/>
 		<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<div class="articleList articleList--highlightfirst">
-			    <h2 class="articleList-title"><a href="tag.php" class="articleList-title-link"><i class="fa fa-flash" aria-hidden="true"></i> Trending</a></h2>
+			    <h2 class="articleList__title"><a href="tag.php" class="articleList__title-link"><i class="fa fa-flash" aria-hidden="true"></i> Trending</a></h2>
 			    <div class="articleList-list">
-			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-			            <div class="articleList-figurecontainer">
-			                <div class="articleList-figure">
-			                    <img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList-image" />
+			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+			            <div class="articleList__figurecontainer">
+			                <div class="articleList__figure">
+			                    <img src="/images/uploads/articles/daan-reijnder-instantmagazine-profielfoto-sprout.jpg" class="articleList__image" />
 			                </div>
 			            </div>
-			            <h3 class="articleList-article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
+			            <h3 class="articleList__article-title">Hij verhuist met zijn gezin naar NY en deelt zijn ervaringen uit de Big Apple</h3>
 			        </a>
-			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-			            <div class="articleList-figurecontainer">
-			                <div class="articleList-figure">
-			                    <img src="/images/uploads/articles/bill_gates.png" class="articleList-image" />
+			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+			            <div class="articleList__figurecontainer">
+			                <div class="articleList__figure">
+			                    <img src="/images/uploads/articles/bill_gates.png" class="articleList__image" />
 			                </div>
 			            </div>
-			            <h3 class="articleList-article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
+			            <h3 class="articleList__article-title">Hierom kan Bill Gates miljarden weggeven (infographic)</h3>
 			        </a>
-			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList-article">
-			            <div class="articleList-figurecontainer">
-			                <div class="articleList-figure">
-			                    <img src="/images/uploads/articles/pexels-photo-436413.jpg" class="articleList-image" />
+			        <a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="articleList__article">
+			            <div class="articleList__figurecontainer">
+			                <div class="articleList__figure">
+			                    <img src="/images/uploads/articles/pexels-photo-436413.jpg" class="articleList__image" />
 			                </div>
 			            </div>
-			            <h3 class="articleList-article-title">Oud-ondernemer Netflix: Voor 10 dollar onbeperkt naar de bios</h3>
+			            <h3 class="articleList__article-title">Oud-ondernemer Netflix: Voor 10 dollar onbeperkt naar de bios</h3>
 			        </a>
 			    </div>
 			    <a href="#.php" class="button button--arrow button--clean articleList-button"><i class="fa fa-chevron-right" aria-hidden="true"></i> Meer artikelen</a>

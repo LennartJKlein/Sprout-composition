@@ -33,7 +33,7 @@
 	}
 }
 
-.progressPanel-close {
+.progressPanel__close {
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -45,13 +45,13 @@
 	}
 }
 
-.progressPanel-list {
+.progressPanel__list {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-.progressPanel-item {
+.progressPanel__item {
 	counter-increment: articles;
 	margin-top: 0.5em;
 	display: none;
@@ -62,7 +62,7 @@
 	}
 }
 
-.progressPanel-link {
+.progressPanel__link {
 	position: relative;
 	text-decoration: none;
 	padding-left: calc(36px + 0.5em);
@@ -96,11 +96,11 @@
 	}
 
 	&.read {
-		.progressPanel-title {
+		.progressPanel__title {
 			color: $color-grey;
 		}
 
-		.progressPanel-author {
+		.progressPanel__author {
 			color: $color-grey;
 		}
 
@@ -112,11 +112,11 @@
 	}
 
 	&.reading {
-		.progressPanel-title {
+		.progressPanel__title {
 			color: $color-tertiary;
 		}
 
-		.progressPanel-svg {
+		.progressPanel__svg {
 			display: block;
 		}
 
@@ -126,7 +126,7 @@
 	}
 }
 
-.progressPanel-title {
+.progressPanel__title {
 	display: block;
 	color: $color-grey-dark;
 	line-height: 1.2;
@@ -147,7 +147,7 @@
 	}
 }
 
-.progressPanel-author {
+.progressPanel__author {
 	color: $color-grey-dark;
 	font-family: $font-kepler;
 	font-size: 0.85em;
@@ -161,7 +161,7 @@
 	}
 }
 
-.progressPanel-svg {
+.progressPanel__svg {
 	display: none;
 	position: absolute;
 	top: $percent-1of2;
@@ -175,6 +175,6 @@
 	stroke: $color-grey;
 }
 	
-.progressPanel-circle {
+.progressPanel__circle {
 	stroke: $color-tertiary;
 }

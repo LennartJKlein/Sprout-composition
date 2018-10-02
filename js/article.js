@@ -40,7 +40,7 @@ $(document).ready(function(){
 			if (articles.length > 1) {
 
 				// initialize variables
-				var	articleSidebarLinks = panel.find('.progressPanel-item'),
+				var	articleSidebarLinks = panel.find('.progressPanel__item'),
 					scrolling = false,
 					sidebarAnimation = false,
 					resizing = false,
@@ -57,7 +57,7 @@ $(document).ready(function(){
 				panel.on('click', 'a', function(event){
 					var scrollTop = $(scrollWindow).scrollTop();
 					event.preventDefault();
-					var selectedArticle = articles.eq($(this).parent('.progressPanel-item').index()),
+					var selectedArticle = articles.eq($(this).parent('.progressPanel__item').index()),
 						selectedArticleTop = selectedArticle.offset().top + scrollTop;
 
 					$(scrollWindow).off('scroll', checkRead);
@@ -71,7 +71,7 @@ $(document).ready(function(){
 					); 
 			    });
 
-			    $(".progressPanel-close").on('click', function(){
+			    $(".progressPanel__close").on('click', function(){
 					$.cookie("sprout-hide-progress", 1, { path: "/" });
 					panel.fadeOut();
 					panel.remove();
@@ -222,7 +222,7 @@ $(document).ready(function(){
 	function checkPanelgroups() {
 		if (articlesWrapper.length > 0) {
 			articles = articlesWrapper.find('article');
-			panelGroups = aside.find('.aside-panelgroup');
+			panelGroups = aside.find('.aside__panelgroup');
 
 			if (articles.length > 1) {
 				relocatePanelgroups();

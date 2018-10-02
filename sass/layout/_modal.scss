@@ -26,7 +26,7 @@
 	@include align-items(flex-start);
 }
 
-.modal-dialog {
+.modal__dialog {
 	max-width: 100%;
 	padding: 1.2rem;
 
@@ -35,7 +35,7 @@
 	}
 }
 
-.modal-content {
+.modal__content {
 	position: relative;
 	padding: 2rem;
 	background: $color-white;
@@ -50,7 +50,7 @@
 	}
 }
 
-.modal-actions {
+.modal__actions {
 	@include flex;
 	@include align-items(center);
 	@include justify-content(flex-end);
@@ -61,7 +61,7 @@
 	}
 }
 
-.modal-button {
+.modal__button {
 	margin-left: 1.5em;
 	padding: 0.75em 1em;
 	white-space: nowrap;
@@ -71,7 +71,7 @@
 	}
 }
 
-.modal-close {
+.modal__close {
 	position: absolute;
 	top: 0;
 	right: 0;

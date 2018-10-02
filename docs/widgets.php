@@ -8,61 +8,61 @@
 		<a href="/docs/widgets.php">Widgets</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">Widgets</h1>
+	<header class="main__header">
+		<h1 class="main__title">Widgets</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Sprout heeft verschillende idee&euml;n voor widgets aangedragen. Deze zijn uitgewerkt en te vinden in de volgende templates:</p>
 		</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 
-		<a class="linkList-link" href="widgets-demo.php">Alle widgets</a>
+		<a class="linkList__link" href="widgets-demo.php">Alle widgets</a>
 
 		<ol>
 			<li class="linkList-item">
-				<a class="linkList-link" href="widgets-demo.php#premiummessage">Bericht voor premium-bezoekers</a>
+				<a class="linkList__link" href="widgets-demo.php#premiummessage">Bericht voor premium-bezoekers</a>
 			</li>
 			<li class="linkList-item">
-				<a class="linkList-link" href="widgets-demo.php#premiumteaser">Teasing premium</a>
-				<a class="linkList-link" href="widgets-demo.php#partnerteaser">Teasing partnerschap</a>
+				<a class="linkList__link" href="widgets-demo.php#premiumteaser">Teasing premium</a>
+				<a class="linkList__link" href="widgets-demo.php#partnerteaser">Teasing partnerschap</a>
 			</li>
 			<li class="linkList-item">
-				<a class="linkList-link" href="widgets-demo.php#articles--trending">Trending artikelen</a>
+				<a class="linkList__link" href="widgets-demo.php#articles--trending">Trending artikelen</a>
 			</li>
 			<li class="linkList-item">
-				<a class="linkList-link" href="widgets-demo.php#articles--partners">Persberichten</a>
+				<a class="linkList__link" href="widgets-demo.php#articles--partners">Persberichten</a>
 			</li>
 			<li class="linkList-item">
-				<a class="linkList-link" href="widgets-demo.php#events">Aankomende events</a>
+				<a class="linkList__link" href="widgets-demo.php#events">Aankomende events</a>
 			</li>
 			<li class="linkList-item">
-				<a class="linkList-link" href="widgets-demo.php#eventspartners">Partner events</a>
+				<a class="linkList__link" href="widgets-demo.php#eventspartners">Partner events</a>
 			</li>
 			<li class="linkList-item">
-				<a class="linkList-link" href="widgets-demo.php#topics">Uitgelichte topics</a>
+				<a class="linkList__link" href="widgets-demo.php#topics">Uitgelichte topics</a>
 			</li>
 			<li class="linkList-item">
-				<a class="linkList-link" href="widgets-demo.php#customhtml">Custom HTML</a>
-				<a class="linkList-link" href="widgets-demo.php#customhtml--negative">Custom HTML, gekleurd</a>
-				<a class="linkList-link" href="widgets-demo.php#customhtml--headed">Custom HTML, kopafbeelding</a>
+				<a class="linkList__link" href="widgets-demo.php#customhtml">Custom HTML</a>
+				<a class="linkList__link" href="widgets-demo.php#customhtml--negative">Custom HTML, gekleurd</a>
+				<a class="linkList__link" href="widgets-demo.php#customhtml--headed">Custom HTML, kopafbeelding</a>
 			</li>
 			<li class="linkList-item">
-				<a class="linkList-link" href="widgets-demo.php#externallinks">Externe links</a>
+				<a class="linkList__link" href="widgets-demo.php#externallinks">Externe links</a>
 			</li>
 			<li class="linkList-item">
-				<a class="linkList-link" href="widgets-demo.php#newsletterteaser">Aanmelden voor nieuwsbrief</a>
-				<a class="linkList-link" href="widgets-demo.php#newsletterteaser--wide">Aanmelden voor nieuwsbrief, wide</a>
+				<a class="linkList__link" href="widgets-demo.php#newsletterteaser">Aanmelden voor nieuwsbrief</a>
+				<a class="linkList__link" href="widgets-demo.php#newsletterteaser--wide">Aanmelden voor nieuwsbrief, wide</a>
 			</li>
 			<li class="linkList-item">
-				<a class="linkList-link" href="widgets-demo.php#quote">Quote</a>
+				<a class="linkList__link" href="widgets-demo.php#quote">Quote</a>
 			</li>
 			<li class="linkList-item">
-				<a class="linkList-link" href="widgets-demo.php#forumposts">Recente forumposts</a>
+				<a class="linkList__link" href="widgets-demo.php#forumposts">Recente forumposts</a>
 			</li>
 			<li class="linkList-item">
-				<a class="linkList-link" href="widgets-demo.php#investments">Investeringen</a>
+				<a class="linkList__link" href="widgets-demo.php#investments">Investeringen</a>
 			</li>
 		</ol>
 		

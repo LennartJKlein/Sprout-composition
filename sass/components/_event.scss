@@ -7,14 +7,14 @@
     padding: 0 1.5em 0;
 }
 
-.event-header {
+.event__header {
     @include flex;
     @include flex-flow(column nowrap);
     @include justify-content(flex-start);
     @include align-items(stretch);
 }
 
-.event-info {
+.event__info {
     background: $color-secondary;
     color: $color-white;
     @include flex;
@@ -41,7 +41,7 @@
     }
 }
 
-.event-infoItem {
+.event__infoItem {
     @include flex;
     @include flex-flow(row nowrap);
     @include justify-content(flex-start);
@@ -65,13 +65,13 @@
     }
 }
 
-.event-icon {
+.event__icon {
     width: 1em;
     text-align: center;
     margin-right: 1em;
 }
 
-.event-heading {
+.event__heading {
     color: $color-secondary;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -84,7 +84,7 @@
     }
 }
 
-.event-title {
+.event__title {
     margin: 0.5em 0;
     font-size: 1.85em;
     font-family: $font-gotham;
@@ -103,7 +103,7 @@
     }
 }
 
-.event-notification {
+.event__notification {
     margin: 1em 0 2em;
     @include order(-1);
 
@@ -118,7 +118,7 @@
     }
 }
 
-.event-intro {
+.event__intro {
     font-family: $font-kepler;
     margin: -1rem -1.5rem 0 -1.5rem;
     padding: 1.5rem;
@@ -143,7 +143,7 @@
     }
 }
 
-.event-hero {
+.event__hero {
     @include order(-1);
 
     @include tablet {
@@ -162,7 +162,7 @@
         }
     }
 
-    .figure-credit {
+    .figure__credit {
         @include tablet {
             bottom: 5.5em;
         }
@@ -170,7 +170,7 @@
 }
 
 
-.event-body {
+.event__body {
 
     h2 {
         color: $color-secondary;
@@ -241,7 +241,7 @@
     }
 }
 
-.event-signup {
+.event__signup {
     background: $color-white;
     @include round-border;
     font-size: 0.9em;
@@ -259,11 +259,11 @@
     }
 }
 
-.event-signupTitle {
+.event__signupTitle {
     margin-top: 0.5em;
 }
 
-.event-options {
+.event__options {
     @include flex;
     @include justify-content(space-between);
     @include align-items(center);
@@ -276,7 +276,7 @@
     }
 }
 
-.event-coupon {
+.event__coupon {
     @include flex;
     @include justify-content(flex-start);
     @include align-items(center);
@@ -289,12 +289,12 @@
     }
 }
 
-.event-couponLabel {
+.event__couponLabel {
     color: $color-grey-dark;
     margin-right: 1em;
 }
 
-.event-couponCode {
+.event__couponCode {
     background: $color-grey;
     @include round-border;
     font-family: monospace;
@@ -317,7 +317,7 @@
     }
 }
 
-.event-externallink {
+.event__externallink {
     
     @include tablet {
         margin-right: 1em;

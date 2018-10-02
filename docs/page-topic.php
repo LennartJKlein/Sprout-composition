@@ -9,24 +9,24 @@
 		<a href="/docs/page-topic.php">Topic</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">Topic</h1>
+	<header class="main__header">
+		<h1 class="main__title">Topic</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Elke category in de site (direct marketing, mobiliteit, investeerders, funding, persbericht, etc.) heeft een topicpagina. Een topicpagina is een soort dossier van die category. Voor de topicpagina zijn er 2 templates: een eenvoudige en een uitgebreide.</p>
 		</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 
 		<div class="panel">
-			<h3 class="panel-title">Demo's</h3>
+			<h3 class="panel__title">Demo's</h3>
 			<ul class="linkList">
 				<li class="linkList-item">
-					<a class="linkList-link" href="/topic/direct-marketing.php" target="_new">Topic: 'Direct Marketing' (uitgebreid)</a>
+					<a class="linkList__link" href="/topic/direct-marketing.php" target="_new">Topic: 'Direct Marketing' (uitgebreid)</a>
 				</li>
 				<li class="linkList-item">
-					<a class="linkList-link" href="/topic/persberichten.php" target="_new">Topic: 'Persberichten' (eenvoudig)</a>
+					<a class="linkList__link" href="/topic/persberichten.php" target="_new">Topic: 'Persberichten' (eenvoudig)</a>
 				</li>
 			</ul>
 		</div>
@@ -49,25 +49,25 @@
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Title</td>
 					<td><em>Eenvoudig / uitgebreid</em></td>
-					<td><code>.topic-title</code></td>
+					<td><code>.topic__title</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Inleiding</td>
 					<td><em>Eenvoudig / uitgebreid</em></td>
-					<td><code>.topic-intro</code></td>
+					<td><code>.topic__intro</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Uitgelichte post</td>
 					<td><em>Uitgebreid</em></td>
-					<td><code>.topic-spotlight</code></td>
+					<td><code>.topic__spotlight</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>How-to: kop eerste kolom</td>
 					<td><em>Uitgebreid</em></td>
-					<td><code>.articleList-title</code></td>
+					<td><code>.articleList__title</code></td>
 				</tr>
 				<tr>
 					<td></td>
@@ -79,7 +79,7 @@
 					<td></td>
 					<td>How-to: kop tweede kolom</td>
 					<td><em>Uitgebreid</em></td>
-					<td><code>.articleList-title</code></td>
+					<td><code>.articleList__title</code></td>
 				</tr>
 				<tr>
 					<td></td>
@@ -91,7 +91,7 @@
 					<td></td>
 					<td>How-to: kop derde kolom</td>
 					<td><em>Uitgebreid</em></td>
-					<td><code>.articleList-title</code></td>
+					<td><code>.articleList__title</code></td>
 				</tr>
 				<tr>
 					<td></td>
@@ -103,13 +103,13 @@
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Body</td>
 					<td><em>Eenvoudig / uitgebreid</em></td>
-					<td><code>.topic-summary</code></td>
+					<td><code>.topic__summary</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Gesponsorde partner</td>
 					<td><em>Uitgebreid</em></td>
-					<td><code>.topic-partners</code></td>
+					<td><code>.topic__partners</code></td>
 				</tr>
 			</tbody>
 		</table>

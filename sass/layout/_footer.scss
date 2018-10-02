@@ -11,7 +11,7 @@
 	}
 }
 
-.footer-menu {
+.footer__menu {
 	@include flex;
 	@include flex-flow(column nowrap);
 	@include justify-content(center);
@@ -25,7 +25,7 @@
 	}
 }
 
-.footer-menu-link {
+.footer__menu__link {
 	display: block;
 	font-weight: bold;
 	text-transform: uppercase;

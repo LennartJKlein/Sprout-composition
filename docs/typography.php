@@ -8,18 +8,18 @@
 		<a href="/docs/colours.php">Typografie</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">Typografie</h1>
+	<header class="main__header">
+		<h1 class="main__title">Typografie</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Onderstaand is de typografie te zien die door de browser composition heen wordt gebruikt.</p>
 		</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 	
 		<div class="grid grid--tablet-6">
-			<div class="grid-cell">
+			<div class="grid__cell">
 				<div class="panel">
 					<h1>H1 Titel <em>(Open Sans)</em></h1>
 					<p class="text--kepler"><big>Intro's zijn geschreven in het lettertype <u>Kepler</u>. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</big></p>
@@ -31,11 +31,11 @@
 					<p class="text--opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consectetur justo sit amet purus ultrices, in varius ex placerat. Morbi vehicula congue ex et malesuada. Vestibulum cursus laoreet nibh in facilisis. Duis finibus sit amet purus eu cursus. Cras suscipit massa nec lectus malesuada, eget aliquam tortor blandit.</p>
 				</div>
 			</div>
-			<div class="grid-cell">
+			<div class="grid__cell">
 				<div class="panel">
 					<blockquote class="quote">
-						<span class="quote-text">Blockquotes zijn geschreven in het lettertype <u>Kepler</u>. Daarnaast zijn ze rechts uitgelijnd.</span>
-						<span class="quote-writer">John Travolta</span>
+						<span class="quote__text">Blockquotes zijn geschreven in het lettertype <u>Kepler</u>. Daarnaast zijn ze rechts uitgelijnd.</span>
+						<span class="quote__writer">John Travolta</span>
 					</blockquote>
 				</div>
 			</div>

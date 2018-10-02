@@ -3,47 +3,47 @@
 	<section class="articles">
 
 		<article class="article article--premium">
-			<header class="article-header">
-				<div class="article-tags">
+			<header class="article__header">
+				<div class="article__tags">
 					<button class="button button--small button--premium button--solid button--logo"></button>
 					<button class="button button--small button--grey" name="scaleups">Retail</button>
 					<button class="button button--small button--grey" name="investeren">Marketing</button>
 				</div>
-				<h1 class="article-title">Vooral premium members houden van informatieve artikelen</h1>
-				<div class="article-intro">Dat het het waard is om te betalen voor content, is niet ongewoon. Toch verwachten betalende leden er ook wel wat voor terug. Maar wat precies?</div>
+				<h1 class="article__title">Vooral premium members houden van informatieve artikelen</h1>
+				<div class="article__intro">Dat het het waard is om te betalen voor content, is niet ongewoon. Toch verwachten betalende leden er ook wel wat voor terug. Maar wat precies?</div>
 				
 				<?php include '../templates/shareactions--wide.php'; ?>
 				
-				<div class="article-hero figure">
-					<img src="../images/uploads/articles/article-hero-premium.jpg" class="figure-image" />
-					<span class="figure-credit">&copy; Joost Verkerk</span>
+				<div class="article__hero figure">
+					<img src="../images/uploads/articles/article-hero-premium.jpg" class="figure__image" />
+					<span class="figure__credit">&copy; Joost Verkerk</span>
 				</div>
-				<div class="article-info">
+				<div class="article__info">
 					<div class="articleMeta">
 						<date class="articleMeta-date">3 mei 2017 - 15:26</date>
-						<span class="articleMeta-readtime">7 min.</span>
+						<span class="articleMeta__readtime">7 min.</span>
 					</div>
 					<div class="articleAuthor">
-						<div class="articleAuthor-summary">
-							<a href="auteur.php" class="articleAuthor-link">
-								<img src="../images/uploads/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
-								<span class="articleAuthor-name">Remy Ludo Gieling</span>
-								<span class="articleAuthor-company">Sprout</span>
+						<div class="articleAuthor__summary">
+							<a href="auteur.php" class="articleAuthor__link">
+								<img src="../images/uploads/avatars/fred-rutgers.jpg" class="articleAuthor__image" />
+								<span class="articleAuthor__name">Remy Ludo Gieling</span>
+								<span class="articleAuthor__company">Sprout</span>
 							</a>
-							<span class="articleAuthor-toggle fa fa-chevron-down"></span>
+							<span class="articleAuthor__toggle fa fa-chevron-down"></span>
 						</div>
-						<div class="articleAuthor-expand">
+						<div class="articleAuthor__expand">
 							<p>Remy Ludo Gieling lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor dui dapibus risus semper, eget suscipit lectus malesuada. Cras ac ligula iaculis, posuere ex id, cursus diam...</p>
-							<div class="articleAuthor-social">
-								<a class="articleAuthor-sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
-								<a class="articleAuthor-sociallink button button--white button--small" href="http://nl.linkedin.com/in/gieling" target="_blank"><i class="fa fa-linkedin"></i>@gieling</a>
-								<a class="articleAuthor-sociallink button button--white button--small" href="http://www.twitter.com/gieling" target="_blank"><i class="fa fa-twitter"></i>gieling</a>
+							<div class="articleAuthor__social">
+								<a class="articleAuthor__sociallink button button--white button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
+								<a class="articleAuthor__sociallink button button--white button--small" href="http://nl.linkedin.com/in/gieling" target="_blank"><i class="fa fa-linkedin"></i>@gieling</a>
+								<a class="articleAuthor__sociallink button button--white button--small" href="http://www.twitter.com/gieling" target="_blank"><i class="fa fa-twitter"></i>gieling</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</header>
-			<main class="article-content">
+			<main class="article__content">
 				<p>Veel winkeliers denken dat klanten niet meer naar hun winkel komen omdat webshops goedkoper zijn. Vreemd genoeg bleek dit uit onderzoek maar zelden het geval.</p>
 				<p>Klanten zoeken niet perse de laagste prijs, maar ze willen wél de beste deal! Daarbij speelt vooral de totale koopbeleving een belangrijke rol.</p>
 				<p>Voor dit onderzoek werden 2000 consumenten ondervraagd via een enquête, en werden 20 consumenten ondervraagd in een consumenten-panel. Hieronder lees je de 7 belangrijkste uitkomsten:</p>
@@ -69,24 +69,24 @@
 				<?php } ?>
 
 			</main>
-			<footer class="article-footer">
+			<footer class="article__footer">
 
 				<?php if ($_COOKIE['sprout-role'] == "premium") { ?>
 
 					<?php include '../templates/shareactions.php'; ?>
 
 					<div class="articleAuthor articleAuthor--bottom">
-						<div class="articleAuthor-content">
-							<a href="auteur.php" class="articleAuthor-link">
-								<img src="../images/uploads/avatars/fred-rutgers.jpg" class="articleAuthor-image" />
-								<span class="articleAuthor-name">Fred Rutgers</span>
-								<span class="articleAuthor-company">SchrijvenVoorWeb</span>
+						<div class="articleAuthor__content">
+							<a href="auteur.php" class="articleAuthor__link">
+								<img src="../images/uploads/avatars/fred-rutgers.jpg" class="articleAuthor__image" />
+								<span class="articleAuthor__name">Fred Rutgers</span>
+								<span class="articleAuthor__company">SchrijvenVoorWeb</span>
 							</a>
 							<p>Fred Rutgers is retailexpert en ondernemerscoach. 'Op basis van 30 jaar ervaring help ik retailers en ondernemers in de b2c sector om op een leuke manier en met minder stress te bouwen aan meer omzet...</p>
-							<div class="articleAuthor-social">
-								<a class="articleAuthor-sociallink button button--primary button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
-								<a class="articleAuthor-sociallink button button--primary button--small" href="http://nl.linkedin.com/in/fredrutgers" target="_blank"><i class="fa fa-linkedin"></i>@fredrutgers</a>
-								<a class="articleAuthor-sociallink button button--primary button--small" href="http://www.twitter.com/fredrutgers" target="_blank"><i class="fa fa-twitter"></i>fredrutgers</a>
+							<div class="articleAuthor__social">
+								<a class="articleAuthor__sociallink button button--primary button--small" href="#" target="_blank"><i class="fa fa-globe"></i>website</a>
+								<a class="articleAuthor__sociallink button button--primary button--small" href="http://nl.linkedin.com/in/fredrutgers" target="_blank"><i class="fa fa-linkedin"></i>@fredrutgers</a>
+								<a class="articleAuthor__sociallink button button--primary button--small" href="http://www.twitter.com/fredrutgers" target="_blank"><i class="fa fa-twitter"></i>fredrutgers</a>
 							</div>
 						</div>
 					</div>
@@ -94,8 +94,8 @@
 				<?php } else { ?>
 
 					<div class="premiumUnlock">
-						<h2 class="premiumUnlock-title">Verder lezen?<br/>Koppel ons aan je LinkedIn en lees 3 premium-artikelen gratis.</h2>
-						<div class="premiumUnlock-actions">
+						<h2 class="premiumUnlock__title">Verder lezen?<br/>Koppel ons aan je LinkedIn en lees 3 premium-artikelen gratis.</h2>
+						<div class="premiumUnlock__actions">
 							<button class="button button--big button--premium-secondary button--clean open-premiumModal">Premium inschakelen</button>
 							<a href="premium-artikel.php" class="button button--big button--premium-secondary"><i class="fa fa-linkedin-square"></i> koppelen</a>
 						</div>
@@ -113,37 +113,37 @@
 	</section>
 
 	<div class="relatedArticles">
-		<h4 class="relatedArticles-title">Omdat je veel over <button class="button button--small button--primary" name="scaleups">Retail</button> leest:</h4>
+		<h4 class="relatedArticles__title">Omdat je veel over <button class="button button--small button--primary" name="scaleups">Retail</button> leest:</h4>
 		<div class="grid grid--tablet-6">
-			<div class="grid-cell">
+			<div class="grid__cell">
 				<a href="premium-artikel.php" class="card card--horizontal card--premium" tag="retail">
-					<div class="card-figurecontainer">
-						<div class="card-tags">
-							<div class="card-tag">retail</div>
+					<div class="card__figurecontainer">
+						<div class="card__tags">
+							<div class="card__tag">retail</div>
 						</div>
-						<div class="card-figure">
-							<img src="../images/uploads/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card-image" />
+						<div class="card__figure">
+							<img src="../images/uploads/articles/paul-efmorfidis-coco-mat-bed.jpg" class="card__image" />
 						</div>
 					</div>
-					<div class="card-content">
-						<h3 class="card-title">Hoe Coco-Mat vijftien landen verovert met duurzame producten</h3>
-						<p class="card-excerpt">Megasuccessen met duurzame bedden en linnengoed, het lukte de Griekse ondernemer Paul Efmorfidis (60). Vanuit Amsterdam bouwde hij zijn bedrijf Coco-Mat uit tot een wereldmerk, met winkels in New York en China.</p>
+					<div class="card__content">
+						<h3 class="card__title">Hoe Coco-Mat vijftien landen verovert met duurzame producten</h3>
+						<p class="card__excerpt">Megasuccessen met duurzame bedden en linnengoed, het lukte de Griekse ondernemer Paul Efmorfidis (60). Vanuit Amsterdam bouwde hij zijn bedrijf Coco-Mat uit tot een wereldmerk, met winkels in New York en China.</p>
 					</div>
 				</a>
 			</div>
-			<div class="grid-cell">
+			<div class="grid__cell">
 				<a href="hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--horizontal" tag="retail">
-					<div class="card-figurecontainer">
-						<div class="card-tags">
-							<div class="card-tag">retail</div>
+					<div class="card__figurecontainer">
+						<div class="card__tags">
+							<div class="card__tag">retail</div>
 						</div>
-						<div class="card-figure">
-							<img src="../images/uploads/articles/foodora-overweegt-zzp-constructie.jpg" class="card-image" />
+						<div class="card__figure">
+							<img src="../images/uploads/articles/foodora-overweegt-zzp-constructie.jpg" class="card__image" />
 						</div>
 					</div>
-					<div class="card-content">
-						<h3 class="card-title">Foodora overweegt zzp-constructie; burn-out voor 15 procent werknemers</h3>
-						<p class="card-excerpt">Ondernemersnieuws: Foodora overweegt zijn werknemers om te vormen tot zzp’ers, Uber verliest een vol geldpakhuis en de burn-out slaat om zich heen.</p>
+					<div class="card__content">
+						<h3 class="card__title">Foodora overweegt zzp-constructie; burn-out voor 15 procent werknemers</h3>
+						<p class="card__excerpt">Ondernemersnieuws: Foodora overweegt zijn werknemers om te vormen tot zzp’ers, Uber verliest een vol geldpakhuis en de burn-out slaat om zich heen.</p>
 					</div>
 				</a>
 			</div>

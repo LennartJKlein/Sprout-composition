@@ -28,7 +28,7 @@
 		margin-bottom: 3em;
 	}
 	
-	.grid-cell {
+	.grid__cell {
 		margin-top: 1em;
 		margin-bottom: 1em;
 
@@ -53,7 +53,7 @@
 		margin-bottom: 1em;
 	}
 	
-	.grid-cell {
+	.grid__cell {
 		margin-top: 1em;
 		margin-bottom: 1em;
 
@@ -87,73 +87,73 @@
 	}
 }
 
-.grid-cell {
+.grid__cell {
 	padding-left: 1.5em;
 	width: 100%;
 }
 
-.grid-cell--wide {
+.grid__cell--wide {
 	width: 100%;
 }
 
 
 .grid--2 {
-	.grid-cell {
+	.grid__cell {
 		width: $percent-1of6;
 	}
 
-	.grid-cell--wide {
+	.grid__cell--wide {
 		width: 100%;
 	}
 }
 
 .grid--3 {
-	.grid-cell {
+	.grid__cell {
 		width: $percent-1of4;
 	}
 
-	.grid-cell--wide {
+	.grid__cell--wide {
 		width: 100%;
 	}
 }
 
 .grid--4 {
-	.grid-cell {
+	.grid__cell {
 		width: $percent-1of3;
 	}
 
-	.grid-cell--wide {
+	.grid__cell--wide {
 		width: 100%;
 	}
 }
 
 .grid--6 {
-	.grid-cell {
+	.grid__cell {
 		width: $percent-1of2;
 	}
 
-	.grid-cell--wide {
+	.grid__cell--wide {
 		width: 100%;
 	}
 }
 
 .grid--12 {
-	.grid-cell {
+	.grid__cell {
 		width: 100%;
 	}
 
-	.grid-cell--wide {
+	.grid__cell--wide {
 		width: 100%;
 	}
 }
 
 .grid--tablet-2 {
 	@include tablet {
-		.grid-cell {
+		.grid__cell {
 			width: $percent-1of6;
 		}
 
-		.grid-cell--wide {
+		.grid__cell--wide {
 			width: 100%;
 		}
 	}
@@ -161,11 +161,11 @@
 
 .grid--tablet-3 {
 	@include tablet {
-		.grid-cell {
+		.grid__cell {
 			width: $percent-1of4;
 		}
 
-		.grid-cell--wide {
+		.grid__cell--wide {
 			width: 100%;
 		}
 	}
@@ -173,11 +173,11 @@
 
 .grid--tablet-4 {
 	@include tablet {
-		.grid-cell {
+		.grid__cell {
 			width: $percent-1of3;
 		}
 
-		.grid-cell--wide {
+		.grid__cell--wide {
 			width: 100%;
 		}
 	}
@@ -185,11 +185,11 @@
 
 .grid--tablet-6 {
 	@include tablet {
-		.grid-cell {
+		.grid__cell {
 			width: $percent-1of2;
 		}
 
-		.grid-cell--wide {
+		.grid__cell--wide {
 			width: 100%;
 		}
 	}
@@ -197,11 +197,11 @@
 
 .grid--tablet-12 {
 	@include tablet {
-		.grid-cell {
+		.grid__cell {
 			width: 100%;
 		}
 
-		.grid-cell--wide {
+		.grid__cell--wide {
 			width: 100%;
 		}
 	}
@@ -209,11 +209,11 @@
 
 .grid--tabletlandscape-2 {
 	@include tablet-landscape {
-		.grid-cell {
+		.grid__cell {
 			width: $percent-1of6;
 		}
 
-		.grid-cell--wide {
+		.grid__cell--wide {
 			width: 100%;
 		}
 	}
@@ -221,11 +221,11 @@
 
 .grid--tabletlandscape-3 {
 	@include tablet-landscape {
-		.grid-cell {
+		.grid__cell {
 			width: $percent-1of4;
 		}
 
-		.grid-cell--wide {
+		.grid__cell--wide {
 			width: 100%;
 		}
 	}
@@ -233,11 +233,11 @@
 
 .grid--tabletlandscape-4 {
 	@include tablet-landscape {
-		.grid-cell {
+		.grid__cell {
 			width: $percent-1of3;
 		}
 
-		.grid-cell--wide {
+		.grid__cell--wide {
 			width: 100%;
 		}
 	}
@@ -245,11 +245,11 @@
 
 .grid--tabletlandscape-6 {
 	@include tablet-landscape {
-		.grid-cell {
+		.grid__cell {
 			width: $percent-1of2;
 		}
 
-		.grid-cell--wide {
+		.grid__cell--wide {
 			width: 100%;
 		}
 	}
@@ -257,11 +257,11 @@
 
 .grid--tabletlandscape-12 {
 	@include tablet-landscape {
-		.grid-cell {
+		.grid__cell {
 			width: 100%;
 		}
 
-		.grid-cell--wide {
+		.grid__cell--wide {
 			width: 100%;
 		}
 	}
@@ -269,11 +269,11 @@
 
 .grid--desktop-2 {
 	@include desktop {
-		.grid-cell {
+		.grid__cell {
 			width: $percent-1of6;
 		}
 
-		.grid-cell--wide {
+		.grid__cell--wide {
 			width: 100%;
 		}
 	}
@@ -281,11 +281,11 @@
 
 .grid--desktop-3 {
 	@include desktop {
-		.grid-cell {
+		.grid__cell {
 			width: $percent-1of4;
 		}
 
-		.grid-cell--wide {
+		.grid__cell--wide {
 			width: 100%;
 		}
 	}
@@ -293,11 +293,11 @@
 
 .grid--desktop-4 {
 	@include desktop {
-		.grid-cell {
+		.grid__cell {
 			width: $percent-1of3;
 		}
 
-		.grid-cell--wide {
+		.grid__cell--wide {
 			width: 100%;
 		}
 	}
@@ -305,11 +305,11 @@
 
 .grid--desktop-6 {
 	@include desktop {
-		.grid-cell {
+		.grid__cell {
 			width: $percent-1of2;
 		}
 
-		.grid-cell--wide {
+		.grid__cell--wide {
 			width: 100%;
 		}
 	}
@@ -317,11 +317,11 @@
 
 .grid--desktop-12 {
 	@include desktop {
-		.grid-cell {
+		.grid__cell {
 			width: 100%;
 		}
 
-		.grid-cell--wide {
+		.grid__cell--wide {
 			width: 100%;
 		}
 	}
@@ -331,7 +331,7 @@
 	flex-wrap: wrap;
 	align-items: stretch;
 
-	.grid-cell {
+	.grid__cell {
 		margin-bottom: 1.5rem;
 	}
 

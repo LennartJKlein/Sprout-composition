@@ -9,22 +9,22 @@
 		<a href="/docs/comp-articlemeta.php">articleMeta</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">articleMeta</h1>
-		<div class="main-intro">Dit component bevat meta-informatie van een post.</div>
+	<header class="main__header">
+		<h1 class="main__title">articleMeta</h1>
+		<div class="main__intro">Dit component bevat meta-informatie van een post.</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 		<h2>Default</h2>
 		<div class="articleMeta">
 			<date class="articleMeta-date">3 mei 2017 - 15:26</date>
-			<span class="articleMeta-readtime">7 min.</span>
+			<span class="articleMeta__readtime">7 min.</span>
 		</div>
 		<br/><br/>
 		<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<div class="articleMeta">
 			    <date class="articleMeta-date">3 mei 2017 - 15:26</date>
-			    <span class="articleMeta-readtime">7 min.</span>
+			    <span class="articleMeta__readtime">7 min.</span>
 			</div>
 		'))) ?></code></pre>
 

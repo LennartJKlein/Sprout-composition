@@ -9,15 +9,15 @@
 		<a href="/docs/index.php">Documentatie</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">Documentatie</h1>
+	<header class="main__header">
+		<h1 class="main__title">Documentatie</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Deze website is een <em>browser composition</em>. Het dient als basis voor het te ontwikkelen Wordpress-thema voor Sprout.nl.</p>
 		</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 
 		<h2>Het doel van een browser composition</h2>
 		<p>Deze <em>browser composition</em> is in feite een verzameling van HTML, SCSS en PHP dat het ontwerpen van het Wordpress-thema tastbaar en effici&euml;nt maakte. Anders dan een Photoshop-ontwerp, is zo'n <em>browser composition</em> direct te testen op verschillende apparaten, zodat de responsiveness en vormgeving voor elk apparaat geoptimaliseerd kon worden. Een optimale leeservaring staat immers bovenaan voor de nieuwe site van Sprout. Een <em>browser composition</em> is dus voor een grote applicaties zoals de nieuwe website van Sprout, een handige tool.</p>

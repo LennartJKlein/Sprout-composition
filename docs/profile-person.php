@@ -8,15 +8,15 @@
 		<a href="/docs/profile-person.php">Gebruikersprofiel</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">Gebruikersprofiel</h1>
+	<header class="main__header">
+		<h1 class="main__title">Gebruikersprofiel</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p><em>Van de gebruikerspagina is nog geen ontwerp gemaakt. Dit is in een later stadium nog te ontwerpen.</em></p>
 		</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 		<p>
 			Voor details is het goed voor nu het FO als uitgangspunt te nemen.
 		</p>

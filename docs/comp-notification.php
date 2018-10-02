@@ -9,12 +9,12 @@
 		<a href="/docs/comp-notification.php">Notification</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">Notification</h1>
-		<div class="main-intro">Dit component wordt gebruikt om noten op een pagina te laten zien.</div>
+	<header class="main__header">
+		<h1 class="main__title">Notification</h1>
+		<div class="main__intro">Dit component wordt gebruikt om noten op een pagina te laten zien.</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 		<h2>Default</h2>
 		<div class="notification">Dit is een tekst die de bezoeker in ieder geval moet <a href="#" target="_new">lezen</a>.</div>
 		<br/><br/>

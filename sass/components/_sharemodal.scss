@@ -33,11 +33,11 @@
 			height: calc(100% - 2em);
 		}
 
-		.nav-head {
+		.nav__head {
 			opacity: 1;
 		}
 
-		.nav-footer {
+		.nav__footer {
 			opacity: 1;
 			@include flex-grow(1);
 		}

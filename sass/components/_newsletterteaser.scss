@@ -13,13 +13,13 @@
 	}
 }
 
-.newsletterTeaser-cell {
+.newsletterTeaser__cell {
 	width: 100%;
 	@include flex-grow(1);
 	@include flex-shrink(1);
 }
 
-.newsletterTeaser-title {
+.newsletterTeaser__title {
 	color: $color-white;
 	text-align: center;
 
@@ -28,7 +28,7 @@
 	}
 }
 
-.newsletterTeaser-description {
+.newsletterTeaser__description {
 	font-weight: 500;
 	font-size: 1em;
 	color: $color-white;
@@ -39,7 +39,7 @@
 	}
 }
 
-.newsletterTeaser-form {
+.newsletterTeaser__form {
 	@include flex;
 	position: relative;
 	@include flex-flow(row nowrap);
@@ -47,7 +47,7 @@
 	margin: 2em auto 1em;
 }
 
-.newsletterTeaser-label {
+.newsletterTeaser__label {
 	position: absolute;
 	left: 0.75em;
 	top: $percent-1of2;
@@ -55,7 +55,7 @@
 	color: $color-grey-dark;
 }
 
-.newsletterTeaser-field {
+.newsletterTeaser__field {
 	border: 0;
 	outline: 0;
 	padding: .75em 1em .75em 1em;
@@ -73,11 +73,11 @@
 	}
 }
 
-.newsletterTeaser-field--icon {
+.newsletterTeaser__field--icon {
 	padding-left: 3em;
 }
 
-.newsletterTeaser-field--inverse {
+.newsletterTeaser__field--inverse {
 	color: $color-black;
 	background-color: $color-grey;
 
@@ -86,7 +86,7 @@
 	}
 }
 
-.newsletterTeaser-submit {
+.newsletterTeaser__submit {
 	background-color: $color-newsletter;
 	color: $color-white;
 	border: 0;

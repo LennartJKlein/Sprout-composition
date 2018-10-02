@@ -9,15 +9,15 @@
 		<a href="/docs/widgets-demo.php">Widget demo's</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">Widget demo's</h1>
+	<header class="main__header">
+		<h1 class="main__title">Widget demo's</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Op deze pagina staan voorbeelden van verschillende widgets, samengesteld uit &eacute;&eacute;n of meerdere componenten. Deze widgets kunnen zowel in de sidebar als in de pagina geplaatst worden.</p>
 		</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 		
 		<h3 id="premiummessage">Bericht voor PREMIUM-bezoekers <small><em class="text--grey-dark">(<a class="text--grey-dark" href="https://github.com/LennartJKlein/Sprout-composition/blob/master/templates/widgets/premiummessage.php">Broncode</a>)</em></small></h3>
 		Components: <a class="text--grey-dark" href="https://github.com/LennartJKlein/Sprout-composition/blob/master/templates/widgets/<br/><br/>premiummessage.php">premiumMessage</a>

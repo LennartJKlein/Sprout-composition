@@ -9,12 +9,12 @@
 		<a href="/docs/comp-.php"></a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title"></h1>
-		<div class="main-intro">Dit component is .</div>
+	<header class="main__header">
+		<h1 class="main__title"></h1>
+		<div class="main__intro">Dit component is .</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 		<h2>Default</h2>
 
 		<br/><br/>

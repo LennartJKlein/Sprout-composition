@@ -9,12 +9,12 @@
 		<a href="/docs/comp-shareactions.php">shareActions</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">shareActions</h1>
-		<div class="main-intro">Dit component is een container voor een <a href="comp-sharelist.php">shareList</a>.</div>
+	<header class="main__header">
+		<h1 class="main__title">shareActions</h1>
+		<div class="main__intro">Dit component is een container voor een <a href="comp-sharelist.php">shareList</a>.</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 		<h2>Default</h2>
 		<div class="shareActions"></div>
 		<br/><br/>

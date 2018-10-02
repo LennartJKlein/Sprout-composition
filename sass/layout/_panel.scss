@@ -7,7 +7,7 @@
     overflow: hidden;
 }
 
-.panel-title {
+.panel__title {
     font-size: 1em;
     font-weight: bold;
     line-height: 1.25;
@@ -18,26 +18,26 @@
     }
 }
 
-.panel-title--primary {
+.panel__title--primary {
     color: $color-primary;
 }
 
-.panel-title--secondary {
+.panel__title--secondary {
     color: $color-secondary;
 }
 
-.panel-title--tertiary {
+.panel__title--tertiary {
     color: $color-tertiary;
 }
 
-.panel-title--partner {
+.panel__title--partner {
     color: $color-partner;
 }
 
 .panel--primary {
     background: $color-primary;
 
-    .panel-title {
+    .panel__title {
         color: $color-white;
     }
 }
@@ -45,7 +45,7 @@
 .panel--secondary {
     background: $color-secondary;
 
-    .panel-title {
+    .panel__title {
         color: $color-white;
     }
 }
@@ -53,7 +53,7 @@
 .panel--tertiary {
     background: $color-tertiary;
 
-    .panel-title {
+    .panel__title {
         color: $color-white;
     }
 }
@@ -64,14 +64,14 @@
     border-radius: 0;
     overflow: visible;
 
-    .panel-title {
+    .panel__title {
         font-size: 1em;
         margin: 3em 0 1em 0;
     }
 }
 
 .panel--headed {
-    .panel-title {
+    .panel__title {
         position: relative;
         padding: 2em 2em 1em 2em;
         margin: -2em -2em 1em -2em;
@@ -81,7 +81,7 @@
         z-index: 0;
     }
 
-    .panel-title-image {
+    .panel__title-image {
         position: absolute;
         top: 0;
         left: 0;
@@ -96,32 +96,32 @@
     }
 
     &.panel--headed-overflow {
-        .panel-title {
+        .panel__title {
             padding-bottom: 4em;
             margin-bottom: -4em;
         }
     }
 
     &.panel--headed-big {
-        .panel-title {
+        .panel__title {
             padding-top: 5em;
         }
     }
 
     &.panel--headed-primary {
-        .panel-title {
+        .panel__title {
             background: $color-primary;
         }
     }
 
     &.panel--headed-secondary {
-        .panel-title {
+        .panel__title {
             background: $color-secondary;
         }
     }
 
     &.panel--headed-tertiary {
-        .panel-title {
+        .panel__title {
             background: $color-tertiary;
         }
     }
@@ -163,11 +163,11 @@
         transform: translateY(0%);
     }
 
-    .panel-title {
+    .panel__title {
         width: 100%;
     }
 
-    .panel-body {
+    .panel__body {
         display: block;
         display: -webkit-box;
         -webkit-line-clamp: 3;
@@ -186,19 +186,19 @@
         }
     }
 
-    .panel-figure {
+    .panel__figure {
         height: 100%;
         padding-right: 1em;
         margin: 0;
         width: $percent-1of5;
     }
 
-    .panel-content {
+    .panel__content {
         width: $percent-4of5;
     }
 }
 
-.panel-toggle {
+.panel__toggle {
     background: $color-grey;
     border-top-left-radius: 34px;
     border-top-right-radius: 34px;
@@ -220,17 +220,17 @@
     }
 }
 
-.panel-title-icon {
+.panel__title-icon {
     margin-right: 1em;
 }
 
-.panel-figure {
+.panel__figure {
     z-index: 1;
     position: relative;
     margin: 1em 0;
 }
 
-.panel-content-image {
+.panel__content-image {
     width: 50%;
     max-width: 8em;
     float: right;

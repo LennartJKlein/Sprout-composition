@@ -8,7 +8,7 @@
 	}
 }
 
-.figure-image {
+.figure__image {
 	z-index: 0;
 	float: left;
 	width: 100%;
@@ -16,7 +16,7 @@
 	object-fit: cover;
 }
 
-.figure-credit {
+.figure__credit {
 	position: absolute;
 	bottom: 1em;
 	right: 1em;

@@ -8,15 +8,15 @@
 		<a href="/docs/roles.php">Rollen</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">Rollen</h1>
+	<header class="main__header">
+		<h1 class="main__title">Rollen</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Deze browser composition is opgezet met <em>in ieder geval</em> onderstaande rollen in gedachte.</p>
 		</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 		<h2>Wordpress users</h2>
 
 		<h3 id="admin">1. Admin</h3>

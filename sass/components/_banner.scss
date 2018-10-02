@@ -8,7 +8,7 @@
 	width: 100%;
 }
 
-.banner-close {
+.banner__close {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -30,14 +30,14 @@
 	}
 }
 
-.banner-container {
+.banner__container {
 	overflow: hidden;
 	position: relative;
 	width: 100%;
 	margin: 0 auto;
 }
 
-.banner-image {
+.banner__image {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
@@ -69,19 +69,19 @@
 		margin: -4em -5vw 4em;
 	}
 
-	.banner-container {
+	.banner__container {
 		height: 0;
 		padding-bottom: 25.77%;
 		// max-width: 970px;
 	}
 
-	.banner-image {
+	.banner__image {
 		// max-width: 970px;
 		// max-height: 250px;
 		filter: invert(0); // To remove!
 	}
 
-	.banner-close {
+	.banner__close {
 		color: $color-primary-light;
 	}
 }
@@ -90,13 +90,13 @@
 	margin: 1.5em auto;
 	@include round-border;
 	
-	.banner-container {
+	.banner__container {
 		height: 0;
 		padding-bottom: 12.36%;
 		// max-width: 728px;
 	}
 
-	.banner-image {
+	.banner__image {
 		// max-width: 728px;
 		// max-height: 90px;
 	}
@@ -108,13 +108,13 @@
 	max-width: 300px;
 	@include round-border;
 	
-	.banner-container {
+	.banner__container {
 		height: 0;
 		padding-bottom: 200%;
 		// max-width: 300px;
 	}
 
-	.banner-image {
+	.banner__image {
 		// max-width: 300px;
 		// max-height: 600px;
 	}
@@ -126,13 +126,13 @@
 	max-width: 300px;
 	@include round-border;
 	
-	.banner-container {
+	.banner__container {
 		height: 0;
 		padding-bottom: $percent-5of6;
 		// max-width: 300px;
 	}
 
-	.banner-image {
+	.banner__image {
 		// max-width: 300px;
 		// max-height: 250px;
 	}

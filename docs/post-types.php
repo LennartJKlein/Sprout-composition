@@ -8,25 +8,25 @@
 		<a href="/docs/post-types.php">Post types</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">Post types</h1>
+	<header class="main__header">
+		<h1 class="main__title">Post types</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Er zijn 3 post types in de browser composition: een <strong>artikel</strong> (of premium artikel), een <strong>persbericht</strong> (geplaatst door / toegeschreven aan een <a href="roles.php#partner">partner</a>) en een <strong>event</strong>.</p>
 		</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 
 		<ul class="linkList">
 			<li class="linkList-item">
-				<a class="linkList-link" href="post-article.php">1. Artikel (incl. premium artikel)</a>
+				<a class="linkList__link" href="post-article.php">1. Artikel (incl. premium artikel)</a>
 			</li>
 			<li class="linkList-item">
-				<a class="linkList-link" href="post-partnerarticle.php">2. Persbericht</a>
+				<a class="linkList__link" href="post-partnerarticle.php">2. Persbericht</a>
 			</li>
 			<li class="linkList-item">
-				<a class="linkList-link" href="post-event.php">3. Event</a>
+				<a class="linkList__link" href="post-event.php">3. Event</a>
 			</li>
 		</ul>
 

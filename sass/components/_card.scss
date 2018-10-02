@@ -17,28 +17,28 @@
 	&:hover {
 		@include shadow-medium;
 
-		.card-image {
+		.card__image {
 			transform: scale(1.02);
 		}
 
-		.card-button i {
+		.card__button i {
 			font-size: 1.05em;
 		}
 	}
 }
 
-.card-figurecontainer {
+.card__figurecontainer {
 	background: $color-grey;
 	overflow: hidden;
 	position: relative;
 }
 
-.card-figure {
+.card__figure {
 	height: 100%;
 	position: relative;
 }
 
-.card-image {
+.card__image {
 	float: left;
 	width: 100%;
 	height: 100%;
@@ -52,7 +52,7 @@
 	}
 }
 
-.card-tags {
+.card__tags {
 	position: absolute;
 	bottom: 0.75em;
 	z-index: 2;
@@ -65,7 +65,7 @@
 	}
 }
 
-.card-tag {
+.card__tag {
 	background: rgba(0,0,0,.1);
 	border: 1px solid $color-white;
 	color: $color-white;
@@ -83,29 +83,29 @@
 	}
 }
 
-.card-tag--premium {
+.card__tag--premium {
 	//border-color: $color-premium;
 	//color: $color-premium;
 }
 
-.card-tag--partner {
+.card__tag--partner {
 	// border-color: $color-secondary;
 	// color: $color-secondary;
 }
 
-.card-heading {
+.card__heading {
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 	font-size: 0.8em;
 }
 
-.card-title {
+.card__title {
 	margin: 0 0 .25em 0;
 	color: $color-black;
 	font-family: $font-gotham;
 }
 
-.card-content {
+.card__content {
 	background-color: $color-white;
 	@include flex;
 	@include flex-flow(column nowrap);
@@ -114,7 +114,7 @@
 	text-align: left;
 }
 
-.card-excerpt {
+.card__excerpt {
 	display: block;
 	margin-bottom: 0;
 	margin-top: .3em;
@@ -128,7 +128,7 @@
 	max-height: 6em;
 }
 
-.card-button {
+.card__button {
 	@include align-self(flex-end);
 	margin-top: auto;
 	width: 100%;
@@ -156,11 +156,11 @@
 .card--horizontal {
 	@include flex-flow(row nowrap);
 
-	.card-figurecontainer {
+	.card__figurecontainer {
 		width: $percent-1of3;
 	}
 
-	.card-content {
+	.card__content {
 		@include flex-grow(1);
 		width: $percent-2of3;
 	}
@@ -170,11 +170,11 @@
 	@include tablet {
 		@include flex-flow(row nowrap);
 
-		.card-figurecontainer {
+		.card__figurecontainer {
 			width: $percent-1of3;
 		}
 
-		.card-content {
+		.card__content {
 			@include flex-grow(1);
 			width: $percent-2of3;
 		}
@@ -185,11 +185,11 @@
 	@include tablet {
 		@include flex-flow(column nowrap);
 
-		.card-figurecontainer {
+		.card__figurecontainer {
 			width: inherit;
 		}
 
-		.card-content {
+		.card__content {
 			@include flex-grow(1);
 			width: inherit;
 			-webkit-box-ordinal-group: inherit;
@@ -200,11 +200,11 @@
 		}
 
 		&.card--big {
-			.card-figurecontainer {
+			.card__figurecontainer {
 				width: inherit;
 			}
 
-			.card-content {
+			.card__content {
 				width: inherit;
 			}
 		}
@@ -215,21 +215,21 @@
 	@include tablet-landscape {
 		@include flex-flow(row nowrap);
 
-		.card-figurecontainer {
+		.card__figurecontainer {
 			width: $percent-1of3;
 		}
 
-		.card-content {
+		.card__content {
 			@include flex-grow(1);
 			width: $percent-2of3;
 		}
 
 		&.card--big {
-			.card-figurecontainer {
+			.card__figurecontainer {
 				width: $percent-1of2;
 			}
 
-			.card-content {
+			.card__content {
 				width: $percent-1of2;
 			}
 		}
@@ -240,11 +240,11 @@
 	@include tablet-landscape {
 		@include flex-flow(column nowrap);
 
-		.card-figurecontainer {
+		.card__figurecontainer {
 			width: inherit;
 		}
 
-		.card-content {
+		.card__content {
 			@include flex-grow(1);
 			width: inherit;
 			-webkit-box-ordinal-group: inherit;
@@ -255,11 +255,11 @@
 		}
 
 		&.card--big {
-			.card-figurecontainer {
+			.card__figurecontainer {
 				width: inherit;
 			}
 
-			.card-content {
+			.card__content {
 				width: inherit;
 			}
 		}
@@ -270,21 +270,21 @@
 	@include desktop {
 		@include flex-flow(row nowrap);
 
-		.card-figurecontainer {
+		.card__figurecontainer {
 			width: $percent-1of3;
 		}
 
-		.card-content {
+		.card__content {
 			@include flex-grow(1);
 			width: $percent-2of3;
 		}
 
 		&.card--big {
-			.card-figurecontainer {
+			.card__figurecontainer {
 				width: $percent-1of2;
 			}
 
-			.card-content {
+			.card__content {
 				width: $percent-1of2;
 			}
 		}
@@ -295,11 +295,11 @@
 	@include desktop {
 		@include flex-flow(column nowrap);
 
-		.card-figurecontainer {
+		.card__figurecontainer {
 			width: inherit;
 		}
 
-		.card-content {
+		.card__content {
 			@include flex-grow(1);
 			width: inherit;
 			-webkit-box-ordinal-group: inherit;
@@ -310,11 +310,11 @@
 		}
 
 		&.card--big {
-			.card-figurecontainer {
+			.card__figurecontainer {
 				width: inherit;
 			}
 
-			.card-content {
+			.card__content {
 				width: inherit;
 			}
 		}
@@ -324,14 +324,14 @@
 .card--textfirst {
 
 	&.card--horizontal {
-		.card-content {
+		.card__content {
 			@include order(-1);
 		}
 	}
 
 	&.card--tablet-horizontal {
 		@include tablet {
-			.card-content {
+			.card__content {
 				@include order(-1);
 			}
 		}
@@ -339,7 +339,7 @@
 
 	&.card--tabletlandscape-horizontal {
 		@include tablet-landscape {
-			.card-content {
+			.card__content {
 				@include order(-1);
 			}
 		}
@@ -347,7 +347,7 @@
 
 	&.card--desktop-horizontal {
 		@include desktop {
-			.card-content {
+			.card__content {
 				@include order(-1);
 			}
 		}
@@ -357,7 +357,7 @@
 .card--tablet-textfirst {
 	@include tablet {
 		&[class*="horizontal"] {
-			.card-content {
+			.card__content {
 				@include order(-1);
 			}
 		}
@@ -367,7 +367,7 @@
 .card--tabletlandscape-textfirst {
 	@include tablet-landscape {
 		&[class*="horizontal"] {
-			.card-content {
+			.card__content {
 				@include order(-1);
 			}
 		}
@@ -377,7 +377,7 @@
 .card--desktop-textfirst {
 	@include desktop {
 		&[class*="horizontal"] {
-			.card-content {
+			.card__content {
 				@include order(-1);
 			}
 		}
@@ -387,16 +387,16 @@
 .card--big,
 .card--tablet-big {
 	@include tablet {
-		.card-title {
+		.card__title {
 			font-size: 1.85em;
 		}
 
 		&[class*="horizontal"] {
-			.card-figurecontainer {
+			.card__figurecontainer {
 				width: $percent-1of2;
 			}
 
-			.card-content {
+			.card__content {
 				width: $percent-1of2;
 			}
 		}
@@ -405,16 +405,16 @@
 
 .card--tabletlandscape-big {
 	@include tablet-landscape {
-		.card-title {
+		.card__title {
 			font-size: 1.85em;
 		}
 
 		&[class*="horizontal"] {
-			.card-figurecontainer {
+			.card__figurecontainer {
 				width: $percent-1of2;
 			}
 
-			.card-content {
+			.card__content {
 				width: $percent-1of2;
 			}
 		}
@@ -423,16 +423,16 @@
 
 .card--desktop-big {
 	@include desktop {
-		.card-title {
+		.card__title {
 			font-size: 1.85em;
 		}
 
 		&[class*="horizontal"] {
-			.card-figurecontainer {
+			.card__figurecontainer {
 				width: $percent-1of2;
 			}
 
-			.card-content {
+			.card__content {
 				width: $percent-1of2;
 			}
 		}
@@ -443,12 +443,12 @@
 	@include tablet {
 		position: relative;
 
-		.card-figurecontainer {
+		.card__figurecontainer {
 			width: 100%;
 			@include gradient-overlay;
 		}
 
-		.card-content {
+		.card__content {
 			@include flex-grow(1);
 			width: 100%;
 			position: absolute;
@@ -459,15 +459,15 @@
 			z-index: 1;
 		}
 
-		.card-title {
+		.card__title {
 			color: $color-white;
 		}
 
-		.card-excerpt {
+		.card__excerpt {
 			color: $color-white;
 		}
 
-		.card-button {
+		.card__button {
 			color: $color-white;
 		}
 	}
@@ -485,12 +485,12 @@
 		z-index: 1;
 	}
 
-	.card-button {
+	.card__button {
 		@include text-gradient-premium;
 		@include icon-premium-secondary;
 	}
 
-	.card-figure {
+	.card__figure {
 		@include overlay-gradient-premium;
 	}
 }
@@ -498,33 +498,33 @@
 .card--partner {
 	border-top: solid 3px $color-partner;
 	
-	.card-button {
+	.card__button {
 		color: $color-partner;
 	}
 
-	.card-title {
+	.card__title {
 		color: $color-black;
 		margin-bottom: 0;
 	}
 
-	.card-heading {
+	.card__heading {
 		color: $color-partner;
 	}
 }
 
 .card--event {
 
-	.card-title {
+	.card__title {
 		color: $color-black;
 		margin-bottom: 0;
 		margin-top: 0.5em;
 	}
 
-	.card-button {
+	.card__button {
 		color: $color-secondary;
 	}
 
-	.card-heading {
+	.card__heading {
 		color: $color-secondary;
 	}
 }

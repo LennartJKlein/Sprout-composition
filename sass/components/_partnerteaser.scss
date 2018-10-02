@@ -6,14 +6,14 @@
 	margin-bottom: 2em;
 }
 
-.partnerTeaser-figure {
+.partnerTeaser__figure {
 	overflow: hidden;
 	position: relative;
 	margin: -2em -2em 2em -2em;
 	height: 125px;
 }
 
-.partnerTeaser-image {
+.partnerTeaser__image {
 	float: left;
 	width: 100%;
 	height: 100%;
@@ -22,15 +22,15 @@
 	transition: transform .3s ease;
 }
 
-.partnerTeaser-title {
+.partnerTeaser__title {
 	color: $color-partner;
 }
 
-.partnerTeaser-description {
+.partnerTeaser__description {
 	font-size: 0.9em;
 }
 
-.partnerTeaser-list {
+.partnerTeaser__list {
 	text-align: left;
 	list-style: none;
 	font-size: 0.9em;

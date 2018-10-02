@@ -9,29 +9,29 @@
 		<a href="/docs/premiumteaser.php">premiumTeaser</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">premiumTeaser</h1>
+	<header class="main__header">
+		<h1 class="main__title">premiumTeaser</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>De premiumTeasers zijn bedoeld om bezoekers over te halen PREMIUM aan te schaffen. De teasers zijn zowel te gebruiken in de sidebar, als in de pagina. Op deze pagina staan de verschillende varianten van deze widget.</p>
 		</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 	
 		<h2>Default</h2>
 		<?php include '../templates/widgets/premiumteaser.php'; ?>
 		<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<div class="panel premiumTeaser role-unknown">
-			    <div class="premiumTeaser-figure">
-			        <img src="/images/premium-logo-white.svg" class="premiumTeaser-image" />
+			    <div class="premiumTeaser__figure">
+			        <img src="/images/premium-logo-white.svg" class="premiumTeaser__image" />
 			    </div>
-			    <h3 class="premiumTeaser-title">Ongelimiteerd de beste verhalen en events.</h3>
-			    <p class="premiumTeaser-description">
+			    <h3 class="premiumTeaser__title">Ongelimiteerd de beste verhalen en events.</h3>
+			    <p class="premiumTeaser__description">
 			        De volledige Sprout-beleving kun je 1 maand gratis uitproberen. Daarna voor &euro;00,- per maand.
 			    </p>
 			    <a href="/word-member.php" class="button button--white">1 maand uitproberen</a>
-			    <p class="premiumTeaser-link">
+			    <p class="premiumTeaser__link">
 			        Al een toegangscode?<br><a href="#" class="open-premiumModal">Premium inschakelen</a>
 			    </p>
 			</div>
@@ -43,14 +43,14 @@
 		<?php include '../templates/widgets/premiumteaser--negative.php'; ?>
 		<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<div class="panel premiumTeaser premiumTeaser--negative role-unknown">
-			    <div class="premiumTeaser-figure">
-			        <img src="/images/premium-logo.svg" class="premiumTeaser-image" />
+			    <div class="premiumTeaser__figure">
+			        <img src="/images/premium-logo.svg" class="premiumTeaser__image" />
 			    </div>
-			    <h3 class="premiumTeaser-title">Ongelimiteerd de beste verhalen en events.</h3>
-			    <p class="premiumTeaser-description">
+			    <h3 class="premiumTeaser__title">Ongelimiteerd de beste verhalen en events.</h3>
+			    <p class="premiumTeaser__description">
 			        De volledige Sprout-beleving kun je 1 maand gratis uitproberen. Daarna voor &euro;00,- per maand.
 			    </p>
-			    <ul class="premiumTeaser-list">
+			    <ul class="premiumTeaser__list">
 			        <li>
 			            <i class="fa fa-unlock-alt"></i>
 			            <span>Toegang tot alle premium <strong>content</strong> op de website.</span>
@@ -73,14 +73,14 @@
 		<?php include '../templates/widgets/premiumteaser--list.php'; ?>
 		<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<div class="panel premiumTeaser premiumTeaser--list role-unknown">
-			    <div class="premiumTeaser-figure">
-			        <img src="/images/premium-logo-white.svg" class="premiumTeaser-image" />
+			    <div class="premiumTeaser__figure">
+			        <img src="/images/premium-logo-white.svg" class="premiumTeaser__image" />
 			    </div>
-			    <h3 class="premiumTeaser-title">Ongelimiteerd de beste verhalen en events.</h3>
-			    <p class="premiumTeaser-description">
+			    <h3 class="premiumTeaser__title">Ongelimiteerd de beste verhalen en events.</h3>
+			    <p class="premiumTeaser__description">
 			    De volledige Sprout-beleving kun je 1 maand gratis uitproberen. Daarna voor &euro;00,- per maand.
 			    </p>
-			    <ul class="premiumTeaser-list">
+			    <ul class="premiumTeaser__list">
 			        <li>
 			            <i class="fa fa-unlock-alt"></i>
 			            <span>Toegang tot alle premium <strong>content</strong> op de website.</span>
@@ -104,11 +104,11 @@
 		<br/><br/>
 		<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<div class="panel premiumTeaser premiumTeaser--events role-unknown">
-			    <div class="premiumTeaser-figure"><img src="/images/premium-logo-white.svg" class="premiumTeaser-image" /></div>
-			    <h3 class="premiumTeaser-title">Gratis of met korting naar alle events.</h3>
-			    <p class="premiumTeaser-description">Schakel PREMIUM in en upgrade je Sprout-beleving.</p>
+			    <div class="premiumTeaser__figure"><img src="/images/premium-logo-white.svg" class="premiumTeaser__image" /></div>
+			    <h3 class="premiumTeaser__title">Gratis of met korting naar alle events.</h3>
+			    <p class="premiumTeaser__description">Schakel PREMIUM in en upgrade je Sprout-beleving.</p>
 			    <a href="/word-member.php" class="button button--white">1 maand uitproberen</a>
-			    <p class="premiumTeaser-link">Al een toegangscode?<br><a href="#" class="open-premiumModal">Premium inschakelen</a></p>
+			    <p class="premiumTeaser__link">Al een toegangscode?<br><a href="#" class="open-premiumModal">Premium inschakelen</a></p>
 			</div>
 		'))) ?></code></pre>
 		<br/><br/>
@@ -117,13 +117,13 @@
 		<?php include '../templates/modals/premiumteaser.php'; ?>
 		<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<div class="modal modal--active role-unknown" role="dialog" aria-hidden="true">
-			    <div class="modal-dialog">
-			        <div class="modal-content">
+			    <div class="modal__dialog">
+			        <div class="modal__content">
 			            <div class="premiumTeaser premiumTeaser--negative premiumTeaser--modal">
-			                <div class="premiumTeaser-figure"><img src="/images/premium-logo.svg" class="premiumTeaser-image" /></div>
-			                <h3 class="premiumTeaser-title">Ongelimiteerd de beste verhalen en events.</h3>
-			                <p class="premiumTeaser-description">De volledige Sprout-beleving kun je 1 maand gratis uitproberen. Daarna voor &euro;00,- per maand.</p>
-			                <ul class="premiumTeaser-list">
+			                <div class="premiumTeaser__figure"><img src="/images/premium-logo.svg" class="premiumTeaser__image" /></div>
+			                <h3 class="premiumTeaser__title">Ongelimiteerd de beste verhalen en events.</h3>
+			                <p class="premiumTeaser__description">De volledige Sprout-beleving kun je 1 maand gratis uitproberen. Daarna voor &euro;00,- per maand.</p>
+			                <ul class="premiumTeaser__list">
 			                    <li>
 			                        <i class="fa fa-unlock-alt"></i><span>Toegang tot alle premium <strong>content</strong> op de website.</span>
 			                    </li>
@@ -135,9 +135,9 @@
 			                    </li>
 			                </ul>
 			            </div>
-			            <div class="modal-actions">
-			                <button class="modal-button button button--grey" role="cancel">Later</button>
-			                <a href="/word-member.php" class="modal-button button button--premium-secondary">Uitproberen</a>
+			            <div class="modal__actions">
+			                <button class="modal__button button button--grey" role="cancel">Later</button>
+			                <a href="/word-member.php" class="modal__button button button--premium-secondary">Uitproberen</a>
 			            </div>
 			        </div>
 			    </div>

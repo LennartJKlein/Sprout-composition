@@ -7,14 +7,14 @@
 		<a href="/docs/index.php">Documentatie</a>
 		<a href="/docs/buttons.php">Buttons</a>
 	</div>
-	<header class="main-header">
-		<h1 class="main-title">Buttons</h1>
+	<header class="main__header">
+		<h1 class="main__title">Buttons</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Onderstaand zijn de verschillende varianten van een button te vinden.</p>
 		</div>
 	</header>
-	<div class="main-body">
+	<div class="main__body">
 	
 		<h2>Standaardkleuren</h2>
 		<p>

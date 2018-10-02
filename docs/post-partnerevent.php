@@ -9,21 +9,21 @@
 		<a href="/docs/post-partnerevent.php">Partner event</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">Partner event</h1>
+	<header class="main__header">
+		<h1 class="main__title">Partner event</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Een partner event is een post type dat gebruikt wordt om een verwijzing te maken naar een evenement buiten Sprout. Voor dit post type is g&eacute;&eacute;n template nodig. Wanneer een partner event als card in een overzicht verschijnt, moet deze direct doorlinken naar de bijbehorende externe URL.</p>
 		</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 
 		<div class="panel">
-			<h3 class="panel-title">Demo's</h3>
+			<h3 class="panel__title">Demo's</h3>
 			<ul class="linkList">
 				<li class="linkList-item">
-					<a class="linkList-link" href="/events.php" target="_new">Events (zie sidebar)</a>
+					<a class="linkList__link" href="/events.php" target="_new">Events (zie sidebar)</a>
 				</li>
 			</ul>
 		</div>
@@ -44,7 +44,7 @@
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Title</td>
-					<td><code>.eventCard-title</code></td>
+					<td><code>.eventCard__title</code></td>
 				</tr>
 				<tr>
 					<td></td>
@@ -54,17 +54,17 @@
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Date</td>
-					<td><code>.eventCard-date</code></td>
+					<td><code>.eventCard__date</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Starttijd</td>
-					<td><code>.event-infoItem (date time)</code></td>
+					<td><code>.event__infoItem (date time)</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>URL meer informatie / aanmelden</td>
-					<td><code>.eventCard-link</code></td>
+					<td><code>.eventCard__link</code></td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>

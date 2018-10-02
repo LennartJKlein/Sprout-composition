@@ -8,15 +8,15 @@
 		<a href="/docs/premium.php">Premium</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title"><img src="/images/premium-logo.svg" style="height:1em;"/></h1>
+	<header class="main__header">
+		<h1 class="main__title"><img src="/images/premium-logo.svg" style="height:1em;"/></h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Om een exclusieve ervaring te bieden aan sommige bezoekers van de website, is het premium-systeem ontworpen. Bezoekers die premium hebben aangeschaft krijgen toegang to exclusieve artikelen, nieuwsbrieven, korting op evenementen, etc.</p>
 		</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 		<h2>Flow</h2>
 		<p>1. Een bezoeker komt op de website en ziet de openbare content die Sprout aanbiedt. Daarnaast ziet hij teasers die hem verleiden om Premium aan te schaffen en in te schakelen. <em>(<a href="/index.php">demo</a>)</em></p>
 		<p>2. Nadat de bezoeker via een formulierpagina zijn gegevens heeft gedeeld en toestemming heeft gegeven tot acceptgiro, ontvangt hij per mail een unieke toegangscode. <em>(niet ontworpen)</em></p>

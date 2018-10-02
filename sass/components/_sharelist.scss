@@ -17,21 +17,21 @@
 	flex-flow: row wrap;
 	@include justify-content(flex-start);
 
-	.shareList-item {
+	.shareList__item {
 		width: auto;
 	}
 
-	.shareList-link .fa {
+	.shareList__link .fa {
 		width: calc(1rem + 24px);
 		font-size: 1.25em;
 	}
 
-	.shareList-label {
+	.shareList__label {
 		padding: 0.5rem 1em;
 	}
 
 	&.shareList--small {
-		.shareList-link .fa {
+		.shareList__link .fa {
 			width: calc(1rem + 16px);
 		}
 	}
@@ -46,14 +46,14 @@
 }
 
 .shareList--small {
-	.shareList-label {
+	.shareList__label {
 		display: none;
 		padding: 0.65em 0.85em;
 		font-weight: bold;
 	}
 }
 
-.shareList-item {
+.shareList__item {
 	width: 100%;
 
 	@include tablet {
@@ -61,7 +61,7 @@
 	}
 }
 
-.shareList-link {
+.shareList__link {
 	@include align-items(stretch);
 	background: transparent;
 	color: $color-white;
@@ -110,7 +110,7 @@
 	}
 }
 
-.shareList-link--whatsapp {
+.shareList__link--whatsapp {
 	.fa {
 		color: $color-whatsapp;
 	}
@@ -132,7 +132,7 @@
 	}
 }
 
-.shareList-link--facebook {
+.shareList__link--facebook {
 	.fa {
 		color: $color-facebook;
 	}
@@ -153,7 +153,7 @@
 	}
 }
 
-.shareList-link--linkedin {
+.shareList__link--linkedin {
 	.fa {
 		color: $color-linkedin;
 	}
@@ -174,7 +174,7 @@
 	}
 }
 
-.shareList-link--twitter {
+.shareList__link--twitter {
 	.fa {
 		color: $color-twitter;
 	}
@@ -195,7 +195,7 @@
 	}
 }
 
-.shareList-link--mail {
+.shareList__link--mail {
 	.fa {
 		color: $color-mail;
 	}
@@ -216,7 +216,7 @@
 	}
 }
 
-.shareList-label {
+.shareList__label {
 	display: block;
 	@include flex-grow(1);
 	padding: 1em;

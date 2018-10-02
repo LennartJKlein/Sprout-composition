@@ -9,22 +9,22 @@
 		<a href="/docs/page-article.php">Lijst</a>
 	</div>
 
-	<header class="main-header">
+	<header class="main__header">
 
-		<h1 class="main-title">Lijst</h1>
+		<h1 class="main__title">Lijst</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Een lijst is een page type dat gebruikt wordt om een grid van handmatig geselecteerde pages of posts te laten zien. De onderstaande informatie vestigt de aandacht op een aantal zaken van zo'n lijstpagina.</p>
 		</div>
 	</header>
 	
-	<div class="main-body">
+	<div class="main__body">
 
 		<div class="panel">
-			<h3 class="panel-title">Demo</h3>
+			<h3 class="panel__title">Demo</h3>
 			<ul class="linkList">
 				<li class="linkList-item">
-					<a class="linkList-link" href="/lijst/25-onder-de-25-van-2018.php" target="_new">Lijst: '25 onder de 25 van 2018'</a>
+					<a class="linkList__link" href="/lijst/25-onder-de-25-van-2018.php" target="_new">Lijst: '25 onder de 25 van 2018'</a>
 				</li>
 			</ul>
 		</div>
@@ -45,17 +45,17 @@
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Title</td>
-					<td><code>.main-title</code></td>
+					<td><code>.main__title</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Inleiding</td>
-					<td><code>.main-intro</code></td>
+					<td><code>.main__intro</code></td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Body</td>
-					<td><code>.main-body</code></td>
+					<td><code>.main__body</code></td>
 				</tr>
 				<tr>
 					<td></td>
@@ -90,7 +90,7 @@
 				<tr>
 					<td></td>
 					<td>CTA-tekst naar deze lijst <em>(voor de button in een card)</em></td>
-					<td><code>.card-button</code></td>
+					<td><code>.card__button</code></td>
 				</tr>
 			</tbody>
 		</table>

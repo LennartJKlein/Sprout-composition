@@ -8,18 +8,18 @@
 		<a href="/docs/colours.php">Kleuren</a>
 	</div>
 	
-	<header class="main-header">
-		<h1 class="main-title">Kleuren</h1>
+	<header class="main__header">
+		<h1 class="main__title">Kleuren</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Onderstaand zijn de kleuren te zien die in de variabelen van SCSS worden toegepast.</p>
 		</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 	
 		<div class="grid grid--mobile-6 grid--tablet-4">
-			<div class="grid-cell">
+			<div class="grid__cell">
 				<h4><big><span class="headingIcon fa fa-square text--primary"></span></big> $color-primary</h4>
 				<h4><big><span class="headingIcon fa fa-square text--primary-light"></span></big> $color-primary-light</h4>
 				<h4><big><span class="headingIcon fa fa-square text--primary-dark"></span></big> $color-primary-dark</h4>
@@ -28,12 +28,12 @@
 				<h4><big><span class="headingIcon fa fa-square text--secondary-dark"></span></big> $color-secondary-dark</h4>
 				<h4><big><span class="headingIcon fa fa-square text--tertiary"></span></big> $color-tertiary</h4>
 			</div>
-			<div class="grid-cell">
+			<div class="grid__cell">
 				<h4><big><span class="headingIcon fa fa-square text--premium"></span></big> $color-premium</h4>
 				<h4><big><span class="headingIcon fa fa-square text--premium-primary"></span></big> $color-premium-primary</h4>
 				<h4><big><span class="headingIcon fa fa-square text--premium-secondary"></span></big> $color-premium-secondary</h4>
 			</div>
-			<div class="grid-cell">
+			<div class="grid__cell">
 				<h4><big><span class="headingIcon fa fa-square text--partner"></span></big> $color-partner</h4>
 				<h4><big><span class="headingIcon fa fa-square text--partner-light"></span></big> $color-partner-light</h4>
 				<h4><big><span class="headingIcon fa fa-square text--newsletter"></span></big> $color-newsletter</h4>

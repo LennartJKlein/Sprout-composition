@@ -27,14 +27,14 @@
 .shareActions--fluid {
 	margin: 2rem 0;
 
-	.shareList-item:first-of-type {
-		.shareList-link {
+	.shareList__item:first-of-type {
+		.shareList__link {
 			margin-left: 0;
 		}
 	}
 
-	.shareList-item:last-of-type {
-		.shareList-link {
+	.shareList__item:last-of-type {
+		.shareList__link {
 			margin-right: 0;
 		}
 	}

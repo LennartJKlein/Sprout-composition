@@ -9,30 +9,30 @@
 		<a href="/docs/post-article.php">Artikel</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">Artikel</h1>
+	<header class="main__header">
+		<h1 class="main__title">Artikel</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Een artikel is het basistype voor een Wordpress-post. De onderstaande informatie vestigt de aandacht op een aantal zaken van deze post type.</p>
 		</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 
 		<div class="panel">
-			<h3 class="panel-title">Demo's</h3>
+			<h3 class="panel__title">Demo's</h3>
 			<ul class="linkList">
 				<li class="linkList-item">
-					<a class="linkList-link" href="/artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" target="_new">Artikel: 'Hoe overleef je tegenwoordig als winkel?'</a>
+					<a class="linkList__link" href="/artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" target="_new">Artikel: 'Hoe overleef je tegenwoordig als winkel?'</a>
 				</li>
 				<li class="linkList-item">
-					<a class="linkList-link" href="/artikel/7-redenen-waarom-klanten-je-winkel-de-rug-toekeren.php" target="_new">Artikel: '7 redenen waarom je klanten je winkel de rug toekeren'</a>
+					<a class="linkList__link" href="/artikel/7-redenen-waarom-klanten-je-winkel-de-rug-toekeren.php" target="_new">Artikel: '7 redenen waarom je klanten je winkel de rug toekeren'</a>
 				</li>
 				<li class="linkList-item">
-					<a class="linkList-link" href="/artikel/waarom-retailers-het-contact-met-jongeren-kwijt-zijn-geraakt.php" target="_new">Artikel: 'Waarom retailers het contact met jongeren kwijt zijn geraakt'</a>
+					<a class="linkList__link" href="/artikel/waarom-retailers-het-contact-met-jongeren-kwijt-zijn-geraakt.php" target="_new">Artikel: 'Waarom retailers het contact met jongeren kwijt zijn geraakt'</a>
 				</li>
 				<li class="linkList-item">
-					<a class="linkList-link" href="/artikel/premium-artikel.php" target="_new">Premium artikel: 'Vooral premium members houden van informatieve artikelen'</a>
+					<a class="linkList__link" href="/artikel/premium-artikel.php" target="_new">Premium artikel: 'Vooral premium members houden van informatieve artikelen'</a>
 				</li>
 			</ul>
 		</div>
@@ -55,32 +55,32 @@
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Title</td>
-					<td><code>.article-title</code></td>
+					<td><code>.article__title</code></td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Featured Image</td>
-					<td><code>.article-hero</code></td>
+					<td><code>.article__hero</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Inleiding</td>
-					<td><code>.article-intro</code></td>
+					<td><code>.article__intro</code></td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Body</td>
-					<td><code>.article-content</code></td>
+					<td><code>.article__content</code></td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Category <em>(in de frontend: topic)</em></td>
-					<td>(onderdeel van <code>.article-tags</code>)</td>
+					<td>(onderdeel van <code>.article__tags</code>)</td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Tags</td>
-					<td><code>.article-tags</code></td>
+					<td><code>.article__tags</code></td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
@@ -95,12 +95,12 @@
 				<tr>
 					<td></td>
 					<td>Leestijd (in minuten)</em></td>
-					<td><code>.articleMeta-readtime</code></td>
+					<td><code>.articleMeta__readtime</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>CTA-tekst naar dit artikel <em>(voor de button in een card)</em></td>
-					<td><code>.card-button</code></td>
+					<td><code>.card__button</code></td>
 				</tr>
 				<tr>
 					<td></td>
@@ -139,26 +139,26 @@
 		<pre class="codeBlock" id="shareModal"><code class="prettyprint lang-html"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<header id="header" ...>
 
-			    <div class="head-container">
+			    <div class="head__container">
 			        ...
 			    </div>
 
 			    <button class="shareToggle"><i aria-hidden="true" class="fa fa-share-alt"></i></button>
 			    <div id="shareModal">
 			        <ul class="shareList shareList--modal">
-			            <li class="shareList-item">
-			                <a class="shareList-link shareList-link--whatsapp" href="whatsapp://send?text=https://www.sprout.nl/artikel/titel-van-het-artikel.php" data-action="share/whatsapp/share">
-			                    <i class="fa fa-whatsapp"></i><span class="shareList-label"><strong>Delen</strong></span>
+			            <li class="shareList__item">
+			                <a class="shareList__link shareList__link--whatsapp" href="whatsapp://send?text=https://www.sprout.nl/artikel/titel-van-het-artikel.php" data-action="share/whatsapp/share">
+			                    <i class="fa fa-whatsapp"></i><span class="shareList__label"><strong>Delen</strong></span>
 			                </a>
 			            </li>
-			            <li class="shareList-item">
-			                <a class="shareList-link shareList-link--facebook" href="#">
-			                    <i class="fa fa-facebook"></i><span class="shareList-label"><strong>Delen</strong></span>
+			            <li class="shareList__item">
+			                <a class="shareList__link shareList__link--facebook" href="#">
+			                    <i class="fa fa-facebook"></i><span class="shareList__label"><strong>Delen</strong></span>
 			                </a>
 			            </li>
-			            <li class="shareList-item">
-			                <a class="shareList-link shareList-link--twitter" href="#">
-			                    <i class="fa fa-twitter"></i><span class="shareList-label"><strong>Tweeten</strong></span>
+			            <li class="shareList__item">
+			                <a class="shareList__link shareList__link--twitter" href="#">
+			                    <i class="fa fa-twitter"></i><span class="shareList__label"><strong>Tweeten</strong></span>
 			                </a>
 			            </li>
 			        </ul>
@@ -175,38 +175,38 @@
 		<pre class="codeBlock" id="shareActions><code class="prettyprint lang-html"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<article class="article">
 
-			    <header class="article-header">
+			    <header class="article__header">
 
-			        <div class="article-tags">...</div>
-			        <h1 class="article-title">...</h1>
-			        <div class="article-intro">...</div>
+			        <div class="article__tags">...</div>
+			        <h1 class="article__title">...</h1>
+			        <div class="article__intro">...</div>
 			        
 			        <div class="shareActions shareActions--wide">
 			            <ul class="shareList shareList--row">
-			                <li class="shareList-item">
-			                    <a class="shareList-link shareList-link--facebook" href="#">
-			                        <i class="fa fa-facebook"></i><span class="shareList-label">share</span>
+			                <li class="shareList__item">
+			                    <a class="shareList__link shareList__link--facebook" href="#">
+			                        <i class="fa fa-facebook"></i><span class="shareList__label">share</span>
 			                    </a>
 			                </li>
-			                <li class="shareList-item">
-			                    <a class="shareList-link shareList-link--linkedin" href="#">
-			                        <i class="fa fa-linkedin"></i><span class="shareList-label">share</span>
+			                <li class="shareList__item">
+			                    <a class="shareList__link shareList__link--linkedin" href="#">
+			                        <i class="fa fa-linkedin"></i><span class="shareList__label">share</span>
 			                    </a>
 			                </li>
-			                <li class="shareList-item">
-			                    <a class="shareList-link shareList-link--twitter" href="#">
-			                        <i class="fa fa-twitter"></i><span class="shareList-label">tweet</span>
+			                <li class="shareList__item">
+			                    <a class="shareList__link shareList__link--twitter" href="#">
+			                        <i class="fa fa-twitter"></i><span class="shareList__label">tweet</span>
 			                    </a>
 			                </li>
 			            </ul>
 			        </div>
 
-			        <div class="article-hero figure">...</div>
-			        <div class="article-info">...</div>
+			        <div class="article__hero figure">...</div>
+			        <div class="article__info">...</div>
 
 			    </header>
 
-			    <main class="article-content">
+			    <main class="article__content">
 			        ...
 			    </main>
 
@@ -220,27 +220,27 @@
 			<article class="article">
 			    ...
 
-			    <main class="article-content">
+			    <main class="article__content">
 			        ...
 			    </main>
 
-			    <footer class="article-footer">
+			    <footer class="article__footer">
 
 			        <div class="shareActions">
 			            <ul class="shareList shareList--row">
-			                <li class="shareList-item">
-			                    <a class="shareList-link shareList-link--facebook" href="#">
-			                        <i class="fa fa-facebook"></i><span class="shareList-label">share</span>
+			                <li class="shareList__item">
+			                    <a class="shareList__link shareList__link--facebook" href="#">
+			                        <i class="fa fa-facebook"></i><span class="shareList__label">share</span>
 			                    </a>
 			                </li>
-			                <li class="shareList-item">
-			                    <a class="shareList-link shareList-link--linkedin" href="#">
-			                        <i class="fa fa-linkedin"></i><span class="shareList-label">share</span>
+			                <li class="shareList__item">
+			                    <a class="shareList__link shareList__link--linkedin" href="#">
+			                        <i class="fa fa-linkedin"></i><span class="shareList__label">share</span>
 			                    </a>
 			                </li>
-			                <li class="shareList-item">
-			                    <a class="shareList-link shareList-link--twitter" href="#">
-			                        <i class="fa fa-twitter"></i><span class="shareList-label">tweet</span>
+			                <li class="shareList__item">
+			                    <a class="shareList__link shareList__link--twitter" href="#">
+			                        <i class="fa fa-twitter"></i><span class="shareList__label">tweet</span>
 			                    </a>
 			                </li>
 			            </ul>
@@ -257,7 +257,7 @@
 		<div class="notification">Deze code is ook te vinden in <a href="https://github.com/LennartJKlein/Sprout-composition/blob/master/templates/shareactions.php" target="_new"><code>shareactions.php</code></a></div>
 
 		<h2 id="instant-additional-article">Instant additional article</h2>
-		<div class="figure card"><img src="../images/uploads/instant-additional-article.gif" class="figure-image" /></div>
+		<div class="figure card"><img src="../images/uploads/instant-additional-article.gif" class="figure__image" /></div>
 		<p>De browser composition heeft een feature om lezers te verleiden n&oacute;g een artikel te lezen. Wanneer hij de onderkant van een artikel bereikt, laat de pagina een gerelateerd volgend artikel daaronder invliegen. <em>(Dit gebeurt enkel op grote schermen).</em></p>
 		<p>Per artikel kan in het CMS worden ingesteld of deze feature wordt gebruikt en welke selectiemethode plaatsvindt:
 			<ul class="list">
@@ -273,33 +273,33 @@
 		<p>Om de lezer overzicht te geven over de ingeladen artikelen, is op grote schermen in de rechter bovenhoek het progressPanel te zien. Dit is een lijst met de artikelen die op de pagina zijn ingeladen. Daarbij wordt aangegeven welke gelezen zijn en hoe ver de lezer is. De volgende HTML code is daarvoor bovenaan de artikelpagina geplaatst:</p>
 		<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<div class="progressPanel"> <!-- Voor grote schermen -->
-			    <button class="progressPanel-close button button--small button--clean"><i class="fa fa-close"></i></button>
+			    <button class="progressPanel__close button button--small button--clean"><i class="fa fa-close"></i></button>
 
-			    <ul class="progressPanel-list">
-			        <li class="progressPanel-item">
-			            <a href="/url-article-one" class="progressPanel-link">
-			                <span class="progressPanel-title">The title of the first article</span>
-			                <span class="progressPanel-author">Author One</span>
-			                <svg x="0px" y="0px" width="36px" height="36px" viewBox="0 0 36 36" class="progressPanel-svg">
-			                    <circle class="progressPanel-circle" fill="none" stroke="#2a76e8" stroke-width="2" cx="18" cy="18" r="16" stroke-dasharray="100 100" stroke-dashoffset="100" transform="rotate(-90 18 18)"></circle>
+			    <ul class="progressPanel__list">
+			        <li class="progressPanel__item">
+			            <a href="/url-article-one" class="progressPanel__link">
+			                <span class="progressPanel__title">The title of the first article</span>
+			                <span class="progressPanel__author">Author One</span>
+			                <svg x="0px" y="0px" width="36px" height="36px" viewBox="0 0 36 36" class="progressPanel__svg">
+			                    <circle class="progressPanel__circle" fill="none" stroke="#2a76e8" stroke-width="2" cx="18" cy="18" r="16" stroke-dasharray="100 100" stroke-dashoffset="100" transform="rotate(-90 18 18)"></circle>
 			                </svg>
 			            </a>
 			        </li>
-			        <li class="progressPanel-item"> <!-- Dit item is lazy load ingeladen -->
-			            <a href="/url-article-two" class="progressPanel-link">
-			                <span class="progressPanel-title">The title of the second article</span>
-			                <span class="progressPanel-author">Author Two</span>
-			                <svg x="0px" y="0px" width="36px" height="36px" viewBox="0 0 36 36" class="progressPanel-svg">
-			                    <circle class="progressPanel-circle" fill="none" stroke="#2a76e8" stroke-width="2" cx="18" cy="18" r="16" stroke-dasharray="100 100" stroke-dashoffset="100" transform="rotate(-90 18 18)"></circle>
+			        <li class="progressPanel__item"> <!-- Dit item is lazy load ingeladen -->
+			            <a href="/url-article-two" class="progressPanel__link">
+			                <span class="progressPanel__title">The title of the second article</span>
+			                <span class="progressPanel__author">Author Two</span>
+			                <svg x="0px" y="0px" width="36px" height="36px" viewBox="0 0 36 36" class="progressPanel__svg">
+			                    <circle class="progressPanel__circle" fill="none" stroke="#2a76e8" stroke-width="2" cx="18" cy="18" r="16" stroke-dasharray="100 100" stroke-dashoffset="100" transform="rotate(-90 18 18)"></circle>
 			                </svg>
 			            </a>
 			        </li>
-			        <li class="progressPanel-item"> <!-- Dit item is lazy load ingeladen -->
-			            <a href="/url-article-three" class="progressPanel-link">
-			                <span class="progressPanel-title">The title of the third article</span>
-			                <span class="progressPanel-author">Author Three</span>
-			                <svg x="0px" y="0px" width="36px" height="36px" viewBox="0 0 36 36" class="progressPanel-svg">
-			                    <circle class="progressPanel-circle" fill="none" stroke="#2a76e8" stroke-width="2" cx="18" cy="18" r="16" stroke-dasharray="100 100" stroke-dashoffset="100" transform="rotate(-90 18 18)"></circle>
+			        <li class="progressPanel__item"> <!-- Dit item is lazy load ingeladen -->
+			            <a href="/url-article-three" class="progressPanel__link">
+			                <span class="progressPanel__title">The title of the third article</span>
+			                <span class="progressPanel__author">Author Three</span>
+			                <svg x="0px" y="0px" width="36px" height="36px" viewBox="0 0 36 36" class="progressPanel__svg">
+			                    <circle class="progressPanel__circle" fill="none" stroke="#2a76e8" stroke-width="2" cx="18" cy="18" r="16" stroke-dasharray="100 100" stroke-dashoffset="100" transform="rotate(-90 18 18)"></circle>
 			                </svg>
 			            </a>
 			        </li>

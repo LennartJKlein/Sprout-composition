@@ -8,7 +8,7 @@
 	text-align: left;
 	padding: 0;
 
-	.list-item {
+	.list__item {
 		@include flex;
 		@include align-items(center);
 
@@ -18,11 +18,11 @@
 	}
 }
 
-.list-item {
+.list__item {
 	margin: 1em 0;
 }
 
-.list-item-icon {
+.list__item-icon {
     text-align: center;
     margin-right: 1em;
     width: 6%;

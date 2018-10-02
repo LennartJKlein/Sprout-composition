@@ -9,21 +9,21 @@
 		<a href="/docs/page-article.php">Default page</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">Default page</h1>
-		<div class="main-intro">
+	<header class="main__header">
+		<h1 class="main__title">Default page</h1>
+		<div class="main__intro">
 			<p>De standaard voor een pagina is vrij eenvoudig en heeft alle variabelen van een standaard Wordpress pagina. Daarbij kunnen er 2 templates worden gebruikt: met of zonder sidebar.</p>
 		</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 
 		<div class="panel">
-			<h3 class="panel-title">Demo</h3>
+			<h3 class="panel__title">Demo</h3>
 			<ul class="linkList">
 				<li class="linkList-item">
-					<a class="linkList-link" href="/page.php" target="_new">Default page</a>
-					<a class="linkList-link" href="/page-sidebar.php" target="_new">Default page (sidebar)</a>
+					<a class="linkList__link" href="/page.php" target="_new">Default page</a>
+					<a class="linkList__link" href="/page-sidebar.php" target="_new">Default page (sidebar)</a>
 				</li>
 			</ul>
 		</div>
@@ -44,22 +44,22 @@
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Title</td>
-					<td><code>.main-title</code></td>
+					<td><code>.main__title</code></td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Featured Image</td>
-					<td><code>.main-hero</code></td>
+					<td><code>.main__hero</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Inleiding</td>
-					<td><code>.main-intro</code></td>
+					<td><code>.main__intro</code></td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Body</td>
-					<td><code>.main-body</code></td>
+					<td><code>.main__body</code></td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
@@ -69,7 +69,7 @@
 				<tr>
 					<td></td>
 					<td>CTA-tekst naar deze pagina <em>(voor de button in een card)</em></td>
-					<td><code>.card-button</code></td>
+					<td><code>.card__button</code></td>
 				</tr>
 			</tbody>
 		</table>

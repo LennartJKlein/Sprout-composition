@@ -9,21 +9,21 @@
 		<a href="/docs/post-partnerarticle.php">Persbericht</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">Persbericht</h1>
+	<header class="main__header">
+		<h1 class="main__title">Persbericht</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Een persbericht is een post type dat gebruikt wordt om nieuws van partners te publiceren. De onderstaande informatie vestigt de aandacht op een aantal zaken van deze post type.</p>
 		</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 
 		<div class="panel">
-			<h3 class="panel-title">Demo</h3>
+			<h3 class="panel__title">Demo</h3>
 			<ul class="linkList">
 				<li class="linkList-item">
-					<a class="linkList-link" href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" target="_new">Persbericht: 'Intershop nieuwe hoofdsponsor van Ecommercerun'</a>
+					<a class="linkList__link" href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" target="_new">Persbericht: 'Intershop nieuwe hoofdsponsor van Ecommercerun'</a>
 				</li>
 			</ul>
 		</div>
@@ -44,32 +44,32 @@
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Title</td>
-					<td><code>.article-title</code></td>
+					<td><code>.article__title</code></td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Featured Image</td>
-					<td><code>.article-hero</code></td>
+					<td><code>.article__hero</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Inleiding</td>
-					<td><code>.article-intro</code></td>
+					<td><code>.article__intro</code></td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Body</td>
-					<td><code>.article-content</code></td>
+					<td><code>.article__content</code></td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Category <em>(onveranderbare default: persbericht)</em></td>
-					<td>(onderdeel van <code>.article-tags</code>)</td>
+					<td>(onderdeel van <code>.article__tags</code>)</td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Tags</td>
-					<td><code>.article-tags</code></td>
+					<td><code>.article__tags</code></td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
@@ -84,12 +84,12 @@
 				<tr>
 					<td></td>
 					<td>Leestijd (in minuten)</em></td>
-					<td><code>.articleMeta-readtime</code></td>
+					<td><code>.articleMeta__readtime</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>CTA-tekst naar dit artikel <em>(voor de button in een card)</em></td>
-					<td><code>.card-button</code></td>
+					<td><code>.card__button</code></td>
 				</tr>
 			</tbody>
 		</table>

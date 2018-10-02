@@ -27,12 +27,12 @@
 	}
 }
 
-.premiumUnlock-title {
+.premiumUnlock__title {
 	text-align: center;
 	@include text-gradient-premium;
 }
 
-.premiumUnlock-actions {
+.premiumUnlock__actions {
 	text-align: center;
 
 	.button {
@@ -40,7 +40,7 @@
 	}
 }
 
-.premiumUnlock-description {
+.premiumUnlock__description {
 	text-align: center;
 	margin: 2em 0;
 

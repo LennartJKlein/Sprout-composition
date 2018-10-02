@@ -9,15 +9,15 @@
 	</div>
 
 	
-	<header class="main-header">
-		<h1 class="main-title">Iconen</h1>
+	<header class="main__header">
+		<h1 class="main__title">Iconen</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Door de browser composition heen worden iconen gebruikt. Deze zijn afkomstig van <a href="https://fontawesome.com/v4.7.0/icons/">FontAwesome v4.7.0</a>.</p>
 		</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 		<p>Op hun website is voldoende informatie te vinden over het gebruik ervan.</p>
 	</div>
 

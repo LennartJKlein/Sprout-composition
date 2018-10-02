@@ -15,59 +15,59 @@
 	padding: 0;
 	background: transparent;
 
-	.premiumMessage-title {
+	.premiumMessage__title {
 		@include text-gradient-premium;
 	}
 
-	.premiumMessage-description {
+	.premiumMessage__description {
 		color: $color-black;
 		font-weight: bold;
 	}
 
-	.premiumMessage-list {
+	.premiumMessage__list {
 		color: $color-black;
 	}
 }
 
-.premiumMessage-figure {
+.premiumMessage__figure {
 	position: relative;
 	width: 70%;
     max-width: 210px;
     margin: 0.5em auto 1.5em;
 }
 
-.premiumMessage-image {
+.premiumMessage__image {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
 }
 
-.premiumMessage-background {
+.premiumMessage__background {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	margin: -2em;
 	z-index: 0;
 	
-	.premiumMessage-image {
+	.premiumMessage__image {
 		object-fit: cover;
 	}
 }
 
-.premiumMessage-confetti {
+.premiumMessage__confetti {
 	opacity: 0.2;
 }
 
-.premiumMessage-title {
+.premiumMessage__title {
 	color: $color-white;
 }
 
-.premiumMessage-description {
+.premiumMessage__description {
 	color: $color-white;
 	font-size: 0.9em;
 }
 
-.premiumMessage-list {
+.premiumMessage__list {
 	text-align: left;
 	list-style: none;
 	color: $color-white;
@@ -98,7 +98,7 @@
 	}
 }
 
-.premiumMessage-link {
+.premiumMessage__link {
 	font-size: 0.9em;
 	margin: 0.5em 0;
 	padding: 0.5em;

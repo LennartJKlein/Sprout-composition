@@ -9,12 +9,12 @@
 		<a href="/docs/comp-progressline.php">progressLine</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">progresLine</h1>
-		<div class="main-intro">Dit component is een lijn aan de bovenkant van smartphones die de huidige scrollpositie op de pagina laat zien. Hiermee krijgt de lezer een leestijdindicatie van het artikel / de pagina.</div>
+	<header class="main__header">
+		<h1 class="main__title">progresLine</h1>
+		<div class="main__intro">Dit component is een lijn aan de bovenkant van smartphones die de huidige scrollpositie op de pagina laat zien. Hiermee krijgt de lezer een leestijdindicatie van het artikel / de pagina.</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 		<h2>Default <em>(bekijk op mobiel scherm)</em></h2>
 		<div class="progressLine"></div>
 		<br/><br/>

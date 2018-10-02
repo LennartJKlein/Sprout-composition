@@ -10,22 +10,22 @@
 		<a href="/docs/components.php">Components</a>
 		<a href="/docs/banners.php">Banner</a>
 	</div>
-	<header class="main-header">
-		<h1 class="main-title">Banner</h1>
+	<header class="main__header">
+		<h1 class="main__title">Banner</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Op deze pagina staan de verschillende varianten van het banner-component.</p>
 		</div>
 	</header>
-	<div class="main-body">
+	<div class="main__body">
 		
 		<h3>Billboard</h3>
 		<p><em>Bovenaan deze pagina</em></p>
 		<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<div class="banner banner--billboard">
-			    <div class="banner-close"><span class="fa fa-close"></span></div>
-			    <div class="banner-container">
-			        <img src="http://via.placeholder.com/970x250" class="banner-image" />
+			    <div class="banner__close"><span class="fa fa-close"></span></div>
+			    <div class="banner__container">
+			        <img src="http://via.placeholder.com/970x250" class="banner__image" />
 			    </div>
 			</div>
 		'))) ?></code></pre>
@@ -35,8 +35,8 @@
 		<?php include '../templates/banners/banner--rectangle.php'; ?>
 		<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<div class="banner banner--rectangle">
-			    <div class="banner-container">
-			        <img src="http://via.placeholder.com/300x250" class="banner-image" />
+			    <div class="banner__container">
+			        <img src="http://via.placeholder.com/300x250" class="banner__image" />
 			    </div>
 			</div>
 		'))) ?></code></pre>
@@ -46,8 +46,8 @@
 		<?php include '../templates/banners/banner--leaderboard.php'; ?>
 		<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<div class="banner banner--leaderboard">
-			    <div class="banner-container">
-			        <img src="http://via.placeholder.com/728x90" class="banner-image" />
+			    <div class="banner__container">
+			        <img src="http://via.placeholder.com/728x90" class="banner__image" />
 			    </div>
 			</div>
 		'))) ?></code></pre>
@@ -63,8 +63,8 @@
 	<?php include '../templates/banners/banner--rectangle.php'; ?>
 	<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 		<div class="banner banner--rectangle">
-		    <div class="banner-container">
-		        <img src="http://via.placeholder.com/300x250" class="banner-image" />
+		    <div class="banner__container">
+		        <img src="http://via.placeholder.com/300x250" class="banner__image" />
 		    </div>
 		</div>
 	'))) ?></code></pre>
@@ -75,8 +75,8 @@
 	<?php include '../templates/banners/banner--filmstrip.php'; ?>
 	<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 		<div class="banner banner--filmstrip">
-		    <div class="banner-container">
-		        <img src="http://via.placeholder.com/300x600" class="banner-image" />
+		    <div class="banner__container">
+		        <img src="http://via.placeholder.com/300x600" class="banner__image" />
 		    </div>
 		</div>
 	'))) ?></code></pre>

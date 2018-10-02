@@ -21,17 +21,17 @@ $(function() {
 	initiateNavigationWidth();
 
 	// Shows search field when navigation minimized
-	$(document).on("focus",".minimum .search-field", function(){
-		var inputOffset = $(".search-field").offset();
-		$(".search-field").css({"top": - inputOffset.top.toFixed() + "px"});
-		$(".search-placeholder").show();
-		var inputHeight = $(".search-field").outerHeight();
-		$(".search-resultscontainer").addClass("open").css({"top": inputHeight + "px"}).slideDown();
+	$(document).on("focus",".minimum .search__field", function(){
+		var inputOffset = $(".search__field").offset();
+		$(".search__field").css({"top": - inputOffset.top.toFixed() + "px"});
+		$(".search__placeholder").show();
+		var inputHeight = $(".search__field").outerHeight();
+		$(".search__resultscontainer").addClass("open").css({"top": inputHeight + "px"}).slideDown();
 	});
-	$(document).on("blur",".minimum .search-field", function(){
-		$(".search-field").css("top","0");
-		$(".search-placeholder").hide();
-		$(".search-resultscontainer").removeClass("open").slideUp();
+	$(document).on("blur",".minimum .search__field", function(){
+		$(".search__field").css("top","0");
+		$(".search__placeholder").hide();
+		$(".search__resultscontainer").removeClass("open").slideUp();
 	});
 
 	// Navigation on mobile
@@ -52,9 +52,9 @@ $(function() {
 	}
 
 	// Toggles extra info on author
-	$(".articleAuthor-summary").on("click", function(){
-		var authorInfo = $(this).parent().parent().find(".articleAuthor-expand"),
-			infoToggle = $(this).parent().find(".articleAuthor-toggle");
+	$(".articleAuthor__summary").on("click", function(){
+		var authorInfo = $(this).parent().parent().find(".articleAuthor__expand"),
+			infoToggle = $(this).parent().find(".articleAuthor__toggle");
 		infoToggle.toggleClass("fa-chevron-down");
 		infoToggle.toggleClass("fa-chevron-up");
 		authorInfo.slideToggle(400);
@@ -103,9 +103,9 @@ $(function() {
 				var shake;
 
 				setTimeout(function(){
-					$("#header").append("<div class=\"header-resize-tip\"><i class=\"fa fa-arrows-h\"></i></div>");
+					$("#header").append("<div class=\"header__resize-tip\"><i class=\"fa fa-arrows-h\"></i></div>");
 					shake = setInterval(shakeTooltip, 2000);
-					$(".header-resize-tip").click(function() {
+					$(".header__resize-tip").click(function() {
 						hideTooltip(shake);
 					});
 
@@ -142,22 +142,22 @@ $(function() {
 	// Tooltip for resizing the navigation
 	function shakeTooltip() {
 		if (tooltipNeeded) {
-			$(".header-resize-tip").addClass("pulse");
+			$(".header__resize-tip").addClass("pulse");
 			$("#header .ui-resizable-e").addClass("pulse");
-			$(".header-resize-tip").effect("shake", {distance:3, times:4}, 2000);
+			$(".header__resize-tip").effect("shake", {distance:3, times:4}, 2000);
 			$("#header .ui-resizable-e").show();
 		}
 	}
 	function hideTooltip(loop) {
 		tooltipNeeded = false;
-		$(".header-resize-tip").removeClass("pulse");
+		$(".header__resize-tip").removeClass("pulse");
 		$("#header .ui-resizable-e").removeClass("pulse");
-		$(".header-resize-tip").fadeOut(600);
+		$(".header__resize-tip").fadeOut(600);
 		clearInterval(loop);
 	}
 
 	// Functions for modals
-	$(".modal-button[role=cancel]").on("click", function(){
+	$(".modal__button[role=cancel]").on("click", function(){
 		$(this).parentsUntil('modal').removeClass("modal--active");
 	});
 
@@ -175,18 +175,18 @@ $(function() {
 		$(".premiumModal").removeClass("modal--active");
 	}
 
-	$(".premiumModal .modal-button[role=activate]").on("click", function(){
+	$(".premiumModal .modal__button[role=activate]").on("click", function(){
 		activatePremium();
 		$(this).find(".fa").removeClass("fa-toggle-off").addClass("fa-toggle-on");
 
 		setTimeout(function(){
-			$(".premiumModal-body:first").fadeOut(function(){
-				$(".premiumModal-body:first").empty();
-				$(".premiumModal-body:first").html('<div class="premiumModal-success"> <i class="fa fa-toggle-off"></i> </div>');
+			$(".premiumModal__body:first").fadeOut(function(){
+				$(".premiumModal__body:first").empty();
+				$(".premiumModal__body:first").html('<div class="premiumModal__success"> <i class="fa fa-toggle-off"></i> </div>');
 
-				$(".premiumModal-body:first").fadeIn(function(){
+				$(".premiumModal__body:first").fadeIn(function(){
 					setTimeout(function(){
-						$(".premiumModal-body:first .premiumModal-success .fa").removeClass("fa-toggle-off").addClass("fa-toggle-on");
+						$(".premiumModal__body:first .premiumModal__success .fa").removeClass("fa-toggle-off").addClass("fa-toggle-on");
 						location.reload();
 					}, 800);
 				});	
@@ -199,7 +199,7 @@ $(function() {
 		$.cookie("sprout-role", "premium", { path: "/" });
 	}
 
-	$(".premiumModal .modal-button[role=deactivate]").on("click", function(){
+	$(".premiumModal .modal__button[role=deactivate]").on("click", function(){
 		deactivatePremium();
 		$(this).find(".fa").removeClass("fa-toggle-on").addClass("fa-toggle-off");
 		closePremiumModal();
@@ -211,7 +211,7 @@ $(function() {
 	}
 
 	// Banner actions
-	$(".banner-close").on("click", function(){
+	$(".banner__close").on("click", function(){
 		$(this).parents(".banner").slideUp(function(){
 			$(this).remove();
 		});
@@ -223,20 +223,20 @@ $(function() {
 			$(".panel--mobilefloat").each(function(){
 				if (scrollPosition >= windowHeightHalf && !$(this).hasClass("revealed")) {
 					$(this).addClass('visible').addClass("revealed");
-					$(this).find(".panel-toggle .fa").removeClass("fa-chevron-up").addClass("fa-chevron-down");
+					$(this).find(".panel__toggle .fa").removeClass("fa-chevron-up").addClass("fa-chevron-down");
 				}
 			});
 		}
 	}
 
 	// Toggle a floating panel
-	$(".panel--mobilefloat .panel-toggle").on("click", function(){
+	$(".panel--mobilefloat .panel__toggle").on("click", function(){
 		$(this).find(".fa").toggleClass("fa-chevron-down").toggleClass("fa-chevron-up").addClass("revealed");
 		$(this).parents(".panel").toggleClass("visible");
 	});
 
 	// Pagination functions
-	$(".pagination-item, .pagination-button").on("click", function(){
+	$(".pagination__item, .pagination__button").on("click", function(){
 		var pagination = $(this).parents(".pagination"),
 			action = $(this).attr("action");
 
@@ -250,7 +250,7 @@ $(function() {
 		if (allData != null) {
 
 			var activeData = $(pagination.attr("dataset")).children(".active"),
-				itemsList = pagination.find(".pagination-list"),
+				itemsList = pagination.find(".pagination__list"),
 				items = itemsList.children(),
 				activeItem = itemsList.find(".active"),
 				activeIndex = activeItem.index(),

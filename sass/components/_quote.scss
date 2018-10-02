@@ -26,7 +26,7 @@
 	font-family: $font-opensans;
 	width: 100%;
 
-	.quote-text {
+	.quote__text {
 		color: $color-white;
 		font-size: 1.25em;
 		line-height: 1.25;
@@ -45,12 +45,12 @@
 		}
 	}
 
-	.quote-writer {
+	.quote__writer {
 		color: $color-primary-light;
 	}
 }
 
-.quote-text {
+.quote__text {
 	color: $color-secondary;
 	font-family: $font-kepler;
 	font-weight: bold;
@@ -72,14 +72,14 @@
 	}
 }
 
-.quote-title {
+.quote__title {
 	color: $color-primary-light;
 	display: block;
 	font-size: 0.8em;
 	margin-top: 0;
 }
 
-.quote-writer {
+.quote__writer {
 	color: $color-secondary-light;
 	display: block;
 	font-size: 1em;
@@ -93,7 +93,7 @@
 	}
 }
 
-.quote-image {
+.quote__image {
 	margin-top: -5em;
 	margin-bottom: -2.5em;
 	max-width: 14em;

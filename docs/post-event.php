@@ -9,24 +9,24 @@
 		<a href="/docs/post-event.php">Event</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">Event</h1>
+	<header class="main__header">
+		<h1 class="main__title">Event</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Een event is een post type dat gebruikt wordt om een evenement te laten zien. Voor dit post type is &eacute;&eacute;n template nodig, waarin elementen zichtbaar / verborgen worden wanneer een event in het verleden ligt.</p>
 		</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 
 		<div class="panel">
-			<h3 class="panel-title">Demo's</h3>
+			<h3 class="panel__title">Demo's</h3>
 			<ul class="linkList">
 				<li class="linkList-item">
-					<a class="linkList-link" href="/evenement/the-next-web-conference-2018.php" target="_new">Event (aankomend)</a>
+					<a class="linkList__link" href="/evenement/the-next-web-conference-2018.php" target="_new">Event (aankomend)</a>
 				</li>
 				<li class="linkList-item">
-					<a class="linkList-link" href="/evenement/nk-pitchen-2018.php" target="_new">Event (afgelopen)</a></li>
+					<a class="linkList__link" href="/evenement/nk-pitchen-2018.php" target="_new">Event (afgelopen)</a></li>
 				</li>
 			</ul>
 		</div>
@@ -47,72 +47,72 @@
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Title</td>
-					<td><code>.event-title</code></td>
+					<td><code>.event__title</code></td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Featured Image</td>
-					<td><code>.event-hero</code></td>
+					<td><code>.event__hero</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Inleiding</td>
-					<td><code>.event-intro</code></td>
+					<td><code>.event__intro</code></td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
 					<td>Body</td>
-					<td><code>.event-body</code></td>
+					<td><code>.event__body</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Locatie</td>
-					<td><code>.event-infoItem (location)</code></td>
+					<td><code>.event__infoItem (location)</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Startdatum</td>
-					<td><code>.event-infoItem (date time)</code></td>
+					<td><code>.event__infoItem (date time)</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Einddatum</td>
-					<td><code>.event-infoItem (date time)</code></td>
+					<td><code>.event__infoItem (date time)</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Starttijd</td>
-					<td><code>.event-infoItem (date time)</code></td>
+					<td><code>.event__infoItem (date time)</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Eindtijd</td>
-					<td><code>.event-infoItem (date time)</code></td>
+					<td><code>.event__infoItem (date time)</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Prijs</td>
-					<td><code>.event-infoItem (price)</code></td>
+					<td><code>.event__infoItem (price)</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Kortingsactie</td>
-					<td><code>.event-infoItem (discount)</code></td>
+					<td><code>.event__infoItem (discount)</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Kortingscode</td>
-					<td><code>.event-couponCode</code></td>
+					<td><code>.event__couponCode</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>Toelichting op deelnemen</td>
-					<td><code>.event-signup</code></td>
+					<td><code>.event__signup</code></td>
 				</tr>
 				<tr>
 					<td></td>
 					<td>URL meer informatie / aanmelden</td>
-					<td><code>.event-externallink</code></td>
+					<td><code>.event__externallink</code></td>
 				</tr>
 				<tr>
 					<td><i class="fa fa-wordpress text--primary"></i></td>
@@ -122,7 +122,7 @@
 				<tr>
 					<td></td>
 					<td>CTA-tekst naar dit event <em>(voor de button in een card)</em></td>
-					<td><code>.card-button</code></td>
+					<td><code>.card__button</code></td>
 				</tr>
 			</tbody>
 		</table>

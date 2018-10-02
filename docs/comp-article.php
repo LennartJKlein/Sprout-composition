@@ -9,32 +9,32 @@
 		<a href="/docs/comp-article.php">article</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">article</h1>
-		<div class="main-intro">Dit component geeft vorm aan posts met het type 'artikel'.</div>
+	<header class="main__header">
+		<h1 class="main__title">article</h1>
+		<div class="main__intro">Dit component geeft vorm aan posts met het type 'artikel'.</div>
 	</header>
 
-	<div class="main-body">
+	<div class="main__body">
 		<h2>Default</h2>
 		<a href="/artikel/7-redenen-waarom-klanten-je-winkel-de-rug-toekeren.php" target="_new">Default artikel voorbeeld</a>
 		<br/><br/>
 		<pre class="codeBlock"><code class="prettyprint"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
 			<article class="article">
-			    <header class="article-header">
-			        <div class="article-tags">
+			    <header class="article__header">
+			        <div class="article__tags">
 			            <button class="button button--small button--grey" name="scaleups">Retail</button>
 			            <button class="button button--small button--grey" name="investeren">Marketing</button>
 			        </div>
-			        <h1 class="article-title">7 redenen waarom klanten je winkel de rug toekeren</h1>
-			        <div class="article-intro">Sprout-expert Fred Rutgers onderzocht waarom klanten een winkel de rug toekeren. De uitkomsten zullen voor menig winkelier best even schrikken zijn.</div>
+			        <h1 class="article__title">7 redenen waarom klanten je winkel de rug toekeren</h1>
+			        <div class="article__intro">Sprout-expert Fred Rutgers onderzocht waarom klanten een winkel de rug toekeren. De uitkomsten zullen voor menig winkelier best even schrikken zijn.</div>
 
 			        <!-- include component shareActions -->
 
-			        <div class="article-hero figure">
-			            <img src="../images/uploads/articles/article-hero3.jpg" class="figure-image" />
-			            <span class="figure-credit">&copy; Maikel Thijssen</span>
+			        <div class="article__hero figure">
+			            <img src="../images/uploads/articles/article-hero3.jpg" class="figure__image" />
+			            <span class="figure__credit">&copy; Maikel Thijssen</span>
 			        </div>
-			        <div class="article-info">
+			        <div class="article__info">
 
 			            <!-- include component articleMeta -->
 
@@ -42,7 +42,7 @@
 
 			        </div>
 			    </header>
-			    <main class="article-content">
+			    <main class="article__content">
 			        <p>Veel winkeliers denken dat klanten niet meer naar hun winkel komen omdat webshops goedkoper zijn. Vreemd genoeg bleek dit uit onderzoek maar zelden het geval.</p>
 			        <p>Klanten zoeken niet perse de laagste prijs, maar ze willen wél de beste deal! Daarbij speelt vooral de totale koopbeleving een belangrijke rol.</p>
 			        <p>Voor dit onderzoek werden 2000 consumenten ondervraagd via een enquête, en werden 20 consumenten ondervraagd in een consumenten-panel. Hieronder lees je de 7 belangrijkste uitkomsten:</p>
@@ -52,7 +52,7 @@
 			        <h2>2. Meer dan geld</h2>
 			        <p>Zie je de klant als mens of als een portemonnee waar je omzet uit moet trekken? Klanten willen voelen dat je ze echt wilt helpen en niet het idee krijgen dat je alleen uit bent op hun geld. Een veel gehoorde opmerking was dat consumenten het gevoel hebben dat één seconde na het afrekenen de aandacht al niet meer bij de klant is. Dat is vaak reden om niet meer of minder bij die winkel te komen.</p>
 			    </main>
-			    <footer class="article-footer">
+			    <footer class="article__footer">
 
 			        <!-- include component shareActions -->
 

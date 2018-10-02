@@ -4,7 +4,7 @@
 	position: relative;
 }
 
-.posterList-item {
+.posterList__item {
 	background: $color-white;
 	display: block;
 	text-decoration: none;
@@ -22,11 +22,11 @@
 	}
 }
 
-.posterList-image {
+.posterList__image {
 	width: 100%;
 }
 
-.posterList-author {
+.posterList__author {
 	@include flex;
 	@include flex-flow(row nowrap);
 	@include justify-content(space-between);
@@ -40,12 +40,12 @@
 	}
 }
 
-.posterList-name {
+.posterList__name {
 	font-weight: bold;
 	color: $color-secondary;
 }
 
-.posterList-avatar {
+.posterList__avatar {
 	width: $percent-1of5;
 	max-width: 2.5em;
 	@include circle-border;

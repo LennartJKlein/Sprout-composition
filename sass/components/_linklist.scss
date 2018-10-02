@@ -8,7 +8,7 @@
 	margin-bottom: 2em;
 }
 
-.linkList-link {
+.linkList__link {
 	display: block;
 	text-decoration: none;
 	border-radius: 0.25em;
@@ -23,7 +23,7 @@
 	}
 }
 
-.linkList-source {
+.linkList__source {
 	display: block;
 	font-weight: normal;
 	font-size: 0.9em;
@@ -32,7 +32,7 @@
 }
 
 .panel--headed-overflow {
-	.linkList-link {
+	.linkList__link {
 		background: $color-white;
 		padding: 1em;
 		margin: 1em 0 0 0;

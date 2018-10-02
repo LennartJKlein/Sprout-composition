@@ -8,25 +8,25 @@
 		<a href="/docs/page-types.php">Page types</a>
 	</div>
 
-	<header class="main-header">
-		<h1 class="main-title">Page types</h1>
+	<header class="main__header">
+		<h1 class="main__title">Page types</h1>
 
-		<div class="main-intro">
+		<div class="main__intro">
 			<p>Er zijn 4 page types in de browser composition: een <strong>standaard pagina</strong>, een <strong>lijst</strong> en een <strong>topic</strong>.</p>
 		</div>
 	</header>
 	
-	<div class="main-body">
+	<div class="main__body">
 
 		<ul class="linkList">
 			<li class="linkList-item">
-				<a class="linkList-link" href="page-default.php">1. Default page</a>
+				<a class="linkList__link" href="page-default.php">1. Default page</a>
 			</li>
 			<li class="linkList-item">
-				<a class="linkList-link" href="page-list.php">2. Lijst</a>
+				<a class="linkList__link" href="page-list.php">2. Lijst</a>
 			</li>
 			<li class="linkList-item">
-				<a class="linkList-link" href="page-topic.php">3. Topic</a>
+				<a class="linkList__link" href="page-topic.php">3. Topic</a>
 			</li>
 		</ul>
 
