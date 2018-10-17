@@ -12,7 +12,7 @@
 		<h1 class="main__title">Page types</h1>
 
 		<div class="main__intro">
-			<p>Er zijn 4 page types in de browser composition: een <strong>standaard pagina</strong>, een <strong>lijst</strong> en een <strong>topic</strong>.</p>
+			<p>Er zijn 4 page types in de browser composition: een <strong>standaard pagina</strong>, een <strong>lijst</strong>, een <strong>lijstitem</strong> en een <strong>topic</strong>.</p>
 		</div>
 	</header>
 	
@@ -26,7 +26,10 @@
 				<a class="linkList__link" href="page-list.php">2. Lijst</a>
 			</li>
 			<li class="linkList-item">
-				<a class="linkList__link" href="page-topic.php">3. Topic</a>
+				<a class="linkList__link" href="page-listitem.php">3. Lijstitem</a>
+			</li>
+			<li class="linkList-item">
+				<a class="linkList__link" href="page-topic.php">4. Topic</a>
 			</li>
 		</ul>
 

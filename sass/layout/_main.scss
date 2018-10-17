@@ -25,6 +25,10 @@
     @include align-items(stretch);
     width: 100%;
 
+    @include tablet {
+        margin-bottom: 2.5rem;
+    }
+
     @include desktop {
         margin-left: auto;
         margin-right: auto;
@@ -55,7 +59,6 @@
     padding: 0.5rem 1.5rem;
     font-size: 1.25em;
     line-height: 1.6;
-    width: 100%;
     
     @include tablet {
         color: $color-black;
@@ -63,6 +66,7 @@
         margin: -0.5em 0 0.5em 0;
         @include order(0);
         padding: 0;
+        width: 100%;
     }
 
     p {

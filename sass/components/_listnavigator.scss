@@ -1,0 +1,111 @@
+.listNavigator {
+
+	&__panel {
+		background-color: $color-white;
+		bottom: 0;
+		padding: 1em;
+		position: fixed;
+		left: 0;
+		right: 0;
+		@include flex;
+		@include flex-flow(row nowrap);
+		@include justify-content(space-between);
+		@include align-items(center);
+		@include round-border;
+		@include shadow-high;
+		text-align: center;
+		top: auto;
+		z-index: 2;
+
+		@include tablet {
+			left: auto;
+		}
+
+		@include tablet-landscape {
+			bottom: 2em;
+			right: 2em;
+
+			@include no-touch {
+				// Extra pixels for scrollbar
+				right: calc(17px + 2em);
+			}
+		}
+
+		@include desktop {
+			bottom: 2.5em;
+		}
+	}
+
+	&__button {
+		color: $color-grey-dark;
+		line-height: 2em;
+		height: 2em;
+		width: 2em;
+		@include round-border;
+		
+		&:hover,
+		&:focus {
+			background-color: $color-grey-light;
+		}
+	}
+
+	&__panel-title {
+		font-size: 1em;
+		font-weight: bold;
+		padding-left: 1em;
+		padding-right: 1em;
+
+		@include desktop {
+			padding-left: 1.5em;
+			padding-right: 1.5em;
+		}
+	}
+
+	&__listname {
+		color: $color-grey-dark;
+		display: block;
+		font-weight: normal;
+		color: $color-grey-dark;
+		font-family: $font-kepler;
+		font-size: 0.85em;
+	}
+
+	&__list {
+		background: $color-grey;
+		text-align: center;
+		margin: 1em -1.5em 0;
+		padding: 0 1.5em;
+
+		@include tablet {
+			margin-top: 4em;
+			margin-left: -5vw;
+			padding-left: 5vw;
+			margin-right: -5vw;
+			padding-right: 5vw;
+			padding-bottom: 1em;
+		}
+
+		@include desktop {
+			margin-bottom: -2em;
+		}
+	}
+
+	&__list-title {
+		display: block;
+		font-size: 1.5em;
+		font-weight: bold;
+		line-height: 1.25;
+		margin: 2em 0 0.75em;
+		text-decoration: none;
+
+		.fa {
+			font-size: 0.75em;
+			margin-right: 0.5em;
+			vertical-align: middle;
+		}
+	}
+
+	&__current {
+		border: solid 2px $color-primary;
+	}
+}

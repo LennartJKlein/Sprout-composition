@@ -32,6 +32,7 @@
 <ul class="linkList linkList--spaced">
 	<li class="linkList-item"><a class="linkList__link" href="page-default.php">Default page</a></li>
 	<li class="linkList-item"><a class="linkList__link" href="page-list.php">Lijst</a></li>
+	<li class="linkList-item"><a class="linkList__link" href="page-listitem.php">Lijst-item</a></li>
 	<li class="linkList-item"><a class="linkList__link" href="page-topic.php">Topic</a></li>
 </ul>
 
@@ -95,7 +96,7 @@
 </ul>
 <h4><i class="headingIcon fa fa-paint-brush"></i>Layout</h4>
 <ul class="linkList linkList--spaced">
-	<li class="linkList-item"><a class="linkList__link" href="comp-gridHeader.php">gridHeader</a></li>
+	<li class="linkList-item"><a class="linkList__link" href="comp-gridheader.php">gridHeader</a></li>
 	<li class="linkList-item"><a class="linkList__link" href="comp-headingicon.php">headingIcon</a></li>
 	<li class="linkList-item"><a class="linkList__link" href="comp-pagination.php">pagination</a></li>
 	<li class="linkList-item"><a class="linkList__link" href="comp-search.php">search</a></li>

@@ -25,9 +25,9 @@
 
         <?php include '../templates/shareactions--fluid.php'; ?>
         
-        <div class="grid grid--equal-height grid--mobile-12 grid--tablet-6 grid--tabletlandscape-4 grid--desktop-3">
+        <div class="grid grid--equal-height grid--mobile-12 grid--tablet-6 grid--tabletlandscape-4">
             <div class="grid__cell">
-                <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="startups">
+                <a href="item/ballin-amsterdam.php" class="card" tag="onderneming">
                     <div class="card__figurecontainer">
                         <div class="card__tags">
                             <div class="card__tag">onderneming</div>
@@ -44,7 +44,7 @@
                 </a>
             </div>
             <div class="grid__cell">
-                <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="startups">
+                <a href="item/ballin-amsterdam.php" class="card" tag="onderneming">
                     <div class="card__figurecontainer">
                         <div class="card__tags">
                             <div class="card__tag">onderneming</div>
@@ -61,7 +61,7 @@
                 </a>
             </div>
             <div class="grid__cell">
-                <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="startups">
+                <a href="item/ballin-amsterdam.php" class="card" tag="onderneming">
                     <div class="card__figurecontainer">
                         <div class="card__tags">
                             <div class="card__tag">onderneming</div>
@@ -78,7 +78,7 @@
                 </a>
             </div>
             <div class="grid__cell">
-                <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="stories">
+                <a href="item/ballin-amsterdam.php" class="card" tag="onderneming">
                     <div class="card__figurecontainer">
                         <div class="card__tags">
                             <div class="card__tag">onderneming</div>
@@ -95,7 +95,7 @@
                 </a>
             </div>
             <div class="grid__cell">
-                <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="scaleups">
+                <a href="item/ballin-amsterdam.php" class="card" tag="onderneming">
                     <div class="card__figurecontainer">
                         <div class="card__tags">
                             <div class="card__tag">onderneming</div>
@@ -112,7 +112,7 @@
                 </a>
             </div>
             <div class="grid__cell">
-                <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="scaleups">
+                <a href="item/ballin-amsterdam.php" class="card" tag="onderneming">
                     <div class="card__figurecontainer">
                         <div class="card__tags">
                             <div class="card__tag">onderneming</div>
@@ -129,7 +129,7 @@
                 </a>
             </div>
             <div class="grid__cell">
-                <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="investeren">
+                <a href="item/ballin-amsterdam.php" class="card" tag="onderneming">
                     <div class="card__figurecontainer">
                         <div class="card__tags">
                             <div class="card__tag">onderneming</div>
@@ -146,7 +146,7 @@
                 </a>
             </div>
             <div class="grid__cell">
-                <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="scaleups">
+                <a href="item/ballin-amsterdam.php" class="card" tag="onderneming">
                     <div class="card__figurecontainer">
                         <div class="card__tags">
                             <div class="card__tag">onderneming</div>
@@ -163,7 +163,7 @@
                 </a>
             </div>
             <div class="grid__cell">
-                <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="scaleups">
+                <a href="item/ballin-amsterdam.php" class="card" tag="onderneming">
                     <div class="card__figurecontainer">
                         <div class="card__tags">
                             <div class="card__tag">onderneming</div>
@@ -180,7 +180,7 @@
                 </a>
             </div>
             <div class="grid__cell">
-                <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="scaleups">
+                <a href="item/ballin-amsterdam.php" class="card" tag="onderneming">
                     <div class="card__figurecontainer">
                         <div class="card__tags">
                             <div class="card__tag">onderneming</div>
@@ -197,7 +197,7 @@
                 </a>
             </div>
             <div class="grid__cell">
-                <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="investeren">
+                <a href="item/ballin-amsterdam.php" class="card" tag="onderneming">
                     <div class="card__figurecontainer">
                         <div class="card__tags">
                             <div class="card__tag">onderneming</div>
@@ -214,7 +214,7 @@
                 </a>
             </div>
             <div class="grid__cell">
-                <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="scaleups">
+                <a href="item/ballin-amsterdam.php" class="card" tag="onderneming">
                     <div class="card__figurecontainer">
                         <div class="card__tags">
                             <div class="card__tag">onderneming</div>
@@ -231,7 +231,7 @@
                 </a>
             </div>
             <div class="grid__cell">
-                <a href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" class="card" tag="scaleups">
+                <a href="item/ballin-amsterdam.php" class="card" tag="onderneming">
                     <div class="card__figurecontainer">
                         <div class="card__tags">
                             <div class="card__tag">onderneming</div>

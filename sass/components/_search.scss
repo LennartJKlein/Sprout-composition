@@ -13,6 +13,7 @@
 	&--inpage {
 		margin-left: auto;
 		margin-right: auto;
+		max-width: 40rem;
 
 		.search__field {
 			border-radius: 0.5rem;
@@ -35,6 +36,7 @@
 			border-radius: 0 0.5rem 0.5rem 0;
 			left: auto;
 			right: 0;
+			line-height: 2rem;
 			font-size: 1rem;
 			font-weight: bold;
 			text-transform: uppercase;
@@ -42,6 +44,18 @@
 			user-select: auto;
 			pointer-events: auto;
 			width: auto;
+
+			&:hover,
+			&:focus,
+			&:active {
+				background: $color-primary-dark;
+			}
+
+			.fa {
+				margin-right: 0.25rem;
+				vertical-align: middle;
+				margin-bottom: 0.3rem;
+			}
 		}
 	}
 }

@@ -6,6 +6,10 @@
 	@include tablet {
 		margin-bottom: 2em;
 	}
+
+	a {
+		text-decoration: none;
+	}
 }
 
 .gridHeader__button {

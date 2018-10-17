@@ -6,15 +6,15 @@
 		<a href="/index.php">Sprout.nl</a>
 		<a href="/docs/index.php">Documentatie</a>
 		<a href="/docs/page-types.php">Page types</a>
-		<a href="/docs/page-list.php">Lijst</a>
+		<a href="/docs/page-listitem.php">Lijstitem</a>
 	</div>
 
 	<header class="main__header">
 
-		<h1 class="main__title">Lijst</h1>
+		<h1 class="main__title">Lijstitem</h1>
 
 		<div class="main__intro">
-			<p>Een lijst is een page type dat gebruikt wordt om een grid van handmatig geselecteerde pages of posts te laten zien. De onderstaande informatie vestigt de aandacht op een aantal zaken van zo'n lijstpagina.</p>
+			<p>Een lijstitem is een page type dat gebruikt wordt voor een item dat onderdeel is van een <a href="/docs/page-list.php">lijstpagina</a>. De onderstaande informatie vestigt de aandacht op een aantal zaken van zo'n lijstitem-pagina.</p>
 		</div>
 	</header>
 	
@@ -24,7 +24,7 @@
 			<h3 class="panel__title">Demo</h3>
 			<ul class="linkList">
 				<li class="linkList-item">
-					<a class="linkList__link" href="/lijst/25-onder-de-25-van-2018.php" target="_new">Lijst: '25 onder de 25 van 2018'</a>
+					<a class="linkList__link" href="/lijst/item/ballin-amsterdam.php" target="_new">Lijstitem: 'Ballin Amsterdam'</a>
 				</li>
 			</ul>
 		</div>
@@ -96,20 +96,20 @@
 		</table>
 
 		<h2>Permalink</h2>
-		<p>De permalink van een lijstpagina moet de volgende structuur hebben:
+		<p>De permalink van een lijstitem-pagina moet de volgende structuur hebben:
 		<pre class="codeBlock"><code class="prettyprint lang-html"><?php echo trim(preg_replace('/\t+/', '', htmlentities('
-			https://www.sprout.nl/lijst/titel-van-de-lijst
+			https://www.sprout.nl/lijst/item/titel-van-de-pagina
 		'))) ?></code></pre>
-		De subdirectory 'lijst' is ter bevordering van de SEO.</p>
+		De subdirectory 'lijst/item' is ter bevordering van de SEO.</p>
 
 		<h2>Sidebar</h2>
 		<p>Een lijstpagina heeft per definitie geen sidebar.</p>
 
 		<h2 id="social-sharing">Social sharing</h2>
-		<p>Een lijst moet gedeeld kunnen worden op sociale media. In deze browser composition is de techniek daarvoor hetzelfde als bij het post type '<a href="post-article.php#social-sharing">artikel</a>'.</p>
+		<p>Een lijstitem moet gedeeld kunnen worden op sociale media. In deze browser composition is de techniek daarvoor hetzelfde als bij het post type '<a href="post-article.php#social-sharing">artikel</a>'.</p>
 
 		<h2 id="todo">Todo</h2>
-		<p>Onderaan het grid met cards is in de demo een pagination opgenomen. Deze moet nog gaan werken.</p>
+		<p>Onderaan deze pagina zijn de rest van de lijstitems in de bijbehorende lijst te zien en kan naar het volgende lijstitem worden genavigeerd. Deze linken moeten nog gaan werken.</p>
 
 
 	</div>
