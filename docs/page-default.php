@@ -21,7 +21,7 @@
 		<div class="panel">
 			<h3 class="panel__title">Demo</h3>
 			<ul class="linkList">
-				<li class="linkList-item">
+				<li class="linkList__item">
 					<a class="linkList__link" href="/page.php" target="_new">Default page</a>
 					<a class="linkList__link" href="/page-sidebar.php" target="_new">Default page (sidebar)</a>
 				</li>

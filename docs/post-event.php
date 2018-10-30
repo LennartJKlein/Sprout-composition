@@ -22,10 +22,10 @@
 		<div class="panel">
 			<h3 class="panel__title">Demo's</h3>
 			<ul class="linkList">
-				<li class="linkList-item">
+				<li class="linkList__item">
 					<a class="linkList__link" href="/evenement/the-next-web-conference-2018.php" target="_new">Event (aankomend)</a>
 				</li>
-				<li class="linkList-item">
+				<li class="linkList__item">
 					<a class="linkList__link" href="/evenement/nk-pitchen-2018.php" target="_new">Event (afgelopen)</a></li>
 				</li>
 			</ul>

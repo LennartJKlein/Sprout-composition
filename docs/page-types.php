@@ -19,16 +19,16 @@
 	<div class="main__body">
 
 		<ul class="linkList">
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="page-default.php">1. Default page</a>
 			</li>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="page-list.php">2. Lijst</a>
 			</li>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="page-listitem.php">3. Lijstitem</a>
 			</li>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="page-topic.php">4. Topic</a>
 			</li>
 		</ul>

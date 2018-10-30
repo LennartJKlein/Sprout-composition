@@ -22,10 +22,10 @@
 		<div class="panel">
 			<h3 class="panel__title">Demo's</h3>
 			<ul class="linkList">
-				<li class="linkList-item">
+				<li class="linkList__item">
 					<a class="linkList__link" href="/topic/direct-marketing.php" target="_new">Topic: 'Direct Marketing' (uitgebreid)</a>
 				</li>
-				<li class="linkList-item">
+				<li class="linkList__item">
 					<a class="linkList__link" href="/topic/persberichten.php" target="_new">Topic: 'Persberichten' (eenvoudig)</a>
 				</li>
 			</ul>

@@ -22,7 +22,7 @@
 		<div class="panel">
 			<h3 class="panel__title">Demo</h3>
 			<ul class="linkList">
-				<li class="linkList-item">
+				<li class="linkList__item">
 					<a class="linkList__link" href="/persbericht/intershop-nieuwe-hoofdsponsor-van-ecommercerun.php" target="_new">Persbericht: 'Intershop nieuwe hoofdsponsor van Ecommercerun'</a>
 				</li>
 			</ul>

@@ -22,16 +22,16 @@
 		<div class="panel">
 			<h3 class="panel__title">Demo's</h3>
 			<ul class="linkList">
-				<li class="linkList-item">
+				<li class="linkList__item">
 					<a class="linkList__link" href="/artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" target="_new">Artikel: 'Hoe overleef je tegenwoordig als winkel?'</a>
 				</li>
-				<li class="linkList-item">
+				<li class="linkList__item">
 					<a class="linkList__link" href="/artikel/7-redenen-waarom-klanten-je-winkel-de-rug-toekeren.php" target="_new">Artikel: '7 redenen waarom je klanten je winkel de rug toekeren'</a>
 				</li>
-				<li class="linkList-item">
+				<li class="linkList__item">
 					<a class="linkList__link" href="/artikel/waarom-retailers-het-contact-met-jongeren-kwijt-zijn-geraakt.php" target="_new">Artikel: 'Waarom retailers het contact met jongeren kwijt zijn geraakt'</a>
 				</li>
-				<li class="linkList-item">
+				<li class="linkList__item">
 					<a class="linkList__link" href="/artikel/premium-artikel.php" target="_new">Premium artikel: 'Vooral premium members houden van informatieve artikelen'</a>
 				</li>
 			</ul>

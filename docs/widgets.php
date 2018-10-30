@@ -21,47 +21,47 @@
 		<a class="linkList__link" href="widgets-demo.php">Alle widgets</a>
 
 		<ol>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="widgets-demo.php#premiummessage">Bericht voor premium-bezoekers</a>
 			</li>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="widgets-demo.php#premiumteaser">Teasing premium</a>
 				<a class="linkList__link" href="widgets-demo.php#partnerteaser">Teasing partnerschap</a>
 			</li>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="widgets-demo.php#articles--trending">Trending artikelen</a>
 			</li>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="widgets-demo.php#articles--partners">Persberichten</a>
 			</li>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="widgets-demo.php#events">Aankomende events</a>
 			</li>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="widgets-demo.php#eventspartners">Partner events</a>
 			</li>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="widgets-demo.php#topics">Uitgelichte topics</a>
 			</li>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="widgets-demo.php#customhtml">Custom HTML</a>
 				<a class="linkList__link" href="widgets-demo.php#customhtml--negative">Custom HTML, gekleurd</a>
 				<a class="linkList__link" href="widgets-demo.php#customhtml--headed">Custom HTML, kopafbeelding</a>
 			</li>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="widgets-demo.php#externallinks">Externe links</a>
 			</li>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="widgets-demo.php#newsletterteaser">Aanmelden voor nieuwsbrief</a>
 				<a class="linkList__link" href="widgets-demo.php#newsletterteaser--wide">Aanmelden voor nieuwsbrief, wide</a>
 			</li>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="widgets-demo.php#quote">Quote</a>
 			</li>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="widgets-demo.php#forumposts">Recente forumposts</a>
 			</li>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="widgets-demo.php#investments">Investeringen</a>
 			</li>
 		</ol>

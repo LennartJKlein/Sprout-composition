@@ -22,7 +22,7 @@
 		<div class="panel">
 			<h3 class="panel__title">Demo's</h3>
 			<ul class="linkList">
-				<li class="linkList-item">
+				<li class="linkList__item">
 					<a class="linkList__link" href="/events.php" target="_new">Events (zie sidebar)</a>
 				</li>
 			</ul>

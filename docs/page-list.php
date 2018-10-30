@@ -23,7 +23,7 @@
 		<div class="panel">
 			<h3 class="panel__title">Demo</h3>
 			<ul class="linkList">
-				<li class="linkList-item">
+				<li class="linkList__item">
 					<a class="linkList__link" href="/lijst/25-onder-de-25-van-2018.php" target="_new">Lijst: '25 onder de 25 van 2018'</a>
 				</li>
 			</ul>

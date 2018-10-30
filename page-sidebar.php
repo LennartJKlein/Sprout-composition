@@ -83,10 +83,10 @@
 			<div class="panel__content">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget purus pretium, pretium nibh nec, imperdiet lacus. Etiam sollicitudin placerat iaculis. In sit amet vestibulum felis. Aenean lobortis bibendum justo, quis gravida turpis aliquet interdum. Sed eget pharetra libero. Sed tempor sed velit non dictum. Nullam in magna sit amet augue laoreet semper. Ut posuere ultrices mi vulputate egestas.</p>
 				<ul class="linkList">
-					<li class="linkList-item">
+					<li class="linkList__item">
 						<a class="linkList__link" href="#" target="_new">Eerste link</a>
 					</li>
-					<li class="linkList-item">
+					<li class="linkList__item">
 						<a class="linkList__link" href="#" target="_new">Tweede link</a>
 					</li>
 				</ul>

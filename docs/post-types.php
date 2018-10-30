@@ -19,13 +19,13 @@
 	<div class="main__body">
 
 		<ul class="linkList">
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="post-article.php">1. Artikel (incl. premium artikel)</a>
 			</li>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="post-partnerarticle.php">2. Persbericht</a>
 			</li>
-			<li class="linkList-item">
+			<li class="linkList__item">
 				<a class="linkList__link" href="post-event.php">3. Event</a>
 			</li>
 		</ul>
