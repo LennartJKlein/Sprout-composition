@@ -1,3 +1,7 @@
+.hidden {
+	display: none;
+}
+
 .hidden-mobile {
 	@include mobile-only {
 		display: none;

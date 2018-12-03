@@ -7,7 +7,7 @@
 
 	<header class="main__header">
 
-		<h1 class="main__title hidden-mobile hidden-tablet hidden-desktop">Zoekresultaten voor 'grow'</h1>
+		<h1 class="main__title hidden">Zoekresultaten voor 'grow'</h1>
 
 		<div class="searchContainer">
 			<form class="search search--inpage">
@@ -20,13 +20,13 @@
 				</button>
 			</form>
 			<div class="searchContainer__switches">
-				<a href="#" class="button button--small button--primary u-marginRs">alles (151)</a>
-				<a href="#" class="button button--small button--clean button--grey u-marginRs">artikelen (122)</a>
-				<a href="#" class="button button--small button--clean button--grey u-marginRs">ondernemingen (8)</a>
-				<a href="#" class="button button--small button--clean button--grey u-marginRs">lijsten (13)</a>
-				<a href="#" class="button button--small button--clean button--grey u-marginRs">onderwerpen (2)</a>
+				<a href="#" class="button button--small button--primary u-marginRs u-marginBxs">alles (151)</a>
+				<a href="#" class="button button--small button--clean button--grey u-marginRs u-marginBxs">artikelen (122)</a>
+				<a href="#" class="button button--small button--clean button--grey u-marginRs u-marginBxs">ondernemingen (8)</a>
+				<a href="#" class="button button--small button--clean button--grey u-marginRs u-marginBxs">lijsten (13)</a>
+				<a href="#" class="button button--small button--clean button--grey u-marginRs u-marginBxs">onderwerpen (2)</a>
 			</div>
-			<hr class="searchContainer__divider u-marginTm u-marginBs" noshade/>
+			<hr class="searchContainer__divider u-marginBs" noshade/>
 			<p class="text--grey-dark u-marginBn"><small>151 resultaten voor 'grow'</small></p>
 		</div>
 
@@ -35,7 +35,7 @@
 	<div class="main__body">
 
 		<h3 class="text--primary">Ondernemingen</h3>
-		<div class="grid grid--6 grid--tablet-3">
+		<div class="grid grid--6 grid--tablet-3 u-marginBxl">
 			<div class="grid__cell">
 				<a href="bedrijf/present-your-startup.php" class="card card--partner u-marginBs" tag="onderneming">
 					<div class="card__figurecontainer">
@@ -87,7 +87,7 @@
 		</div>
 
 		<h3 class="text--primary">Artikelen</h3>
-		<div class="grid grid--12">
+		<div class="grid grid--12 u-marginBxl">
 			<div class="grid__cell">
 				<a href="artikel/hoe-overleef-je-tegenwoordig-als-winkel.php" class="card card--horizontal card--textfirst u-marginBm" tag="scaleups">
 					<div class="card__figurecontainer">
@@ -193,7 +193,7 @@
 		</div>
 
 		<h3 class="text--primary">Lijsten</h3>
-		<div class="grid grid--12">
+		<div class="grid grid--12 u-marginBxl">
 			<div class="grid__cell">
 				<a href="lijst/25-onder-de-25-van-2018.php" class="card card--horizontal card--textfirst u-marginBm" tag="lijst">
 					<div class="card__content">
@@ -232,13 +232,12 @@
 		</div>
 
 		<h3 class="text--primary">Onderwerpen</h3>
-		<div class="grid grid--12">
+		<div class="grid grid--12 u-marginBxl">
 			<div class="grid__cell">
 				<a href="topic/direct-marketing.php" class="button">Direct Marketing</a>
 				<a href="topic/persberichten.php" class="button">Persberichten</a>
 			</div>
 		</div>
-
 
 	</div>
 
