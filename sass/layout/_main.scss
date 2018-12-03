@@ -23,6 +23,7 @@
     @include flex;
     @include flex-flow(column nowrap);
     @include align-items(stretch);
+    margin-bottom: 1rem;
     width: 100%;
 
     @include tablet {

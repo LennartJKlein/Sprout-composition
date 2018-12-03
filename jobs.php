@@ -13,180 +13,292 @@
 			<p>Vacatures van de meest relevante startups en scaleups.</p>
 		</div>
 
+		<div class="buttonContainer text--right">
+			<button class="button button--secondary"><i class="fa fa-plus"></i> Ik zoek talent</button>
+			<button class="button button--space button--primary"><i class="fa fa-paper-plane"></i> Ik wil graag werken bij een startup</button>
+		</div>
+
 	</header>
 
 	<div class="main__body">
 
-		<div class="buttonContainer text--center">
-			<button class="button button--secondary">Ik zoek talent</button>
-			<button class="button button--space button--primary">Ik wil graag werken bij een startup</button>
+		<h2>Openstaande vacatures</h2>
+
+		<div class="panel panel--headed panel--headed-big panel--headed-tertiary">
+			<h3 class="panel__title">
+				<a href="https://www.google.com/" target="_new">Teamleader
+					<sup><i class="fa fa-info-circle"></i></sup>
+				</a>
+				<img src="/images/uploads/teamleader.jpg" class="panel__title-image" />
+			</h3>
+			<div class="panel__content">
+				<div class="grid grid--12 grid--tablet-6 grid--desktop-4">
+					<div class="grid__cell">
+						<h4>Finance</h4>
+						<ul class="linkList">
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Accounting Specialist/Manager
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Belgium, Gent</span>
+								</a>
+							</li>
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									International Payroll Officer
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Belgium, Gent</span>
+								</a>
+							</li>
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Student Accountancy
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Belgium, Gent</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="grid__cell">
+						<h4>Internships</h4>
+						<ul class="linkList">
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Digital Marketer Intern
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Belgium, Gent</span>
+								</a>
+							</li>
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Graphic Designer - Intern
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Belgium, Gent</span>
+								</a>
+							</li>
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Junior Developer - Intern
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Belgium, Gent</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="grid__cell">
+						<h4>Customer Success</h4>
+						<ul class="linkList">
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Multilingual Customer Expert
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Belgium, Gent</span>
+								</a>
+							</li>
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Customer Expert (Dutch - English - Italian)
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Belgium, Gent</span>
+								</a>
+							</li>
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Customer Expert (Dutch - English - French)
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Belgium, Gent</span>
+								</a>
+							</li>
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Customer Success Hero
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Belgium, Gent</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="grid__cell">
+						<h4>Marketing</h4>
+						<ul class="linkList">
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Head of Growth Marketing
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Belgium, Gent</span>
+								</a>
+							</li>
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Senior Marketer Belgium/The Netherlands
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Belgium, Gent</span>
+								</a>
+							</li>
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Inbound Marketer
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Belgium, Gent</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="grid__cell">
+						<h4>Sales</h4>
+						<ul class="linkList">
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Sales Talent (NL)
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Netherlands, Amsterdam</span>
+								</a>
+							</li>
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Sales Talent (BE)
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Belgium, Gent</span>
+								</a>
+							</li>
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Country Manager Germany
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Germany, Berlin</span>
+								</a>
+							</li>
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Inside Sales Executive (BE)
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Belgium, Gent</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<div class="panel panel--headed panel--headed-big panel--headed-tertiary">
-			<h3 class="panel__title">Teamleader</h3>
+			<h3 class="panel__title">
+				<a href="https://www.google.com/" target="_new">L1NDA
+					<sup><i class="fa fa-info-circle"></i></sup>
+				</a>
+				<img src="/images/uploads/l1nda.jpg" class="panel__title-image" />
+			</h3>
 			<div class="panel__content">
-				<h4>Finance</h4>
-				<ul class="linkList">
-					<li class="linkList__item">
-						<a class="linkList__link" href="#">
-							Accounting Specialist/Manager
-							<span class="linkList__source"><i class="fa fa-location">Belgium, Gent</i></span>
-						</a>
-					</li>
-					<li class="linkList__item">
-						<a class="linkList__link" href="#">
-							International Payroll Officer
-							<span class="linkList__source"><i class="fa fa-location">Belgium, Gent</i></span>
-						</a>
-					</li>
-					<li class="linkList__item">
-						<a class="linkList__link" href="#">
-							Student Accountancy
-							<span class="linkList__source"><i class="fa fa-location">Belgium, Gent</i></span>
-						</a>
-					</li>
-				</ul>
-				<h4>Internships</h4>
-				<ul class="linkList">
-					<li class="linkList__item">
-						<a class="linkList__link" href="#">
-							Digital Marketer Intern
-							<span class="linkList__source"><i class="fa fa-location">Belgium, Gent</i></span>
-						</a>
-					</li>
-					<li class="linkList__item">
-						<a class="linkList__link" href="#">
-							Graphic Designer - Intern
-							<span class="linkList__source"><i class="fa fa-location">Belgium, Gent</i></span>
-						</a>
-					</li>
-					<li class="linkList__item">
-						<a class="linkList__link" href="#">
-							Junior Developer - Intern
-							<span class="linkList__source"><i class="fa fa-location">Belgium, Gent</i></span>
-						</a>
-					</li>
-				</ul>
-				<h4>Customer Success</h4>
-				<ul class="linkList">
-					<li class="linkList__item">
-						<a class="linkList__link" href="#">
-							Multilingual Customer Expert
-							<span class="linkList__source"><i class="fa fa-location">Belgium, Gent</i></span>
-						</a>
-					</li>
-					<li class="linkList__item">
-						<a class="linkList__link" href="#">
-							Customer Expert (Dutch - English - Italian)
-							<span class="linkList__source"><i class="fa fa-location">Belgium, Gent</i></span>
-						</a>
-					</li>
-					<li class="linkList__item">
-						<a class="linkList__link" href="#">
-							Customer Expert (Dutch - English - French)
-							<span class="linkList__source"><i class="fa fa-location">Belgium, Gent</i></span>
-						</a>
-					</li>
-					<li class="linkList__item">
-						<a class="linkList__link" href="#">
-							Customer Success Hero
-							<span class="linkList__source"><i class="fa fa-location">Belgium, Gent</i></span>
-						</a>
-					</li>
-				</ul>
+				<div class="grid grid--12 grid--tablet-6 grid--desktop-4">
+					<div class="grid__cell">
+						<h4>Development</h4>
+						<ul class="linkList">
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Back-end (Python) developer
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Netherlands, Amsterdam</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
-		<table class="table">
-			<thead>
-				<tr>
-					<th></th>
-					<th>Kolomnaam</th>
-					<th class="text--right">Andere kolom</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>1</td>
-					<td>Lorem ipsum dolor sit amet</td>
-					<td class="text--right">&euro;5,00</td>
-				</tr>
-				<tr>
-					<td>2</td>
-					<td>Consectetur adipiscing elit</td>
-					<td class="text--right">&euro;5,50</td>
-				</tr>
-				<tr>
-					<td>3</td>
-					<td>Nulla eget purus pretium</td>
-					<td class="text--right">&euro;15,50</td>
-				</tr>
-				<tr>
-					<td>4</td>
-					<td>Lorem ipsum dolor sit amet</td>
-					<td class="text--right">&euro;5,00</td>
-				</tr>
-				<tr>
-					<td>5</td>
-					<td>Consectetur adipiscing elit</td>
-					<td class="text--right">&euro;5,50</td>
-				</tr>
-				<tr>
-					<td>6</td>
-					<td>Lorem ipsum dolor sit amet</td>
-					<td class="text--right">&euro;5,00</td>
-				</tr>
-				<tr>
-					<td>7</td>
-					<td>Lorem ipsum dolor sit amet</td>
-					<td class="text--right">&euro;5,00</td>
-				</tr>
-			</tbody>
-		</table>
 
-		<h2>H2 kop</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget purus pretium, pretium nibh nec, imperdiet lacus. Etiam sollicitudin placerat iaculis. In sit amet vestibulum felis. Aenean lobortis bibendum justo, quis gravida turpis aliquet interdum. Sed eget pharetra libero. Sed tempor sed velit non dictum. Nullam in magna sit amet augue laoreet semper. Ut posuere ultrices mi vulputate egestas.</p>
-
-		<h3>H3 kop</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget purus pretium, pretium nibh nec, imperdiet lacus. Etiam sollicitudin placerat iaculis. In sit amet vestibulum felis. Aenean lobortis bibendum justo, quis gravida turpis aliquet interdum. Sed eget pharetra libero. Sed tempor sed velit non dictum. Nullam in magna sit amet augue laoreet semper. Ut posuere ultrices mi vulputate egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget purus pretium, pretium nibh nec, imperdiet lacus. Etiam sollicitudin placerat iaculis. In sit amet vestibulum felis. Aenean lobortis bibendum justo, quis gravida turpis aliquet interdum. Sed eget pharetra libero. Sed tempor sed velit non dictum. Nullam in magna sit amet augue laoreet semper. Ut posuere ultrices mi vulputate egestas.</p>
-
-		<div class="panel">
-			<h3 class="panel__title">Lorem ipsum</h3>
+		<div class="panel panel--headed panel--headed-big panel--headed-tertiary">
+			<h3 class="panel__title">
+				<a href="https://www.google.com/" target="_new">Semiotics Labs
+					<sup><i class="fa fa-info-circle"></i></sup>
+				</a>
+				<img src="/images/uploads/semioticslabs.jpg" class="panel__title-image" />
+			</h3>
 			<div class="panel__content">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget purus pretium, pretium nibh nec, imperdiet lacus. Etiam sollicitudin placerat iaculis. In sit amet vestibulum felis. Aenean lobortis bibendum justo, quis gravida turpis aliquet interdum. Sed eget pharetra libero. Sed tempor sed velit non dictum. Nullam in magna sit amet augue laoreet semper. Ut posuere ultrices mi vulputate egestas.</p>
-				<ul class="linkList">
-					<li class="linkList__item">
-						<a class="linkList__link" href="#" target="_new">Eerste link</a>
-					</li>
-					<li class="linkList__item">
-						<a class="linkList__link" href="#" target="_new">Tweede link</a>
-					</li>
-				</ul>
-
-				<button class="button button--secondary button--center">Een goede doorverwijzing</button>
-
+				<div class="grid grid--12 grid--tablet-6 grid--desktop-4">
+					<div class="grid__cell">
+						<h4>Operations</h4>
+						<ul class="linkList">
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Werkvoorbereider
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Netherlands, Leiden</span>
+								</a>
+							</li>
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Project Manager
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Netherlands, Leiden</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="grid__cell">
+						<h4>Engineering</h4>
+						<ul class="linkList">
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Data Engineer
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Netherlands, Leiden</span>
+								</a>
+							</li>
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Software Engineer (backend)
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Netherlands, Leiden</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 
-		<h3>H3 kop</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget purus pretium, pretium nibh nec, imperdiet lacus. Etiam sollicitudin placerat iaculis. In sit amet vestibulum felis. Aenean lobortis bibendum justo, quis gravida turpis aliquet interdum. Sed eget pharetra libero. Sed tempor sed velit non dictum. Nullam in magna sit amet augue laoreet semper.</p>
-
-		<h4>H4 kop</h4>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget purus pretium, pretium nibh nec, imperdiet lacus. Etiam sollicitudin placerat iaculis. In sit amet vestibulum felis. Aenean lobortis bibendum justo, quis gravida turpis aliquet interdum. Sed eget pharetra libero. Sed tempor sed velit non dictum. Nullam in magna sit amet augue laoreet semper.</p>
-
-		<div class="figure">
-			<img src="../images/uploads/articles/article-figure1.jpg" class="figure__image" />
-			<div class="figure__credit">
-				Boris Blijham en Danny ten Nijenhuis van ThePhoneLab.
+		<div class="panel panel--headed panel--headed-big panel--headed-tertiary">
+			<h3 class="panel__title">
+				<a href="https://www.google.com/" target="_new">InvoiceFinance
+					<sup><i class="fa fa-info-circle"></i></sup>
+				</a>
+				<img src="/images/uploads/invoicefinance.jpg" class="panel__title-image" />
+			</h3>
+			<div class="panel__content">
+				<div class="grid grid--12 grid--tablet-6 grid--desktop-4">
+					<div class="grid__cell">
+						<h4>Sales</h4>
+						<ul class="linkList">
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Growth Hacker
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Netherlands, Den Bosch</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="grid__cell">
+						<h4>Technology</h4>
+						<ul class="linkList">
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Full-stack Software Developer
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Netherlands, 's Hertogenbosch</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 
-		<h4>H4 kop</h4>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget purus pretium, pretium nibh nec, imperdiet lacus. Etiam sollicitudin placerat iaculis. In sit amet vestibulum felis. Aenean lobortis bibendum justo, quis gravida turpis aliquet interdum. Sed eget pharetra libero. Sed tempor sed velit non dictum. Nullam in magna sit amet augue laoreet semper.</p>
+		<div class="panel panel--headed panel--headed-big panel--headed-tertiary">
+			<h3 class="panel__title">
+				<a href="https://www.google.com/" target="_new">GeriMedica
+					<sup><i class="fa fa-info-circle"></i></sup>
+				</a>
+				<img src="/images/uploads/gerimedica.png" class="panel__title-image" />
+			</h3>
+			<div class="panel__content">
+				<div class="grid grid--12 grid--tablet-6 grid--desktop-4">
+					<div class="grid__cell">
+						<h4>Product development</h4>
+						<ul class="linkList">
+							<li class="linkList__item">
+								<a class="linkList__link" href="/jobs/teamleader-accounting-specialist-manager.php">
+									Java Software Engineer
+									<span class="linkList__source"><i class="fa fa-map-marker"></i>Netherlands, Amsterdam</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 
-		<h2>H2 kop</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget purus pretium, pretium nibh nec, imperdiet lacus. Etiam sollicitudin placerat iaculis. In sit amet vestibulum felis. Aenean lobortis bibendum justo, quis gravida turpis aliquet interdum. Sed eget pharetra libero. Sed tempor sed velit non dictum. Nullam in magna sit amet augue laoreet semper. Ut posuere ultrices mi vulputate egestas.</p>
-
-		<p>Sprout Jobs wordt mede-mogelijk gemaakt door <a href="https://recruitee.com/">Recruitee</a>, <a href="https://www.levelupventures.nl/">LevelUp Ventures</a> en <a href="https://www.taskhero.nl/">Taskhero</a>.</p>
+		<p><em>Sprout Jobs wordt mede mogelijk gemaakt door <a href="https://recruitee.com/">Recruitee</a>, <a href="https://www.levelupventures.nl/">LevelUp Ventures</a> en <a href="https://www.taskhero.nl/">Taskhero</a>.</em></p>
 
 	</div>
 
