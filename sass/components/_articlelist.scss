@@ -106,6 +106,30 @@
 	}
 }
 
+.articleList__tags {
+	position: absolute;
+	right: 0.5em;
+}
+
+.articleList__tag {
+	background: $color-grey-dark;
+	border: 1px solid $color-grey-dark;
+	border-radius: 0.25em;
+	color: $color-white;
+	display: inline-block;
+	font-size: 0.6rem;
+	font-weight: bold;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	line-height: 1;
+	padding: 0.45em 0.6em;
+	margin-left: 0.5em;
+
+	@include tablet {
+		font-size: 0.7rem;
+	}
+}
+
 .articleList-button {
 	padding: 0.75rem 1rem;
 	display: none;
@@ -125,6 +149,7 @@
 	border-radius: 0.25em;
 	margin-bottom: 0.15em;
 	padding: 0.75em 1rem;
+	position: relative;
 	@include round-border;
 
 	&:hover,

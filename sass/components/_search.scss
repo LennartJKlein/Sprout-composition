@@ -19,7 +19,7 @@
 			border-radius: 0.5rem;
 			color: $color-primary;
 			width: 100%;
-			transition: all .3s;
+			transition: all .3s ease-in-out;
 			padding: 1em 1.5em;
 			background: $color-white;
 			box-shadow: none;
@@ -70,7 +70,7 @@
 	font-weight: 500;
 	width: 100%;
 	height: calc(48px + 1rem);
-	transition: box-shadow .2s;
+	transition: box-shadow .2s ease-in-out;
 	box-shadow: none;
 
 	&::-webkit-input-placeholder {
@@ -177,15 +177,13 @@
 	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 	left: 100%;
 	top: 0;
-	transition: width 0.7s;
+	transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out;
 	display: none;
+	opacity: 0;
 
 	&.open {		
+		opacity: 1;
 		width: calc(100vw - 100%);
-	}
-
-	.grid__cell {
-		max-width: 300px;
 	}
 }
 

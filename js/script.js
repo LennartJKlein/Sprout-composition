@@ -21,18 +21,20 @@ $(function() {
 	initiateNavigationWidth();
 
 	// Shows search field when navigation minimized
-	$(document).on("focus",".minimum .search__field", function(){
-		var inputOffset = $(".search__field").offset();
-		$(".search__field").css({"top": - inputOffset.top.toFixed() + "px"});
-		$(".search__placeholder").show();
-		var inputHeight = $(".search__field").outerHeight();
-		$(".search__resultscontainer").addClass("open").css({"top": inputHeight + "px"}).slideDown();
-	});
-	$(document).on("blur",".minimum .search__field", function(){
-		$(".search__field").css("top","0");
-		$(".search__placeholder").hide();
-		$(".search__resultscontainer").removeClass("open").slideUp();
-	});
+	if (checkMQ() == "tablet-landscape" || checkMQ() == "desktop") {
+		$(document).on("focus",".minimum .search__field", function(){
+			var inputOffset = $(".search__field").offset();
+			$(".search__field").css({"top": - inputOffset.top.toFixed() + "px"});
+			$(".search__placeholder").show();
+			var inputHeight = $(".search__field").outerHeight();
+			$(".search__resultscontainer").addClass("open").css({"top": inputHeight + "px"}).slideDown();
+		});
+		$(document).on("blur",".minimum .search__field", function(){
+			$(".search__field").css("top","0");
+			$(".search__placeholder").hide();
+			$(".search__resultscontainer").removeClass("open").slideUp();
+		});
+	}
 
 	// Navigation on mobile
 	$(".navToggle").on("click", function(){
