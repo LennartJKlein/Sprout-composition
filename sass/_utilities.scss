@@ -1,0 +1,81 @@
+$size-xs: 0.5rem;
+$size-s: 1rem;
+$size-m: 1.5rem;
+$size-l: 2rem;
+$size-xl: 3rem;
+
+.u-marginBn {
+	margin-bottom: 0;
+}
+
+.u-marginBxs {
+	margin-bottom: $size-xs;
+}
+
+.u-marginBs {
+	margin-bottom: $size-s;
+}
+
+.u-marginBm {
+	margin-bottom: $size-m;
+}
+
+.u-marginBl {
+	margin-bottom: $size-l;
+}
+
+.u-marginBxl {
+	margin-bottom: $size-xl;
+}
+
+.u-marginRn {
+	margin-right: 0;
+}
+
+.u-marginRxs {
+	margin-right: $size-xs;
+}
+
+.u-marginRs {
+	margin-right: $size-s;
+}
+
+.u-marginRm {
+	margin-right: $size-m;
+}
+
+.u-marginRl {
+	margin-right: $size-l;
+}
+
+.u-marginRxl {
+	margin-right: $size-xl;
+}
+
+.u-marginTn {
+	margin-top: 0;
+}
+
+.u-marginTxs {
+	margin-top: $size-xs;
+}
+
+.u-marginTs {
+	margin-top: $size-s;
+}
+
+.u-marginTm {
+	margin-top: $size-m;
+}
+
+.u-marginTl {
+	margin-top: $size-l;
+}
+
+.u-marginTxl {
+	margin-top: $size-xl;
+}
+
+.u-alignSelf-center {
+	align-self: center;
+}

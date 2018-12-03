@@ -11,8 +11,7 @@
 	}
 
 	&--inpage {
-		margin-left: auto;
-		margin-right: auto;
+		margin: 2rem auto 2rem 0;
 		max-width: 40rem;
 
 		.search__field {
@@ -147,6 +146,27 @@
 	}
 }
 
+.search__clear {
+	text-align: center;
+	border: 0;
+	position: absolute;
+	right: 4rem;
+	top: 0;
+	outline: 0;
+	cursor: pointer;
+	background: transparent;
+	color: $color-grey;
+	bottom: 0;
+	padding: 0.5em;
+	font-size: 1.4em;
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: $color-grey-dark;
+	}
+}
+
 .search__resultscontainer {
 	width: 0;
 	position: absolute;
@@ -164,5 +184,12 @@
 
 	.grid__cell {
 		max-width: 300px;
+	}
+}
+
+.searchContainer {
+
+	&__divider {
+		border-color: $color-grey;
 	}
 }
