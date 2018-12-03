@@ -299,7 +299,7 @@
         <div class="panel__figure"><img src="../images/uploads/partners/whitepaper-image.jpg" class="panel-image"/></div>
         <div class="panel__content">
             <h3 class="panel__title">Whitepaper 'Zo bereik je je doelgroep via Facebook'</h3>
-            <p class="panel__body p--compact">
+            <p class="panel__body text--small">
                 Facebook is groot en veruit het goedkoopste advertentiekanaal.  90 procent van de Nederlanders is actief op sociale media en 9,6 miljoen hebben een Facebookaccount. Ideaal dus om voor je bedrijf in te zetten. In de whitepaper ‘Adverteren via Facebook’ ontdek je hoe je dit aanpakt en je je doelgroep optimaal bereikt. Laat je inspireren.
             </p>
             <a href="#" class="button button--clean button--arrow button--small"><i class="fa fa-chevron-right" aria-hidden="true"></i> gratis aanvragen</a>
@@ -312,7 +312,7 @@
             <img src="/images/uploads/partners/whitepaper-image.jpg" class="panel__title-image" />
         </h3>
         <div class="panel__content">
-            <p class="p--compact">Facebook is groot en veruit het goedkoopste advertentiekanaal.  90 procent van de Nederlanders is actief op sociale media en 9,6 miljoen hebben een Facebookaccount. Ideaal dus om voor je bedrijf in te zetten. In de whitepaper ‘Adverteren via Facebook’ ontdek je hoe je dit aanpakt en je je doelgroep optimaal bereikt. Laat je inspireren.</p>
+            <p class="text--small">Facebook is groot en veruit het goedkoopste advertentiekanaal.  90 procent van de Nederlanders is actief op sociale media en 9,6 miljoen hebben een Facebookaccount. Ideaal dus om voor je bedrijf in te zetten. In de whitepaper ‘Adverteren via Facebook’ ontdek je hoe je dit aanpakt en je je doelgroep optimaal bereikt. Laat je inspireren.</p>
             <a href="#" class="button button--center button--small">gratis aanvragen</a>
         </div>
     </div>

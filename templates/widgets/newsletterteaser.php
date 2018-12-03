@@ -4,7 +4,7 @@
 		<img src="/images/newsletter-background.jpg" class="panel__title-image" />
 	</h3>
 	<div class="panel__content">
-		<p class="p--compact">Altijd op de hoogte van het laatste nieuws en achtergronden voor startups, scaleups en investeerders? Laat je e-mailadres achter en mis niks!</p>
+		<p class="text--small">Altijd op de hoogte van het laatste nieuws en achtergronden voor startups, scaleups en investeerders? Laat je e-mailadres achter en mis niks!</p>
 		<form id="newsletterSignup" class="newsletterTeaser__form">
 			<input type="text" placeholder="E-mailadres" class="newsletterTeaser__field newsletterTeaser__field--inverse" placeholder="Mailadres..." />
 			<button type="submit" class="newsletterTeaser__submit">Aanmelden</button>
